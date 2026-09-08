@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T20:40:35.000Z",
+  "lastUpdated": "2026-09-08T21:39:21.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 8,
+    "organisationsChecked": 12,
     "cycleComplete": false
   },
   "sources": [
@@ -109,6 +109,58 @@
       "lastJobCount": 3,
       "nextRotationTime": "2026-09-09T07:30:00.000Z",
       "status": "One verified cybersecurity vacancy published"
+    },
+    {
+      "company": "Allied Boston Consultants India Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T21:39:21.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T15:30:00.000Z",
+      "status": "Official site found; current security roles seen only on aggregators and not published"
+    },
+    {
+      "company": "A3S Tech & Company",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T21:39:21.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T09:30:00.000Z",
+      "status": "Recent VAPT candidate quarantined; public result redirects to authenticated social platform"
+    },
+    {
+      "company": "Andhra Pradesh Technology Services Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.apts.gov.in/",
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T21:39:21.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T15:30:00.000Z",
+      "status": "No current official cybersecurity vacancy found"
+    },
+    {
+      "company": "ANZEN Technologies Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T21:39:21.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T09:30:00.000Z",
+      "status": "Recruitment-drive evidence found but no open official application route verified"
     }
   ]
 }
