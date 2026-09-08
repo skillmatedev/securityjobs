@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T22:38:35.000Z",
+  "lastUpdated": "2026-09-08T23:37:02.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 16,
+    "organisationsChecked": 20,
     "cycleComplete": false
   },
   "sources": [
@@ -213,6 +213,58 @@
       "lastJobCount": 0,
       "nextRotationTime": "2026-09-09T10:30:00.000Z",
       "status": "Careers page live; only generic talent-submission route, no specific cybersecurity vacancy"
+    },
+    {
+      "company": "ANA Cyber Forensic Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T23:37:02.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T11:37:02.000Z",
+      "status": "Official site active; no careers section or current role-specific application route found"
+    },
+    {
+      "company": "Ankura Consulting India Private Limited",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.ankura.com/careers",
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T23:37:02.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T11:37:02.000Z",
+      "status": "Previously indexed India cybersecurity role is expired; no current official India vacancy verified"
+    },
+    {
+      "company": "Arridae Infosec Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.arridae.com/careers",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://www.arridae.com/careers",
+      "lastSuccessfulCheck": "2026-09-08T23:37:02.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T11:37:02.000Z",
+      "status": "Official careers board live and explicitly reports no active openings"
+    },
+    {
+      "company": "Ameya Cyber Risk Solutions Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T23:37:02.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T11:37:02.000Z",
+      "status": "Official company site active; no careers page or current vacancy found"
     }
   ]
 }
