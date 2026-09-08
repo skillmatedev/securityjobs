@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T15:55:57.354Z",
+  "lastUpdated": "2026-09-08T17:38:52.000Z",
   "jobs": [
     {
       "id": "tcs-cyber-kochi-20260912",
@@ -14,20 +14,6 @@
       "score": 96,
       "skills": "cybersecurity threat hunting security operations",
       "applyUrl": "https://www.tcs.com/careers/india/tcs-cybersecurity-hiring"
-    },
-    {
-      "id": "hpe-sr-appsec-1203882",
-      "title": "Senior Application Security Engineer",
-      "company": "HPE",
-      "domain": "Application Security",
-      "level": "Senior",
-      "location": "India",
-      "workplace": "Not specified",
-      "posted": "2026-09-08",
-      "status": "Official career page · live",
-      "score": 91,
-      "skills": "application security APIs secure development",
-      "applyUrl": "https://careers.hpe.com/us/en/job/1203882/Senior-Application-Security-Engineer"
     },
     {
       "id": "wns-cloud-security-744000146127644",
