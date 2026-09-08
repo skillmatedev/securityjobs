@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T21:39:21.000Z",
+  "lastUpdated": "2026-09-08T22:38:35.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 12,
+    "organisationsChecked": 16,
     "cycleComplete": false
   },
   "sources": [
@@ -161,6 +161,58 @@
       "lastJobCount": 0,
       "nextRotationTime": "2026-09-09T09:30:00.000Z",
       "status": "Recruitment-drive evidence found but no open official application route verified"
+    },
+    {
+      "company": "Auriseg Consulting Private Limited",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.auriseg.com/careers",
+      "atsProvider": "First-party",
+      "tenant": "hr.auriseg.com",
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T22:38:35.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T04:30:00.000Z",
+      "status": "Current trainee lead quarantined; official hiring portal requires authentication"
+    },
+    {
+      "company": "Audix Techno Consulting Solutions Private Limited",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T22:38:35.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T16:30:00.000Z",
+      "status": "Official company presence found; no verifiable careers page or vacancy"
+    },
+    {
+      "company": "Avasure Technologies Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": null,
+      "atsProvider": null,
+      "tenant": null,
+      "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-08T22:38:35.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T16:30:00.000Z",
+      "status": "No verifiable India cybersecurity careers page found; similarly named US healthcare company excluded"
+    },
+    {
+      "company": "Acquisory Consulting LLP",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.acquisory.com/Jobs-opening",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://www.acquisory.com/Jobs-opening",
+      "lastSuccessfulCheck": "2026-09-08T22:38:35.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T10:30:00.000Z",
+      "status": "Careers page live; only generic talent-submission route, no specific cybersecurity vacancy"
     }
   ]
 }
