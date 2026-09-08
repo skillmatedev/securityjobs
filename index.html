@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Verified cybersecurity jobs ranked by how worthwhile they are to apply for.">
+  <title>SecureHike Cyber Job Radar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">S</span><span>SecureHike</span><strong>Cyber Job Radar</strong></div>
+    <div class="updated" id="updated">Loading latest scan…</div>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="Job summary">
+      <div><b id="totalJobs">0</b><span>active jobs</span></div>
+      <div><b id="highScore">0</b><span>high confidence</span></div>
+      <div><b id="newJobs">0</b><span>new this week</span></div>
+      <p>Compact, verified job metadata. Applications always open on the original source.</p>
+    </section>
+
+    <section class="controls" aria-label="Job filters">
+      <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search role, company, skill or location" aria-label="Search jobs"></label>
+      <select id="domain" aria-label="Filter by cybersecurity domain"><option value="">All domains</option></select>
+      <select id="level" aria-label="Filter by experience level"><option value="">All levels</option></select>
+      <select id="workplace" aria-label="Filter by workplace type"><option value="">All workplaces</option></select>
+      <select id="score" aria-label="Filter by minimum score">
+        <option value="0">Any confidence</option><option value="70">70+ Worth applying</option><option value="85">85+ Highly recommended</option>
+      </select>
+      <button id="clear" type="button">Clear</button>
+    </section>
+
+    <div class="result-line"><span id="resultCount">0 jobs</span><span class="legend"><i class="verified"></i>Verified source <i class="caution"></i>Needs checking</span></div>
+
+    <section class="job-table" aria-label="Cybersecurity jobs">
+      <div class="table-head"><span>Score</span><span>Opportunity</span><span>Domain</span><span>Location</span><span>Freshness</span><span></span></div>
+      <div id="jobs" class="job-list"></div>
+      <div id="empty" class="empty" hidden>No matching jobs. Try clearing one or more filters.</div>
+    </section>
+  </main>
+
+  <footer>Scores indicate confidence and freshness—not a guarantee of hiring. Verify requirements on the employer’s page before applying.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
