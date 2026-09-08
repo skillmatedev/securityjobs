@@ -1,6 +1,35 @@
 {
-  "lastUpdated": "2026-09-08T18:36:37.000Z",
+  "lastUpdated": "2026-09-08T19:37:00.000Z",
   "jobs": [
+    {
+      "id": "briskinfosec-grc-analyst-20260909",
+      "title": "GRC Analyst",
+      "company": "Briskinfosec Technology & Consulting Pvt Ltd",
+      "domain": "GRC Audit and Compliance",
+      "level": "Junior",
+      "experienceLevel": "Junior",
+      "location": "Chennai, India",
+      "workplace": "Onsite",
+      "employmentType": "Full-time",
+      "posted": "2026-09-09",
+      "status": "Official employer career page · live",
+      "source": "Official employer career page",
+      "discoveredAt": "2026-09-08T19:37:00.000Z",
+      "lastVerified": "2026-09-08T19:37:00.000Z",
+      "verificationStatus": "Verified",
+      "score": 93,
+      "scoreReasons": [
+        "Official employer vacancy and application form are live",
+        "Current posting specifies Chennai, full-time and 1–3 years of experience",
+        "Employer appears in the current official CERT-In empanelled registry"
+      ],
+      "skills": "GRC ISO 27001 ISO 22301 GDPR SOC 2 HIPAA PCI DSS NIST risk audit compliance",
+      "applyUrl": "https://www.briskinfosec.com/careers/jobdetail/grc-analyst",
+      "certInEmpanelled": true,
+      "certInCanonicalName": "Briskinfosec Technology and Consulting Pvt Ltd",
+      "careersUrl": "https://www.briskinfosec.com/careers",
+      "lastCompanyChecked": "2026-09-08T19:37:00.000Z"
+    },
     {
       "id": "tcs-cyber-kochi-20260912",
       "title": "Cybersecurity Opportunities — Walk-in Drive",
@@ -411,14 +440,15 @@
     }
   ],
   "summary": {
-    "totalLive": 17,
-    "earlyCareer": 0,
+    "totalLive": 18,
+    "earlyCareer": 1,
     "byExperienceLevel": {
       "Lead": 3,
       "Mid-level": 6,
+      "Junior": 1,
       "Senior": 8
     },
-    "verified": 15,
+    "verified": 16,
     "verifyBeforeApplying": 2
   }
 }
