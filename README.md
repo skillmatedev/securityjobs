@@ -1,4 +1,4 @@
-# SecureHike Cyber Job Radar
+# Skillmate SecurityJobs
 
 Compact cybersecurity job discovery dashboard that prioritizes current, verifiable openings and links candidates to the original source.
 
