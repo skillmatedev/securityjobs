@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-09-09T17:29:16.000Z",
+  "lastUpdated": "2026-09-09T18:28:40.000Z",
   "summary": {
-    "totalLive": 18,
-    "earlyCareer": 18,
+    "totalLive": 19,
+    "earlyCareer": 19,
     "internships": 12,
     "apprenticeships": 0,
     "graduatePrograms": 1,
     "zeroToOneYears": 3,
-    "zeroToTwoYears": 8,
+    "zeroToTwoYears": 9,
     "byExperienceLevel": {
       "Fresher / 0–1 year": 1,
       "Entry level / under 2 years": 1,
@@ -18,12 +18,48 @@
       "Internship / 0–1 year": 2,
       "Internship / 1–2 years": 2,
       "Fresher / experience not required": 1,
-      "Internship / foundational knowledge": 1
+      "Internship / foundational knowledge": 1,
+      "Entry level / 1–2 years": 1
     },
-    "verified": 18,
-    "loginRequired": 14
+    "verified": 19,
+    "loginRequired": 15
   },
   "jobs": [
+    {
+      "id": "black-box-l1-soc-analyst-4443277958",
+      "title": "L1 SOC Security Analyst (SIEM / SOAR / UEBA)",
+      "company": "Black Box",
+      "domain": "SOC and Blue Team",
+      "level": "SOC L1",
+      "experienceLevel": "Entry level / 1–2 years",
+      "location": "Gurugram, Haryana, India",
+      "workplace": "Not specified",
+      "employmentType": "Full-time",
+      "experienceText": "1–2 years of relevant SOC/security operations experience",
+      "fresherEligible": true,
+      "eligibilityReason": "The vacancy is explicitly an L1 SOC role and caps required experience at two years",
+      "postedAt": "2026-09-08",
+      "posted": "2026-09-08",
+      "postedAge": "1 day ago",
+      "status": "Active LinkedIn vacancy · login required to apply",
+      "source": "LinkedIn Jobs and employer Oracle Recruiting",
+      "sourcePortal": "LinkedIn Jobs / Oracle Recruiting",
+      "discoveryUrl": "https://www.blackbox.com/global-careers/overview",
+      "applyUrl": "https://in.linkedin.com/jobs/view/l1-soc-security-analyst-siem-soar-ueba-1-to-2-years-at-black-box-4443277958",
+      "applyMethod": "LinkedIn application; candidate login required",
+      "requisitionId": "4443277958",
+      "discoveredAt": "2026-09-09T18:28:40.000Z",
+      "lastVerified": "2026-09-09T18:28:40.000Z",
+      "verificationStatus": "Verified - Login Required to Apply",
+      "score": 94,
+      "scoreReasons": [
+        "Vacancy-specific LinkedIn page is live with Apply control",
+        "Title explicitly states L1 and 1–2 years",
+        "Employer Oracle recruiting evidence corroborates title and Gurugram location"
+      ],
+      "skills": "SOC SIEM SOAR UEBA alert triage incident response log monitoring playbooks SLA",
+      "certInEmpanelled": false
+    },
     {
       "id": "altera-cyber-defense-analyst-intern-r0043888",
       "title": "Cyber Defense Analyst Intern",
