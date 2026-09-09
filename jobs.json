@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-09T05:32:00.000Z",
+  "lastUpdated": "2026-09-09T07:28:00.000Z",
   "summary": {
-    "totalLive": 14,
-    "earlyCareer": 14,
+    "totalLive": 15,
+    "earlyCareer": 15,
     "internships": 9,
     "apprenticeships": 0,
     "graduatePrograms": 1,
@@ -17,8 +17,9 @@
       "Internship / student or graduate": 4,
       "Internship / 0–1 year": 2,
       "Internship / 1–2 years": 2
+      ,"Fresher / experience not required": 1
     },
-    "verified": 14,
+    "verified": 15,
     "loginRequired": 11
   },
   "jobs": [
@@ -454,6 +455,37 @@
       "score": 85,
       "scoreReasons": ["Individual vacancy and application route are live", "Explicit SOC internship", "Company, title and Ahmedabad location agree across portal pages"],
       "skills": "SOC SIEM monitoring incident response threat detection log analysis",
+      "certInEmpanelled": true
+    },
+    {
+      "id": "securelayer7-red-team-operator-fresher-pune",
+      "title": "Red Team Operator (Fresher)",
+      "company": "SecureLayer7",
+      "domain": "Red Team",
+      "level": "Fresher",
+      "experienceLevel": "Fresher / experience not required",
+      "location": "Pune, Maharashtra, India",
+      "workplace": "Onsite",
+      "employmentType": "Full-time",
+      "experienceText": "Official vacancy explicitly classified as Fresher; no prior-experience minimum stated",
+      "fresherEligible": true,
+      "eligibilityReason": "Official employer careers page and individual ATS vacancy explicitly classify the position as a fresher role",
+      "postedAt": null,
+      "posted": "Date not shown",
+      "postedAge": "Current official opening",
+      "status": "Active official employer ATS vacancy",
+      "source": "Company career page",
+      "sourcePortal": "Company career page / SecHire",
+      "discoveryUrl": "https://securelayer7.net/careers",
+      "applyUrl": "https://sechire.net/jobs/red-team-operator-fresher-pune",
+      "applyMethod": "Official role-specific SecHire application",
+      "requisitionId": "red-team-operator-fresher-pune",
+      "discoveredAt": "2026-09-09T05:25:00.000Z",
+      "lastVerified": "2026-09-09T07:28:00.000Z",
+      "verificationStatus": "Verified - Official Employer ATS",
+      "score": 94,
+      "scoreReasons": ["Official employer careers page lists the role as open", "Individual ATS vacancy explicitly says Fresher", "Pune location, full-time type and application route are consistent"],
+      "skills": "red teaming penetration testing vulnerability assessment web application security attack simulation",
       "certInEmpanelled": true
     }
   ]
