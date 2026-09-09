@@ -27,14 +27,14 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-09T22:31:24.000Z",
+  "lastUpdated": "2026-09-09T23:32:20.000Z",
   "latestRun": {
-    "attemptedAt": "2026-09-09T22:01:24.000Z",
+    "attemptedAt": "2026-09-09T23:02:20.000Z",
     "brokenOrExpiredLinks": 4,
     "candidatesDiscovered": 8,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-09T22:31:24.000Z",
+    "completedAt": "2026-09-09T23:32:20.000Z",
     "coverageGaps": {
       "domains": [
         "IAM/PAM",
@@ -214,11 +214,11 @@
     },
     "sourcesChecked": [
       "LinkedIn Jobs",
-      "Greenhouse",
-      "Lever",
+      "Indeed India",
       "Workday",
-      "Backbase careers",
-      "Bishop Fox careers"
+      "SuccessFactors",
+      "ASML careers",
+      "CBRE India careers"
     ]
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2825,23 +2825,25 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "First-party",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://www.asml.com/en/careers",
       "checkIntervalHours": 24,
       "company": "ASML",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-09T23:32:20.000Z",
+      "lastLinkedInCheck": "2026-09-09T23:32:20.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/asml/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/asml/jobs/",
+      "nextRotationTime": "2026-09-12T23:32:20.000Z",
+      "officialWebsite": "https://www.asml.com/",
       "sourceId": "employer-asml",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": null,
+      "status": "Official careers route verified; no India fresher cybersecurity vacancy confirmed",
+      "lastSuccessfulCheck": "2026-09-09T23:32:20.000Z"
     },
     {
       "acceptedYield": 0,
@@ -2875,6 +2877,7 @@
       "feedUrl": null,
       "lastCareerCheck": "2026-09-09T22:31:24.000Z",
       "lastLinkedInCheck": "2026-09-09T22:31:24.000Z",
+      "lastSuccessfulCheck": "2026-09-09T22:31:24.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/backbase/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/backbase/jobs/",
       "nextRotationTime": "2026-09-12T22:31:24.000Z",
@@ -2882,9 +2885,8 @@
       "sourceId": "employer-backbase",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null,
       "status": "Official careers route and public LinkedIn jobs evidence verified; six India roles indexed, none qualifying as fresher cybersecurity",
-      "lastSuccessfulCheck": "2026-09-09T22:31:24.000Z"
+      "tenant": null
     },
     {
       "acceptedYield": 0,
@@ -2897,6 +2899,7 @@
       "feedUrl": null,
       "lastCareerCheck": "2026-09-09T22:31:24.000Z",
       "lastLinkedInCheck": "2026-09-09T22:31:24.000Z",
+      "lastSuccessfulCheck": "2026-09-09T22:31:24.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/bishop-fox/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/bishop-fox/jobs/",
       "nextRotationTime": "2026-09-12T22:31:24.000Z",
@@ -2904,9 +2907,8 @@
       "sourceId": "employer-bishop-fox",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null,
       "status": "Official career route verified; no India or remote-India fresher cybersecurity vacancy confirmed",
-      "lastSuccessfulCheck": "2026-09-09T22:31:24.000Z"
+      "tenant": null
     },
     {
       "acceptedYield": 0,
@@ -3050,23 +3052,25 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "Phenom",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.cbre.com/en_US/careers/SearchJobs/?listFilterMode=1&jobRecordsPerPage=20&country=India",
       "checkIntervalHours": 24,
       "company": "CBRE",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-09T23:32:20.000Z",
+      "lastLinkedInCheck": "2026-09-09T23:32:20.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/cbre/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/cbre/jobs/",
+      "nextRotationTime": "2026-09-12T23:32:20.000Z",
+      "officialWebsite": "https://www.cbre.co.in/",
       "sourceId": "employer-cbre",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": null,
+      "status": "Official India careers and LinkedIn routes verified; indexed security roles were managerial or unrelated to cybersecurity fresher scope",
+      "lastSuccessfulCheck": "2026-09-09T23:32:20.000Z"
     },
     {
       "acceptedYield": 0,
