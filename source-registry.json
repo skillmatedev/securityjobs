@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-08T23:37:02.000Z",
+  "lastUpdated": "2026-09-09T00:36:52.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 20,
+    "organisationsChecked": 24,
     "cycleComplete": false
   },
   "sources": [
@@ -265,6 +265,58 @@
       "lastJobCount": 0,
       "nextRotationTime": "2026-09-09T11:37:02.000Z",
       "status": "Official company site active; no careers page or current vacancy found"
+    },
+    {
+      "company": "ARM Innovations Pvt Ltd",
+      "certInEmpanelled": true,
+      "careersUrl": "https://arm-innovations.com/careers/",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://arm-innovations.com/careers/",
+      "lastSuccessfulCheck": "2026-09-09T00:36:52.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 4,
+      "nextRotationTime": "2026-09-09T12:36:52.000Z",
+      "status": "Four cybersecurity role cards found; quarantined because all Apply links use a generic contact route and omit dates/experience"
+    },
+    {
+      "company": "Aurionpro Solutions Limited",
+      "certInEmpanelled": true,
+      "careersUrl": "https://www.aurionpro.com/careers/",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://www.aurionpro.com/careers/",
+      "lastSuccessfulCheck": "2026-09-09T00:36:52.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T12:36:52.000Z",
+      "status": "Official careers page found; no verifiable current cybersecurity vacancy extracted"
+    },
+    {
+      "company": "Bharat Electronics Limited",
+      "certInEmpanelled": true,
+      "careersUrl": "https://bel-india.in/job-notifications/",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://bel-india.in/job-notifications/",
+      "lastSuccessfulCheck": "2026-09-09T00:36:52.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T12:36:52.000Z",
+      "status": "Official job board active; current engineering notice not confirmed as a cybersecurity vacancy"
+    },
+    {
+      "company": "Bharti Airtel Limited",
+      "certInEmpanelled": true,
+      "careersUrl": "https://careers.airtel.com/",
+      "atsProvider": "First-party",
+      "tenant": null,
+      "feedUrl": "https://careers.airtel.com/",
+      "lastSuccessfulCheck": "2026-09-09T00:36:52.000Z",
+      "lastContentFingerprint": null,
+      "lastJobCount": 0,
+      "nextRotationTime": "2026-09-09T12:36:52.000Z",
+      "status": "Official careers domain checked; no role-specific India cybersecurity vacancy verified"
     }
   ]
 }
