@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T17:29:16.000Z",
+  "lastUpdated": "2026-09-09T18:28:40.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -392,6 +392,71 @@
         "independentPortals": 38,
         "atsSystems": 33,
         "employerCareerTargets": 82,
+        "certInCompanies": 44
+      }
+    },
+    {
+      "runId": "incremental-2026-09-09T18:28:40.000Z",
+      "runStartedAt": "2026-09-09T18:18:00.000Z",
+      "runCompletedAt": "2026-09-09T18:28:40.000Z",
+      "type": "incremental-monitoring",
+      "beforeCount": 18,
+      "afterCount": 19,
+      "idsAdded": [
+        "black-box-l1-soc-analyst-4443277958"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Oracle Recruiting Cloud",
+        "Black Box careers",
+        "Cybrella careers"
+      ],
+      "sourceHealth": [
+        {
+          "source": "LinkedIn Jobs",
+          "status": "successful",
+          "candidateYield": 5,
+          "acceptedYield": 1
+        },
+        {
+          "source": "Oracle Recruiting Cloud",
+          "status": "javascript-limited-but-indexed",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "Black Box careers",
+          "status": "successful",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "Cybrella careers",
+          "status": "successful-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndiaOrLocationUnverified": 1,
+        "experienceAboveTwoYearsOrSeniority": 2,
+        "insufficientExplicitEligibility": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "employerCareerTargetsToRegister": 59,
+        "certInCompaniesToRegister": 192
+      },
+      "deploymentResult": "pending",
+      "sourceRegistryCounts": {
+        "totalUniqueConfigured": 198,
+        "independentPortals": 38,
+        "atsSystems": 33,
+        "employerCareerTargets": 83,
         "certInCompanies": 44
       }
     }
