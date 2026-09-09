@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "preservationPolicy": "Append or merge only. Never delete source records.",
-  "lastUpdated": "2026-09-09T08:29:46.000Z",
+  "lastUpdated": "2026-09-09T13:31:19.000Z",
   "coverageTargets": {
     "independentPortals": 37,
     "atsSystems": 33,
@@ -10,10 +10,10 @@
     "note": "Targets overlap; report unique configured records separately."
   },
   "coverageActual": {
-    "totalUniqueConfigured": 195,
+    "totalUniqueConfigured": 196,
     "independentPortals": 38,
     "atsSystems": 33,
-    "employerCareerTargets": 80,
+    "employerCareerTargets": 81,
     "certInCompanies": 44
   },
   "certInRoster": {
@@ -222,6 +222,26 @@
     ]
   },
   "sources": [
+    {
+      "sourceId": "employer-johnson-controls",
+      "sourceType": "employer-career-target",
+      "company": "Johnson Controls",
+      "officialWebsite": "https://www.johnsoncontrols.com/",
+      "careersUrl": "https://jobs.johnsoncontrols.com/",
+      "atsProvider": "Workday",
+      "tenant": "jci",
+      "feedUrl": null,
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/johnson-controls/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/johnson-controls/jobs/",
+      "accessStatus": "active-vacancy-verified-via-public-index-and-linkedin",
+      "lastCareerCheck": "2026-09-09T13:31:19.000Z",
+      "lastLinkedInCheck": "2026-09-09T13:31:19.000Z",
+      "candidateYield": 2,
+      "acceptedYield": 1,
+      "nextRotationTime": "2026-09-09T19:31:19.000Z",
+      "checkIntervalHours": 6,
+      "sourceOrigin": "Incremental discovery; official requisition and public LinkedIn Jobs evidence"
+    },
     {
       "sourceId": "certin-001-rootnik-labs",
       "sourceType": "cert-in-company",
