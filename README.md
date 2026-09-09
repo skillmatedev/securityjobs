@@ -1,12 +1,17 @@
 # Skillmate SecurityJobs
 
-Compact cybersecurity job discovery dashboard that prioritizes current, verifiable openings and links candidates to the original source.
+A lightweight cybersecurity job dashboard focused on verified fresher and early-career openings in India.
 
-## What the score means
+Live site: https://skillmatedev.github.io/securityjobs/
 
-- **85–100 — Highly recommended:** strong source and freshness signals.
-- **70–84 — Worth applying:** recent listing with reasonable confidence.
-- **50–69 — Verify before applying:** aggregator-only or incomplete evidence.
-- **Below 50 — Possibly stale:** substantial freshness or verification concerns.
+## Persistent data
 
-Scores are decision-support signals, not claims that an employer is or is not hiring. The dashboard stores only basic vacancy metadata and does not reproduce full job descriptions or personal information.
+- `jobs.json`: active verified vacancies
+- `jobs-archive.json`: closed or expired vacancies; records are never deleted
+- `job-history.json`: append-only vacancy event history
+- `quarantine.json`: unresolved candidates awaiting verification
+- `source-registry.json`: permanent portal, ATS, employer and CERT-In source catalogue
+- `run-reports.json`: append-only hourly coverage reports
+- `data-policy.json`: preservation and publishing safeguards
+
+The hourly updater must load and merge all existing datasets before writing. A vacancy can leave the active feed only with vacancy-specific evidence and must then be retained in the archive with the reason and date. Temporary source failures never justify removing a record.
