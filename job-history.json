@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T08:29:46.000Z",
+  "lastUpdated": "2026-09-09T13:31:19.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -704,6 +704,50 @@
           "Company, title, locations and responsibilities are consistent"
         ],
         "skills": "GRC ISO 27001 SOC 2 NIST compliance audits risk assessment vulnerability management secure coding",
+        "certInEmpanelled": false
+      }
+    },
+    {
+      "eventId": "discovered-johnson-controls-associate-analyst-4459967752",
+      "jobId": "johnson-controls-associate-analyst-4459967752",
+      "eventType": "discovered",
+      "occurredAt": "2026-09-09T13:31:19.000Z",
+      "previousStatus": null,
+      "newStatus": "active",
+      "reason": "New qualifying India IAM/cybersecurity internship verified through matching official requisition and vacancy-specific LinkedIn evidence",
+      "snapshot": {
+        "id": "johnson-controls-associate-analyst-4459967752",
+        "title": "Associate Analyst (IAM/Cybersecurity Internship)",
+        "company": "Johnson Controls",
+        "domain": "IAM/PAM",
+        "level": "Internship",
+        "experienceLevel": "Internship / experience not required",
+        "location": "Bengaluru, Karnataka, India",
+        "workplace": "Not specified",
+        "employmentType": "Internship",
+        "experienceText": "The vacancy explicitly describes the position as an internship; no prior professional-experience minimum is stated",
+        "fresherEligible": true,
+        "eligibilityReason": "The employer explicitly describes this IAM/cybersecurity position as an internship designed for hands-on exposure",
+        "postedAt": "2026-09-01",
+        "posted": "2026-09-01",
+        "postedAge": "8 days ago",
+        "status": "Active LinkedIn vacancy · login required to apply",
+        "source": "LinkedIn Jobs",
+        "sourcePortal": "LinkedIn Jobs / official employer evidence",
+        "discoveryUrl": "https://jobs.johnsoncontrols.com/job/WD30277731",
+        "applyUrl": "https://in.linkedin.com/jobs/view/associate-analyst-at-johnson-controls-4459967752",
+        "applyMethod": "LinkedIn application; candidate login required",
+        "requisitionId": "WD30277731",
+        "discoveredAt": "2026-09-09T13:31:19.000Z",
+        "lastVerified": "2026-09-09T13:31:19.000Z",
+        "verificationStatus": "Verified - Login Required to Apply",
+        "score": 91,
+        "scoreReasons": [
+          "Vacancy-specific LinkedIn page was publicly indexed and current",
+          "Official Johnson Controls requisition ID and Bengaluru location were corroborated",
+          "Description explicitly classifies the IAM/cybersecurity position as an internship"
+        ],
+        "skills": "IAM PAM Active Directory MFA identity governance vulnerability management Windows Server PowerShell",
         "certInEmpanelled": false
       }
     }
