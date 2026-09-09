@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T08:29:46.000Z",
+  "lastUpdated": "2026-09-09T13:31:19.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -261,6 +261,71 @@
         "independentPortals": 38,
         "atsSystems": 33,
         "employerCareerTargets": 80,
+        "certInCompanies": 44
+      }
+    },
+    {
+      "runId": "incremental-2026-09-09T13:31:19.000Z",
+      "runStartedAt": "2026-09-09T13:20:00.000Z",
+      "runCompletedAt": "2026-09-09T13:31:19.000Z",
+      "type": "incremental-monitoring",
+      "beforeCount": 16,
+      "afterCount": 17,
+      "idsAdded": [
+        "johnson-controls-associate-analyst-4459967752"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "SmartRecruiters",
+        "Workday",
+        "Johnson Controls careers"
+      ],
+      "sourceHealth": [
+        {
+          "source": "LinkedIn Jobs",
+          "status": "successful",
+          "candidateYield": 4,
+          "acceptedYield": 1
+        },
+        {
+          "source": "SmartRecruiters",
+          "status": "successful-empty",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Workday",
+          "status": "partially-blocked",
+          "candidateYield": 3,
+          "acceptedYield": 1
+        },
+        {
+          "source": "Johnson Controls careers",
+          "status": "indexed-but-direct-fetch-unavailable",
+          "candidateYield": 2,
+          "acceptedYield": 1
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndia": 1,
+        "experienceAboveTwoYearsOrSeniority": 1,
+        "insufficientVacancySpecificEvidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "employerCareerTargetsToRegister": 61,
+        "certInCompaniesToRegister": 192
+      },
+      "deploymentResult": "pending",
+      "sourceRegistryCounts": {
+        "totalUniqueConfigured": 196,
+        "independentPortals": 38,
+        "atsSystems": 33,
+        "employerCareerTargets": 81,
         "certInCompanies": 44
       }
     }
