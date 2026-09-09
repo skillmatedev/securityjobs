@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T13:31:19.000Z",
+  "lastUpdated": "2026-09-09T17:29:16.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -326,6 +326,72 @@
         "independentPortals": 38,
         "atsSystems": 33,
         "employerCareerTargets": 81,
+        "certInCompanies": 44
+      }
+    },
+    {
+      "runId": "incremental-2026-09-09T17:29:16.000Z",
+      "runStartedAt": "2026-09-09T17:18:00.000Z",
+      "runCompletedAt": "2026-09-09T17:29:16.000Z",
+      "type": "incremental-monitoring",
+      "beforeCount": 17,
+      "afterCount": 18,
+      "idsAdded": [
+        "altera-cyber-defense-analyst-intern-r0043888"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Workday",
+        "SmartRecruiters",
+        "Altera careers"
+      ],
+      "sourceHealth": [
+        {
+          "source": "LinkedIn Jobs",
+          "status": "successful",
+          "candidateYield": 7,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Workday",
+          "status": "successful",
+          "candidateYield": 3,
+          "acceptedYield": 1
+        },
+        {
+          "source": "SmartRecruiters",
+          "status": "successful-empty",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Altera careers",
+          "status": "successful",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        }
+      ],
+      "rejectedByReason": {
+        "closedOrExpired": 3,
+        "outsideIndia": 1,
+        "insufficientEmployerConfidence": 3,
+        "experienceAboveTwoYearsOrSeniority": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "employerCareerTargetsToRegister": 60,
+        "certInCompaniesToRegister": 192
+      },
+      "deploymentResult": "pending",
+      "sourceRegistryCounts": {
+        "totalUniqueConfigured": 197,
+        "independentPortals": 38,
+        "atsSystems": 33,
+        "employerCareerTargets": 82,
         "certInCompanies": 44
       }
     }
