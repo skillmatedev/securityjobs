@@ -1,6 +1,40 @@
 {
-  "lastUpdated": "2026-09-08T19:37:00.000Z",
+  "lastUpdated": "2026-09-09T01:47:12.528Z",
   "jobs": [
+    {
+      "id": "marmon-get-secops-4462783569",
+      "title": "Graduate Engineer Trainee - SecOps",
+      "company": "Marmon Technologies India Pvt Ltd",
+      "domain": "SOC and Blue Team",
+      "level": "Fresher",
+      "experienceLevel": "Fresher / 0–1 year",
+      "location": "Bangalore Urban, Karnataka, India",
+      "workplace": "Not specified",
+      "employmentType": "Full-time",
+      "experienceText": "0–1 years; internships and co-op experience considered",
+      "fresherEligible": true,
+      "eligibilityReason": "Employer explicitly describes the role as suitable for candidates 0–1 years out of college",
+      "posted": "2026-09-04",
+      "postedAge": "5 days ago",
+      "status": "Active LinkedIn vacancy · login required to apply",
+      "source": "LinkedIn Jobs",
+      "sourcePortal": "LinkedIn Jobs",
+      "discoveryUrl": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-secops-at-marmon-technologies-india-pvt-ltd-4462783569",
+      "applyUrl": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-secops-at-marmon-technologies-india-pvt-ltd-4462783569",
+      "applyMethod": "LinkedIn application; candidate login required",
+      "requisitionId": "4462783569",
+      "discoveredAt": "2026-09-09T01:47:12.528Z",
+      "lastVerified": "2026-09-09T01:47:12.528Z",
+      "verificationStatus": "Verified - Login Required to Apply",
+      "score": 88,
+      "scoreReasons": [
+        "Individual vacancy is live and its Apply control routes to LinkedIn sign-in for this exact job",
+        "Employer explicitly requests 0–1 years and accepts internship/co-op experience",
+        "Title, company, location and eligibility were verified on the public vacancy page"
+      ],
+      "skills": "SOC SIEM incident response threat analysis log analysis vulnerability management OWASP",
+      "certInEmpanelled": false
+    },
     {
       "id": "briskinfosec-grc-analyst-20260909",
       "title": "GRC Analyst",
@@ -440,15 +474,16 @@
     }
   ],
   "summary": {
-    "totalLive": 18,
-    "earlyCareer": 1,
+    "totalLive": 19,
+    "earlyCareer": 2,
     "byExperienceLevel": {
-      "Lead": 3,
-      "Mid-level": 6,
+      "Fresher / 0–1 year": 1,
       "Junior": 1,
-      "Senior": 8
+      "Mid-level": 6,
+      "Senior": 8,
+      "Lead": 3
     },
-    "verified": 16,
+    "verified": 17,
     "verifyBeforeApplying": 2
   }
 }
