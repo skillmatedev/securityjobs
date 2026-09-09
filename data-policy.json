@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "effectiveAt": "2026-09-09T08:15:00.000Z",
+  "rules": {
+    "appendMergeOnly": true,
+    "neverDeleteJobs": true,
+    "neverDeleteSources": true,
+    "archiveConfirmedClosures": true,
+    "retainTemporarilyUnreachable": true,
+    "abortUnexpectedLiveCountDecrease": true,
+    "requirePerRecordArchiveReason": true,
+    "stableJobIds": true,
+    "stableSourceIds": true
+  },
+  "datasets": {
+    "activeJobs": "jobs.json",
+    "archivedJobs": "jobs-archive.json",
+    "jobHistory": "job-history.json",
+    "quarantine": "quarantine.json",
+    "sourceRegistry": "source-registry.json",
+    "runReports": "run-reports.json"
+  }
+}
