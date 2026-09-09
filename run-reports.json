@@ -1,178 +1,11 @@
 {
-  "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T18:28:40.000Z",
+  "lastUpdated": "2026-09-09T19:30:42.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
-      "runId": "migration-2026-09-09T08:15:00.000Z",
-      "runStartedAt": "2026-09-09T07:28:00.000Z",
-      "runCompletedAt": "2026-09-09T08:15:00.000Z",
-      "type": "migration-baseline",
       "attemptedAt": "2026-09-09T07:28:00.000Z",
-      "mandatoryCoverage": [
-        {
-          "portal": "LinkedIn Jobs",
-          "status": "successful-empty",
-          "candidateYield": 4,
-          "acceptedYield": 0,
-          "note": "Public India listings searched; candidates were duplicates or lacked qualifying evidence"
-        },
-        {
-          "portal": "Indeed India",
-          "status": "successful-empty",
-          "candidateYield": 5,
-          "acceptedYield": 0,
-          "note": "Individual and search pages checked; existing internships remained live but no distinct new role qualified"
-        },
-        {
-          "portal": "Naukri",
-          "status": "blocked",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "robots.txt blocked public crawling; no bypass attempted"
-        },
-        {
-          "portal": "Foundit",
-          "status": "successful-empty",
-          "candidateYield": 5,
-          "acceptedYield": 0,
-          "note": "Promising 0–2-year GRC and SOC pages explicitly stated they were no longer accepting applications"
-        },
-        {
-          "portal": "Glassdoor",
-          "status": "successful-empty",
-          "candidateYield": 3,
-          "acceptedYield": 0,
-          "note": "Individual pages searched; no distinct qualifying vacancy beyond existing records"
-        },
-        {
-          "portal": "Internshala",
-          "status": "blocked",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "robots.txt blocked individual pages; no bypass attempted"
-        },
-        {
-          "portal": "Wellfound",
-          "status": "accessible-empty",
-          "candidateYield": 1,
-          "acceptedYield": 0,
-          "note": "India security result required approximately four years"
-        },
-        {
-          "portal": "Freshersworld",
-          "status": "accessible-empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "Category pages accessible; no individual cybersecurity vacancy verified"
-        },
-        {
-          "portal": "Cutshort",
-          "status": "successful-empty",
-          "candidateYield": 2,
-          "acceptedYield": 0,
-          "note": "No distinct qualifying vacancy verified"
-        },
-        {
-          "portal": "Instahyre",
-          "status": "successful-empty",
-          "candidateYield": 4,
-          "acceptedYield": 0,
-          "note": "Security candidates required 2–4, 2–5, 3–5 or 4–8 years"
-        },
-        {
-          "portal": "Hirist",
-          "status": "successful-empty",
-          "candidateYield": 2,
-          "acceptedYield": 0,
-          "note": "No new role within the two-year maximum was verified"
-        },
-        {
-          "portal": "Company career pages",
-          "status": "successful",
-          "candidateYield": 8,
-          "acceptedYield": 1,
-          "note": "SecureLayer7 fresher Red Team role resolved to a live individual SecHire application"
-        },
-        {
-          "portal": "Workday",
-          "status": "accessible-empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "Public Workday vacancies searched; no distinct new qualifying India cybersecurity role verified"
-        },
-        {
-          "portal": "Greenhouse",
-          "status": "successful-empty",
-          "candidateYield": 3,
-          "acceptedYield": 0,
-          "note": "Search results were non-India, unrelated, or already published"
-        },
-        {
-          "portal": "Lever",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed posting found"
-        },
-        {
-          "portal": "Ashby",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed posting found"
-        },
-        {
-          "portal": "SmartRecruiters",
-          "status": "accessible-empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "Public search accessible; no matching fresher vacancy verified"
-        },
-        {
-          "portal": "SuccessFactors",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed individual vacancy found"
-        },
-        {
-          "portal": "Oracle Recruiting",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed individual vacancy found"
-        },
-        {
-          "portal": "iCIMS",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed individual vacancy found"
-        },
-        {
-          "portal": "Darwinbox",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0,
-          "note": "No matching indexed individual vacancy found"
-        }
-      ],
-      "candidatesDiscovered": 37,
-      "finalApplyLinksResolved": 15,
-      "portalHostedAppliesAccepted": 11,
-      "jobsAdded": 1,
-      "jobsRetained": 14,
-      "jobsArchived": 0,
-      "quarantined": 5,
-      "rejectedByReason": {
-        "experienceAboveTwoYearsOrSeniority": 6,
-        "closedOrExpired": 4,
-        "insufficientExplicitEligibility": 5,
-        "unrelatedOrTrainingLike": 8,
-        "noIndividualApplicationRoute": 4
-      },
       "brokenOrExpiredLinks": 4,
+      "candidatesDiscovered": 37,
       "certInCompaniesCheckedThisRun": 4,
       "certInCycleProgress": 44,
       "coverageGaps": {
@@ -190,275 +23,541 @@
           "Remote India"
         ]
       },
+      "finalApplyLinksResolved": 15,
+      "jobsAdded": 1,
+      "jobsArchived": 0,
+      "jobsRetained": 14,
+      "mandatoryCoverage": [
+        {
+          "acceptedYield": 0,
+          "candidateYield": 4,
+          "note": "Public India listings searched; candidates were duplicates or lacked qualifying evidence",
+          "portal": "LinkedIn Jobs",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 5,
+          "note": "Individual and search pages checked; existing internships remained live but no distinct new role qualified",
+          "portal": "Indeed India",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "robots.txt blocked public crawling; no bypass attempted",
+          "portal": "Naukri",
+          "status": "blocked"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 5,
+          "note": "Promising 0–2-year GRC and SOC pages explicitly stated they were no longer accepting applications",
+          "portal": "Foundit",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 3,
+          "note": "Individual pages searched; no distinct qualifying vacancy beyond existing records",
+          "portal": "Glassdoor",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "robots.txt blocked individual pages; no bypass attempted",
+          "portal": "Internshala",
+          "status": "blocked"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "note": "India security result required approximately four years",
+          "portal": "Wellfound",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "Category pages accessible; no individual cybersecurity vacancy verified",
+          "portal": "Freshersworld",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "note": "No distinct qualifying vacancy verified",
+          "portal": "Cutshort",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 4,
+          "note": "Security candidates required 2–4, 2–5, 3–5 or 4–8 years",
+          "portal": "Instahyre",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "note": "No new role within the two-year maximum was verified",
+          "portal": "Hirist",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 8,
+          "note": "SecureLayer7 fresher Red Team role resolved to a live individual SecHire application",
+          "portal": "Company career pages",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "Public Workday vacancies searched; no distinct new qualifying India cybersecurity role verified",
+          "portal": "Workday",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 3,
+          "note": "Search results were non-India, unrelated, or already published",
+          "portal": "Greenhouse",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed posting found",
+          "portal": "Lever",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed posting found",
+          "portal": "Ashby",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "Public search accessible; no matching fresher vacancy verified",
+          "portal": "SmartRecruiters",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed individual vacancy found",
+          "portal": "SuccessFactors",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed individual vacancy found",
+          "portal": "Oracle Recruiting",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed individual vacancy found",
+          "portal": "iCIMS",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "note": "No matching indexed individual vacancy found",
+          "portal": "Darwinbox",
+          "status": "empty"
+        }
+      ],
+      "portalHostedAppliesAccepted": 11,
+      "quarantined": 5,
+      "rejectedByReason": {
+        "closedOrExpired": 4,
+        "experienceAboveTwoYearsOrSeniority": 6,
+        "insufficientExplicitEligibility": 5,
+        "noIndividualApplicationRoute": 4,
+        "unrelatedOrTrainingLike": 8
+      },
+      "runCompletedAt": "2026-09-09T08:15:00.000Z",
+      "runId": "migration-2026-09-09T08:15:00.000Z",
+      "runStartedAt": "2026-09-09T07:28:00.000Z",
       "sourceRegistryCounts": {
-        "totalUniqueConfigured": 195,
-        "independentPortals": 38,
         "atsSystems": 33,
+        "certInCompanies": 44,
         "employerCareerTargets": 80,
-        "certInCompanies": 44
-      }
+        "independentPortals": 38,
+        "totalUniqueConfigured": 195
+      },
+      "type": "migration-baseline"
     },
     {
-      "runId": "incremental-2026-09-09T08:29:46.000Z",
-      "runStartedAt": "2026-09-09T08:20:00.000Z",
-      "runCompletedAt": "2026-09-09T08:29:46.000Z",
-      "type": "incremental-monitoring",
-      "beforeCount": 15,
       "afterCount": 16,
+      "beforeCount": 15,
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "deploymentResult": "pending",
       "idsAdded": [
         "teamlease-regtech-information-security-associate-internship-4464395759"
       ],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "closedOrExpired": 2,
+        "experienceAboveTwoYearsOrSeniority": 3,
+        "insufficientEmployerConfidence": 1,
+        "outsideIndia": 2
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 62
+      },
+      "runCompletedAt": "2026-09-09T08:29:46.000Z",
+      "runId": "incremental-2026-09-09T08:29:46.000Z",
+      "runStartedAt": "2026-09-09T08:20:00.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 1,
+          "candidateYield": 8,
+          "source": "LinkedIn Jobs",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Greenhouse",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Lever",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "source": "Ashby",
+          "status": "successful-empty"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 80,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 195
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Greenhouse",
         "Lever",
         "Ashby"
       ],
-      "sourceHealth": [
-        {
-          "source": "LinkedIn Jobs",
-          "status": "successful",
-          "candidateYield": 8,
-          "acceptedYield": 1
-        },
-        {
-          "source": "Greenhouse",
-          "status": "successful-empty",
-          "candidateYield": 0,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Lever",
-          "status": "successful-empty",
-          "candidateYield": 0,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Ashby",
-          "status": "successful-empty",
-          "candidateYield": 2,
-          "acceptedYield": 0
-        }
-      ],
-      "rejectedByReason": {
-        "closedOrExpired": 2,
-        "experienceAboveTwoYearsOrSeniority": 3,
-        "outsideIndia": 2,
-        "insufficientEmployerConfidence": 1
-      },
+      "type": "incremental-monitoring"
+    },
+    {
+      "afterCount": 17,
+      "beforeCount": 16,
       "cursors": {
         "nextRosterNumber": 45
       },
-      "remainingBacklog": {
-        "employerCareerTargetsToRegister": 62,
-        "certInCompaniesToRegister": 192
-      },
       "deploymentResult": "pending",
-      "sourceRegistryCounts": {
-        "totalUniqueConfigured": 195,
-        "independentPortals": 38,
-        "atsSystems": 33,
-        "employerCareerTargets": 80,
-        "certInCompanies": 44
-      }
-    },
-    {
-      "runId": "incremental-2026-09-09T13:31:19.000Z",
-      "runStartedAt": "2026-09-09T13:20:00.000Z",
-      "runCompletedAt": "2026-09-09T13:31:19.000Z",
-      "type": "incremental-monitoring",
-      "beforeCount": 16,
-      "afterCount": 17,
       "idsAdded": [
         "johnson-controls-associate-analyst-4459967752"
       ],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "experienceAboveTwoYearsOrSeniority": 1,
+        "insufficientVacancySpecificEvidence": 2,
+        "outsideIndia": 1
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 61
+      },
+      "runCompletedAt": "2026-09-09T13:31:19.000Z",
+      "runId": "incremental-2026-09-09T13:31:19.000Z",
+      "runStartedAt": "2026-09-09T13:20:00.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 1,
+          "candidateYield": 4,
+          "source": "LinkedIn Jobs",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "source": "SmartRecruiters",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 3,
+          "source": "Workday",
+          "status": "partially-blocked"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 2,
+          "source": "Johnson Controls careers",
+          "status": "indexed-but-direct-fetch-unavailable"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 81,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 196
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "SmartRecruiters",
         "Workday",
         "Johnson Controls careers"
       ],
-      "sourceHealth": [
-        {
-          "source": "LinkedIn Jobs",
-          "status": "successful",
-          "candidateYield": 4,
-          "acceptedYield": 1
-        },
-        {
-          "source": "SmartRecruiters",
-          "status": "successful-empty",
-          "candidateYield": 2,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Workday",
-          "status": "partially-blocked",
-          "candidateYield": 3,
-          "acceptedYield": 1
-        },
-        {
-          "source": "Johnson Controls careers",
-          "status": "indexed-but-direct-fetch-unavailable",
-          "candidateYield": 2,
-          "acceptedYield": 1
-        }
-      ],
-      "rejectedByReason": {
-        "outsideIndia": 1,
-        "experienceAboveTwoYearsOrSeniority": 1,
-        "insufficientVacancySpecificEvidence": 2
-      },
+      "type": "incremental-monitoring"
+    },
+    {
+      "afterCount": 18,
+      "beforeCount": 17,
       "cursors": {
         "nextRosterNumber": 45
       },
-      "remainingBacklog": {
-        "employerCareerTargetsToRegister": 61,
-        "certInCompaniesToRegister": 192
-      },
       "deploymentResult": "pending",
-      "sourceRegistryCounts": {
-        "totalUniqueConfigured": 196,
-        "independentPortals": 38,
-        "atsSystems": 33,
-        "employerCareerTargets": 81,
-        "certInCompanies": 44
-      }
-    },
-    {
-      "runId": "incremental-2026-09-09T17:29:16.000Z",
-      "runStartedAt": "2026-09-09T17:18:00.000Z",
-      "runCompletedAt": "2026-09-09T17:29:16.000Z",
-      "type": "incremental-monitoring",
-      "beforeCount": 17,
-      "afterCount": 18,
       "idsAdded": [
         "altera-cyber-defense-analyst-intern-r0043888"
       ],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "closedOrExpired": 3,
+        "experienceAboveTwoYearsOrSeniority": 1,
+        "insufficientEmployerConfidence": 3,
+        "outsideIndia": 1
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 60
+      },
+      "runCompletedAt": "2026-09-09T17:29:16.000Z",
+      "runId": "incremental-2026-09-09T17:29:16.000Z",
+      "runStartedAt": "2026-09-09T17:18:00.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 0,
+          "candidateYield": 7,
+          "source": "LinkedIn Jobs",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 3,
+          "source": "Workday",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "source": "SmartRecruiters",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 1,
+          "source": "Altera careers",
+          "status": "successful"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 82,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 197
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Workday",
         "SmartRecruiters",
         "Altera careers"
       ],
-      "sourceHealth": [
-        {
-          "source": "LinkedIn Jobs",
-          "status": "successful",
-          "candidateYield": 7,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Workday",
-          "status": "successful",
-          "candidateYield": 3,
-          "acceptedYield": 1
-        },
-        {
-          "source": "SmartRecruiters",
-          "status": "successful-empty",
-          "candidateYield": 2,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Altera careers",
-          "status": "successful",
-          "candidateYield": 1,
-          "acceptedYield": 1
-        }
-      ],
-      "rejectedByReason": {
-        "closedOrExpired": 3,
-        "outsideIndia": 1,
-        "insufficientEmployerConfidence": 3,
-        "experienceAboveTwoYearsOrSeniority": 1
-      },
+      "type": "incremental-monitoring"
+    },
+    {
+      "afterCount": 19,
+      "beforeCount": 18,
       "cursors": {
         "nextRosterNumber": 45
       },
-      "remainingBacklog": {
-        "employerCareerTargetsToRegister": 60,
-        "certInCompaniesToRegister": 192
-      },
       "deploymentResult": "pending",
-      "sourceRegistryCounts": {
-        "totalUniqueConfigured": 197,
-        "independentPortals": 38,
-        "atsSystems": 33,
-        "employerCareerTargets": 82,
-        "certInCompanies": 44
-      }
-    },
-    {
-      "runId": "incremental-2026-09-09T18:28:40.000Z",
-      "runStartedAt": "2026-09-09T18:18:00.000Z",
-      "runCompletedAt": "2026-09-09T18:28:40.000Z",
-      "type": "incremental-monitoring",
-      "beforeCount": 18,
-      "afterCount": 19,
       "idsAdded": [
         "black-box-l1-soc-analyst-4443277958"
       ],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "experienceAboveTwoYearsOrSeniority": 2,
+        "insufficientExplicitEligibility": 2,
+        "outsideIndiaOrLocationUnverified": 1
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "runCompletedAt": "2026-09-09T18:28:40.000Z",
+      "runId": "incremental-2026-09-09T18:28:40.000Z",
+      "runStartedAt": "2026-09-09T18:18:00.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 1,
+          "candidateYield": 5,
+          "source": "LinkedIn Jobs",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 1,
+          "source": "Oracle Recruiting Cloud",
+          "status": "javascript-limited-but-indexed"
+        },
+        {
+          "acceptedYield": 1,
+          "candidateYield": 1,
+          "source": "Black Box careers",
+          "status": "successful"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "Cybrella careers",
+          "status": "successful-quarantined"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Oracle Recruiting Cloud",
         "Black Box careers",
         "Cybrella careers"
       ],
+      "type": "incremental-monitoring"
+    },
+    {
+      "runId": "incremental-2026-09-09T19:30:42.000Z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-09T19:00:42.000Z",
+      "runCompletedAt": "2026-09-09T19:30:42.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Indeed India",
+        "Workday",
+        "Greenhouse",
+        "Lever",
+        "Ashby",
+        "NTT DATA careers",
+        "Sopra Steria careers",
+        "Cybrella careers"
+      ],
       "sourceHealth": [
         {
           "source": "LinkedIn Jobs",
-          "status": "successful",
-          "candidateYield": 5,
-          "acceptedYield": 1
+          "status": "successful-empty",
+          "candidateYield": 3,
+          "acceptedYield": 0
         },
         {
-          "source": "Oracle Recruiting Cloud",
-          "status": "javascript-limited-but-indexed",
-          "candidateYield": 1,
-          "acceptedYield": 1
+          "source": "Indeed India",
+          "status": "successful-empty",
+          "candidateYield": 2,
+          "acceptedYield": 0
         },
         {
-          "source": "Black Box careers",
-          "status": "successful",
+          "source": "Workday",
+          "status": "accessible-empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Greenhouse",
+          "status": "empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Lever",
+          "status": "empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Ashby",
+          "status": "empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "NTT DATA careers",
+          "status": "closed-vacancy",
           "candidateYield": 1,
-          "acceptedYield": 1
+          "acceptedYield": 0
+        },
+        {
+          "source": "Sopra Steria careers",
+          "status": "expired-out-of-scope",
+          "candidateYield": 1,
+          "acceptedYield": 0
         },
         {
           "source": "Cybrella careers",
-          "status": "successful-quarantined",
+          "status": "location-unverified",
           "candidateYield": 1,
           "acceptedYield": 0
         }
       ],
       "rejectedByReason": {
+        "closedOrExpired": 2,
+        "experienceAboveTwoYearsOrSeniority": 1,
         "outsideIndiaOrLocationUnverified": 1,
-        "experienceAboveTwoYearsOrSeniority": 2,
-        "insufficientExplicitEligibility": 2
+        "duplicate": 2
       },
       "cursors": {
         "nextRosterNumber": 45
       },
       "remainingBacklog": {
-        "employerCareerTargetsToRegister": 59,
-        "certInCompaniesToRegister": 192
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
       },
-      "deploymentResult": "pending",
       "sourceRegistryCounts": {
-        "totalUniqueConfigured": 198,
         "independentPortals": 38,
         "atsSystems": 33,
         "employerCareerTargets": 83,
-        "certInCompanies": 44
-      }
+        "certInCompanies": 44,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "pending"
     }
-  ]
+  ],
+  "schemaVersion": "1.0"
 }
