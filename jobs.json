@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-09T07:28:00.000Z",
+  "lastUpdated": "2026-09-09T08:29:46.000Z",
   "summary": {
-    "totalLive": 15,
-    "earlyCareer": 15,
-    "internships": 9,
+    "totalLive": 16,
+    "earlyCareer": 16,
+    "internships": 10,
     "apprenticeships": 0,
     "graduatePrograms": 1,
     "zeroToOneYears": 3,
@@ -12,15 +12,15 @@
       "Fresher / 0–1 year": 1,
       "Entry level / under 2 years": 1,
       "Entry level / no experience": 1,
-      "Internship / experience not required": 1,
+      "Internship / experience not required": 2,
       "Entry level / 0–2 years": 2,
       "Internship / student or graduate": 4,
       "Internship / 0–1 year": 2,
-      "Internship / 1–2 years": 2
-      ,"Fresher / experience not required": 1
+      "Internship / 1–2 years": 2,
+      "Fresher / experience not required": 1
     },
-    "verified": 15,
-    "loginRequired": 11
+    "verified": 16,
+    "loginRequired": 12
   },
   "jobs": [
     {
@@ -50,7 +50,11 @@
       "lastVerified": "2026-09-09T02:28:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 88,
-      "scoreReasons": ["Individual vacancy is live", "Explicit 0–1 year eligibility", "Company, title and India location are consistent"],
+      "scoreReasons": [
+        "Individual vacancy is live",
+        "Explicit 0–1 year eligibility",
+        "Company, title and India location are consistent"
+      ],
       "skills": "SOC SIEM incident response threat analysis log analysis vulnerability management OWASP",
       "certInEmpanelled": false
     },
@@ -81,7 +85,11 @@
       "lastVerified": "2026-09-09T02:28:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 86,
-      "scoreReasons": ["Individual vacancy and Apply control are live", "Explicit less-than-2-years requirement", "Exact company, title and India location verified"],
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit less-than-2-years requirement",
+        "Exact company, title and India location verified"
+      ],
       "skills": "SOC SIEM EDR NDR incident triage vulnerability management",
       "certInEmpanelled": false
     },
@@ -112,7 +120,11 @@
       "lastVerified": "2026-09-09T02:28:00.000Z",
       "verificationStatus": "Verified - Portal-Hosted Apply",
       "score": 85,
-      "scoreReasons": ["Individual vacancy is live with Apply Now control", "Explicit no-experience-required eligibility", "Company, title and Gujarat locations verified"],
+      "scoreReasons": [
+        "Individual vacancy is live with Apply Now control",
+        "Explicit no-experience-required eligibility",
+        "Company, title and Gujarat locations verified"
+      ],
       "skills": "SOC SIEM EDR IDS IPS firewalls incident triage vulnerability scanning",
       "certInEmpanelled": false
     },
@@ -143,7 +155,11 @@
       "lastVerified": "2026-09-09T03:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 82,
-      "scoreReasons": ["Individual vacancy and Apply control are live", "Explicit internship title and 1–2 year experience", "Company, title and Mumbai location verified"],
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit internship title and 1–2 year experience",
+        "Company, title and Mumbai location verified"
+      ],
       "skills": "systems security network security vulnerability scanning intrusion detection risk audits log monitoring",
       "certInEmpanelled": false
     },
@@ -174,7 +190,11 @@
       "lastVerified": "2026-09-09T03:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 78,
-      "scoreReasons": ["Individual vacancy and sign-in-to-apply control are live", "Explicit cybersecurity internship", "Employer-provided monthly pay range is disclosed"],
+      "scoreReasons": [
+        "Individual vacancy and sign-in-to-apply control are live",
+        "Explicit cybersecurity internship",
+        "Employer-provided monthly pay range is disclosed"
+      ],
       "skills": "SOC SIEM networks operating systems incident response malware",
       "certInEmpanelled": false
     },
@@ -205,7 +225,11 @@
       "lastVerified": "2026-09-09T03:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 83,
-      "scoreReasons": ["Individual vacancy and Apply control are live", "Explicit 0–2 years eligibility", "Recent recruiter activity shown by portal"],
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit 0–2 years eligibility",
+        "Recent recruiter activity shown by portal"
+      ],
       "skills": "web mobile network penetration testing OWASP MASVS AWS IAM Python Burp Suite",
       "certInEmpanelled": false
     },
@@ -236,7 +260,11 @@
       "lastVerified": "2026-09-09T03:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 81,
-      "scoreReasons": ["Individual vacancy and Apply control are live", "Explicit 0–2 years and Tier 1 scope", "Recruiter activity shown on 7 September 2026"],
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit 0–2 years and Tier 1 scope",
+        "Recruiter activity shown on 7 September 2026"
+      ],
       "skills": "SOC NOC SIEM incident triage network monitoring phishing malware VPN",
       "certInEmpanelled": false
     },
@@ -267,7 +295,11 @@
       "lastVerified": "2026-09-09T04:27:00.000Z",
       "verificationStatus": "Verified - Official ATS",
       "score": 94,
-      "scoreReasons": ["Official individual Workday vacancy and application are live", "Explicit cybersecurity internship eligibility", "Company, India location and requisition ID are consistent"],
+      "scoreReasons": [
+        "Official individual Workday vacancy and application are live",
+        "Explicit cybersecurity internship eligibility",
+        "Company, India location and requisition ID are consistent"
+      ],
       "skills": "GRC ISO 27001 PCI SOC NIST risk assessment audits AWS Azure GCP SIEM",
       "certInEmpanelled": false
     },
@@ -298,7 +330,11 @@
       "lastVerified": "2026-09-09T04:27:00.000Z",
       "verificationStatus": "Verified - Official Employer Application",
       "score": 88,
-      "scoreReasons": ["Official individual employer vacancy is live", "Explicit cybersecurity internship", "Role-specific Apply Now route verified"],
+      "scoreReasons": [
+        "Official individual employer vacancy is live",
+        "Explicit cybersecurity internship",
+        "Role-specific Apply Now route verified"
+      ],
       "skills": "VAPT web mobile API security CVE research OWASP MITRE NIST PTES reporting",
       "certInEmpanelled": false
     },
@@ -329,7 +365,11 @@
       "lastVerified": "2026-09-09T04:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 86,
-      "scoreReasons": ["Individual vacancy and application control are live", "Explicit 0–1 year internship eligibility", "Employer-provided ₹10,000 monthly stipend disclosed"],
+      "scoreReasons": [
+        "Individual vacancy and application control are live",
+        "Explicit 0–1 year internship eligibility",
+        "Employer-provided ₹10,000 monthly stipend disclosed"
+      ],
       "skills": "VAPT application API mobile cloud security OWASP SANS Burp Suite Nessus MobSF",
       "certInEmpanelled": true
     },
@@ -360,7 +400,11 @@
       "lastVerified": "2026-09-09T04:27:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 84,
-      "scoreReasons": ["Individual vacancy and Apply control are live", "Explicit internship with 1–2 years requirement", "Chennai location and monthly compensation disclosed"],
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit internship with 1–2 years requirement",
+        "Chennai location and monthly compensation disclosed"
+      ],
       "skills": "OSINT threat intelligence threat actors TTPs vulnerability analysis malware analysis",
       "certInEmpanelled": false
     },
@@ -391,7 +435,11 @@
       "lastVerified": "2026-09-09T05:32:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 87,
-      "scoreReasons": ["Individual vacancy and application control are live", "Explicit fresher-to-six-month eligibility", "Company, title and Noida location agree across portal pages"],
+      "scoreReasons": [
+        "Individual vacancy and application control are live",
+        "Explicit fresher-to-six-month eligibility",
+        "Company, title and Noida location agree across portal pages"
+      ],
       "skills": "GRC ISO 27001 risk compliance audits policies",
       "certInEmpanelled": true
     },
@@ -422,7 +470,11 @@
       "lastVerified": "2026-09-09T05:32:00.000Z",
       "verificationStatus": "Verified - Official Employer ATS",
       "score": 92,
-      "scoreReasons": ["Official individual employer ATS vacancy is live", "Explicit cybersecurity internship", "Role-specific application form verified"],
+      "scoreReasons": [
+        "Official individual employer ATS vacancy is live",
+        "Explicit cybersecurity internship",
+        "Role-specific application form verified"
+      ],
       "skills": "VAPT security consulting vulnerability assessment penetration testing reporting",
       "certInEmpanelled": false
     },
@@ -453,7 +505,11 @@
       "lastVerified": "2026-09-09T05:32:00.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 85,
-      "scoreReasons": ["Individual vacancy and application route are live", "Explicit SOC internship", "Company, title and Ahmedabad location agree across portal pages"],
+      "scoreReasons": [
+        "Individual vacancy and application route are live",
+        "Explicit SOC internship",
+        "Company, title and Ahmedabad location agree across portal pages"
+      ],
       "skills": "SOC SIEM monitoring incident response threat detection log analysis",
       "certInEmpanelled": true
     },
@@ -484,9 +540,48 @@
       "lastVerified": "2026-09-09T07:28:00.000Z",
       "verificationStatus": "Verified - Official Employer ATS",
       "score": 94,
-      "scoreReasons": ["Official employer careers page lists the role as open", "Individual ATS vacancy explicitly says Fresher", "Pune location, full-time type and application route are consistent"],
+      "scoreReasons": [
+        "Official employer careers page lists the role as open",
+        "Individual ATS vacancy explicitly says Fresher",
+        "Pune location, full-time type and application route are consistent"
+      ],
       "skills": "red teaming penetration testing vulnerability assessment web application security attack simulation",
       "certInEmpanelled": true
+    },
+    {
+      "id": "teamlease-regtech-information-security-associate-internship-4464395759",
+      "title": "Information Security Associate Internship",
+      "company": "TeamLease Regtech Pvt. Ltd.",
+      "domain": "GRC, Audit and Compliance",
+      "level": "Internship",
+      "experienceLevel": "Internship / experience not required",
+      "location": "Pune or Bengaluru, India",
+      "workplace": "Hybrid",
+      "employmentType": "Internship",
+      "experienceText": "Internship vacancy; no prior professional experience requirement stated",
+      "fresherEligible": true,
+      "eligibilityReason": "The employer explicitly lists this as an internship and states no prior-experience minimum",
+      "postedAt": "2026-09-08",
+      "posted": "2026-09-08",
+      "postedAge": "1 day ago",
+      "status": "Active LinkedIn vacancy · login required to apply",
+      "source": "LinkedIn Jobs",
+      "sourcePortal": "LinkedIn Jobs",
+      "discoveryUrl": "https://in.linkedin.com/jobs/view/information-security-associate-internship-in-pune-bangalore-hybrid-at-teamlease-regtech-pvt-ltd-4464395759",
+      "applyUrl": "https://in.linkedin.com/jobs/view/information-security-associate-internship-in-pune-bangalore-hybrid-at-teamlease-regtech-pvt-ltd-4464395759",
+      "applyMethod": "LinkedIn application; candidate login required",
+      "requisitionId": "4464395759",
+      "discoveredAt": "2026-09-09T08:29:46.000Z",
+      "lastVerified": "2026-09-09T08:29:46.000Z",
+      "verificationStatus": "Verified - Login Required to Apply",
+      "score": 89,
+      "scoreReasons": [
+        "Individual vacancy and Apply control are live",
+        "Explicit internship with no prior-experience minimum",
+        "Company, title, locations and responsibilities are consistent"
+      ],
+      "skills": "GRC ISO 27001 SOC 2 NIST compliance audits risk assessment vulnerability management secure coding",
+      "certInEmpanelled": false
     }
   ]
 }
