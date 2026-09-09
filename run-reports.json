@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T22:31:24.000Z",
+  "lastUpdated": "2026-09-09T23:32:20.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -726,15 +726,72 @@
       "type": "incremental-monitoring"
     },
     {
-      "runId": "incremental-2026-09-09T22:31:24.000Z",
-      "type": "incremental-monitoring",
-      "runStartedAt": "2026-09-09T22:01:24.000Z",
-      "runCompletedAt": "2026-09-09T22:31:24.000Z",
-      "beforeCount": 19,
       "afterCount": 19,
+      "beforeCount": 19,
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "deploymentResult": "pending",
       "idsAdded": [],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "insufficientExplicitEligibility": 3,
+        "outsideIndia": 1,
+        "unrelatedRole": 6
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "runCompletedAt": "2026-09-09T22:31:24.000Z",
+      "runId": "incremental-2026-09-09T22:31:24.000Z",
+      "runStartedAt": "2026-09-09T22:01:24.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 0,
+          "candidateYield": 3,
+          "source": "LinkedIn Jobs",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "Greenhouse",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "Lever",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Workday",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 6,
+          "source": "Backbase careers",
+          "status": "routes-resolved-no-qualifying-opening"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Bishop Fox careers",
+          "status": "routes-resolved-no-qualifying-opening"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Greenhouse",
@@ -743,23 +800,37 @@
         "Backbase careers",
         "Bishop Fox careers"
       ],
+      "type": "incremental-monitoring"
+    },
+    {
+      "runId": "incremental-2026-09-09T23:32:20.000Z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-09T23:02:20.000Z",
+      "runCompletedAt": "2026-09-09T23:32:20.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Indeed India",
+        "Workday",
+        "SuccessFactors",
+        "ASML careers",
+        "CBRE India careers"
+      ],
       "sourceHealth": [
         {
           "source": "LinkedIn Jobs",
           "status": "successful-empty",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Indeed India",
+          "status": "successful-empty",
           "candidateYield": 3,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Greenhouse",
-          "status": "accessible-empty",
-          "candidateYield": 1,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Lever",
-          "status": "accessible-empty",
-          "candidateYield": 1,
           "acceptedYield": 0
         },
         {
@@ -769,22 +840,29 @@
           "acceptedYield": 0
         },
         {
-          "source": "Backbase careers",
-          "status": "routes-resolved-no-qualifying-opening",
-          "candidateYield": 6,
+          "source": "SuccessFactors",
+          "status": "accessible-empty",
+          "candidateYield": 1,
           "acceptedYield": 0
         },
         {
-          "source": "Bishop Fox careers",
+          "source": "ASML careers",
           "status": "routes-resolved-no-qualifying-opening",
           "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "CBRE India careers",
+          "status": "routes-resolved-no-qualifying-opening",
+          "candidateYield": 2,
           "acceptedYield": 0
         }
       ],
       "rejectedByReason": {
-        "outsideIndia": 1,
-        "insufficientExplicitEligibility": 3,
-        "unrelatedRole": 6
+        "experienceAboveTwoYearsOrSeniority": 3,
+        "insufficientExplicitEligibility": 2,
+        "closedOrExpired": 1,
+        "trainingOrCourse": 2
       },
       "cursors": {
         "nextRosterNumber": 45
