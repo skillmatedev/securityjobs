@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "preservationPolicy": "Append or merge only. Never delete source records.",
-  "lastUpdated": "2026-09-09T08:15:00.000Z",
+  "lastUpdated": "2026-09-09T08:29:46.000Z",
   "coverageTargets": {
     "independentPortals": 37,
     "atsSystems": 33,
@@ -31,7 +31,7 @@
     "nextRosterNumber": 45
   },
   "latestRun": {
-    "attemptedAt": "2026-09-09T07:28:00.000Z",
+    "attemptedAt": "2026-09-09T08:20:00.000Z",
     "mandatoryCoverage": [
       {
         "portal": "LinkedIn Jobs",
@@ -181,11 +181,11 @@
         "note": "No matching indexed individual vacancy found"
       }
     ],
-    "candidatesDiscovered": 37,
+    "candidatesDiscovered": 8,
     "finalApplyLinksResolved": 15,
     "portalHostedAppliesAccepted": 11,
     "jobsAdded": 1,
-    "jobsRetained": 14,
+    "jobsRetained": 15,
     "jobsArchived": 0,
     "quarantined": 5,
     "rejectedByReason": {
@@ -196,7 +196,7 @@
       "noIndividualApplicationRoute": 4
     },
     "brokenOrExpiredLinks": 4,
-    "certInCompaniesCheckedThisRun": 4,
+    "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
     "coverageGaps": {
       "domains": [
@@ -212,7 +212,14 @@
         "Kochi",
         "Remote India"
       ]
-    }
+    },
+    "completedAt": "2026-09-09T08:29:46.000Z",
+    "sourcesChecked": [
+      "LinkedIn Jobs",
+      "Greenhouse",
+      "Lever",
+      "Ashby"
+    ]
   },
   "sources": [
     {
