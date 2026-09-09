@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T21:28:18.000Z",
+  "lastUpdated": "2026-09-09T22:31:24.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -650,15 +650,71 @@
       "type": "incremental-monitoring"
     },
     {
-      "runId": "incremental-2026-09-09T21:28:18.000Z",
-      "type": "incremental-monitoring",
-      "runStartedAt": "2026-09-09T21:00:18.000Z",
-      "runCompletedAt": "2026-09-09T21:28:18.000Z",
-      "beforeCount": 19,
       "afterCount": 19,
+      "beforeCount": 19,
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "deploymentResult": "pending",
       "idsAdded": [],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "insufficientExplicitEligibility": 2,
+        "noIndividualApplicationRoute": 1
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "runCompletedAt": "2026-09-09T21:28:18.000Z",
+      "runId": "incremental-2026-09-09T21:28:18.000Z",
+      "runStartedAt": "2026-09-09T21:00:18.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "source": "LinkedIn Jobs",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Workday",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Greenhouse",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Lever",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Ashby",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Aujas Cybersecurity",
+          "status": "official-and-linkedin-routes-resolved-no-qualifying-vacancy"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Workday",
@@ -667,11 +723,43 @@
         "Ashby",
         "Aujas Cybersecurity"
       ],
+      "type": "incremental-monitoring"
+    },
+    {
+      "runId": "incremental-2026-09-09T22:31:24.000Z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-09T22:01:24.000Z",
+      "runCompletedAt": "2026-09-09T22:31:24.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Greenhouse",
+        "Lever",
+        "Workday",
+        "Backbase careers",
+        "Bishop Fox careers"
+      ],
       "sourceHealth": [
         {
           "source": "LinkedIn Jobs",
           "status": "successful-empty",
-          "candidateYield": 2,
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Greenhouse",
+          "status": "accessible-empty",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Lever",
+          "status": "accessible-empty",
+          "candidateYield": 1,
           "acceptedYield": 0
         },
         {
@@ -681,33 +769,22 @@
           "acceptedYield": 0
         },
         {
-          "source": "Greenhouse",
-          "status": "empty",
-          "candidateYield": 0,
+          "source": "Backbase careers",
+          "status": "routes-resolved-no-qualifying-opening",
+          "candidateYield": 6,
           "acceptedYield": 0
         },
         {
-          "source": "Lever",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Ashby",
-          "status": "empty",
-          "candidateYield": 0,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Aujas Cybersecurity",
-          "status": "official-and-linkedin-routes-resolved-no-qualifying-vacancy",
+          "source": "Bishop Fox careers",
+          "status": "routes-resolved-no-qualifying-opening",
           "candidateYield": 0,
           "acceptedYield": 0
         }
       ],
       "rejectedByReason": {
-        "insufficientExplicitEligibility": 2,
-        "noIndividualApplicationRoute": 1
+        "outsideIndia": 1,
+        "insufficientExplicitEligibility": 3,
+        "unrelatedRole": 6
       },
       "cursors": {
         "nextRosterNumber": 45
