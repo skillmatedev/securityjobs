@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T08:15:00.000Z",
+  "lastUpdated": "2026-09-09T08:29:46.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -190,6 +190,72 @@
           "Remote India"
         ]
       },
+      "sourceRegistryCounts": {
+        "totalUniqueConfigured": 195,
+        "independentPortals": 38,
+        "atsSystems": 33,
+        "employerCareerTargets": 80,
+        "certInCompanies": 44
+      }
+    },
+    {
+      "runId": "incremental-2026-09-09T08:29:46.000Z",
+      "runStartedAt": "2026-09-09T08:20:00.000Z",
+      "runCompletedAt": "2026-09-09T08:29:46.000Z",
+      "type": "incremental-monitoring",
+      "beforeCount": 15,
+      "afterCount": 16,
+      "idsAdded": [
+        "teamlease-regtech-information-security-associate-internship-4464395759"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Greenhouse",
+        "Lever",
+        "Ashby"
+      ],
+      "sourceHealth": [
+        {
+          "source": "LinkedIn Jobs",
+          "status": "successful",
+          "candidateYield": 8,
+          "acceptedYield": 1
+        },
+        {
+          "source": "Greenhouse",
+          "status": "successful-empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Lever",
+          "status": "successful-empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "Ashby",
+          "status": "successful-empty",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "closedOrExpired": 2,
+        "experienceAboveTwoYearsOrSeniority": 3,
+        "outsideIndia": 2,
+        "insufficientEmployerConfidence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "employerCareerTargetsToRegister": 62,
+        "certInCompaniesToRegister": 192
+      },
+      "deploymentResult": "pending",
       "sourceRegistryCounts": {
         "totalUniqueConfigured": 195,
         "independentPortals": 38,
