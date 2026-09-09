@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-09-09T04:27:00.000Z",
+  "lastUpdated": "2026-09-09T05:32:00.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 36,
+    "organisationsChecked": 40,
     "cycleComplete": false
   },
   "latestRun": {
-    "attemptedAt": "2026-09-09T04:27:00.000Z",
+    "attemptedAt": "2026-09-09T05:32:00.000Z",
     "mandatoryCoverage": [
-      {"portal":"LinkedIn Jobs","status":"successful","candidateYield":9,"acceptedYield":2,"note":"Public individual vacancies accessible; submission requires login"},
-      {"portal":"Indeed India","status":"successful-discovery","candidateYield":8,"acceptedYield":0,"note":"Search listings accessible; candidates required independent final-route verification"},
+      {"portal":"LinkedIn Jobs","status":"successful","candidateYield":7,"acceptedYield":0,"note":"Public job details searched; current leads were closed, duplicated, or lacked stronger final-route evidence"},
+      {"portal":"Indeed India","status":"successful","candidateYield":7,"acceptedYield":2,"note":"Individual Bug Hunters and TechDefence vacancies were active; final portal apply routes verified"},
       {"portal":"Naukri","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked public crawling; no bypass attempted"},
-      {"portal":"Foundit","status":"successful","candidateYield":4,"acceptedYield":0,"note":"Individual pages accessible; relevant candidates were closed, stale or training-like"},
-      {"portal":"Glassdoor","status":"successful","candidateYield":7,"acceptedYield":1,"note":"Application Security internship individual page and portal application verified"},
+      {"portal":"Foundit","status":"successful-empty","candidateYield":3,"acceptedYield":0,"note":"Current candidates were performance-based, stale, or lacked sufficiently reliable vacancy evidence"},
+      {"portal":"Glassdoor","status":"successful","candidateYield":5,"acceptedYield":1,"note":"Bug Hunters GRC internship details and application control verified"},
       {"portal":"Internshala","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked individual pages; no bypass attempted"},
-      {"portal":"Wellfound","status":"successful-empty","candidateYield":1,"acceptedYield":0,"note":"One candidate required about four years and was rejected"},
+      {"portal":"Wellfound","status":"accessible-empty","candidateYield":2,"acceptedYield":0,"note":"Cybersecurity results were training/cohort-like or did not meet eligibility requirements"},
       {"portal":"Freshersworld","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Category pages accessible; no individual cybersecurity vacancy verified"},
-      {"portal":"Cutshort","status":"successful","candidateYield":6,"acceptedYield":1,"note":"One Chennai threat-intelligence internship verified; training-like listings excluded"},
-      {"portal":"Instahyre","status":"accessible-limited","candidateYield":2,"acceptedYield":0,"note":"One expired internship and one current indexed candidate whose detail page returned an error"},
-      {"portal":"Hirist","status":"successful-empty","candidateYield":2,"acceptedYield":0,"note":"Previously published records remained live; no distinct new vacancy verified"},
-      {"portal":"Company career pages","status":"successful","candidateYield":5,"acceptedYield":1,"note":"Certcube individual employer vacancy and role-specific Apply Now route verified"},
-      {"portal":"Workday","status":"successful","candidateYield":1,"acceptedYield":1,"note":"Jonas/C&R GRC internship verified on official Workday vacancy and application route"},
-      {"portal":"Greenhouse","status":"successful-empty","candidateYield":0,"acceptedYield":0,"note":"Public board pages accessible; no matching India fresher cybersecurity vacancy found"},
+      {"portal":"Cutshort","status":"successful-empty","candidateYield":4,"acceptedYield":0,"note":"Previously published candidate remained live; no distinct qualifying vacancy verified"},
+      {"portal":"Instahyre","status":"accessible-limited","candidateYield":2,"acceptedYield":0,"note":"Indexed results were old or individual detail pages were unavailable"},
+      {"portal":"Hirist","status":"successful-empty","candidateYield":2,"acceptedYield":0,"note":"No distinct new vacancy meeting the strict experience ceiling was verified"},
+      {"portal":"Company career pages","status":"successful","candidateYield":6,"acceptedYield":1,"note":"TechDefence official careers page corroborated the SOC internship; SecureLayer7 and Securium careers were also checked"},
+      {"portal":"Workday","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Public Workday vacancies searched; no distinct new qualifying India cybersecurity role verified"},
+      {"portal":"Greenhouse","status":"successful","candidateYield":1,"acceptedYield":1,"note":"CloudSEK Security Consultant Intern verified on its official Greenhouse vacancy and application form"},
       {"portal":"Lever","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
       {"portal":"Ashby","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
       {"portal":"SmartRecruiters","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Public search accessible; no matching fresher vacancy verified"},
@@ -30,25 +30,25 @@
       {"portal":"iCIMS","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"},
       {"portal":"Darwinbox","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"}
     ],
-    "candidatesDiscovered": 34,
-    "finalApplyLinksResolved": 11,
-    "portalHostedAppliesAccepted": 9,
-    "jobsAdded": 4,
-    "jobsRetained": 7,
+    "candidatesDiscovered": 41,
+    "finalApplyLinksResolved": 14,
+    "portalHostedAppliesAccepted": 11,
+    "jobsAdded": 3,
+    "jobsRetained": 11,
     "jobsArchived": 0,
-    "quarantined": 6,
+    "quarantined": 7,
     "rejectedByReason": {
-      "experienceAboveTwoYearsOrSeniority": 4,
-      "closedOrExpired": 2,
-      "insufficientExplicitEligibility": 5,
-      "unrelatedOrTrainingLike": 8,
-      "noIndividualApplicationRoute": 6
+      "experienceAboveTwoYearsOrSeniority": 3,
+      "closedOrExpired": 4,
+      "insufficientExplicitEligibility": 6,
+      "unrelatedOrTrainingLike": 9,
+      "noIndividualApplicationRoute": 7
     },
-    "brokenOrExpiredLinks": 2,
+    "brokenOrExpiredLinks": 1,
     "certInCompaniesCheckedThisRun": 4,
-    "certInCycleProgress": 36,
+    "certInCycleProgress": 40,
     "coverageGaps": {
-      "domains": ["Red Team","IAM/PAM","DFIR","Malware Analysis","DevSecOps","OT/ICS","Data Privacy"],
+      "domains": ["IAM/PAM","DFIR","Malware Analysis","DevSecOps","OT/ICS","Data Privacy"],
       "locations": ["Pune","Kolkata","Kochi","Remote India"]
     }
   },
@@ -520,6 +520,34 @@
       "lastJobCount": 0,
       "nextRotationTime": "2026-09-09T13:40:05.000Z",
       "status": "Official openings page live but contains no specific vacancy cards; generic application form excluded"
+    },
+    {
+      "company": "Bug Hunters Private Limited", "certInEmpanelled": true,
+      "careersUrl": "https://bughunters.io/join-us", "atsProvider": "First-party / portal apply", "tenant": null, "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-09T05:32:00.000Z", "lastContentFingerprint": null, "lastJobCount": 1,
+      "nextRotationTime": "2026-09-10T05:32:00.000Z",
+      "status": "Official careers page and individual portal vacancy checked; GRC Intern for freshers to six months verified"
+    },
+    {
+      "company": "TechDefence Labs", "certInEmpanelled": true,
+      "careersUrl": "https://techdefence.ai/company/careers", "atsProvider": "First-party / Indeed", "tenant": null, "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-09T05:32:00.000Z", "lastContentFingerprint": null, "lastJobCount": 1,
+      "nextRotationTime": "2026-09-10T05:32:00.000Z",
+      "status": "Official careers page and individual Indeed vacancy checked; Ahmedabad SOC Intern verified"
+    },
+    {
+      "company": "Securium Solutions", "certInEmpanelled": true,
+      "careersUrl": "https://www.securiumacademy.com/career", "atsProvider": "First-party", "tenant": null, "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-09T05:32:00.000Z", "lastContentFingerprint": null, "lastJobCount": 0,
+      "nextRotationTime": "2026-09-10T05:32:00.000Z",
+      "status": "Career listings checked; current roles were non-cybersecurity or not qualifying fresher vacancies"
+    },
+    {
+      "company": "SecureLayer7", "certInEmpanelled": true,
+      "careersUrl": "https://securelayer7.net/careers", "atsProvider": "SecHire", "tenant": "securelayer7", "feedUrl": null,
+      "lastSuccessfulCheck": "2026-09-09T05:32:00.000Z", "lastContentFingerprint": null, "lastJobCount": 7,
+      "nextRotationTime": "2026-09-10T05:32:00.000Z",
+      "status": "Official careers portal checked; fresher Red Team role lacked sufficient individual eligibility/application verification for publication"
     }
   ]
 }
