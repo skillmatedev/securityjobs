@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-09-09T05:32:00.000Z",
+  "lastUpdated": "2026-09-09T07:28:00.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
-    "organisationsChecked": 40,
+    "organisationsChecked": 44,
     "cycleComplete": false
   },
   "latestRun": {
-    "attemptedAt": "2026-09-09T05:32:00.000Z",
+    "attemptedAt": "2026-09-09T07:28:00.000Z",
     "mandatoryCoverage": [
-      {"portal":"LinkedIn Jobs","status":"successful","candidateYield":7,"acceptedYield":0,"note":"Public job details searched; current leads were closed, duplicated, or lacked stronger final-route evidence"},
-      {"portal":"Indeed India","status":"successful","candidateYield":7,"acceptedYield":2,"note":"Individual Bug Hunters and TechDefence vacancies were active; final portal apply routes verified"},
+      {"portal":"LinkedIn Jobs","status":"successful-empty","candidateYield":4,"acceptedYield":0,"note":"Public India listings searched; candidates were duplicates or lacked qualifying evidence"},
+      {"portal":"Indeed India","status":"successful-empty","candidateYield":5,"acceptedYield":0,"note":"Individual and search pages checked; existing internships remained live but no distinct new role qualified"},
       {"portal":"Naukri","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked public crawling; no bypass attempted"},
-      {"portal":"Foundit","status":"successful-empty","candidateYield":3,"acceptedYield":0,"note":"Current candidates were performance-based, stale, or lacked sufficiently reliable vacancy evidence"},
-      {"portal":"Glassdoor","status":"successful","candidateYield":5,"acceptedYield":1,"note":"Bug Hunters GRC internship details and application control verified"},
+      {"portal":"Foundit","status":"successful-empty","candidateYield":5,"acceptedYield":0,"note":"Promising 0–2-year GRC and SOC pages explicitly stated they were no longer accepting applications"},
+      {"portal":"Glassdoor","status":"successful-empty","candidateYield":3,"acceptedYield":0,"note":"Individual pages searched; no distinct qualifying vacancy beyond existing records"},
       {"portal":"Internshala","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked individual pages; no bypass attempted"},
-      {"portal":"Wellfound","status":"accessible-empty","candidateYield":2,"acceptedYield":0,"note":"Cybersecurity results were training/cohort-like or did not meet eligibility requirements"},
+      {"portal":"Wellfound","status":"accessible-empty","candidateYield":1,"acceptedYield":0,"note":"India security result required approximately four years"},
       {"portal":"Freshersworld","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Category pages accessible; no individual cybersecurity vacancy verified"},
-      {"portal":"Cutshort","status":"successful-empty","candidateYield":4,"acceptedYield":0,"note":"Previously published candidate remained live; no distinct qualifying vacancy verified"},
-      {"portal":"Instahyre","status":"accessible-limited","candidateYield":2,"acceptedYield":0,"note":"Indexed results were old or individual detail pages were unavailable"},
-      {"portal":"Hirist","status":"successful-empty","candidateYield":2,"acceptedYield":0,"note":"No distinct new vacancy meeting the strict experience ceiling was verified"},
-      {"portal":"Company career pages","status":"successful","candidateYield":6,"acceptedYield":1,"note":"TechDefence official careers page corroborated the SOC internship; SecureLayer7 and Securium careers were also checked"},
+      {"portal":"Cutshort","status":"successful-empty","candidateYield":2,"acceptedYield":0,"note":"No distinct qualifying vacancy verified"},
+      {"portal":"Instahyre","status":"successful-empty","candidateYield":4,"acceptedYield":0,"note":"Security candidates required 2–4, 2–5, 3–5 or 4–8 years"},
+      {"portal":"Hirist","status":"successful-empty","candidateYield":2,"acceptedYield":0,"note":"No new role within the two-year maximum was verified"},
+      {"portal":"Company career pages","status":"successful","candidateYield":8,"acceptedYield":1,"note":"SecureLayer7 fresher Red Team role resolved to a live individual SecHire application"},
       {"portal":"Workday","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Public Workday vacancies searched; no distinct new qualifying India cybersecurity role verified"},
-      {"portal":"Greenhouse","status":"successful","candidateYield":1,"acceptedYield":1,"note":"CloudSEK Security Consultant Intern verified on its official Greenhouse vacancy and application form"},
+      {"portal":"Greenhouse","status":"successful-empty","candidateYield":3,"acceptedYield":0,"note":"Search results were non-India, unrelated, or already published"},
       {"portal":"Lever","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
       {"portal":"Ashby","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
       {"portal":"SmartRecruiters","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Public search accessible; no matching fresher vacancy verified"},
@@ -30,26 +30,26 @@
       {"portal":"iCIMS","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"},
       {"portal":"Darwinbox","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"}
     ],
-    "candidatesDiscovered": 41,
-    "finalApplyLinksResolved": 14,
+    "candidatesDiscovered": 37,
+    "finalApplyLinksResolved": 15,
     "portalHostedAppliesAccepted": 11,
-    "jobsAdded": 3,
-    "jobsRetained": 11,
+    "jobsAdded": 1,
+    "jobsRetained": 14,
     "jobsArchived": 0,
-    "quarantined": 7,
+    "quarantined": 5,
     "rejectedByReason": {
-      "experienceAboveTwoYearsOrSeniority": 3,
+      "experienceAboveTwoYearsOrSeniority": 6,
       "closedOrExpired": 4,
-      "insufficientExplicitEligibility": 6,
-      "unrelatedOrTrainingLike": 9,
-      "noIndividualApplicationRoute": 7
+      "insufficientExplicitEligibility": 5,
+      "unrelatedOrTrainingLike": 8,
+      "noIndividualApplicationRoute": 4
     },
-    "brokenOrExpiredLinks": 1,
+    "brokenOrExpiredLinks": 4,
     "certInCompaniesCheckedThisRun": 4,
-    "certInCycleProgress": 40,
+    "certInCycleProgress": 44,
     "coverageGaps": {
       "domains": ["IAM/PAM","DFIR","Malware Analysis","DevSecOps","OT/ICS","Data Privacy"],
-      "locations": ["Pune","Kolkata","Kochi","Remote India"]
+      "locations": ["Kolkata","Kochi","Remote India"]
     }
   },
   "sources": [
@@ -547,7 +547,27 @@
       "careersUrl": "https://securelayer7.net/careers", "atsProvider": "SecHire", "tenant": "securelayer7", "feedUrl": null,
       "lastSuccessfulCheck": "2026-09-09T05:32:00.000Z", "lastContentFingerprint": null, "lastJobCount": 7,
       "nextRotationTime": "2026-09-10T05:32:00.000Z",
-      "status": "Official careers portal checked; fresher Red Team role lacked sufficient individual eligibility/application verification for publication"
+      "status": "Official careers portal checked; Red Team Operator (Fresher) verified and published through individual SecHire application"
+    },
+    {
+      "company":"Xiarch Solutions","certInEmpanelled":true,"careersUrl":"https://xiarch.com/","atsProvider":"First-party","tenant":null,"feedUrl":null,
+      "lastSuccessfulCheck":"2026-09-09T07:28:00.000Z","lastContentFingerprint":null,"lastJobCount":2,"nextRotationTime":"2026-09-10T07:28:00.000Z",
+      "status":"Official careers listings checked; associate security role lacked explicit experience evidence for publication"
+    },
+    {
+      "company":"Panacea Infosec","certInEmpanelled":true,"careersUrl":"https://panaceainfosec.com/","atsProvider":"First-party","tenant":null,"feedUrl":null,
+      "lastSuccessfulCheck":"2026-09-09T07:28:00.000Z","lastContentFingerprint":null,"lastJobCount":0,"nextRotationTime":"2026-09-10T07:28:00.000Z",
+      "status":"Official company careers content checked; no individual qualifying vacancy verified"
+    },
+    {
+      "company":"Varutra Consulting","certInEmpanelled":true,"careersUrl":"https://www.varutra.com/","atsProvider":"First-party","tenant":null,"feedUrl":null,
+      "lastSuccessfulCheck":"2026-09-09T07:28:00.000Z","lastContentFingerprint":null,"lastJobCount":2,"nextRotationTime":"2026-09-10T07:28:00.000Z",
+      "status":"Official openings checked; senior role excluded and other roles lacked qualifying individual application evidence"
+    },
+    {
+      "company":"Sequretek","certInEmpanelled":true,"careersUrl":"https://www.sequretek.com/join-our-team","atsProvider":"ERPNext","tenant":"sequretek","feedUrl":"https://erp.sequretek.com/jobs",
+      "lastSuccessfulCheck":"2026-09-09T07:28:00.000Z","lastContentFingerprint":null,"lastJobCount":8,"nextRotationTime":"2026-09-10T07:28:00.000Z",
+      "status":"Official job portal checked; no current qualifying cybersecurity fresher vacancy"
     }
   ]
 }
