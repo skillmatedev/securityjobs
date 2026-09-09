@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.0",
   "preservationPolicy": "Append or merge only. Never delete source records.",
-  "lastUpdated": "2026-09-09T17:29:16.000Z",
+  "lastUpdated": "2026-09-09T18:28:40.000Z",
   "coverageTargets": {
     "independentPortals": 37,
     "atsSystems": 33,
@@ -10,10 +10,10 @@
     "note": "Targets overlap; report unique configured records separately."
   },
   "coverageActual": {
-    "totalUniqueConfigured": 197,
+    "totalUniqueConfigured": 198,
     "independentPortals": 38,
     "atsSystems": 33,
-    "employerCareerTargets": 82,
+    "employerCareerTargets": 83,
     "certInCompanies": 44
   },
   "certInRoster": {
@@ -4400,6 +4400,26 @@
       "nextRotationTime": "2026-09-09T23:29:16.000Z",
       "checkIntervalHours": 6,
       "sourceOrigin": "Incremental discovery; official Workday vacancy"
+    },
+    {
+      "sourceId": "employer-black-box",
+      "sourceType": "employer-career-target",
+      "company": "Black Box",
+      "officialWebsite": "https://www.blackbox.com/",
+      "careersUrl": "https://www.blackbox.com/global-careers/overview",
+      "atsProvider": "Oracle Recruiting Cloud",
+      "tenant": "eoje",
+      "feedUrl": null,
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/black-box/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/black-box/jobs/",
+      "accessStatus": "active-vacancy-verified",
+      "lastCareerCheck": "2026-09-09T18:28:40.000Z",
+      "lastLinkedInCheck": "2026-09-09T18:28:40.000Z",
+      "candidateYield": 2,
+      "acceptedYield": 1,
+      "nextRotationTime": "2026-09-10T00:28:40.000Z",
+      "checkIntervalHours": 6,
+      "sourceOrigin": "Incremental discovery; official careers and public LinkedIn vacancy evidence"
     }
   ]
 }
