@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T08:15:00.000Z",
+  "lastUpdated": "2026-09-09T08:29:46.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -661,6 +661,50 @@
         ],
         "skills": "red teaming penetration testing vulnerability assessment web application security attack simulation",
         "certInEmpanelled": true
+      }
+    },
+    {
+      "eventId": "discovered-teamlease-regtech-information-security-associate-internship-4464395759",
+      "jobId": "teamlease-regtech-information-security-associate-internship-4464395759",
+      "eventType": "discovered",
+      "occurredAt": "2026-09-09T08:29:46.000Z",
+      "previousStatus": null,
+      "newStatus": "active",
+      "reason": "New qualifying India cybersecurity internship verified on a live vacancy-specific LinkedIn Jobs page",
+      "snapshot": {
+        "id": "teamlease-regtech-information-security-associate-internship-4464395759",
+        "title": "Information Security Associate Internship",
+        "company": "TeamLease Regtech Pvt. Ltd.",
+        "domain": "GRC, Audit and Compliance",
+        "level": "Internship",
+        "experienceLevel": "Internship / experience not required",
+        "location": "Pune or Bengaluru, India",
+        "workplace": "Hybrid",
+        "employmentType": "Internship",
+        "experienceText": "Internship vacancy; no prior professional experience requirement stated",
+        "fresherEligible": true,
+        "eligibilityReason": "The employer explicitly lists this as an internship and states no prior-experience minimum",
+        "postedAt": "2026-09-08",
+        "posted": "2026-09-08",
+        "postedAge": "1 day ago",
+        "status": "Active LinkedIn vacancy · login required to apply",
+        "source": "LinkedIn Jobs",
+        "sourcePortal": "LinkedIn Jobs",
+        "discoveryUrl": "https://in.linkedin.com/jobs/view/information-security-associate-internship-in-pune-bangalore-hybrid-at-teamlease-regtech-pvt-ltd-4464395759",
+        "applyUrl": "https://in.linkedin.com/jobs/view/information-security-associate-internship-in-pune-bangalore-hybrid-at-teamlease-regtech-pvt-ltd-4464395759",
+        "applyMethod": "LinkedIn application; candidate login required",
+        "requisitionId": "4464395759",
+        "discoveredAt": "2026-09-09T08:29:46.000Z",
+        "lastVerified": "2026-09-09T08:29:46.000Z",
+        "verificationStatus": "Verified - Login Required to Apply",
+        "score": 89,
+        "scoreReasons": [
+          "Individual vacancy and Apply control are live",
+          "Explicit internship with no prior-experience minimum",
+          "Company, title, locations and responsibilities are consistent"
+        ],
+        "skills": "GRC ISO 27001 SOC 2 NIST compliance audits risk assessment vulnerability management secure coding",
+        "certInEmpanelled": false
       }
     }
   ]
