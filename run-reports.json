@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T19:30:42.000Z",
+  "lastUpdated": "2026-09-09T20:30:24.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -460,15 +460,91 @@
       "type": "incremental-monitoring"
     },
     {
-      "runId": "incremental-2026-09-09T19:30:42.000Z",
-      "type": "incremental-monitoring",
-      "runStartedAt": "2026-09-09T19:00:42.000Z",
-      "runCompletedAt": "2026-09-09T19:30:42.000Z",
-      "beforeCount": 19,
       "afterCount": 19,
+      "beforeCount": 19,
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "deploymentResult": "pending",
       "idsAdded": [],
-      "idsUpdated": [],
       "idsArchived": [],
+      "idsUpdated": [],
+      "rejectedByReason": {
+        "closedOrExpired": 2,
+        "duplicate": 2,
+        "experienceAboveTwoYearsOrSeniority": 1,
+        "outsideIndiaOrLocationUnverified": 1
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "runCompletedAt": "2026-09-09T19:30:42.000Z",
+      "runId": "incremental-2026-09-09T19:30:42.000Z",
+      "runStartedAt": "2026-09-09T19:00:42.000Z",
+      "sourceHealth": [
+        {
+          "acceptedYield": 0,
+          "candidateYield": 3,
+          "source": "LinkedIn Jobs",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 2,
+          "source": "Indeed India",
+          "status": "successful-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Workday",
+          "status": "accessible-empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Greenhouse",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Lever",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 0,
+          "source": "Ashby",
+          "status": "empty"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "NTT DATA careers",
+          "status": "closed-vacancy"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "Sopra Steria careers",
+          "status": "expired-out-of-scope"
+        },
+        {
+          "acceptedYield": 0,
+          "candidateYield": 1,
+          "source": "Cybrella careers",
+          "status": "location-unverified"
+        }
+      ],
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
       "sourcesChecked": [
         "LinkedIn Jobs",
         "Indeed India",
@@ -480,21 +556,43 @@
         "Sopra Steria careers",
         "Cybrella careers"
       ],
+      "type": "incremental-monitoring"
+    },
+    {
+      "runId": "incremental-2026-09-09T20:30:24.000Z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-09T20:00:24.000Z",
+      "runCompletedAt": "2026-09-09T20:30:24.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "LinkedIn Jobs",
+        "Workday",
+        "SmartRecruiters",
+        "Greenhouse",
+        "Lever",
+        "Ashby",
+        "Arctic Wolf careers",
+        "NICSI internship route"
+      ],
       "sourceHealth": [
         {
           "source": "LinkedIn Jobs",
-          "status": "successful-empty",
-          "candidateYield": 3,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Indeed India",
           "status": "successful-empty",
           "candidateYield": 2,
           "acceptedYield": 0
         },
         {
           "source": "Workday",
+          "status": "accessible-empty",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "SmartRecruiters",
           "status": "accessible-empty",
           "candidateYield": 0,
           "acceptedYield": 0
@@ -518,29 +616,22 @@
           "acceptedYield": 0
         },
         {
-          "source": "NTT DATA careers",
-          "status": "closed-vacancy",
+          "source": "Arctic Wolf careers",
+          "status": "no-vacancy-specific-fresher-role-verified",
           "candidateYield": 1,
           "acceptedYield": 0
         },
         {
-          "source": "Sopra Steria careers",
-          "status": "expired-out-of-scope",
-          "candidateYield": 1,
-          "acceptedYield": 0
-        },
-        {
-          "source": "Cybrella careers",
-          "status": "location-unverified",
+          "source": "NICSI internship route",
+          "status": "closed",
           "candidateYield": 1,
           "acceptedYield": 0
         }
       ],
       "rejectedByReason": {
-        "closedOrExpired": 2,
-        "experienceAboveTwoYearsOrSeniority": 1,
-        "outsideIndiaOrLocationUnverified": 1,
-        "duplicate": 2
+        "closedOrExpired": 1,
+        "insufficientExplicitEligibility": 2,
+        "noIndividualApplicationRoute": 1
       },
       "cursors": {
         "nextRosterNumber": 45
