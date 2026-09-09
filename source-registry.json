@@ -1,9 +1,56 @@
 {
-  "lastUpdated": "2026-09-09T01:40:05.000Z",
+  "lastUpdated": "2026-09-09T02:28:00.000Z",
   "certInCycle": {
     "startedAt": "2026-09-08T19:37:00.000Z",
     "organisationsChecked": 28,
     "cycleComplete": false
+  },
+  "latestRun": {
+    "attemptedAt": "2026-09-09T02:28:00.000Z",
+    "mandatoryCoverage": [
+      {"portal":"LinkedIn Jobs","status":"successful","candidateYield":9,"acceptedYield":2,"note":"Public individual vacancies accessible; submission requires login"},
+      {"portal":"Indeed India","status":"accessible-limited","candidateYield":1,"acceptedYield":0,"note":"Search/index page accessible; exact current vacancy route not resolved"},
+      {"portal":"Naukri","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked public crawling; no bypass attempted"},
+      {"portal":"Foundit","status":"successful","candidateYield":4,"acceptedYield":0,"note":"Individual pages accessible; relevant candidates were closed, stale or training-like"},
+      {"portal":"Glassdoor","status":"accessible-limited","candidateYield":2,"acceptedYield":0,"note":"Indexed vacancy evidence found; no publishable individual application route resolved"},
+      {"portal":"Internshala","status":"blocked","candidateYield":0,"acceptedYield":0,"note":"robots.txt blocked individual pages; no bypass attempted"},
+      {"portal":"Wellfound","status":"successful","candidateYield":1,"acceptedYield":1,"note":"Live individual vacancy and portal-hosted Apply control verified"},
+      {"portal":"Freshersworld","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Category pages accessible; no individual cybersecurity vacancy verified"},
+      {"portal":"Cutshort","status":"successful-empty","candidateYield":0,"acceptedYield":0,"note":"Individual pages accessible; returned roles were unrelated to cybersecurity"},
+      {"portal":"Instahyre","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No indexed matching individual vacancy found"},
+      {"portal":"Hirist","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No indexed matching individual vacancy found"},
+      {"portal":"Company career pages","status":"accessible-limited","candidateYield":4,"acceptedYield":0,"note":"FIS, Honeywell, Sabre and Trellix careers checked; eligibility or exact application record was not fully resolved"},
+      {"portal":"Workday","status":"successful","candidateYield":2,"acceptedYield":0,"note":"Public tenant pages found; candidates lacked verified cybersecurity fresher scope"},
+      {"portal":"Greenhouse","status":"successful-empty","candidateYield":0,"acceptedYield":0,"note":"Public board pages accessible; no matching India fresher cybersecurity vacancy found"},
+      {"portal":"Lever","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
+      {"portal":"Ashby","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed posting found"},
+      {"portal":"SmartRecruiters","status":"accessible-empty","candidateYield":0,"acceptedYield":0,"note":"Public search accessible; no matching fresher vacancy verified"},
+      {"portal":"SuccessFactors","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"},
+      {"portal":"Oracle Recruiting","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"},
+      {"portal":"iCIMS","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"},
+      {"portal":"Darwinbox","status":"empty","candidateYield":0,"acceptedYield":0,"note":"No matching indexed individual vacancy found"}
+    ],
+    "candidatesDiscovered": 23,
+    "finalApplyLinksResolved": 3,
+    "portalHostedAppliesAccepted": 3,
+    "jobsAdded": 2,
+    "jobsRetained": 1,
+    "jobsArchived": 18,
+    "quarantined": 3,
+    "rejectedByReason": {
+      "experienceAboveTwoYearsOrSeniority": 19,
+      "closedOrExpired": 2,
+      "insufficientExplicitEligibility": 6,
+      "unrelatedOrTrainingLike": 4,
+      "noIndividualApplicationRoute": 3
+    },
+    "brokenOrExpiredLinks": 2,
+    "certInCompaniesCheckedThisRun": 0,
+    "certInCycleProgress": 28,
+    "coverageGaps": {
+      "domains": ["Red Team","Application Security","Cloud Security","GRC","IAM/PAM","DFIR","Threat Intelligence","Malware Analysis","DevSecOps","Network Security","OT/ICS","Data Privacy"],
+      "locations": ["Chennai","Mumbai","Pune","Delhi NCR","Kolkata","Kochi","Remote India"]
+    }
   },
   "sources": [
     {
