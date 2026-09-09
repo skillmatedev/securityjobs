@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-09T13:31:19.000Z",
+  "lastUpdated": "2026-09-09T17:29:16.000Z",
   "summary": {
-    "totalLive": 17,
-    "earlyCareer": 17,
-    "internships": 11,
+    "totalLive": 18,
+    "earlyCareer": 18,
+    "internships": 12,
     "apprenticeships": 0,
     "graduatePrograms": 1,
     "zeroToOneYears": 3,
@@ -17,12 +17,48 @@
       "Internship / student or graduate": 4,
       "Internship / 0–1 year": 2,
       "Internship / 1–2 years": 2,
-      "Fresher / experience not required": 1
+      "Fresher / experience not required": 1,
+      "Internship / foundational knowledge": 1
     },
-    "verified": 17,
-    "loginRequired": 13
+    "verified": 18,
+    "loginRequired": 14
   },
   "jobs": [
+    {
+      "id": "altera-cyber-defense-analyst-intern-r0043888",
+      "title": "Cyber Defense Analyst Intern",
+      "company": "Altera (Harris Computer)",
+      "domain": "SOC and Blue Team",
+      "level": "Internship",
+      "experienceLevel": "Internship / foundational knowledge",
+      "location": "Pune, Maharashtra, India",
+      "workplace": "Hybrid",
+      "employmentType": "Internship / full-time contractor",
+      "experienceText": "Intern profile; only basic SOC, cybersecurity and information-security knowledge is required",
+      "fresherEligible": true,
+      "eligibilityReason": "Official vacancy identifies the profile as IT Cyber Defense Analyst-Intern and asks for foundational rather than professional experience",
+      "postedAt": null,
+      "posted": "Current official Workday listing",
+      "postedAge": "Verified September 9, 2026",
+      "status": "Active official Workday vacancy",
+      "source": "Official employer ATS",
+      "sourcePortal": "Workday",
+      "discoveryUrl": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/Altera/job/Contractor-Intern_R0043888",
+      "applyUrl": "https://harriscomputer.wd3.myworkdayjobs.com/en-US/Altera/job/Contractor-Intern_R0043888",
+      "applyMethod": "Official Workday application; candidate account may be required",
+      "requisitionId": "R0043888",
+      "discoveredAt": "2026-09-09T17:29:16.000Z",
+      "lastVerified": "2026-09-09T17:29:16.000Z",
+      "verificationStatus": "Verified - Official Employer ATS",
+      "score": 93,
+      "scoreReasons": [
+        "Official vacancy-specific Workday page is live",
+        "Explicit Cyber Defense Analyst intern profile",
+        "Pune hybrid location and requisition ID are present on the employer ATS"
+      ],
+      "skills": "SOC SIEM SOAR EDR XDR IDS IPS incident response MITRE ATT&CK networking Bash PowerShell Python",
+      "certInEmpanelled": false
+    },
     {
       "id": "johnson-controls-associate-analyst-4459967752",
       "title": "Associate Analyst (IAM/Cybersecurity Internship)",
