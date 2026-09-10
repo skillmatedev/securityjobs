@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T02:28:16.000Z",
+  "lastUpdated": "2026-09-10T03:29:11.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -997,6 +997,53 @@
         },
         {
           "source": "employer-cognizant",
+          "status": "success-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noVacancySpecificQualifyingEvidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260910-032911z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-10T02:59:11.000Z",
+      "runCompletedAt": "2026-09-10T03:29:11.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-dhl",
+        "employer-airbnb"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-dhl",
+          "status": "success-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-airbnb",
           "status": "success-no-qualifying-opening",
           "candidateYield": 0,
           "acceptedYield": 0
