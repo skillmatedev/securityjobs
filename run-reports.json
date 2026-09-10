@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T06:30:30.000Z",
+  "lastUpdated": "2026-09-10T07:28:47.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1194,6 +1194,54 @@
       "rejectedByReason": {
         "experienceOrLevelNotWithinFresherScope": 1,
         "ambiguousEmployerIdentity": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260910-072847z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-10T06:58:47.000Z",
+      "runCompletedAt": "2026-09-10T07:28:47.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-e-on",
+        "employer-godaddy"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-e-on",
+          "status": "official-routes-resolved-no-india-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-godaddy",
+          "status": "official-career-and-linkedin-resolved-security-openings-over-experience-limit",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndiaOrRemoteIndiaScope": 1,
+        "experienceAboveTwoYearsOrSeniority": 2
       },
       "cursors": {
         "nextRosterNumber": 45
