@@ -27,196 +27,20 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-10T04:31:13.000Z",
+  "lastUpdated": "2026-09-10T05:28:05.000Z",
   "latestRun": {
-    "attemptedAt": "2026-09-09T23:02:20.000Z",
-    "brokenOrExpiredLinks": 4,
-    "candidatesDiscovered": 8,
-    "certInCompaniesCheckedThisRun": 0,
-    "certInCycleProgress": 44,
-    "completedAt": "2026-09-10T04:31:13.000Z",
-    "coverageGaps": {
-      "domains": [
-        "IAM/PAM",
-        "DFIR",
-        "Malware Analysis",
-        "DevSecOps",
-        "OT/ICS",
-        "Data Privacy"
-      ],
-      "locations": [
-        "Kolkata",
-        "Kochi",
-        "Remote India"
-      ]
-    },
-    "finalApplyLinksResolved": 15,
+    "runId": "run-20260910-052805z",
+    "runStartedAt": "2026-09-10T04:58:05.000Z",
+    "runCompletedAt": "2026-09-10T05:28:05.000Z",
+    "sourcesChecked": [
+      "employer-burns-mcdonnell",
+      "employer-age-uk"
+    ],
+    "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
-    "jobsRetained": 15,
-    "mandatoryCoverage": [
-      {
-        "acceptedYield": 0,
-        "candidateYield": 4,
-        "note": "Public India listings searched; candidates were duplicates or lacked qualifying evidence",
-        "portal": "LinkedIn Jobs",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 5,
-        "note": "Individual and search pages checked; existing internships remained live but no distinct new role qualified",
-        "portal": "Indeed India",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "robots.txt blocked public crawling; no bypass attempted",
-        "portal": "Naukri",
-        "status": "blocked"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 5,
-        "note": "Promising 0–2-year GRC and SOC pages explicitly stated they were no longer accepting applications",
-        "portal": "Foundit",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 3,
-        "note": "Individual pages searched; no distinct qualifying vacancy beyond existing records",
-        "portal": "Glassdoor",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "robots.txt blocked individual pages; no bypass attempted",
-        "portal": "Internshala",
-        "status": "blocked"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 1,
-        "note": "India security result required approximately four years",
-        "portal": "Wellfound",
-        "status": "accessible-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "Category pages accessible; no individual cybersecurity vacancy verified",
-        "portal": "Freshersworld",
-        "status": "accessible-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 2,
-        "note": "No distinct qualifying vacancy verified",
-        "portal": "Cutshort",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 4,
-        "note": "Security candidates required 2–4, 2–5, 3–5 or 4–8 years",
-        "portal": "Instahyre",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 2,
-        "note": "No new role within the two-year maximum was verified",
-        "portal": "Hirist",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 1,
-        "candidateYield": 8,
-        "note": "SecureLayer7 fresher Red Team role resolved to a live individual SecHire application",
-        "portal": "Company career pages",
-        "status": "successful"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "Public Workday vacancies searched; no distinct new qualifying India cybersecurity role verified",
-        "portal": "Workday",
-        "status": "accessible-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 3,
-        "note": "Search results were non-India, unrelated, or already published",
-        "portal": "Greenhouse",
-        "status": "successful-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed posting found",
-        "portal": "Lever",
-        "status": "empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed posting found",
-        "portal": "Ashby",
-        "status": "empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "Public search accessible; no matching fresher vacancy verified",
-        "portal": "SmartRecruiters",
-        "status": "accessible-empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed individual vacancy found",
-        "portal": "SuccessFactors",
-        "status": "empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed individual vacancy found",
-        "portal": "Oracle Recruiting",
-        "status": "empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed individual vacancy found",
-        "portal": "iCIMS",
-        "status": "empty"
-      },
-      {
-        "acceptedYield": 0,
-        "candidateYield": 0,
-        "note": "No matching indexed individual vacancy found",
-        "portal": "Darwinbox",
-        "status": "empty"
-      }
-    ],
-    "portalHostedAppliesAccepted": 11,
-    "quarantined": 5,
-    "rejectedByReason": {
-      "closedOrExpired": 4,
-      "experienceAboveTwoYearsOrSeniority": 6,
-      "insufficientExplicitEligibility": 5,
-      "noIndividualApplicationRoute": 4,
-      "unrelatedOrTrainingLike": 8
-    },
-    "sourcesChecked": [
-      "employer-anthology",
-      "employer-celestica"
-    ],
-    "acceptedJobs": 0
+    "certInCompaniesCheckedThisRun": 0,
+    "certInCycleProgress": 44
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
@@ -2806,19 +2630,19 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
+      "accessStatus": "official-routes-resolved-out-of-india-scope-low-frequency",
       "atsProvider": null,
       "candidateYield": 0,
-      "careersUrl": null,
-      "checkIntervalHours": 24,
+      "careersUrl": "https://www.ageuk.org.uk/about-us/jobs/",
+      "checkIntervalHours": 168,
       "company": "Age UK",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T05:28:05.000Z",
+      "lastLinkedInCheck": "2026-09-10T05:28:05.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/age-uk/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/age-uk/jobs/",
+      "nextRotationTime": "2026-09-17T05:28:05.000Z",
+      "officialWebsite": "https://www.ageuk.org.uk/",
       "sourceId": "employer-age-uk",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
@@ -2938,19 +2762,19 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
+      "accessStatus": "official-career-and-linkedin-resolved-no-qualifying-opening",
       "atsProvider": null,
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://burnsmcd.jobs/",
       "checkIntervalHours": 24,
       "company": "Burns & McDonnell",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T05:28:05.000Z",
+      "lastLinkedInCheck": "2026-09-10T05:28:05.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/burns-mcdonnell/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/burns-mcdonnell/jobs/",
+      "nextRotationTime": "2026-09-11T05:28:05.000Z",
+      "officialWebsite": "https://www.burnsmcd.com/",
       "sourceId": "employer-burns-mcdonnell",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
