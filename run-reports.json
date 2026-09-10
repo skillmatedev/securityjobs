@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T04:31:13.000Z",
+  "lastUpdated": "2026-09-10T05:28:05.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1098,6 +1098,54 @@
       ],
       "rejectedByReason": {
         "noVacancySpecificQualifyingEvidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260910-052805z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-10T04:58:05.000Z",
+      "runCompletedAt": "2026-09-10T05:28:05.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-burns-mcdonnell",
+        "employer-age-uk"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-burns-mcdonnell",
+          "status": "official-career-and-linkedin-resolved-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-age-uk",
+          "status": "official-routes-resolved-out-of-india-scope-low-frequency",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noVacancySpecificQualifyingEvidence": 1,
+        "outsideIndiaOrRemoteIndiaScope": 1
       },
       "cursors": {
         "nextRosterNumber": 45
