@@ -27,14 +27,14 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-10T01:27:12.000Z",
+  "lastUpdated": "2026-09-10T02:28:16.000Z",
   "latestRun": {
     "attemptedAt": "2026-09-09T23:02:20.000Z",
     "brokenOrExpiredLinks": 4,
     "candidatesDiscovered": 8,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-10T01:27:12.000Z",
+    "completedAt": "2026-09-10T02:28:16.000Z",
     "coverageGaps": {
       "domains": [
         "IAM/PAM",
@@ -213,8 +213,8 @@
       "unrelatedOrTrainingLike": 8
     },
     "sourcesChecked": [
-      "employer-bt",
-      "employer-capgemini"
+      "employer-infosys",
+      "employer-cognizant"
     ],
     "acceptedJobs": 0
   },
@@ -2982,23 +2982,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "First-party",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://www.infosys.com/careers.html",
       "checkIntervalHours": 24,
       "company": "Infosys",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T02:28:16.000Z",
+      "lastLinkedInCheck": "2026-09-10T02:28:16.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/infosys/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/infosys/jobs/",
+      "nextRotationTime": "2026-09-13T02:28:16.000Z",
+      "officialWebsite": "https://www.infosys.com/",
       "sourceId": "employer-infosys",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India route)",
+      "status": "Official careers page, graduate/internship pathways, and public LinkedIn Jobs route verified; no vacancy-specific India cybersecurity opening with confirmed 0–2-year eligibility",
+      "lastSuccessfulCheck": "2026-09-10T02:28:16.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
@@ -3104,23 +3108,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "First-party",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.cognizant.com/global-en/",
       "checkIntervalHours": 24,
       "company": "Cognizant",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T02:28:16.000Z",
+      "lastLinkedInCheck": "2026-09-10T02:28:16.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/cognizant/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/cognizant/jobs/",
+      "nextRotationTime": "2026-09-13T02:28:16.000Z",
+      "officialWebsite": "https://www.cognizant.com/",
       "sourceId": "employer-cognizant",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India region)",
+      "status": "Official careers page, students/new-grads pathway, India region, and public LinkedIn Jobs route verified; no vacancy-specific India cybersecurity opening with confirmed 0–2-year eligibility",
+      "lastSuccessfulCheck": "2026-09-10T02:28:16.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
