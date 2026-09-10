@@ -27,14 +27,14 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-10T00:32:54.000Z",
+  "lastUpdated": "2026-09-10T01:27:12.000Z",
   "latestRun": {
     "attemptedAt": "2026-09-09T23:02:20.000Z",
     "brokenOrExpiredLinks": 4,
     "candidatesDiscovered": 8,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-10T00:32:54.000Z",
+    "completedAt": "2026-09-10T01:27:12.000Z",
     "coverageGaps": {
       "domains": [
         "IAM/PAM",
@@ -213,8 +213,8 @@
       "unrelatedOrTrainingLike": 8
     },
     "sourcesChecked": [
-      "employer-accenture",
-      "employer-ey"
+      "employer-bt",
+      "employer-capgemini"
     ],
     "acceptedJobs": 0
   },
@@ -2913,23 +2913,28 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "career-resolved-linkedin-route-unresolved",
+      "atsProvider": "SAP SuccessFactors",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://jobs.bt.com/",
       "checkIntervalHours": 24,
       "company": "BT",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
+      "lastCareerCheck": "2026-09-10T01:27:12.000Z",
+      "lastLinkedInCheck": "2026-09-10T01:27:12.000Z",
       "linkedinCompanyUrl": null,
       "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "nextRotationTime": "2026-09-13T01:27:12.000Z",
+      "officialWebsite": "https://www.bt.com/about/bt",
       "sourceId": "employer-bt",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India location search)",
+      "status": "Official SuccessFactors careers site verified; likely LinkedIn slug was rejected because it resolves to an unrelated Italian company; no qualifying India cybersecurity vacancy verified",
+      "lastSuccessfulCheck": "2026-09-10T01:27:12.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0,
+      "linkedinResolutionEvidence": "https://www.linkedin.com/company/bt-group/jobs/ redirects to unrelated BT Italian Outdoor; do not use"
     },
     {
       "acceptedYield": 0,
@@ -2953,23 +2958,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "SAP SuccessFactors",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.capgemini.com/",
       "checkIntervalHours": 24,
       "company": "Capgemini",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T01:27:12.000Z",
+      "lastLinkedInCheck": "2026-09-10T01:27:12.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/capgemini/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/capgemini/jobs/",
+      "nextRotationTime": "2026-09-13T01:27:12.000Z",
+      "officialWebsite": "https://www.capgemini.com/in-en/",
       "sourceId": "employer-capgemini",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India filter)",
+      "status": "Official India careers, SuccessFactors job search, and public LinkedIn Jobs routes verified; no qualifying India cybersecurity vacancy verified",
+      "lastSuccessfulCheck": "2026-09-10T01:27:12.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
