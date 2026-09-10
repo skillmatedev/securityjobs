@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T05:28:05.000Z",
+  "lastUpdated": "2026-09-10T06:30:30.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1146,6 +1146,54 @@
       "rejectedByReason": {
         "noVacancySpecificQualifyingEvidence": 1,
         "outsideIndiaOrRemoteIndiaScope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260910-063030z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-10T06:00:30.000Z",
+      "runCompletedAt": "2026-09-10T06:30:30.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-dxc",
+        "employer-camelot"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-dxc",
+          "status": "official-career-workday-and-linkedin-resolved-no-qualifying-opening",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-camelot",
+          "status": "identity-ambiguous-unresolved-no-route-guessed",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceOrLevelNotWithinFresherScope": 1,
+        "ambiguousEmployerIdentity": 1
       },
       "cursors": {
         "nextRosterNumber": 45
