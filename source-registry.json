@@ -27,14 +27,14 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-10T02:28:16.000Z",
+  "lastUpdated": "2026-09-10T03:29:11.000Z",
   "latestRun": {
     "attemptedAt": "2026-09-09T23:02:20.000Z",
     "brokenOrExpiredLinks": 4,
     "candidatesDiscovered": 8,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-10T02:28:16.000Z",
+    "completedAt": "2026-09-10T03:29:11.000Z",
     "coverageGaps": {
       "domains": [
         "IAM/PAM",
@@ -213,8 +213,8 @@
       "unrelatedOrTrainingLike": 8
     },
     "sourcesChecked": [
-      "employer-infosys",
-      "employer-cognizant"
+      "employer-dhl",
+      "employer-airbnb"
     ],
     "acceptedJobs": 0
   },
@@ -3006,23 +3006,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "First-party",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.airbnb.com/",
       "checkIntervalHours": 24,
       "company": "Airbnb",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T03:29:11.000Z",
+      "lastLinkedInCheck": "2026-09-10T03:29:11.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/airbnb/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/airbnb/jobs/",
+      "nextRotationTime": "2026-09-13T03:29:11.000Z",
+      "officialWebsite": "https://www.airbnb.com/",
       "sourceId": "employer-airbnb",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global",
+      "status": "Official careers portal, internship/apprenticeship pathways, and public LinkedIn Jobs route verified; no qualifying India or remote-India cybersecurity vacancy",
+      "lastSuccessfulCheck": "2026-09-10T03:29:11.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
@@ -3132,23 +3136,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "Phenom People",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.dhl.com/global/en",
       "checkIntervalHours": 24,
       "company": "DHL",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T03:29:11.000Z",
+      "lastLinkedInCheck": "2026-09-10T03:29:11.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/dhl/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/dhl/jobs/",
+      "nextRotationTime": "2026-09-13T03:29:11.000Z",
+      "officialWebsite": "https://www.dhl.com/",
       "sourceId": "employer-dhl",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India locations)",
+      "status": "Official careers portal, India locations, student/graduate pathway, and public LinkedIn Jobs route verified; no qualifying India cybersecurity vacancy",
+      "lastSuccessfulCheck": "2026-09-10T03:29:11.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
