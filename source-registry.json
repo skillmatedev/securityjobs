@@ -27,14 +27,14 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-09T23:32:20.000Z",
+  "lastUpdated": "2026-09-10T00:32:54.000Z",
   "latestRun": {
     "attemptedAt": "2026-09-09T23:02:20.000Z",
     "brokenOrExpiredLinks": 4,
     "candidatesDiscovered": 8,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-09T23:32:20.000Z",
+    "completedAt": "2026-09-10T00:32:54.000Z",
     "coverageGaps": {
       "domains": [
         "IAM/PAM",
@@ -213,13 +213,10 @@
       "unrelatedOrTrainingLike": 8
     },
     "sourcesChecked": [
-      "LinkedIn Jobs",
-      "Indeed India",
-      "Workday",
-      "SuccessFactors",
-      "ASML careers",
-      "CBRE India careers"
-    ]
+      "employer-accenture",
+      "employer-ey"
+    ],
+    "acceptedJobs": 0
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
@@ -2785,23 +2782,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "First-party",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://www.accenture.com/in-en/careers",
       "checkIntervalHours": 24,
       "company": "Accenture",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T00:32:54.000Z",
+      "lastLinkedInCheck": "2026-09-10T00:32:54.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/accenture/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/accenture/jobs/",
+      "nextRotationTime": "2026-09-13T00:32:54.000Z",
+      "officialWebsite": "https://www.accenture.com/in-en",
       "sourceId": "employer-accenture",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "India",
+      "status": "Official careers and public LinkedIn routes verified; no vacancy-specific India cybersecurity role meeting the fresher/0–2-year criteria was verified",
+      "lastSuccessfulCheck": "2026-09-10T00:32:54.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
@@ -3174,23 +3175,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending-resolution",
-      "atsProvider": null,
+      "accessStatus": "routes-resolved-no-qualifying-opening",
+      "atsProvider": "SAP SuccessFactors",
       "candidateYield": 0,
-      "careersUrl": null,
+      "careersUrl": "https://careers.ey.com/",
       "checkIntervalHours": 24,
       "company": "EY",
       "feedUrl": null,
-      "lastCareerCheck": null,
-      "lastLinkedInCheck": null,
-      "linkedinCompanyUrl": null,
-      "linkedinJobsUrl": null,
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
-      "officialWebsite": null,
+      "lastCareerCheck": "2026-09-10T00:32:54.000Z",
+      "lastLinkedInCheck": "2026-09-10T00:32:54.000Z",
+      "linkedinCompanyUrl": "https://www.linkedin.com/company/ernstandyoung/",
+      "linkedinJobsUrl": "https://www.linkedin.com/company/ernstandyoung/jobs/",
+      "nextRotationTime": "2026-09-13T00:32:54.000Z",
+      "officialWebsite": "https://www.ey.com/en_in",
       "sourceId": "employer-ey",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": "Global (India filter)",
+      "status": "Official SuccessFactors careers site and public LinkedIn routes verified; no vacancy-specific India cybersecurity role meeting the fresher/0–2-year criteria was verified",
+      "lastSuccessfulCheck": "2026-09-10T00:32:54.000Z",
+      "lastJobCount": 0,
+      "consecutiveFailures": 0
     },
     {
       "acceptedYield": 0,
