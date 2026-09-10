@@ -1,10 +1,25 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-09T08:15:00.000Z",
+  "lastUpdated": "2026-09-10T08:32:12.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 0,
-    "totalQuarantined": 0
+    "total": 1,
+    "totalQuarantined": 1
   },
-  "jobs": []
+  "jobs": [
+    {
+      "id": "idfc-first-bank-cyber-security-analyst-navi-mumbai-unresolved",
+      "company": "IDFC FIRST Bank",
+      "title": "Cyber Security Analyst",
+      "location": "Navi Mumbai, Maharashtra, India",
+      "experienceEvidence": "Search result states Fresher/Entry (0–2 years)",
+      "eligibilityReason": "Appears within fresher scope but lacks a verified individual vacancy page",
+      "discoveredAt": "2026-09-10T08:32:12.000Z",
+      "lastCheckedAt": "2026-09-10T08:32:12.000Z",
+      "sourceId": "employer-idfc-first-bank",
+      "discoveryUrl": "https://careers.idfcfirst.bank.in/in/en/search-results?keywords=CYBER",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Dynamic search result exposed the title and experience band, but no vacancy-specific URL, requisition ID, posting date, or final Apply route could be verified."
+    }
+  ]
 }
