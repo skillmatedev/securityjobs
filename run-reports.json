@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T00:32:54.000Z",
+  "lastUpdated": "2026-09-10T01:27:12.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -910,6 +910,53 @@
       ],
       "rejectedByReason": {
         "insufficientVacancySpecificEligibilityEvidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260910-012712z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-10T00:57:12.000Z",
+      "runCompletedAt": "2026-09-10T01:27:12.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-bt",
+        "employer-capgemini"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-bt",
+          "status": "career-success-linkedin-unresolved",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-capgemini",
+          "status": "success-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noVacancySpecificQualifyingEvidence": 2
       },
       "cursors": {
         "nextRosterNumber": 45
