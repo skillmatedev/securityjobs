@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:58:08.000Z",
+  "lastUpdated": "2026-09-12T14:59:21.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1630,6 +1630,54 @@
         "minimumExperienceExceedsTwoYears": 1,
         "outsideIndiaOrRemoteIndiaScope": 1,
         "noQualifyingIndiaOpening": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-145921z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T14:29:21.000Z",
+      "runCompletedAt": "2026-09-12T14:59:21.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-cvp",
+        "employer-suzy"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-cvp",
+          "status": "official-routes-resolved-no-qualifying-india-security-opening",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-suzy",
+          "status": "official-routes-resolved-js-required-no-qualifying-india-security-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndiaOrRemoteIndiaScope": 1,
+        "noQualifyingIndiaOpening": 2
       },
       "cursors": {
         "nextRosterNumber": 45
