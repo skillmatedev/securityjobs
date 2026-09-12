@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T09:29:14.000Z",
+  "lastUpdated": "2026-09-12T08:32:25.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1341,6 +1341,54 @@
       "rejectedByReason": {
         "noVacancySpecificQualifyingEvidence": 1,
         "outsideIndiaOrRemoteIndiaScope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-083225z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T08:02:25.000Z",
+      "runCompletedAt": "2026-09-12T08:32:25.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-oracle",
+        "employer-sapiens"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-oracle",
+          "status": "official-routes-resolved-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-sapiens",
+          "status": "official-routes-resolved-security-opening-outside-fresher-scope",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noVacancySpecificQualifyingEvidence": 1,
+        "seniorOrExperienceNotWithinZeroToTwoYears": 1
       },
       "cursors": {
         "nextRosterNumber": 45
