@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T22:31:14.000Z",
+  "lastUpdated": "2026-09-12T23:31:36.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2061,6 +2061,54 @@
       ],
       "rejectedByReason": {
         "noQualifyingCybersecurityVacancy": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-233136z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T23:01:36.000Z",
+      "runCompletedAt": "2026-09-12T23:31:36.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-natwest",
+        "employer-rightway"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-natwest",
+          "status": "official-routes-resolved-india-security-candidate-senior-analyst-outside-fresher-scope",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-rightway",
+          "status": "official-routes-resolved-no-india-or-remote-india-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "seniorAnalystOutsideAcceptedLevel": 1,
+        "noIndiaOrRemoteIndiaCybersecurityVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
