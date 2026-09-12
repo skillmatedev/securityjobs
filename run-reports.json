@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T16:00:13.000Z",
+  "lastUpdated": "2026-09-12T17:01:45.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1725,6 +1725,55 @@
       ],
       "rejectedByReason": {
         "noQualifyingIndiaSecurityOpening": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-170145z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T16:31:45.000Z",
+      "runCompletedAt": "2026-09-12T17:01:45.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-ergon",
+        "employer-flipkart"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-ergon",
+          "status": "official-routes-resolved-security-openings-outside-india",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-flipkart",
+          "status": "official-routes-resolved-security-openings-senior-unverified-fresher-lead-rejected",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndiaOrRemoteIndiaScope": 3,
+        "seniorOrManagerLevel": 3,
+        "unverifiedVacancySpecificEmployerRoute": 1
       },
       "cursors": {
         "nextRosterNumber": 45
