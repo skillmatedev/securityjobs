@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T18:57:35.000Z",
+  "lastUpdated": "2026-09-12T19:31:52.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1869,6 +1869,54 @@
       "rejectedByReason": {
         "experienceAboveTwoYears": 2,
         "seniorityOutsideFresherScope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-193152z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T19:01:52.000Z",
+      "runCompletedAt": "2026-09-12T19:31:52.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-google",
+        "employer-harvey-nash"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-google",
+          "status": "official-routes-resolved-india-security-opening-requires-five-years",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-harvey-nash",
+          "status": "official-routes-resolved-current-security-vacancies-outside-india",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceAboveTwoYears": 1,
+        "noIndiaOrRemoteIndiaVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
