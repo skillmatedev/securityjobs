@@ -3781,7 +3781,7 @@
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
       "checkIntervalHours": 168,
       "company": "Northern Trust",
-      "feedUrl": "https://ntrs.wd1.myworkdayjobs.com/NT",
+      "feedUrl": "https://ntrs.wd1.myworkdayjobs.com/northerntrust",
       "lastCareerCheck": "2026-09-12T22:31:14.000Z",
       "lastLinkedInCheck": "2026-09-12T22:31:14.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/northern-trust",
@@ -3791,7 +3791,7 @@
       "sourceId": "employer-northern-trust",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": "ntrs/NT",
+      "tenant": "ntrs/northerntrust",
       "lastAttempt": "2026-09-12T22:31:14.000Z",
       "lastSuccessfulCheck": "2026-09-12T22:31:14.000Z"
     },
