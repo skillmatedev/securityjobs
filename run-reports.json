@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T21:28:57.000Z",
+  "lastUpdated": "2026-09-12T22:31:14.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2014,6 +2014,53 @@
         "noCybersecurityVacancy": 1,
         "tierTwoOutsideAcceptedLevel": 1,
         "experienceRangeExceedsTwoYears": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-223114z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T22:01:14.000Z",
+      "runCompletedAt": "2026-09-12T22:31:14.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-northern-trust",
+        "employer-poshmark"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-northern-trust",
+          "status": "official-routes-resolved-india-openings-present-no-qualifying-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-poshmark",
+          "status": "official-routes-resolved-india-openings-present-no-qualifying-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noQualifyingCybersecurityVacancy": 2
       },
       "cursors": {
         "nextRosterNumber": 45
