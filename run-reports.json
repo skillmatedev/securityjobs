@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T08:32:25.000Z",
+  "lastUpdated": "2026-09-12T09:30:54.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1389,6 +1389,54 @@
       "rejectedByReason": {
         "noVacancySpecificQualifyingEvidence": 1,
         "seniorOrExperienceNotWithinZeroToTwoYears": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-093054z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T09:00:54.000Z",
+      "runCompletedAt": "2026-09-12T09:30:54.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-sky",
+        "employer-vmware"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-sky",
+          "status": "official-routes-resolved-no-india-market-low-frequency",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-vmware",
+          "status": "acquired-by-broadcom-official-successor-routes-resolved-no-qualifying-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndiaOrRemoteIndiaScope": 1,
+        "noVacancySpecificQualifyingEvidence": 1
       },
       "cursors": {
         "nextRosterNumber": 45
