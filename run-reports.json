@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:01:45.000Z",
+  "lastUpdated": "2026-09-12T17:57:40.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1774,6 +1774,53 @@
         "outsideIndiaOrRemoteIndiaScope": 3,
         "seniorOrManagerLevel": 3,
         "unverifiedVacancySpecificEmployerRoute": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-175740z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T17:27:40.000Z",
+      "runCompletedAt": "2026-09-12T17:57:40.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-fujitsu",
+        "employer-gain-credit"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-fujitsu",
+          "status": "official-routes-resolved-no-vacancy-specific-qualifying-india-security-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-gain-credit",
+          "status": "official-careers-resolved-linkedin-identity-unresolved-no-qualifying-security-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noVacancySpecificQualifyingIndiaSecurityOpening": 2
       },
       "cursors": {
         "nextRosterNumber": 45
