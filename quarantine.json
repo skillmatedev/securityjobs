@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-10T08:32:12.000Z",
+  "lastUpdated": "2026-09-12T11:31:22.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 1,
-    "totalQuarantined": 1
+    "total": 2,
+    "totalQuarantined": 2
   },
   "jobs": [
     {
@@ -20,6 +20,20 @@
       "discoveryUrl": "https://careers.idfcfirst.bank.in/in/en/search-results?keywords=CYBER",
       "verificationStatus": "quarantined",
       "quarantineReason": "Dynamic search result exposed the title and experience band, but no vacancy-specific URL, requisition ID, posting date, or final Apply route could be verified."
+    },
+    {
+      "id": "cohesity-cybersecurity-intern-chennai-unresolved",
+      "company": "Cohesity",
+      "title": "Cybersecurity Intern",
+      "location": "Chennai, Tamil Nadu, India",
+      "experienceEvidence": "Third-party discovery page labels the role as an internship for students and freshers",
+      "eligibilityReason": "Internship title is potentially eligible, but required vacancy facts are not available from an official individual posting",
+      "discoveredAt": "2026-09-12T11:31:22.000Z",
+      "lastCheckedAt": "2026-09-12T11:31:22.000Z",
+      "sourceId": "employer-cohesity",
+      "discoveryUrl": "https://www.cohesity.com/company/careers/",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "No live vacancy-specific Cohesity URL, requisition ID, official posting date, detailed eligibility evidence, or final application route could be verified."
     }
   ]
 }
