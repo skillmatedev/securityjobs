@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T20:27:54.000Z",
+  "lastUpdated": "2026-09-12T21:28:57.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1965,6 +1965,55 @@
       "rejectedByReason": {
         "noIndiaOrRemoteIndiaVacancy": 1,
         "experienceOrSeniorityOutsideFresherScope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-212857z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T20:58:57.000Z",
+      "runCompletedAt": "2026-09-12T21:28:57.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-kenvue",
+        "employer-marvell"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-kenvue",
+          "status": "official-routes-resolved-india-openings-present-no-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-marvell",
+          "status": "official-routes-resolved-india-security-candidates-outside-fresher-scope",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noCybersecurityVacancy": 1,
+        "tierTwoOutsideAcceptedLevel": 1,
+        "experienceRangeExceedsTwoYears": 1
       },
       "cursors": {
         "nextRosterNumber": 45
