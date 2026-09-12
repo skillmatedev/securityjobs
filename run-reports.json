@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T10:32:47.000Z",
+  "lastUpdated": "2026-09-12T11:31:22.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1485,6 +1485,54 @@
       "rejectedByReason": {
         "maximumExperienceExceedsTwoYears": 1,
         "noVacancySpecificQualifyingEvidence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-113122z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T11:01:22.000Z",
+      "runCompletedAt": "2026-09-12T11:31:22.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-cohesity",
+        "employer-bureau-veritas-cybersecurity"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-cohesity",
+          "status": "official-routes-resolved-unverified-internship-lead-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-bureau-veritas-cybersecurity",
+          "status": "official-and-intended-career-routes-resolved-no-qualifying-india-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "missingVacancySpecificOfficialEvidence": 1,
+        "noQualifyingIndiaOpening": 1
       },
       "cursors": {
         "nextRosterNumber": 45
