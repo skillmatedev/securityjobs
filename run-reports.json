@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T19:31:52.000Z",
+  "lastUpdated": "2026-09-12T20:27:54.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1917,6 +1917,54 @@
       "rejectedByReason": {
         "experienceAboveTwoYears": 1,
         "noIndiaOrRemoteIndiaVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-202754z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T19:57:54.000Z",
+      "runCompletedAt": "2026-09-12T20:27:54.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-healthpartners",
+        "employer-jpmorgan"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-healthpartners",
+          "status": "official-routes-resolved-us-focused-no-india-or-remote-india-security-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-jpmorgan",
+          "status": "official-routes-resolved-early-career-cyber-program-closed-current-india-security-openings-experienced",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noIndiaOrRemoteIndiaVacancy": 1,
+        "experienceOrSeniorityOutsideFresherScope": 1
       },
       "cursors": {
         "nextRosterNumber": 45
