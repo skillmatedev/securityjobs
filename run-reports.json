@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T12:31:59.000Z",
+  "lastUpdated": "2026-09-12T13:58:08.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1581,6 +1581,55 @@
       "rejectedByReason": {
         "outsideIndiaOrRemoteIndiaScope": 1,
         "experienceNotExplicitlyWithinZeroToTwoYears": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-135808z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T13:28:08.000Z",
+      "runCompletedAt": "2026-09-12T13:58:08.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-copeland",
+        "employer-cotiviti"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-copeland",
+          "status": "official-routes-resolved-security-candidates-outside-scope",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cotiviti",
+          "status": "official-routes-resolved-no-qualifying-india-security-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "minimumExperienceExceedsTwoYears": 1,
+        "outsideIndiaOrRemoteIndiaScope": 1,
+        "noQualifyingIndiaOpening": 1
       },
       "cursors": {
         "nextRosterNumber": 45
