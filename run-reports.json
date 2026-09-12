@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T17:57:40.000Z",
+  "lastUpdated": "2026-09-12T18:57:35.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -1821,6 +1821,54 @@
       ],
       "rejectedByReason": {
         "noVacancySpecificQualifyingIndiaSecurityOpening": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260912-185735z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-12T18:27:35.000Z",
+      "runCompletedAt": "2026-09-12T18:57:35.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-getinz",
+        "employer-globallogic"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-getinz",
+          "status": "official-careers-resolved-linkedin-identity-unresolved-security-openings-exceed-experience-cap",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-globallogic",
+          "status": "official-routes-resolved-security-opening-lead-level-no-qualifying-india-fresher-role",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceAboveTwoYears": 2,
+        "seniorityOutsideFresherScope": 1
       },
       "cursors": {
         "nextRosterNumber": 45
