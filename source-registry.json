@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T16:44:12.000Z",
+  "lastUpdated": "2026-09-13T17:44:43.000Z",
   "latestRun": {
-    "runId": "run-20260913-164412z",
-    "runStartedAt": "2026-09-13T16:29:12.000Z",
-    "runCompletedAt": "2026-09-13T16:44:12.000Z",
+    "runId": "run-20260913-174443z",
+    "runStartedAt": "2026-09-13T17:29:43.000Z",
+    "runCompletedAt": "2026-09-13T17:44:43.000Z",
     "sourcesChecked": [
-      "portal-recruit-net",
-      "portal-totaljobs",
-      "portal-wowjobs",
-      "portal-vanhack"
+      "portal-uplers",
+      "portal-null-community-jobs",
+      "portal-jobtarget",
+      "portal-the-judge-group"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T16:44:12.000Z",
+    "completedAt": "2026-09-13T17:44:43.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1651,7 +1651,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-qualified-india-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.uplers.com/",
@@ -1660,17 +1660,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T17:44:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T17:44:43.000Z",
       "name": "Uplers",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T18:44:43.000Z",
       "sourceId": "portal-uplers",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "community-site-checked-no-public-vacancy-specific-fresher-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://null.community/",
@@ -1679,17 +1679,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T17:44:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T17:44:43.000Z",
       "name": "NULL Community Jobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T18:44:43.000Z",
       "sourceId": "portal-null-community-jobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "employer-distribution-marketplace-no-qualified-india-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.jobtarget.com/",
@@ -1698,17 +1698,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T17:44:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T17:44:43.000Z",
       "name": "JobTarget",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T18:44:43.000Z",
       "sourceId": "portal-jobtarget",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "accessible-us-focused-staffing-board-no-qualified-india-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.judge.com/jobs/",
@@ -1717,10 +1717,10 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T17:44:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T17:44:43.000Z",
       "name": "The Judge Group",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T18:44:43.000Z",
       "sourceId": "portal-the-judge-group",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
