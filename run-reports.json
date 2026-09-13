@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T00:32:34.000Z",
+  "lastUpdated": "2026-09-13T01:27:43.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2158,6 +2158,54 @@
         "noIndiaOrRemoteIndiaQualifyingCybersecurityVacancy": 1,
         "seniorArchitectOutsideFresherScope": 1,
         "unverifiedInternshipQuarantined": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-012743z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T00:57:43.000Z",
+      "runCompletedAt": "2026-09-13T01:27:43.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-saudi-aramco",
+        "employer-san-francisco-health-plan"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-saudi-aramco",
+          "status": "official-routes-resolved-international-recruitment-experienced-no-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-san-francisco-health-plan",
+          "status": "official-routes-resolved-us-local-only-no-india-or-remote-india-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noIndiaFresherCybersecurityVacancy": 1,
+        "usLocalOnlyNoIndiaOrRemoteIndiaVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
