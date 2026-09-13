@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T16:44:12.000Z",
+  "lastUpdated": "2026-09-13T17:44:43.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3005,6 +3005,66 @@
         {
           "source": "portal-vanhack",
           "status": "public-index-checked-no-qualified-india-or-remote-india-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260913-174443z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T17:29:43.000Z",
+      "runCompletedAt": "2026-09-13T17:44:43.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-uplers",
+        "portal-null-community-jobs",
+        "portal-jobtarget",
+        "portal-the-judge-group"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-uplers",
+          "status": "public-index-checked-no-qualified-india-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-null-community-jobs",
+          "status": "community-site-checked-no-public-vacancy-specific-fresher-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-jobtarget",
+          "status": "employer-distribution-marketplace-no-qualified-india-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-the-judge-group",
+          "status": "accessible-us-focused-staffing-board-no-qualified-india-cybersecurity-result",
           "candidateYield": 0,
           "acceptedYield": 0
         }
