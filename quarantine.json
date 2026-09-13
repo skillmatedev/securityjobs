@@ -1,10 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13T09:57:25.000Z",
+  "lastUpdated": "2026-09-13T13:53:42.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 4,
-    "totalQuarantined": 4
+    "total": 5,
+    "totalQuarantined": 4,
+    "quarantined": 5
   },
   "jobs": [
     {
@@ -62,6 +63,20 @@
       "discoveryUrl": "https://myinternships.in/job/cybersecurity-analyst-at-swiggy-in-bengaluru-karnataka/",
       "verificationStatus": "quarantined",
       "quarantineReason": "The official Swiggy careers route did not expose a matching vacancy-specific URL, requisition ID, posting date, live status, experience text, or final application route; the external 0–2-year claim was not sufficient to publish."
+    },
+    {
+      "id": "glassdoor-remote-cyber-security-intern-unresolved",
+      "company": "Unidentified employer",
+      "title": "Cyber Security Intern",
+      "location": "Remote, India",
+      "experienceEvidence": "Glassdoor public search index labels the opening as an internship and states work is performed under guidance",
+      "eligibilityReason": "Internship may be within scope, but the employer and vacancy-specific evidence could not be verified",
+      "discoveredAt": "2026-09-13T13:53:42.000Z",
+      "lastCheckedAt": "2026-09-13T13:53:42.000Z",
+      "sourceId": "portal-glassdoor",
+      "discoveryUrl": "https://www.glassdoor.co.in/Job/india-cyber-security-fresher-jobs-SRCH_IL.0,5_IN115_KO6,28.htm",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Public index result lacks a verifiable employer identity, requisition ID, posting date, vacancy-specific application URL, and final application method; compensation context is also unclear."
     }
   ]
 }
