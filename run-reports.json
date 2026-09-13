@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:46:43.000Z",
+  "lastUpdated": "2026-09-13T21:44:03.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3265,7 +3265,69 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260913-214403z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T21:29:03.000Z",
+      "runCompletedAt": "2026-09-13T21:44:03.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-jooble",
+        "portal-angellist-legacy",
+        "ats-workday",
+        "ats-greenhouse"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-jooble",
+          "status": "india-public-index-checked-no-qualified-vacancy-specific-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-angellist-legacy",
+          "status": "legacy-route-superseded-by-wellfound-duplicate-source-retained",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "ats-workday",
+          "status": "ats-platform-resolved-tenant-specific-public-routes-no-central-job-board",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "ats-greenhouse",
+          "status": "ats-platform-resolved-public-job-board-api-tenant-specific-no-central-board",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 31,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
-  "schemaVersion": "1.0"
+  "schemaVersion": "1.0",
+  "latestRunId": "run-20260913-214403z"
 }
