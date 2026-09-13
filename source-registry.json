@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T22:42:47.000Z",
+  "lastUpdated": "2026-09-13T23:45:12.000Z",
   "latestRun": {
-    "runId": "run-20260913-224247z",
-    "runStartedAt": "2026-09-13T22:27:47.000Z",
-    "runCompletedAt": "2026-09-13T22:42:47.000Z",
+    "runId": "run-20260913-234512z",
+    "runStartedAt": "2026-09-13T23:30:12.000Z",
+    "runCompletedAt": "2026-09-13T23:45:12.000Z",
     "sourcesChecked": [
-      "ats-lever",
-      "ats-ashby",
-      "ats-smartrecruiters",
-      "ats-successfactors"
+      "ats-oracle-recruiting",
+      "ats-icims",
+      "ats-darwinbox",
+      "ats-taleo"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T22:42:47.000Z",
+    "completedAt": "2026-09-13T23:45:12.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2127,7 +2127,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-tenant-personalized-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.oracle.com/human-capital-management/recruiting/",
@@ -2136,17 +2136,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T23:45:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T23:45:12.000Z",
       "name": "Oracle Recruiting",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T00:45:12.000Z",
       "sourceId": "ats-oracle-recruiting",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Oracle Recruiting publishes vacancies through customer-branded personalized career sites rather than a centralized India board",
+      "developerDocumentationUrl": "https://www.oracle.com/human-capital-management/recruiting/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-customer-portal-api-authenticated-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.icims.com/",
@@ -2155,17 +2157,20 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T23:45:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T23:45:12.000Z",
       "name": "iCIMS",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T00:45:12.000Z",
       "sourceId": "ats-icims",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; iCIMS Job Portal API is customer/portal scoped and requires integration authentication, while public vacancies remain on employer career portals",
+      "developerDocumentationUrl": "https://developer-community.icims.com/applications/applicant-tracking/job-portal",
+      "publicApiPattern": "https://api.icims.com/customers/{customerId}/search/portals/{portalIdOrName}"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-tenant-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://darwinbox.com/",
@@ -2174,17 +2179,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T23:45:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T23:45:12.000Z",
       "name": "Darwinbox",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T00:45:12.000Z",
       "sourceId": "ats-darwinbox",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved as an enterprise HCM service; vacancies are exposed through customer-specific career sites, not a centralized India job board",
+      "developerDocumentationUrl": "https://darwinbox.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-organization-career-sections-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.oracle.com/human-capital-management/taleo/",
@@ -2193,13 +2200,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T23:45:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T23:45:12.000Z",
       "name": "Taleo",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T00:45:12.000Z",
       "sourceId": "ats-taleo",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; candidates apply through each organization's Taleo Career Section, with no centralized India vacancy board",
+      "developerDocumentationUrl": "https://www.oracle.com/human-capital-management/taleo/"
     },
     {
       "acceptedYield": 0,
