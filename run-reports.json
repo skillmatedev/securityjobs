@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T06:58:52.000Z",
+  "lastUpdated": "2026-09-13T07:59:08.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2446,6 +2446,54 @@
       "rejectedByReason": {
         "noIndiaFresherCybersecurityVacancy": 1,
         "principalOrLeadLevel": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-075908z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T07:31:08.000Z",
+      "runCompletedAt": "2026-09-13T07:59:08.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-sutherland",
+        "employer-radial"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-sutherland",
+          "status": "official-careers-and-linkedin-routes-resolved-no-qualifying-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-radial",
+          "status": "official-salesforce-and-linkedin-routes-resolved-four-india-openings-none-cybersecurity",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noQualifyingIndiaFresherCybersecurityVacancy": 1,
+        "unrelatedToCybersecurity": 4
       },
       "cursors": {
         "nextRosterNumber": 45
