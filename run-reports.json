@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T19:47:52.000Z",
+  "lastUpdated": "2026-09-13T20:46:43.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3185,6 +3185,66 @@
         {
           "source": "portal-infosec-jobs",
           "status": "specialist-board-public-index-checked-no-qualified-india-fresher-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260913-204643z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T20:31:43.000Z",
+      "runCompletedAt": "2026-09-13T20:46:43.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-apna",
+        "portal-timesjobs",
+        "portal-jobhai",
+        "portal-simplyhired"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-apna",
+          "status": "general-india-job-index-accessible-no-vacancy-specific-qualified-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-timesjobs",
+          "status": "public-index-checked-no-qualified-india-fresher-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-jobhai",
+          "status": "public-index-checked-no-qualified-india-fresher-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-simplyhired",
+          "status": "india-public-index-checked-no-qualified-vacancy-specific-cybersecurity-result",
           "candidateYield": 0,
           "acceptedYield": 0
         }
