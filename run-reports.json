@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T17:44:43.000Z",
+  "lastUpdated": "2026-09-13T18:45:44.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3065,6 +3065,66 @@
         {
           "source": "portal-the-judge-group",
           "status": "accessible-us-focused-staffing-board-no-qualified-india-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260913-184544z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T18:30:44.000Z",
+      "runCompletedAt": "2026-09-13T18:45:44.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-hays",
+        "portal-locke-mccloud",
+        "portal-ltharper",
+        "portal-sustainrecruit"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-hays",
+          "status": "india-board-public-index-checked-no-qualified-fresher-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-locke-mccloud",
+          "status": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-ltharper",
+          "status": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-sustainrecruit",
+          "status": "australia-focused-recruiter-no-india-or-remote-india-fresher-cybersecurity-vacancy",
           "candidateYield": 0,
           "acceptedYield": 0
         }
