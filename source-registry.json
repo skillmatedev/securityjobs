@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T12:52:42.000Z",
+  "lastUpdated": "2026-09-13T13:53:42.000Z",
   "latestRun": {
-    "runId": "run-20260913-125242z",
-    "runStartedAt": "2026-09-13T12:30:42.000Z",
-    "runCompletedAt": "2026-09-13T12:52:42.000Z",
+    "runId": "run-20260913-135342z",
+    "runStartedAt": "2026-09-13T13:30:46.000Z",
+    "runCompletedAt": "2026-09-13T13:53:42.000Z",
     "sourcesChecked": [
-      "portal-linkedin-jobs",
-      "portal-indeed-india",
-      "portal-naukri",
-      "portal-internshala"
+      "portal-foundit",
+      "portal-glassdoor",
+      "portal-wellfound",
+      "portal-freshersworld"
     ],
     "candidatesDiscovered": 1,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T12:52:42.000Z",
+    "completedAt": "2026-09-13T13:53:42.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1319,7 +1319,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "search-index-no-qualified-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.foundit.in/",
@@ -1328,32 +1328,34 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T13:53:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
       "name": "Foundit",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T14:53:42.000Z",
       "sourceId": "portal-foundit",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public search index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-partial-one-lead-quarantined",
       "aliases": [],
-      "candidateYield": 0,
+      "candidateYield": 1,
       "canonicalUrl": "https://www.glassdoor.co.in/",
       "checkIntervalHours": 1,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T13:53:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
       "name": "Glassdoor",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T14:53:42.000Z",
       "sourceId": "portal-glassdoor",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public index reported 61 fresher cybersecurity results; one remote internship lead quarantined because employer and vacancy-specific application evidence were unavailable"
     },
     {
       "acceptedYield": 0,
@@ -1377,7 +1379,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "search-index-no-qualified-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://wellfound.com/jobs",
@@ -1386,17 +1388,18 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T13:53:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
       "name": "Wellfound",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T14:53:42.000Z",
       "sourceId": "portal-wellfound",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public search index checked; no India or remote-India vacancy-specific qualifying fresher cybersecurity candidate verified"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "search-index-no-qualified-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.freshersworld.com/",
@@ -1405,13 +1408,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T13:53:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
       "name": "Freshersworld",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T14:53:42.000Z",
       "sourceId": "portal-freshersworld",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public search index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
     },
     {
       "acceptedYield": 0,
