@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T18:45:44.000Z",
+  "lastUpdated": "2026-09-13T19:47:52.000Z",
   "latestRun": {
-    "runId": "run-20260913-184544z",
-    "runStartedAt": "2026-09-13T18:30:44.000Z",
-    "runCompletedAt": "2026-09-13T18:45:44.000Z",
+    "runId": "run-20260913-194752z",
+    "runStartedAt": "2026-09-13T19:32:52.000Z",
+    "runCompletedAt": "2026-09-13T19:47:52.000Z",
     "sourcesChecked": [
-      "portal-hays",
-      "portal-locke-mccloud",
-      "portal-ltharper",
-      "portal-sustainrecruit"
+      "portal-sechire",
+      "portal-shine",
+      "portal-dice",
+      "portal-infosec-jobs"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T18:45:44.000Z",
+    "completedAt": "2026-09-13T19:47:52.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1803,7 +1803,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-current-vacancy-specific-india-fresher-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://sechire.net/jobs",
@@ -1812,17 +1812,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T19:47:52.000Z",
+      "lastSuccessfulCheck": "2026-09-13T19:47:52.000Z",
       "name": "SecHire",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T20:47:52.000Z",
       "sourceId": "portal-sechire",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "india-portal-public-index-checked-no-qualified-vacancy-specific-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.shine.com/",
@@ -1831,17 +1831,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T19:47:52.000Z",
+      "lastSuccessfulCheck": "2026-09-13T19:47:52.000Z",
       "name": "Shine",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T20:47:52.000Z",
       "sourceId": "portal-shine",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "accessible-us-focused-tech-board-no-qualified-india-or-remote-india-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.dice.com/jobs",
@@ -1850,17 +1850,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T19:47:52.000Z",
+      "lastSuccessfulCheck": "2026-09-13T19:47:52.000Z",
       "name": "Dice",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T20:47:52.000Z",
       "sourceId": "portal-dice",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "specialist-board-public-index-checked-no-qualified-india-fresher-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://infosec-jobs.com/",
@@ -1869,10 +1869,10 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T19:47:52.000Z",
+      "lastSuccessfulCheck": "2026-09-13T19:47:52.000Z",
       "name": "Infosec Jobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T20:47:52.000Z",
       "sourceId": "portal-infosec-jobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
