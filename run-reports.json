@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:52:42.000Z",
+  "lastUpdated": "2026-09-13T13:53:42.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2752,6 +2752,71 @@
         "applicationDeadlinePassed": 1,
         "noQualifyingVacancySpecificEvidence": 1,
         "robotsBlocked": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-135342z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T13:30:46.000Z",
+      "runCompletedAt": "2026-09-13T13:53:42.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "glassdoor-remote-cyber-security-intern-unresolved"
+      ],
+      "sourcesChecked": [
+        "portal-foundit",
+        "portal-glassdoor",
+        "portal-wellfound",
+        "portal-freshersworld"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-foundit",
+          "status": "public-index-checked-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-glassdoor",
+          "status": "public-index-partial-one-unverified-internship-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-wellfound",
+          "status": "public-index-checked-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-freshersworld",
+          "status": "public-index-checked-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "unverifiedEmployerAndVacancySpecificEvidence": 1,
+        "noQualifyingVacancySpecificEvidence": 3
       },
       "cursors": {
         "nextRosterNumber": 45
