@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T23:31:36.000Z",
+  "lastUpdated": "2026-09-13T00:32:34.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2109,6 +2109,55 @@
       "rejectedByReason": {
         "seniorAnalystOutsideAcceptedLevel": 1,
         "noIndiaOrRemoteIndiaCybersecurityVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-003234z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T00:02:34.000Z",
+      "runCompletedAt": "2026-09-13T00:32:34.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-ripple",
+        "employer-rubrik"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-ripple",
+          "status": "official-routes-resolved-no-india-or-remote-india-qualifying-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-rubrik",
+          "status": "official-routes-resolved-india-information-security-opening-senior-unverified-internship-quarantined",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "noIndiaOrRemoteIndiaQualifyingCybersecurityVacancy": 1,
+        "seniorArchitectOutsideFresherScope": 1,
+        "unverifiedInternshipQuarantined": 1
       },
       "cursors": {
         "nextRosterNumber": 45
