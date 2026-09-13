@@ -3,11 +3,11 @@
   "summary": {
     "totalLive": 23,
     "earlyCareer": 23,
-    "internships": 11,
+    "internships": 14,
     "apprenticeships": 0,
-    "graduatePrograms": 0,
+    "graduatePrograms": 1,
     "zeroToOneYears": 7,
-    "zeroToTwoYears": 17,
+    "zeroToTwoYears": 13,
     "byExperienceLevel": {
       "Entry level / 1–2 years": 1,
       "Internship / foundational knowledge": 1,
@@ -22,7 +22,7 @@
       "Fresher / experience not required": 1
     },
     "verified": 23,
-    "loginRequired": 16
+    "loginRequired": 18
   },
   "jobs": [
     {
