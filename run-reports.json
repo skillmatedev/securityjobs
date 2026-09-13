@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T13:53:42.000Z",
+  "lastUpdated": "2026-09-13T14:52:59.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2833,6 +2833,74 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-145259z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T14:27:59.000Z",
+      "runCompletedAt": "2026-09-13T14:52:59.000Z",
+      "beforeCount": 19,
+      "afterCount": 22,
+      "idsAdded": [
+        "synradar-associate-security-analyst-vapt-ui3kkli7",
+        "gigabit-cybersecurity-sase-analyst-l5zjrokn",
+        "letsintern-cybersecurity-intern-rau0pwap"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-cutshort",
+        "portal-instahyre",
+        "portal-hirist",
+        "portal-trabajo"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-cutshort",
+          "status": "accessible-three-new-qualified-vacancies-one-existing-vacancy-reconfirmed",
+          "candidateYield": 7,
+          "acceptedYield": 4
+        },
+        {
+          "source": "portal-instahyre",
+          "status": "public-index-checked-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-hirist",
+          "status": "accessible-stale-one-to-three-year-l1-role-excluded",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-trabajo",
+          "status": "public-index-checked-no-qualified-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceRangeExceedsTwoYears": 2,
+        "unrelatedRole": 1,
+        "experiencedRole": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-jobs-and-data"
     }
   ],
   "schemaVersion": "1.0"
