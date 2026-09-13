@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T15:42:58.000Z",
+  "lastUpdated": "2026-09-13T16:44:12.000Z",
   "latestRun": {
-    "runId": "run-20260913-154258z",
-    "runStartedAt": "2026-09-13T15:27:58.000Z",
-    "runCompletedAt": "2026-09-13T15:42:58.000Z",
+    "runId": "run-20260913-164412z",
+    "runStartedAt": "2026-09-13T16:29:12.000Z",
+    "runCompletedAt": "2026-09-13T16:44:12.000Z",
     "sourcesChecked": [
-      "portal-careercross",
-      "portal-cwjobs",
-      "portal-fidanto",
-      "portal-talent-com"
+      "portal-recruit-net",
+      "portal-totaljobs",
+      "portal-wowjobs",
+      "portal-vanhack"
     ],
-    "candidatesDiscovered": 1,
-    "jobsAdded": 1,
+    "candidatesDiscovered": 0,
+    "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T15:42:58.000Z",
+    "completedAt": "2026-09-13T16:44:12.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1575,7 +1575,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-qualified-india-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.recruit.net/",
@@ -1584,17 +1584,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
       "name": "Recruit.net",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T17:44:12.000Z",
       "sourceId": "portal-recruit-net",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "accessible-uk-focused-no-qualified-india-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.totaljobs.com/",
@@ -1603,17 +1603,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
       "name": "Totaljobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T17:44:12.000Z",
       "sourceId": "portal-totaljobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "deprecated-redirects-to-canada-focused-simplyhired-no-india-route",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.wowjobs.ca/",
@@ -1622,17 +1622,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
       "name": "WowJobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-20T16:44:12.000Z",
       "sourceId": "portal-wowjobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-qualified-india-or-remote-india-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://vanhack.com/",
@@ -1641,10 +1641,10 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
       "name": "VanHack",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T17:44:12.000Z",
       "sourceId": "portal-vanhack",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
