@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T07:59:08.000Z",
+  "lastUpdated": "2026-09-13T08:55:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2494,6 +2494,55 @@
       "rejectedByReason": {
         "noQualifyingIndiaFresherCybersecurityVacancy": 1,
         "unrelatedToCybersecurity": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-085500z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T08:28:00.000Z",
+      "runCompletedAt": "2026-09-13T08:55:00.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-freshworks",
+        "employer-jiostar-jiohotstar"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-freshworks",
+          "status": "official-smartrecruiters-and-linkedin-routes-resolved-senior-cybersecurity-role-outside-fresher-scope",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-jiostar-jiohotstar",
+          "status": "official-workday-and-public-linkedin-search-checked-security-roles-lacked-fresher-evidence-or-were-architect-level",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "seniorTitleOutsideFresherScope": 1,
+        "noExplicitFresherOrZeroToTwoYearEvidence": 1,
+        "architectLevel": 1
       },
       "cursors": {
         "nextRosterNumber": 45
