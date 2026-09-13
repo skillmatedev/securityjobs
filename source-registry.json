@@ -27,20 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T11:52:06.000Z",
+  "lastUpdated": "2026-09-13T12:52:42.000Z",
   "latestRun": {
-    "runId": "run-20260913-115206z",
-    "runStartedAt": "2026-09-13T11:29:06.000Z",
-    "runCompletedAt": "2026-09-13T11:52:06.000Z",
+    "runId": "run-20260913-125242z",
+    "runStartedAt": "2026-09-13T12:30:42.000Z",
+    "runCompletedAt": "2026-09-13T12:52:42.000Z",
     "sourcesChecked": [
-      "employer-neysa"
+      "portal-linkedin-jobs",
+      "portal-indeed-india",
+      "portal-naukri",
+      "portal-internshala"
     ],
-    "candidatesDiscovered": 3,
+    "candidatesDiscovered": 1,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T11:52:06.000Z",
+    "completedAt": "2026-09-13T12:52:42.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1256,26 +1259,27 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-partial-login-required",
       "aliases": [],
-      "candidateYield": 0,
+      "candidateYield": 1,
       "canonicalUrl": "https://www.linkedin.com/jobs/",
       "checkIntervalHours": 1,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T12:52:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T12:52:42.000Z",
       "name": "LinkedIn Jobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T13:52:42.000Z",
       "sourceId": "portal-linkedin-jobs",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public index checked; remote-India cybersecurity internship evidence had an application deadline of 30 August 2026 and is closed"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "accessible-search-index-no-qualified-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://in.indeed.com/",
@@ -1284,17 +1288,18 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T12:52:42.000Z",
+      "lastSuccessfulCheck": "2026-09-13T12:52:42.000Z",
       "name": "Indeed India",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T13:52:42.000Z",
       "sourceId": "portal-indeed-india",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public India index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "robots-blocked-this-check",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.naukri.com/",
@@ -1303,13 +1308,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
+      "lastAttempt": "2026-09-13T12:52:42.000Z",
       "lastSuccessfulCheck": null,
       "name": "Naukri",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T13:52:42.000Z",
       "sourceId": "portal-naukri",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public search access blocked by robots policy; no closure inference made"
     },
     {
       "acceptedYield": 0,
@@ -1351,7 +1357,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "robots-blocked-this-check",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://internshala.com/jobs/",
@@ -1360,13 +1366,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
+      "lastAttempt": "2026-09-13T12:52:42.000Z",
       "lastSuccessfulCheck": null,
       "name": "Internshala",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T13:52:42.000Z",
       "sourceId": "portal-internshala",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Public search access blocked by robots policy; no closure inference made"
     },
     {
       "acceptedYield": 0,
