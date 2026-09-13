@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T08:55:00.000Z",
+  "lastUpdated": "2026-09-13T09:57:25.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2543,6 +2543,58 @@
         "seniorTitleOutsideFresherScope": 1,
         "noExplicitFresherOrZeroToTwoYearEvidence": 1,
         "architectLevel": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-095725z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T09:31:25.000Z",
+      "runCompletedAt": "2026-09-13T09:57:25.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "swiggy-cybersecurity-analyst-bengaluru-unresolved"
+      ],
+      "sourcesChecked": [
+        "employer-swiggy",
+        "employer-akamai"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-swiggy",
+          "status": "official-careers-and-linkedin-routes-resolved-one-third-party-fresher-cybersecurity-lead-quarantined-two-experienced-roles-rejected",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-akamai",
+          "status": "official-oracle-careers-and-linkedin-routes-resolved-no-qualifying-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceAboveTwoYears": 2,
+        "noQualifyingIndiaFresherCybersecurityVacancy": 1,
+        "unverifiedVacancySpecificEvidence": 1
       },
       "cursors": {
         "nextRosterNumber": 45
