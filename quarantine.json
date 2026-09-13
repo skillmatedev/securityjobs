@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13T00:32:34.000Z",
+  "lastUpdated": "2026-09-13T09:57:25.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 3,
-    "totalQuarantined": 3
+    "total": 4,
+    "totalQuarantined": 4
   },
   "jobs": [
     {
@@ -48,6 +48,20 @@
       "discoveryUrl": "https://gofresher.co.in/rubrik-internship-2026-application-security-engineer-intern-2027-batch/",
       "verificationStatus": "quarantined",
       "quarantineReason": "Rubrik's official careers and Information Security pages were live, but the claimed internship had no verifiable current official vacancy URL, requisition ID, posting date, vacancy status, or final application route."
+    },
+    {
+      "id": "swiggy-cybersecurity-analyst-bengaluru-unresolved",
+      "company": "Swiggy",
+      "title": "Cybersecurity Analyst",
+      "location": "Bengaluru, Karnataka, India",
+      "experienceEvidence": "Third-party discovery page claims an entry-level 0–2-year role",
+      "eligibilityReason": "Potentially within scope, but required vacancy-specific official evidence is unavailable",
+      "discoveredAt": "2026-09-13T09:57:25.000Z",
+      "lastCheckedAt": "2026-09-13T09:57:25.000Z",
+      "sourceId": "employer-swiggy",
+      "discoveryUrl": "https://myinternships.in/job/cybersecurity-analyst-at-swiggy-in-bengaluru-karnataka/",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The official Swiggy careers route did not expose a matching vacancy-specific URL, requisition ID, posting date, live status, experience text, or final application route; the external 0–2-year claim was not sufficient to publish."
     }
   ]
 }
