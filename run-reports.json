@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T03:00:16.000Z",
+  "lastUpdated": "2026-09-13T03:55:23.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2254,6 +2254,54 @@
       "rejectedByReason": {
         "noIndiaLocationOrIndiaFresherCybersecurityVacancy": 1,
         "noQualifyingFresherCybersecurityVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-035523z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T03:27:23.000Z",
+      "runCompletedAt": "2026-09-13T03:55:23.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-zynga",
+        "employer-microsoft"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-zynga",
+          "status": "official-greenhouse-and-linkedin-routes-resolved-india-openings-not-cybersecurity",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-microsoft",
+          "status": "official-careers-early-career-and-linkedin-routes-resolved-no-verified-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "indiaOpeningsNotCybersecurity": 1,
+        "noVerifiedIndiaFresherCybersecurityVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
