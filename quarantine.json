@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-12T11:31:22.000Z",
+  "lastUpdated": "2026-09-13T00:32:34.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 2,
-    "totalQuarantined": 2
+    "total": 3,
+    "totalQuarantined": 3
   },
   "jobs": [
     {
@@ -34,6 +34,20 @@
       "discoveryUrl": "https://www.cohesity.com/company/careers/",
       "verificationStatus": "quarantined",
       "quarantineReason": "No live vacancy-specific Cohesity URL, requisition ID, official posting date, detailed eligibility evidence, or final application route could be verified."
+    },
+    {
+      "id": "rubrik-application-security-engineer-intern-bengaluru-unresolved",
+      "company": "Rubrik",
+      "title": "Application Security Engineer Intern",
+      "location": "Bengaluru, Karnataka, India",
+      "experienceEvidence": "Third-party fresher listing describes a 12-week internship for students graduating in 2027",
+      "eligibilityReason": "Internship appears potentially eligible, but no current official vacancy-specific record could be verified",
+      "discoveredAt": "2026-09-13T00:32:34.000Z",
+      "lastCheckedAt": "2026-09-13T00:32:34.000Z",
+      "sourceId": "employer-rubrik",
+      "discoveryUrl": "https://gofresher.co.in/rubrik-internship-2026-application-security-engineer-intern-2027-batch/",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Rubrik's official careers and Information Security pages were live, but the claimed internship had no verifiable current official vacancy URL, requisition ID, posting date, vacancy status, or final application route."
     }
   ]
 }
