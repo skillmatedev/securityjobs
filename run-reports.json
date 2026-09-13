@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T05:00:17.000Z",
+  "lastUpdated": "2026-09-13T06:00:23.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2350,6 +2350,54 @@
       "rejectedByReason": {
         "outsideIndia": 1,
         "noQualifyingFresherCybersecurityVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-060023z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T05:32:23.000Z",
+      "runCompletedAt": "2026-09-13T06:00:23.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-mcdonald-s",
+        "employer-msd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-mcdonald-s",
+          "status": "official-corporate-careers-and-linkedin-routes-resolved-india-security-results-not-within-fresher-criteria",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-msd",
+          "status": "official-india-careers-and-linkedin-routes-resolved-it-intern-vacancy-closed-and-live-ot-security-role-outside-fresher-scope",
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceOrLevelOutsideFresherScope": 2,
+        "conclusivelyClosedVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
