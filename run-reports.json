@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T03:55:23.000Z",
+  "lastUpdated": "2026-09-13T05:00:17.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2302,6 +2302,54 @@
       "rejectedByReason": {
         "indiaOpeningsNotCybersecurity": 1,
         "noVerifiedIndiaFresherCybersecurityVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-050017z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T04:32:17.000Z",
+      "runCompletedAt": "2026-09-13T05:00:17.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "sourcesChecked": [
+        "employer-disney",
+        "employer-bechtel"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-disney",
+          "status": "official-workday-and-linkedin-routes-resolved-cybersecurity-intern-outside-india-no-qualifying-india-vacancy",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-bechtel",
+          "status": "official-brassring-and-linkedin-routes-resolved-india-openings-no-qualifying-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outsideIndia": 1,
+        "noQualifyingFresherCybersecurityVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
