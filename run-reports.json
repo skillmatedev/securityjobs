@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T10:58:26.000Z",
+  "lastUpdated": "2026-09-13T11:52:06.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2646,6 +2646,48 @@
         "noExplicitFresherOrZeroToTwoYearEvidence": 1,
         "unrelatedNonCybersecurityInternship": 1,
         "noQualifyingIndiaFresherCybersecurityVacancy": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-115206z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T11:29:06.000Z",
+      "runCompletedAt": "2026-09-13T11:52:06.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-neysa"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-neysa",
+          "status": "official-careers-greenhouse-and-linkedin-routes-resolved-security-candidates-above-fresher-scope",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceRangeExceedsTwoYears": 1,
+        "leadOrL3Level": 2
       },
       "cursors": {
         "nextRosterNumber": 45
