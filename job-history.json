@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13T14:52:59.000Z",
+  "lastUpdated": "2026-09-13T15:42:58.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -975,6 +975,52 @@
         ],
         "skills": "VAPT Nmap Nessus OpenVAS Burp Suite OWASP Top 10 Wireshark SIEM Python Kali Linux Metasploit",
         "certInEmpanelled": false
+      }
+    },
+    {
+      "eventId": "added-isecurion-security-analyst-intern-636906195185962927",
+      "jobId": "isecurion-security-analyst-intern-636906195185962927",
+      "eventType": "added",
+      "occurredAt": "2026-09-13T15:42:58.000Z",
+      "previousStatus": null,
+      "newStatus": "active",
+      "reason": "New qualifying India fresher cybersecurity internship verified through a live vacancy-specific Talent.com application route and corroborating LinkedIn evidence",
+      "snapshot": {
+        "id": "isecurion-security-analyst-intern-636906195185962927",
+        "title": "Security Analyst Intern",
+        "company": "ISECURION",
+        "domain": "VAPT and Penetration Testing",
+        "level": "Internship",
+        "experienceLevel": "Internship / 0–1 year",
+        "location": "Bengaluru or Mumbai, India",
+        "workplace": "On-site",
+        "employmentType": "Internship",
+        "experienceText": "0–1 year of relevant experience; explicitly described as suitable for a motivated fresher or recent graduate",
+        "fresherEligible": true,
+        "eligibilityReason": "Vacancy explicitly seeks a fresher or recent graduate and limits relevant experience to 0–1 year",
+        "postedAt": "2026-09-12",
+        "posted": "1 day ago on Talent.com",
+        "postedAge": "1 day old when verified September 13, 2026",
+        "status": "Active Talent.com vacancy with Apply control",
+        "source": "Talent.com",
+        "sourcePortal": "Talent.com",
+        "sourceId": "portal-talent-com",
+        "discoveryUrl": "https://in.talent.com/view?id=636906195185962927",
+        "applyUrl": "https://in.talent.com/view?id=636906195185962927",
+        "applyMethod": "Talent.com vacancy-specific Apply route",
+        "requisitionId": "636906195185962927",
+        "discoveredAt": "2026-09-13T15:42:58.000Z",
+        "firstVerifiedAt": "2026-09-13T15:42:58.000Z",
+        "lastVerified": "2026-09-13T15:42:58.000Z",
+        "verificationStatus": "Verified - Portal Apply Route",
+        "score": 92,
+        "scoreReasons": [
+          "Vacancy-specific Talent.com page is live with an Apply control",
+          "LinkedIn independently corroborates the employer, title, locations, and description",
+          "Explicit fresher/recent-graduate language and 0–1 year experience ceiling"
+        ],
+        "skills": "VAPT Burp Suite OWASP ZAP Nessus Nikto Acunetix Nmap Metasploit Wireshark Python Bash Kali Linux OWASP Top 10 CWE SANS Top 25",
+        "certInEmpanelled": true
       }
     }
   ]
