@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T21:44:03.000Z",
+  "lastUpdated": "2026-09-13T22:42:47.000Z",
   "latestRun": {
-    "runId": "run-20260913-214403z",
-    "runStartedAt": "2026-09-13T21:29:03.000Z",
-    "runCompletedAt": "2026-09-13T21:44:03.000Z",
+    "runId": "run-20260913-224247z",
+    "runStartedAt": "2026-09-13T22:27:47.000Z",
+    "runCompletedAt": "2026-09-13T22:42:47.000Z",
     "sourcesChecked": [
-      "portal-jooble",
-      "portal-angellist-legacy",
-      "ats-workday",
-      "ats-greenhouse"
+      "ats-lever",
+      "ats-ashby",
+      "ats-smartrecruiters",
+      "ats-successfactors"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T21:44:03.000Z",
+    "completedAt": "2026-09-13T22:42:47.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2041,7 +2041,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-public-postings-api-tenant-specific-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.lever.co/",
@@ -2050,17 +2050,20 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T22:42:47.000Z",
+      "lastSuccessfulCheck": "2026-09-13T22:42:47.000Z",
       "name": "Lever",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T23:42:47.000Z",
       "sourceId": "ats-lever",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; published vacancies use employer-specific Lever sites and the tenant-scoped Postings API",
+      "developerDocumentationUrl": "https://github.com/lever/postings-api",
+      "publicApiPattern": "https://api.lever.co/v0/postings/{site}?mode=json"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-public-job-postings-api-tenant-specific-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.ashbyhq.com/",
@@ -2069,17 +2072,20 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T22:42:47.000Z",
+      "lastSuccessfulCheck": "2026-09-13T22:42:47.000Z",
       "name": "Ashby",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T23:42:47.000Z",
       "sourceId": "ats-ashby",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; currently published vacancies are exposed by organization-specific Ashby job-board names",
+      "developerDocumentationUrl": "https://developers.ashbyhq.com/docs/public-job-posting-api",
+      "publicApiPattern": "https://api.ashbyhq.com/posting-api/job-board/{job_board_name}"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-posting-api-tenant-specific-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.smartrecruiters.com/",
@@ -2088,17 +2094,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T22:42:47.000Z",
+      "lastSuccessfulCheck": "2026-09-13T22:42:47.000Z",
       "name": "SmartRecruiters",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T23:42:47.000Z",
       "sourceId": "ats-smartrecruiters",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; postings are exposed through company-specific SmartRecruiters career pages and Posting API routes",
+      "developerDocumentationUrl": "https://developers.smartrecruiters.com/docs/posting-api"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-tenant-career-sites-and-odata-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.sap.com/products/hcm/recruiting-software.html",
@@ -2107,13 +2115,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T22:42:47.000Z",
+      "lastSuccessfulCheck": "2026-09-13T22:42:47.000Z",
       "name": "SuccessFactors",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T23:42:47.000Z",
       "sourceId": "ats-successfactors",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; SAP SuccessFactors Recruiting vacancies are tenant career-site records, with tenant-authorized OData integration rather than a centralized India board",
+      "developerDocumentationUrl": "https://help.sap.com/docs/successfactors-recruiting"
     },
     {
       "acceptedYield": 0,
