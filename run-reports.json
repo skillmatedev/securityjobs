@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T09:57:25.000Z",
+  "lastUpdated": "2026-09-13T10:58:26.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2595,6 +2595,57 @@
         "experienceAboveTwoYears": 2,
         "noQualifyingIndiaFresherCybersecurityVacancy": 1,
         "unverifiedVacancySpecificEvidence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-data-only"
+    },
+    {
+      "runId": "run-20260913-105826z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T10:32:26.000Z",
+      "runCompletedAt": "2026-09-13T10:58:26.000Z",
+      "beforeCount": 19,
+      "afterCount": 19,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-protiviti",
+        "employer-sisa"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-protiviti",
+          "status": "official-careers-workday-and-linkedin-routes-resolved-no-qualifying-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-sisa",
+          "status": "official-careers-and-linkedin-routes-resolved-senior-unsupported-level-and-non-cyber-internship-leads-excluded",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienceAboveTwoYears": 1,
+        "noExplicitFresherOrZeroToTwoYearEvidence": 1,
+        "unrelatedNonCybersecurityInternship": 1,
+        "noQualifyingIndiaFresherCybersecurityVacancy": 1
       },
       "cursors": {
         "nextRosterNumber": 45
