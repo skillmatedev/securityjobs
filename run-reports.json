@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T18:45:44.000Z",
+  "lastUpdated": "2026-09-13T19:47:52.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3125,6 +3125,66 @@
         {
           "source": "portal-sustainrecruit",
           "status": "australia-focused-recruiter-no-india-or-remote-india-fresher-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260913-194752z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T19:32:52.000Z",
+      "runCompletedAt": "2026-09-13T19:47:52.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-sechire",
+        "portal-shine",
+        "portal-dice",
+        "portal-infosec-jobs"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-sechire",
+          "status": "public-index-checked-no-current-vacancy-specific-india-fresher-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-shine",
+          "status": "india-portal-public-index-checked-no-qualified-vacancy-specific-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-dice",
+          "status": "accessible-us-focused-tech-board-no-qualified-india-or-remote-india-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-infosec-jobs",
+          "status": "specialist-board-public-index-checked-no-qualified-india-fresher-cybersecurity-result",
           "candidateYield": 0,
           "acceptedYield": 0
         }
