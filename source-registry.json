@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T19:47:52.000Z",
+  "lastUpdated": "2026-09-13T20:46:43.000Z",
   "latestRun": {
-    "runId": "run-20260913-194752z",
-    "runStartedAt": "2026-09-13T19:32:52.000Z",
-    "runCompletedAt": "2026-09-13T19:47:52.000Z",
+    "runId": "run-20260913-204643z",
+    "runStartedAt": "2026-09-13T20:31:43.000Z",
+    "runCompletedAt": "2026-09-13T20:46:43.000Z",
     "sourcesChecked": [
-      "portal-sechire",
-      "portal-shine",
-      "portal-dice",
-      "portal-infosec-jobs"
+      "portal-apna",
+      "portal-timesjobs",
+      "portal-jobhai",
+      "portal-simplyhired"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T19:47:52.000Z",
+    "completedAt": "2026-09-13T20:46:43.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1879,7 +1879,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "general-india-job-index-accessible-no-vacancy-specific-qualified-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://apna.co/jobs",
@@ -1888,17 +1888,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T20:46:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T20:46:43.000Z",
       "name": "Apna",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T21:46:43.000Z",
       "sourceId": "portal-apna",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-qualified-india-fresher-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.timesjobs.com/",
@@ -1907,17 +1907,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T20:46:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T20:46:43.000Z",
       "name": "TimesJobs",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T21:46:43.000Z",
       "sourceId": "portal-timesjobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "public-index-checked-no-qualified-india-fresher-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.jobhai.com/",
@@ -1926,17 +1926,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T20:46:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T20:46:43.000Z",
       "name": "JobHai",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T21:46:43.000Z",
       "sourceId": "portal-jobhai",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "india-public-index-checked-no-qualified-vacancy-specific-cybersecurity-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.simplyhired.co.in/",
@@ -1945,10 +1945,10 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T20:46:43.000Z",
+      "lastSuccessfulCheck": "2026-09-13T20:46:43.000Z",
       "name": "SimplyHired",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T21:46:43.000Z",
       "sourceId": "portal-simplyhired",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
