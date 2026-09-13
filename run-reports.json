@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T14:52:59.000Z",
+  "lastUpdated": "2026-09-13T15:42:58.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -2885,6 +2885,70 @@
         "experienceRangeExceedsTwoYears": 2,
         "unrelatedRole": 1,
         "experiencedRole": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-jobs-and-data"
+    },
+    {
+      "runId": "run-20260913-154258z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-13T15:27:58.000Z",
+      "runCompletedAt": "2026-09-13T15:42:58.000Z",
+      "beforeCount": 22,
+      "afterCount": 23,
+      "idsAdded": [
+        "isecurion-security-analyst-intern-636906195185962927"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-careercross",
+        "portal-cwjobs",
+        "portal-fidanto",
+        "portal-talent-com"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-careercross",
+          "status": "accessible-geography-mismatch-no-india-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-cwjobs",
+          "status": "accessible-uk-focused-no-india-cybersecurity-result",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-fidanto",
+          "status": "public-index-checked-no-qualified-india-cybersecurity-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-talent-com",
+          "status": "accessible-one-qualified-vacancy-published",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        }
+      ],
+      "rejectedByReason": {
+        "geographyMismatch": 2
       },
       "cursors": {
         "nextRosterNumber": 45
