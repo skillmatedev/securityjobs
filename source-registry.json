@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T17:44:43.000Z",
+  "lastUpdated": "2026-09-13T18:45:44.000Z",
   "latestRun": {
-    "runId": "run-20260913-174443z",
-    "runStartedAt": "2026-09-13T17:29:43.000Z",
-    "runCompletedAt": "2026-09-13T17:44:43.000Z",
+    "runId": "run-20260913-184544z",
+    "runStartedAt": "2026-09-13T18:30:44.000Z",
+    "runCompletedAt": "2026-09-13T18:45:44.000Z",
     "sourcesChecked": [
-      "portal-uplers",
-      "portal-null-community-jobs",
-      "portal-jobtarget",
-      "portal-the-judge-group"
+      "portal-hays",
+      "portal-locke-mccloud",
+      "portal-ltharper",
+      "portal-sustainrecruit"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T17:44:43.000Z",
+    "completedAt": "2026-09-13T18:45:44.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -1727,7 +1727,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "india-board-public-index-checked-no-qualified-fresher-cybersecurity-candidate",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.hays.co.in/jobs",
@@ -1736,17 +1736,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T18:45:44.000Z",
+      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
       "name": "Hays",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T19:45:44.000Z",
       "sourceId": "portal-hays",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.locke-mccloud.com/jobs/",
@@ -1755,17 +1755,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T18:45:44.000Z",
+      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
       "name": "Locke & McCloud",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T19:45:44.000Z",
       "sourceId": "portal-locke-mccloud",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.ltharper.com/jobs/",
@@ -1774,17 +1774,17 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T18:45:44.000Z",
+      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
       "name": "LTHarper",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T19:45:44.000Z",
       "sourceId": "portal-ltharper",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "australia-focused-recruiter-no-india-or-remote-india-fresher-cybersecurity-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.sustainrecruit.com/",
@@ -1793,10 +1793,10 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-13T18:45:44.000Z",
+      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
       "name": "SustainRecruit",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-13T19:45:44.000Z",
       "sourceId": "portal-sustainrecruit",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
