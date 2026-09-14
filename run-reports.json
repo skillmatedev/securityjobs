@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T22:42:53.000Z",
+  "lastUpdated": "2026-09-14T23:42:48.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4904,8 +4904,74 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-two-job-refreshes-history-registry-and-run-report"
+    },
+    {
+      "runId": "run-20260914-234248z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T23:31:48.000Z",
+      "runCompletedAt": "2026-09-14T23:42:48.000Z",
+      "beforeCount": 24,
+      "afterCount": 25,
+      "idsAdded": [
+        "accenture-ATCI-5674628-S2063559"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-bishop-fox",
+        "employer-asml",
+        "employer-cbre",
+        "employer-accenture"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-bishop-fox",
+          "status": "no-qualified-india-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-asml",
+          "status": "no-qualified-india-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cbre",
+          "status": "no-qualified-fresher-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-accenture",
+          "status": "qualifying-official-vacancy-published",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        }
+      ],
+      "rejectedByReason": {
+        "outside-geography": 1,
+        "outside-experience-scope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-new-job-history-registry-and-run-report"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-224253z"
+  "latestRunId": "run-20260914-234248z"
 }
