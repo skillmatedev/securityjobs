@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T01:45:24.000Z",
+  "lastUpdated": "2026-09-14T02:42:32.000Z",
   "latestRun": {
-    "runId": "run-20260914-014524z",
-    "runStartedAt": "2026-09-14T01:30:24.000Z",
-    "runCompletedAt": "2026-09-14T01:45:24.000Z",
+    "runId": "run-20260914-024232z",
+    "runStartedAt": "2026-09-14T02:27:32.000Z",
+    "runCompletedAt": "2026-09-14T02:42:32.000Z",
     "sourcesChecked": [
-      "ats-brassring",
-      "ats-dayforce",
-      "ats-talentera",
-      "ats-inflight"
+      "ats-hireciel",
+      "ats-rippling-ats",
+      "ats-workable",
+      "ats-comparably-ats"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-14T01:45:24.000Z",
+    "completedAt": "2026-09-14T02:42:32.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2381,7 +2381,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-specific-career-pages-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://hireciel.com/",
@@ -2390,17 +2390,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T02:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T02:42:32.000Z",
       "name": "HireCiel",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T03:42:32.000Z",
       "sourceId": "ats-hireciel",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; HireCiel recruitment records and applications are employer-specific rather than a centralized India vacancy board",
+      "developerDocumentationUrl": "https://hireciel.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-account-scoped-recruiting-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.rippling.com/",
@@ -2409,17 +2411,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T02:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T02:42:32.000Z",
       "name": "Rippling ATS",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T03:42:32.000Z",
       "sourceId": "ats-rippling-ats",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Rippling Recruiting and developer integrations are organization-account scoped, not a centralized public India board",
+      "developerDocumentationUrl": "https://developer.rippling.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-career-pages-and-account-api-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.workable.com/",
@@ -2428,17 +2432,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T02:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T02:42:32.000Z",
       "name": "Workable",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T03:42:32.000Z",
       "sourceId": "ats-workable",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; vacancies are published through employer-specific Workable pages and account-scoped APIs, not a centralized India board",
+      "developerDocumentationUrl": "https://www.workable.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "employer-brand-and-jobs-directory-resolved-not-standalone-ats-feed",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.comparably.com/",
@@ -2447,13 +2453,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T02:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T02:42:32.000Z",
       "name": "Comparably ATS",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T03:42:32.000Z",
       "sourceId": "ats-comparably-ats",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "Comparably resolved as an employer-brand and jobs directory; vacancy routes are company-specific and do not provide a standalone India-wide ATS feed",
+      "developerDocumentationUrl": "https://www.comparably.com/"
     },
     {
       "acceptedYield": 0,
