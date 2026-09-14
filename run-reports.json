@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T06:35:04.000Z",
+  "lastUpdated": "2026-09-14T07:32:26.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3859,8 +3859,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-new-job-history-registry-and-run-report"
+    },
+    {
+      "runId": "run-20260914-073226z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T07:17:26.000Z",
+      "runCompletedAt": "2026-09-14T07:32:26.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-linkedin-jobs",
+        "portal-indeed-india",
+        "portal-foundit",
+        "portal-glassdoor"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-linkedin-jobs",
+          "status": "public-index-partial-no-new-verifiable-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-indeed-india",
+          "status": "accessible-search-index-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-foundit",
+          "status": "search-index-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-glassdoor",
+          "status": "public-index-partial-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "insufficient-vacancy-specific-evidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-063504z"
+  "latestRunId": "run-20260914-073226z"
 }
