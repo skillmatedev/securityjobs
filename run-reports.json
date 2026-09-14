@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T12:50:35.000Z",
+  "lastUpdated": "2026-09-14T14:04:11.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4244,8 +4244,73 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change-with-three-transient-source-failures"
+    },
+    {
+      "runId": "run-20260914-140411z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T13:54:11.000Z",
+      "runCompletedAt": "2026-09-14T14:04:11.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-014-astra-security-czar-securities-pvt-ltd",
+        "certin-015-cyber-security-works-pvt-ltd",
+        "certin-033-accenture-solutions-pvt-ltd",
+        "certin-034-army-cyber-group"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-014-astra-security-czar-securities-pvt-ltd",
+          "status": "four-non-cybersecurity-openings",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-015-cyber-security-works-pvt-ltd",
+          "status": "no-vacancy-specific-qualified-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-033-accenture-solutions-pvt-ltd",
+          "status": "no-explicit-fresher-eligible-cyber-role",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-034-army-cyber-group",
+          "status": "no-official-vacancy-route-prior-lead-remains-quarantined",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "unrelated-role": 4,
+        "no-vacancy-specific-evidence": 2,
+        "insufficient-explicit-fresher-eligibility": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-125035z"
+  "latestRunId": "run-20260914-140411z"
 }
