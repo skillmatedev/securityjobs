@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T15:43:03.000Z",
+  "lastUpdated": "2026-09-14T16:39:27.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4435,8 +4435,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-163927z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T16:29:27.000Z",
+      "runCompletedAt": "2026-09-14T16:39:27.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-johnson-controls",
+        "employer-altera-harris-computer",
+        "employer-black-box",
+        "certin-005-kratikal-tech-ltd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-johnson-controls",
+          "status": "linkedin-active-official-route-404",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "employer-altera-harris-computer",
+          "status": "temporary-unreadable-workday-response-no-closure-inferred",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-black-box",
+          "status": "active-linkedin-vacancy-verified",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "certin-005-kratikal-tech-ltd",
+          "status": "soc-role-lacks-explicit-fresher-evidence",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experience-eligibility-not-explicit": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-154303z"
+  "latestRunId": "run-20260914-163927z"
 }
