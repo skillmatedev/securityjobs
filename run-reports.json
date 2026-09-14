@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:47:17.000Z",
+  "lastUpdated": "2026-09-14T20:33:47.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4692,8 +4692,74 @@
       },
       "deploymentResult": "committed-job-refresh-quarantine-registry-and-run-report",
       "correctionNote": "Post-write integrity check found the vacancy already existed under the same stable ID; duplicate was merged into the original record with original discovery metadata preserved."
+    },
+    {
+      "runId": "run-20260914-203347z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T20:28:47.000Z",
+      "runCompletedAt": "2026-09-14T20:33:47.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "sequretek-soc-fresher-unresolved-current-index"
+      ],
+      "sourcesChecked": [
+        "certin-042-panacea-infosec",
+        "certin-043-varutra-consulting",
+        "certin-044-sequretek",
+        "employer-celestica"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-042-panacea-infosec",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-043-varutra-consulting",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-044-sequretek",
+          "status": "fresher-index-entry-vacancy-route-unresolved-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-celestica",
+          "status": "no-qualified-india-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "closed-older-similarly-named-vacancy": 1,
+        "outside-geography-or-domain": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-quarantine-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-194217z"
+  "latestRunId": "run-20260914-203347z"
 }
