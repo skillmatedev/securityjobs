@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13T13:53:42.000Z",
+  "lastUpdated": "2026-09-14T19:42:17.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 5,
-    "totalQuarantined": 4,
-    "quarantined": 5
+    "total": 6,
+    "totalQuarantined": 6,
+    "quarantined": 6
   },
   "jobs": [
     {
@@ -77,6 +77,21 @@
       "discoveryUrl": "https://www.glassdoor.co.in/Job/india-cyber-security-fresher-jobs-SRCH_IL.0,5_IN115_KO6,28.htm",
       "verificationStatus": "quarantined",
       "quarantineReason": "Public index result lacks a verifiable employer identity, requisition ID, posting date, vacancy-specific application URL, and final application method; compensation context is also unclear."
+    },
+    {
+      "id": "securium-vapt-intern-job-26",
+      "company": "Securium Solutions",
+      "title": "VAPT Intern",
+      "location": "Noida, Uttar Pradesh, India",
+      "experienceEvidence": "Internship for 3–6 months; asks for 2–6 months of practical VAPT experience, including academic projects or labs",
+      "eligibilityReason": "Explicit cybersecurity internship with experience evidence compatible with freshers",
+      "discoveredAt": "2026-09-14T19:42:17.000Z",
+      "lastCheckedAt": "2026-09-14T19:42:17.000Z",
+      "sourceId": "certin-039-securium-solutions",
+      "discoveryUrl": "https://www.securiumacademy.com/career/",
+      "applyUrl": "https://www.securiumacademy.com/career/apply?job_id=26",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The official career listing is live, but its vacancy-specific Apply route returned HTTP 404, so a working final application method could not be verified."
     }
   ]
 }
