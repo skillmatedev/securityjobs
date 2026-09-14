@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-14T22:42:53.000Z",
+  "lastUpdated": "2026-09-14T23:42:48.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -1248,6 +1248,54 @@
         ],
         "skills": "VAPT Burp Suite OWASP ZAP Nessus Nikto Acunetix Nmap Metasploit Wireshark Python Bash Kali Linux OWASP Top 10 CWE SANS Top 25",
         "certInEmpanelled": true
+      }
+    },
+    {
+      "eventId": "added-accenture-ATCI-5674628-S2063559",
+      "jobId": "accenture-ATCI-5674628-S2063559",
+      "eventType": "added",
+      "occurredAt": "2026-09-14T23:42:48.000Z",
+      "previousStatus": null,
+      "newStatus": "active",
+      "reason": "New qualifying Chennai security-risk and audit vacancy verified on Accenture’s official careers page with an explicit 0–2-year ceiling and working requisition-specific MyCareer route",
+      "snapshot": {
+        "id": "accenture-ATCI-5674628-S2063559",
+        "title": "Application Support Engineer",
+        "company": "Accenture",
+        "domain": "GRC, Audit and Compliance",
+        "level": "Entry level",
+        "experienceLevel": "Entry level / 0–2 years",
+        "location": "Chennai, Tamil Nadu, India",
+        "workplace": "On-site",
+        "employmentType": "Full-time",
+        "experienceText": "Minimum 0–2 years of experience in Security Risk and Audit Operations",
+        "fresherEligible": true,
+        "eligibilityReason": "Official employer vacancy explicitly limits required experience to 0–2 years and requires Security Risk and Audit Operations skills.",
+        "postedAt": null,
+        "posted": "Date not shown",
+        "postedAge": "Current official vacancy verified September 15, 2026",
+        "status": "Active official employer vacancy · account may be required to apply",
+        "source": "Accenture careers",
+        "sourcePortal": "Official employer careers page",
+        "sourceId": "employer-accenture",
+        "discoveryUrl": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5674628-S2063559_en",
+        "applyUrl": "https://mycareer.accenture.com/?JRID=ATCI-5674628-S2063559&source=careers",
+        "applyMethod": "Official Accenture MyCareer application route",
+        "requisitionId": "ATCI-5674628-S2063559",
+        "discoveredAt": "2026-09-14T23:42:48.000Z",
+        "firstVerifiedAt": "2026-09-14T23:42:48.000Z",
+        "lastVerified": "2026-09-14T23:42:48.000Z",
+        "verificationStatus": "Verified - Official Employer Apply Route",
+        "score": 96,
+        "scoreReasons": [
+          "Vacancy-specific official Accenture page is live",
+          "Official page exposes a direct MyCareer application route",
+          "Explicit 0–2-year experience ceiling",
+          "Required skill is Security Risk and Audit Operations",
+          "Chennai location and full-time employment are stated"
+        ],
+        "skills": "security risk audit operations risk assessment audit processes application monitoring troubleshooting",
+        "certInEmpanelled": false
       }
     }
   ]
