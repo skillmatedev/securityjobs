@@ -27,25 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T02:42:32.000Z",
-  "latestRun": {
-    "runId": "run-20260914-024232z",
-    "runStartedAt": "2026-09-14T02:27:32.000Z",
-    "runCompletedAt": "2026-09-14T02:42:32.000Z",
-    "sourcesChecked": [
-      "ats-hireciel",
-      "ats-rippling-ats",
-      "ats-workable",
-      "ats-comparably-ats"
-    ],
-    "candidatesDiscovered": 0,
-    "jobsAdded": 0,
-    "jobsArchived": 0,
-    "certInCompaniesCheckedThisRun": 0,
-    "certInCycleProgress": 44,
-    "completedAt": "2026-09-14T02:42:32.000Z",
-    "nextRosterNumber": 45
-  },
+  "lastUpdated": "2026-09-14T03:42:32.000Z",
+  "latestRun": "run-20260914-034232z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -2465,7 +2448,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-staffing-workflow-no-central-job-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.wisestep.com/",
@@ -2474,17 +2457,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T03:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T03:42:32.000Z",
       "name": "WiseStep",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T04:42:32.000Z",
       "sourceId": "ats-wisestep",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; WiseStep is a staffing/recruiting workflow product with account-scoped access and job-board integrations, not a centralized public India vacancy feed",
+      "developerDocumentationUrl": "https://wisestep.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-career-pages-oauth-api-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://jobadder.com/",
@@ -2493,17 +2478,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T03:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T03:42:32.000Z",
       "name": "JobAdder",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T04:42:32.000Z",
       "sourceId": "ats-jobadder",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; JobAdder publishes through employer career pages and job-board integrations, while its API requires OAuth account access rather than offering a centralized India feed",
+      "developerDocumentationUrl": "https://developers.jobadder.com/docs/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-subdomain-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.trakstar.com/products/hire/",
@@ -2512,17 +2499,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T03:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T03:42:32.000Z",
       "name": "Trakstar Hire",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T04:42:32.000Z",
       "sourceId": "ats-trakstar-hire",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Trakstar Hire exposes vacancies on employer-specific hire.trakstar.com career sites and distributes postings to external boards, not through a centralized India board",
+      "developerDocumentationUrl": "https://www.trakstar.com/solutions/hr-hiring-software/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-branded-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.applicantpro.com/",
@@ -2531,13 +2520,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T03:42:32.000Z",
+      "lastSuccessfulCheck": "2026-09-14T03:42:32.000Z",
       "name": "ApplicantPro",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T04:42:32.000Z",
       "sourceId": "ats-applicantpro",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; ApplicantPro, now isolved Talent Acquisition, provides employer-branded career sites and job-board distribution rather than a centralized India vacancy feed",
+      "developerDocumentationUrl": "https://www.applicantpro.com/home"
     },
     {
       "acceptedYield": 0,
