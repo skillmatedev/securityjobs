@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T03:42:32.000Z",
-  "latestRun": "run-20260914-034232z",
+  "lastUpdated": "2026-09-14T04:29:16.000Z",
+  "latestRun": "run-20260914-042916z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -2532,7 +2532,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-account-and-job-board-integrations-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.freshworks.com/hrms/recruitment/",
@@ -2541,17 +2541,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T04:29:16.000Z",
+      "lastSuccessfulCheck": "2026-09-14T04:29:16.000Z",
       "name": "Freshteam",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T05:29:16.000Z",
       "sourceId": "ats-freshteam",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Freshteam manages employer-specific recruitment workflows and integrates with external job boards including Naukri, rather than providing a centralized India vacancy feed",
+      "developerDocumentationUrl": "https://developers.freshworks.com/docs/app-sdk/v3.0/freshteam/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-career-sites-account-api-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.zoho.com/recruit/",
@@ -2560,17 +2562,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T04:29:16.000Z",
+      "lastSuccessfulCheck": "2026-09-14T04:29:16.000Z",
       "name": "Zoho Recruit",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T05:29:16.000Z",
       "sourceId": "ats-zoho-recruit",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Zoho Recruit exposes openings through customer career sites and account-authorized APIs, not a centralized public India board",
+      "developerDocumentationUrl": "https://www.zoho.com/recruit/developer-guide/apiv2/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-specific-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.clearcompany.com/",
@@ -2579,17 +2583,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T04:29:16.000Z",
+      "lastSuccessfulCheck": "2026-09-14T04:29:16.000Z",
       "name": "ClearCompany",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T05:29:16.000Z",
       "sourceId": "ats-clearcompany",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; ClearCompany is employer-scoped applicant tracking and recruiting software, with vacancies handled through customer-specific routes rather than a centralized India feed",
+      "developerDocumentationUrl": "https://www.clearcompany.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "candidate-portal-resolved-smartrecruiters-account-not-independent-ats-feed",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.smartr.me/",
@@ -2598,13 +2604,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T04:29:16.000Z",
+      "lastSuccessfulCheck": "2026-09-14T04:29:16.000Z",
       "name": "Smartr",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T05:29:16.000Z",
       "sourceId": "ats-smartr",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "Smartr resolved as the SmartRecruiters candidate portal; it is an account/application-management route and not an independent centralized India vacancy feed",
+      "developerDocumentationUrl": "https://www.smartr.me/"
     },
     {
       "acceptedYield": 0,
