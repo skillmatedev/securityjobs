@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T14:46:44.000Z",
+  "lastUpdated": "2026-09-14T15:43:03.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4372,8 +4372,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-154303z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T15:33:03.000Z",
+      "runCompletedAt": "2026-09-14T15:43:03.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-017-allied-boston-consultants-india-pvt-ltd",
+        "certin-019-andhra-pradesh-technology-services-ltd",
+        "certin-022-audix-techno-consulting-solutions-private-limited",
+        "certin-023-avasure-technologies-pvt-ltd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-017-allied-boston-consultants-india-pvt-ltd",
+          "status": "official-site-no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-019-andhra-pradesh-technology-services-ltd",
+          "status": "official-route-no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-022-audix-techno-consulting-solutions-private-limited",
+          "status": "no-verifiable-careers-route-or-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-023-avasure-technologies-pvt-ltd",
+          "status": "no-verifiable-india-careers-route-or-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-vacancy-specific-fresher-evidence": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-144644z"
+  "latestRunId": "run-20260914-154303z"
 }
