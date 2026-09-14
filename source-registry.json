@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T00:45:40.000Z",
+  "lastUpdated": "2026-09-14T01:45:24.000Z",
   "latestRun": {
-    "runId": "run-20260914-004540z",
-    "runStartedAt": "2026-09-14T00:30:40.000Z",
-    "runCompletedAt": "2026-09-14T00:45:40.000Z",
+    "runId": "run-20260914-014524z",
+    "runStartedAt": "2026-09-14T01:30:24.000Z",
+    "runCompletedAt": "2026-09-14T01:45:24.000Z",
     "sourcesChecked": [
-      "ats-avature",
-      "ats-jobvite",
-      "ats-cornerstone",
-      "ats-ukg"
+      "ats-brassring",
+      "ats-dayforce",
+      "ats-talentera",
+      "ats-inflight"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-14T00:45:40.000Z",
+    "completedAt": "2026-09-14T01:45:24.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2296,7 +2296,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-specific-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.infinite.com/brassring/",
@@ -2305,17 +2305,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T01:45:24.000Z",
+      "lastSuccessfulCheck": "2026-09-14T01:45:24.000Z",
       "name": "BrassRing",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T02:45:24.000Z",
       "sourceId": "ats-brassring",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; BrassRing vacancies are exposed through employer-specific hosted career sites, not a centralized India board",
+      "developerDocumentationUrl": "https://www.infinite.com/brassring/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-client-career-sites-authenticated-job-feed-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.dayforce.com/",
@@ -2324,17 +2326,20 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T01:45:24.000Z",
+      "lastSuccessfulCheck": "2026-09-14T01:45:24.000Z",
       "name": "Dayforce",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T02:45:24.000Z",
       "sourceId": "ats-dayforce",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; each organization has external client career sites, while the job-postings web-service feed requires authorized access",
+      "developerDocumentationUrl": "https://help.dayforce.com/r/documents/Recruiting-Guide/External-Client-Careers-Site",
+      "apiDocumentationUrl": "https://help.dayforce.com/r/documents/Dayforce-RESTful-Web-Services-Developer-Guide/RESTful-Get-Job-Postings"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-branded-employer-career-portals-no-central-india-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.talentera.com/",
@@ -2343,17 +2348,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T01:45:24.000Z",
+      "lastSuccessfulCheck": "2026-09-14T01:45:24.000Z",
       "name": "Talentera",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T02:45:24.000Z",
       "sourceId": "ats-talentera",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; Talentera provides branded customer career portals and vacancy-specific apply routes, without a centralized India board",
+      "developerDocumentationUrl": "https://www.talentera.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-integration-layer-resolved-no-independent-job-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.inflightintegration.com/",
@@ -2362,13 +2369,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T01:45:24.000Z",
+      "lastSuccessfulCheck": "2026-09-14T01:45:24.000Z",
       "name": "InFlight",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T02:45:24.000Z",
       "sourceId": "ats-inflight",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "Integration platform resolved; InFlight surfaces customer ATS experiences and is not an independent or centralized vacancy board",
+      "developerDocumentationUrl": "https://www.inflightintegration.com/"
     },
     {
       "acceptedYield": 0,
