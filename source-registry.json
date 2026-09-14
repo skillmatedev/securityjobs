@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T06:35:04.000Z",
-  "latestRun": "run-20260914-063504z",
+  "lastUpdated": "2026-09-14T07:32:26.000Z",
+  "latestRun": "run-20260914-073226z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -1242,7 +1242,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-index-partial-login-required",
+      "accessStatus": "public-index-partial-no-new-verifiable-candidate",
       "aliases": [],
       "candidateYield": 1,
       "canonicalUrl": "https://www.linkedin.com/jobs/",
@@ -1251,14 +1251,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T12:52:42.000Z",
-      "lastSuccessfulCheck": "2026-09-13T12:52:42.000Z",
+      "lastAttempt": "2026-09-14T07:32:26.000Z",
+      "lastSuccessfulCheck": "2026-09-14T07:32:26.000Z",
       "name": "LinkedIn Jobs",
-      "nextRotationTime": "2026-09-13T13:52:42.000Z",
+      "nextRotationTime": "2026-09-14T08:32:26.000Z",
       "sourceId": "portal-linkedin-jobs",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
-      "status": "Public index checked; remote-India cybersecurity internship evidence had an application deadline of 30 August 2026 and is closed"
+      "status": "Public index checked; one internship snippet lacked a vacancy-specific LinkedIn job URL and employer/application evidence, so nothing was published"
     },
     {
       "acceptedYield": 0,
@@ -1271,14 +1271,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T12:52:42.000Z",
-      "lastSuccessfulCheck": "2026-09-13T12:52:42.000Z",
+      "lastAttempt": "2026-09-14T07:32:26.000Z",
+      "lastSuccessfulCheck": "2026-09-14T07:32:26.000Z",
       "name": "Indeed India",
-      "nextRotationTime": "2026-09-13T13:52:42.000Z",
+      "nextRotationTime": "2026-09-14T08:32:26.000Z",
       "sourceId": "portal-indeed-india",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
-      "status": "Public India index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
+      "status": "Public search index checked; no new vacancy-specific India fresher cybersecurity result was verified"
     },
     {
       "acceptedYield": 0,
@@ -1311,18 +1311,18 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T13:53:42.000Z",
-      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
+      "lastAttempt": "2026-09-14T07:32:26.000Z",
+      "lastSuccessfulCheck": "2026-09-14T07:32:26.000Z",
       "name": "Foundit",
-      "nextRotationTime": "2026-09-13T14:53:42.000Z",
+      "nextRotationTime": "2026-09-14T08:32:26.000Z",
       "sourceId": "portal-foundit",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
-      "status": "Public search index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
+      "status": "Search index checked; broad fresher result pages did not expose a new vacancy-specific qualifying cybersecurity role"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-index-partial-one-lead-quarantined",
+      "accessStatus": "public-index-partial-no-qualified-candidate",
       "aliases": [],
       "candidateYield": 1,
       "canonicalUrl": "https://www.glassdoor.co.in/",
@@ -1331,14 +1331,14 @@
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T13:53:42.000Z",
-      "lastSuccessfulCheck": "2026-09-13T13:53:42.000Z",
+      "lastAttempt": "2026-09-14T07:32:26.000Z",
+      "lastSuccessfulCheck": "2026-09-14T07:32:26.000Z",
       "name": "Glassdoor",
-      "nextRotationTime": "2026-09-13T14:53:42.000Z",
+      "nextRotationTime": "2026-09-14T08:32:26.000Z",
       "sourceId": "portal-glassdoor",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
-      "status": "Public index reported 61 fresher cybersecurity results; one remote internship lead quarantined because employer and vacancy-specific application evidence were unavailable"
+      "status": "Public index checked; surfaced PwC risk internship evidence was not sufficiently vacancy-specific to publish"
     },
     {
       "acceptedYield": 0,
