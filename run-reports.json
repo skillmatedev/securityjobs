@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T08:33:45.000Z",
+  "lastUpdated": "2026-09-14T09:42:36.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3985,8 +3985,73 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-094236z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T09:32:36.000Z",
+      "runCompletedAt": "2026-09-14T09:42:36.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-021-auriseg-consulting-private-limited",
+        "certin-016-briskinfosec-technology-and-consulting-pvt-ltd",
+        "certin-010-aks-information-technology-services-pvt-ltd",
+        "certin-011-aqm-technologies-pvt-ltd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-021-auriseg-consulting-private-limited",
+          "status": "public-careers-page-no-vacancy-specific-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-016-briskinfosec-technology-and-consulting-pvt-ltd",
+          "status": "three-openings-none-explicitly-fresher-eligible",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-010-aks-information-technology-services-pvt-ltd",
+          "status": "generic-role-cards-no-vacancy-specific-route",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-011-aqm-technologies-pvt-ltd",
+          "status": "career-and-linkedin-routes-no-cybersecurity-opening",
+          "candidateYield": 11,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "insufficient-explicit-fresher-eligibility": 1,
+        "generic-non-vacancy-listing": 4,
+        "unrelated-role": 13
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-083345z"
+  "latestRunId": "run-20260914-094236z"
 }
