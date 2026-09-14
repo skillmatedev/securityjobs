@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T20:33:47.000Z",
+  "lastUpdated": "2026-09-14T21:38:57.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4758,8 +4758,74 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-quarantine-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-213857z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T21:29:57.000Z",
+      "runCompletedAt": "2026-09-14T21:38:57.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "aujas-associate-consultant-soc-l1-mumbai-broken-route"
+      ],
+      "sourcesChecked": [
+        "employer-aujas-cybersecurity",
+        "employer-burns-mcdonnell",
+        "employer-dxc",
+        "employer-godaddy"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-aujas-cybersecurity",
+          "status": "qualifying-soc-l1-vacancy-route-404-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-burns-mcdonnell",
+          "status": "no-qualified-cybersecurity-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-dxc",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-godaddy",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "broken-vacancy-specific-route": 1,
+        "outside-cybersecurity-domain": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-quarantine-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-203347z"
+  "latestRunId": "run-20260914-213857z"
 }
