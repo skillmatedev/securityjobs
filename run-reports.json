@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T07:32:26.000Z",
+  "lastUpdated": "2026-09-14T08:33:45.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3922,8 +3922,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-083345z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T08:18:45.000Z",
+      "runCompletedAt": "2026-09-14T08:33:45.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-wellfound",
+        "portal-freshersworld",
+        "portal-instahyre",
+        "portal-hirist"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-wellfound",
+          "status": "search-index-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-freshersworld",
+          "status": "search-index-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-instahyre",
+          "status": "generic-result-count-no-vacancy-specific-evidence",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-hirist",
+          "status": "search-index-no-qualified-candidate",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "insufficient-vacancy-specific-evidence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-073226z"
+  "latestRunId": "run-20260914-083345z"
 }
