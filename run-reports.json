@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:42:17.000Z",
+  "lastUpdated": "2026-09-14T19:47:17.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4631,11 +4631,11 @@
       "runStartedAt": "2026-09-14T19:32:17.000Z",
       "runCompletedAt": "2026-09-14T19:42:17.000Z",
       "beforeCount": 24,
-      "afterCount": 25,
-      "idsAdded": [
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [
         "securelayer7-red-team-operator-fresher-pune"
       ],
-      "idsUpdated": [],
       "idsArchived": [],
       "quarantinedIds": [
         "securium-vapt-intern-job-26"
@@ -4690,7 +4690,8 @@
         "independentPortals": 38,
         "totalUniqueConfigured": 198
       },
-      "deploymentResult": "committed-new-job-quarantine-registry-and-run-report"
+      "deploymentResult": "committed-job-refresh-quarantine-registry-and-run-report",
+      "correctionNote": "Post-write integrity check found the vacancy already existed under the same stable ID; duplicate was merged into the original record with original discovery metadata preserved."
     }
   ],
   "schemaVersion": "1.0",
