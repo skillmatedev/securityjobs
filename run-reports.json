@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T21:38:57.000Z",
+  "lastUpdated": "2026-09-14T22:42:53.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4824,8 +4824,88 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-quarantine-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-224253z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T22:31:53.000Z",
+      "runCompletedAt": "2026-09-14T22:42:53.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [
+        "marmon-get-secops-4462783569",
+        "isecurion-security-analyst-intern-636906195185962927"
+      ],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-idfc-first-bank",
+        "employer-ingram-micro",
+        "employer-netsentries",
+        "employer-backbase",
+        "portal-linkedin-jobs",
+        "portal-talent-com"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-idfc-first-bank",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-ingram-micro",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-netsentries",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-backbase",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-linkedin-jobs",
+          "status": "two-existing-vacancies-reverified",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-talent-com",
+          "status": "existing-isecurion-vacancy-reverified",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "employer-identity-mismatch": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-two-job-refreshes-history-registry-and-run-report"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-213857z"
+  "latestRunId": "run-20260914-224253z"
 }
