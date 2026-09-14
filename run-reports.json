@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T05:30:12.000Z",
+  "lastUpdated": "2026-09-14T06:35:04.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3807,8 +3807,60 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-063504z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T06:20:04.000Z",
+      "runCompletedAt": "2026-09-14T06:35:04.000Z",
+      "beforeCount": 23,
+      "afterCount": 24,
+      "idsAdded": [
+        "tikaj-security-analyst-m6f3isdx"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-cutshort",
+        "portal-talent-com"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-cutshort",
+          "status": "accessible-one-new-qualified-vacancy-published",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "portal-talent-com",
+          "status": "accessible-one-closed-and-out-of-scope-lead-rejected",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "closed-vacancy": 1,
+        "experience-above-two-years": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-new-job-history-registry-and-run-report"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-053012z"
+  "latestRunId": "run-20260914-063504z"
 }
