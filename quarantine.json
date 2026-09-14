@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-14T19:42:17.000Z",
+  "lastUpdated": "2026-09-14T20:33:47.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 6,
-    "totalQuarantined": 6,
-    "quarantined": 6
+    "total": 7,
+    "totalQuarantined": 7,
+    "quarantined": 7
   },
   "jobs": [
     {
@@ -92,6 +92,20 @@
       "applyUrl": "https://www.securiumacademy.com/career/apply?job_id=26",
       "verificationStatus": "quarantined",
       "quarantineReason": "The official career listing is live, but its vacancy-specific Apply route returned HTTP 404, so a working final application method could not be verified."
+    },
+    {
+      "id": "sequretek-soc-fresher-unresolved-current-index",
+      "company": "Sequretek IT Solutions Private Limited",
+      "title": "SOC Fresher",
+      "location": "Mumbai, India",
+      "experienceEvidence": "Official ERP jobs index labels the role “SOC Fresher”.",
+      "eligibilityReason": "The title explicitly indicates a fresher cybersecurity role.",
+      "discoveredAt": "2026-09-14T20:33:47.000Z",
+      "lastCheckedAt": "2026-09-14T20:33:47.000Z",
+      "sourceId": "certin-044-sequretek",
+      "discoveryUrl": "https://erp.sequretek.com/jobs",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The official ERP jobs index exposes the role title and location, but the public route resolves to a login page and no vacancy-specific URL, requisition ID, application method, or current closing status could be verified. A similarly named older vacancy closed on 18 March 2025 and must not be conflated with this index entry."
     }
   ]
 }
