@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T11:42:43.000Z",
+  "lastUpdated": "2026-09-14T12:50:35.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4180,8 +4180,72 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-125035z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T12:40:35.000Z",
+      "runCompletedAt": "2026-09-14T12:50:35.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-030-aurionpro-solutions-limited",
+        "certin-031-bharat-electronics-limited",
+        "certin-032-bharti-airtel-limited",
+        "certin-013-aujas-cybersecurity-limited"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-030-aurionpro-solutions-limited",
+          "status": "temporary-timeout-no-qualified-search-evidence",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-031-bharat-electronics-limited",
+          "status": "temporary-gateway-error-apprenticeship-not-cyber-specific",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-032-bharti-airtel-limited",
+          "status": "temporary-timeout-no-vacancy-specific-evidence",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-013-aujas-cybersecurity-limited",
+          "status": "official-route-no-explicit-fresher-eligible-role",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "not-cybersecurity-specific": 1,
+        "no-vacancy-specific-evidence": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change-with-three-transient-source-failures"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-114243z"
+  "latestRunId": "run-20260914-125035z"
 }
