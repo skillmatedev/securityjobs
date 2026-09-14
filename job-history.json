@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-13T15:42:58.000Z",
+  "lastUpdated": "2026-09-14T06:35:04.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -1021,6 +1021,52 @@
         ],
         "skills": "VAPT Burp Suite OWASP ZAP Nessus Nikto Acunetix Nmap Metasploit Wireshark Python Bash Kali Linux OWASP Top 10 CWE SANS Top 25",
         "certInEmpanelled": true
+      }
+    },
+    {
+      "eventId": "added-tikaj-security-analyst-m6f3isdx",
+      "jobId": "tikaj-security-analyst-m6f3isdx",
+      "eventType": "added",
+      "occurredAt": "2026-09-14T06:35:04.000Z",
+      "previousStatus": null,
+      "newStatus": "active",
+      "reason": "New qualifying India entry-level cybersecurity vacancy verified through a live vacancy-specific Cutshort application route with an explicit 0–2 year ceiling",
+      "snapshot": {
+        "id": "tikaj-security-analyst-m6f3isdx",
+        "title": "Security Analyst",
+        "company": "TIKAJ",
+        "domain": "SOC and Blue Team",
+        "level": "Entry level",
+        "experienceLevel": "Entry level / 0–2 years",
+        "location": "Remote or Gurugram, India",
+        "workplace": "Remote-friendly",
+        "employmentType": "Full-time",
+        "experienceText": "0–2 years",
+        "fresherEligible": true,
+        "eligibilityReason": "Vacancy explicitly limits experience to 0–2 years and describes the role as a cybersecurity career starting point",
+        "postedAt": null,
+        "posted": "Current Cutshort listing",
+        "postedAge": "Verified September 14, 2026",
+        "status": "Active Cutshort vacancy · login required to apply",
+        "source": "Cutshort",
+        "sourcePortal": "Cutshort",
+        "sourceId": "portal-cutshort",
+        "discoveryUrl": "https://cutshort.io/job/Security-Analyst-Gurugram-TIKAJ-M6F3IsdX",
+        "applyUrl": "https://cutshort.io/job/Security-Analyst-Gurugram-TIKAJ-M6F3IsdX",
+        "applyMethod": "Cutshort application; candidate login required",
+        "requisitionId": "M6F3IsdX",
+        "discoveredAt": "2026-09-14T06:35:04.000Z",
+        "firstVerifiedAt": "2026-09-14T06:35:04.000Z",
+        "lastVerified": "2026-09-14T06:35:04.000Z",
+        "verificationStatus": "Verified - Login Required to Apply",
+        "score": 88,
+        "scoreReasons": [
+          "Vacancy-specific Cutshort page is live with an Apply control",
+          "Experience range is explicitly limited to 0–2 years",
+          "Description explicitly positions the role as a cybersecurity career starting point"
+        ],
+        "skills": "SOC security monitoring incident response alert triage phishing Python cyber laws",
+        "certInEmpanelled": false
       }
     }
   ]
