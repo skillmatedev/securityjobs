@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-14T05:30:12.000Z",
-  "latestRun": "run-20260914-053012z",
+  "lastUpdated": "2026-09-14T06:35:04.000Z",
+  "latestRun": "run-20260914-063504z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -1401,24 +1401,24 @@
       "status": "Public search index checked; no vacancy-specific qualifying fresher cybersecurity candidate verified"
     },
     {
-      "acceptedYield": 4,
+      "acceptedYield": 5,
       "accessStatus": "accessible-live-qualified-vacancies",
       "aliases": [],
-      "candidateYield": 7,
+      "candidateYield": 8,
       "canonicalUrl": "https://cutshort.io/jobs",
       "checkIntervalHours": 1,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T14:52:59.000Z",
-      "lastSuccessfulCheck": "2026-09-13T14:52:59.000Z",
+      "lastAttempt": "2026-09-14T06:35:04.000Z",
+      "lastSuccessfulCheck": "2026-09-14T06:35:04.000Z",
       "name": "Cutshort",
-      "nextRotationTime": "2026-09-13T15:52:59.000Z",
+      "nextRotationTime": "2026-09-14T07:35:04.000Z",
       "sourceId": "portal-cutshort",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
-      "status": "Public vacancy pages checked; three new qualifying jobs published, one existing Saptang job reconfirmed, and out-of-scope leads rejected"
+      "status": "Live public vacancy pages verified; one new qualifying TIKAJ Security Analyst role published"
     },
     {
       "acceptedYield": 0,
@@ -1541,20 +1541,21 @@
       "acceptedYield": 1,
       "accessStatus": "accessible-one-qualified-vacancy-published",
       "aliases": [],
-      "candidateYield": 1,
+      "candidateYield": 2,
       "canonicalUrl": "https://www.talent.com/",
       "checkIntervalHours": 1,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T15:42:58.000Z",
-      "lastSuccessfulCheck": "2026-09-13T15:42:58.000Z",
+      "lastAttempt": "2026-09-14T06:35:04.000Z",
+      "lastSuccessfulCheck": "2026-09-14T06:35:04.000Z",
       "name": "Talent.com",
-      "nextRotationTime": "2026-09-13T16:42:58.000Z",
+      "nextRotationTime": "2026-09-14T07:35:04.000Z",
       "sourceId": "portal-talent-com",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "status": "Live vacancy pages checked; Barracuda lead was closed and above fresher experience scope; no new role accepted"
     },
     {
       "acceptedYield": 0,
