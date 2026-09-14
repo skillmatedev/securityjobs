@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T16:39:27.000Z",
+  "lastUpdated": "2026-09-14T17:42:29.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4498,8 +4498,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-174229z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T17:32:29.000Z",
+      "runCompletedAt": "2026-09-14T17:42:29.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-006-sisa-information-security-pvt-ltd",
+        "certin-007-wesecureapp",
+        "certin-008-esec-forte-technologies",
+        "certin-001-rootnik-labs"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-006-sisa-information-security-pvt-ltd",
+          "status": "official-keka-feed-unreadable-no-closure-inferred",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-007-wesecureapp",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-008-esec-forte-technologies",
+          "status": "official-openings-outside-experience-scope",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-001-rootnik-labs",
+          "status": "no-explicit-fresher-eligible-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experience-requirement-exceeds-scope": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-163927z"
+  "latestRunId": "run-20260914-174229z"
 }
