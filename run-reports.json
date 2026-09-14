@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T18:41:55.000Z",
+  "lastUpdated": "2026-09-14T19:42:17.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4624,8 +4624,75 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-194217z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T19:32:17.000Z",
+      "runCompletedAt": "2026-09-14T19:42:17.000Z",
+      "beforeCount": 24,
+      "afterCount": 25,
+      "idsAdded": [
+        "securelayer7-red-team-operator-fresher-pune"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "securium-vapt-intern-job-26"
+      ],
+      "sourcesChecked": [
+        "certin-038-techdefence-labs",
+        "certin-039-securium-solutions",
+        "certin-040-securelayer7",
+        "certin-041-xiarch-solutions"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-038-techdefence-labs",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-039-securium-solutions",
+          "status": "qualifying-internship-apply-route-404-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-040-securelayer7",
+          "status": "verified-fresher-vacancy-published",
+          "candidateYield": 1,
+          "acceptedYield": 1
+        },
+        {
+          "source": "certin-041-xiarch-solutions",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "broken-vacancy-specific-apply-route": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-new-job-quarantine-registry-and-run-report"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-184155z"
+  "latestRunId": "run-20260914-194217z"
 }
