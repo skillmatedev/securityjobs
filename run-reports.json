@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T10:40:09.000Z",
+  "lastUpdated": "2026-09-14T11:42:43.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4114,8 +4114,74 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-114243z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T11:32:43.000Z",
+      "runCompletedAt": "2026-09-14T11:42:43.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-026-ankura-consulting-india-private-limited",
+        "certin-027-arridae-infosec-pvt-ltd",
+        "certin-028-ameya-cyber-risk-solutions-pvt-ltd",
+        "certin-029-arm-innovations-pvt-ltd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-026-ankura-consulting-india-private-limited",
+          "status": "67-global-openings-no-qualified-india-fresher-cyber-role",
+          "candidateYield": 67,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-027-arridae-infosec-pvt-ltd",
+          "status": "official-board-no-active-openings-linkedin-role-closed-and-5-8-years",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-028-ameya-cyber-risk-solutions-pvt-ltd",
+          "status": "official-and-linkedin-routes-no-current-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-029-arm-innovations-pvt-ltd",
+          "status": "four-role-cards-without-explicit-fresher-eligibility",
+          "candidateYield": 4,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-qualified-india-role": 67,
+        "closed-and-over-experience-limit": 1,
+        "no-current-vacancy": 1,
+        "insufficient-explicit-fresher-eligibility": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-104009z"
+  "latestRunId": "run-20260914-114243z"
 }
