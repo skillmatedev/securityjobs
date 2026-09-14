@@ -27,23 +27,23 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-13T23:45:12.000Z",
+  "lastUpdated": "2026-09-14T00:45:40.000Z",
   "latestRun": {
-    "runId": "run-20260913-234512z",
-    "runStartedAt": "2026-09-13T23:30:12.000Z",
-    "runCompletedAt": "2026-09-13T23:45:12.000Z",
+    "runId": "run-20260914-004540z",
+    "runStartedAt": "2026-09-14T00:30:40.000Z",
+    "runCompletedAt": "2026-09-14T00:45:40.000Z",
     "sourcesChecked": [
-      "ats-oracle-recruiting",
-      "ats-icims",
-      "ats-darwinbox",
-      "ats-taleo"
+      "ats-avature",
+      "ats-jobvite",
+      "ats-cornerstone",
+      "ats-ukg"
     ],
     "candidatesDiscovered": 0,
     "jobsAdded": 0,
     "jobsArchived": 0,
     "certInCompaniesCheckedThisRun": 0,
     "certInCycleProgress": 44,
-    "completedAt": "2026-09-13T23:45:12.000Z",
+    "completedAt": "2026-09-14T00:45:40.000Z",
     "nextRosterNumber": 45
   },
   "preservationPolicy": "Append or merge only. Never delete source records.",
@@ -2212,7 +2212,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-customer-specific-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.avature.net/",
@@ -2221,17 +2221,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T00:45:40.000Z",
+      "lastSuccessfulCheck": "2026-09-14T00:45:40.000Z",
       "name": "Avature",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T01:45:40.000Z",
       "sourceId": "ats-avature",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; external vacancies are published through each customer's configured Avature career site, not a centralized India board",
+      "developerDocumentationUrl": "https://www.avature.net/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-employer-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.jobvite.com/",
@@ -2240,17 +2242,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T00:45:40.000Z",
+      "lastSuccessfulCheck": "2026-09-14T00:45:40.000Z",
       "name": "Jobvite",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T01:45:40.000Z",
       "sourceId": "ats-jobvite",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; job postings and application routes are employer-specific Jobvite career sites rather than a centralized India board",
+      "developerDocumentationUrl": "https://www.jobvite.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-customer-career-sites-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.cornerstoneondemand.com/",
@@ -2259,17 +2263,19 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T00:45:40.000Z",
+      "lastSuccessfulCheck": "2026-09-14T00:45:40.000Z",
       "name": "Cornerstone",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T01:45:40.000Z",
       "sourceId": "ats-cornerstone",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; recruiting vacancies are hosted on customer-specific Cornerstone career sites, with no centralized India vacancy board",
+      "developerDocumentationUrl": "https://www.cornerstoneondemand.com/"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "pending",
+      "accessStatus": "ats-platform-resolved-tenant-recruiting-portals-no-central-board",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.ukg.com/",
@@ -2278,13 +2284,15 @@
         "Global",
         "India"
       ],
-      "lastAttempt": null,
-      "lastSuccessfulCheck": null,
+      "lastAttempt": "2026-09-14T00:45:40.000Z",
+      "lastSuccessfulCheck": "2026-09-14T00:45:40.000Z",
       "name": "UKG",
-      "nextRotationTime": "2026-09-09T08:15:00.000Z",
+      "nextRotationTime": "2026-09-14T01:45:40.000Z",
       "sourceId": "ats-ukg",
       "sourceOrigin": "Consolidated supplied ATS lists",
-      "sourceType": "ats-platform"
+      "sourceType": "ats-platform",
+      "status": "ATS platform resolved; UKG recruiting vacancies are tenant-specific employer portal records rather than a centralized India board",
+      "developerDocumentationUrl": "https://www.ukg.com/"
     },
     {
       "acceptedYield": 0,
