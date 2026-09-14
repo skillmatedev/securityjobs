@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-14T20:33:47.000Z",
+  "lastUpdated": "2026-09-14T21:38:57.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 7,
-    "totalQuarantined": 7,
-    "quarantined": 7
+    "total": 8,
+    "totalQuarantined": 8,
+    "quarantined": 8
   },
   "jobs": [
     {
@@ -106,6 +106,21 @@
       "discoveryUrl": "https://erp.sequretek.com/jobs",
       "verificationStatus": "quarantined",
       "quarantineReason": "The official ERP jobs index exposes the role title and location, but the public route resolves to a login page and no vacancy-specific URL, requisition ID, application method, or current closing status could be verified. A similarly named older vacancy closed on 18 March 2025 and must not be conflated with this index entry."
+    },
+    {
+      "id": "aujas-associate-consultant-soc-l1-mumbai-broken-route",
+      "company": "Aujas Cybersecurity",
+      "title": "Associate Consultant – SOC L1",
+      "location": "Mumbai, India",
+      "experienceEvidence": "Official Aujas careers index explicitly states “Experience: 2 Years”.",
+      "eligibilityReason": "SOC L1 role with an explicit two-year experience requirement meets the dashboard’s fresher/early-career threshold.",
+      "discoveredAt": "2026-09-14T21:38:57.000Z",
+      "lastCheckedAt": "2026-09-14T21:38:57.000Z",
+      "sourceId": "employer-aujas-cybersecurity",
+      "discoveryUrl": "https://www.aujas.com/join-us",
+      "applyUrl": "https://www.aujas.com/associate-consultant%E2%80%93soc-l1-1",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The official careers index lists the vacancy, location, domain, and experience threshold, but its vacancy-specific link returns HTTP 404. No working employer-intended application route or requisition ID could be verified."
     }
   ]
 }
