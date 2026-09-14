@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T19:47:17.000Z",
+  "lastUpdated": "2026-09-14T22:42:53.000Z",
   "summary": {
     "totalLive": 24,
     "earlyCareer": 24,
@@ -145,7 +145,7 @@
       "eligibilityReason": "Graduate trainee vacancy explicitly requests candidates 0–1 years out of college",
       "postedAt": "2026-09-04",
       "posted": "2026-09-04",
-      "postedAge": "5 days ago",
+      "postedAge": "1 week ago when reverified September 15, 2026",
       "status": "Active LinkedIn vacancy · login required to apply",
       "source": "LinkedIn Jobs",
       "sourcePortal": "LinkedIn Jobs",
@@ -154,7 +154,7 @@
       "applyMethod": "LinkedIn application; candidate login required",
       "requisitionId": "4462783569",
       "discoveredAt": "2026-09-09T01:47:12.528Z",
-      "lastVerified": "2026-09-09T02:28:00.000Z",
+      "lastVerified": "2026-09-14T22:42:53.000Z",
       "verificationStatus": "Verified - Login Required to Apply",
       "score": 88,
       "scoreReasons": [
@@ -818,8 +818,8 @@
       "eligibilityReason": "Vacancy explicitly seeks a fresher or recent graduate and limits relevant experience to 0–1 year",
       "postedAt": "2026-09-12",
       "posted": "1 day ago on Talent.com",
-      "postedAge": "1 day old when verified September 13, 2026",
-      "status": "Active Talent.com vacancy with Apply control",
+      "postedAge": "1 day ago on Talent.com when reverified September 15, 2026",
+      "status": "Active Talent.com vacancy with Apply control; corroborated by current LinkedIn vacancy",
       "source": "Talent.com",
       "sourcePortal": "Talent.com",
       "sourceId": "portal-talent-com",
@@ -829,13 +829,14 @@
       "requisitionId": "636906195185962927",
       "discoveredAt": "2026-09-13T15:42:58.000Z",
       "firstVerifiedAt": "2026-09-13T15:42:58.000Z",
-      "lastVerified": "2026-09-13T15:42:58.000Z",
+      "lastVerified": "2026-09-14T22:42:53.000Z",
       "verificationStatus": "Verified - Portal Apply Route",
       "score": 92,
       "scoreReasons": [
         "Vacancy-specific Talent.com page is live with an Apply control",
         "LinkedIn independently corroborates the employer, title, locations, and description",
-        "Explicit fresher/recent-graduate language and 0–1 year experience ceiling"
+        "Explicit fresher/recent-graduate language and 0–1 year experience ceiling",
+        "Current LinkedIn vacancy independently corroborates the role"
       ],
       "skills": "VAPT Burp Suite OWASP ZAP Nessus Nikto Acunetix Nmap Metasploit Wireshark Python Bash Kali Linux OWASP Top 10 CWE SANS Top 25",
       "certInEmpanelled": true
