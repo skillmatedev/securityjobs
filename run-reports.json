@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T14:04:11.000Z",
+  "lastUpdated": "2026-09-14T14:46:44.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4309,8 +4309,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-144644z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T14:36:44.000Z",
+      "runCompletedAt": "2026-09-14T14:46:44.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-035-associated-it-consultants-private-limited",
+        "certin-036-asa-associates-llp",
+        "certin-009-aaa-technologies-ltd",
+        "certin-012-anb-solutions-private-limited"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-035-associated-it-consultants-private-limited",
+          "status": "no-public-vacancy-specific-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-036-asa-associates-llp",
+          "status": "generic-application-route-no-specific-cyber-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-009-aaa-technologies-ltd",
+          "status": "official-careers-no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-012-anb-solutions-private-limited",
+          "status": "no-current-official-or-linkedin-vacancy-evidence",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-vacancy-specific-evidence": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-140411z"
+  "latestRunId": "run-20260914-144644z"
 }
