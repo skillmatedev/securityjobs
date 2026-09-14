@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T09:42:36.000Z",
+  "lastUpdated": "2026-09-14T10:40:09.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4050,8 +4050,72 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-104009z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T10:30:09.000Z",
+      "runCompletedAt": "2026-09-14T10:40:09.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-018-a3s-tech-company",
+        "certin-020-anzen-technologies-pvt-ltd",
+        "certin-024-acquisory-consulting-llp",
+        "certin-025-ana-cyber-forensic-pvt-ltd"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-018-a3s-tech-company",
+          "status": "no-public-official-vacancy-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-020-anzen-technologies-pvt-ltd",
+          "status": "experienced-only-drive-no-fresher-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-024-acquisory-consulting-llp",
+          "status": "official-jobs-page-no-qualified-opening",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-025-ana-cyber-forensic-pvt-ltd",
+          "status": "official-site-no-careers-or-vacancy-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "experienced-only": 1,
+        "no-vacancy-specific-evidence": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-094236z"
+  "latestRunId": "run-20260914-104009z"
 }
