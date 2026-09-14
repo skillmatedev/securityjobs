@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-14T19:47:17.000Z",
+  "lastUpdated": "2026-09-14T22:42:53.000Z",
   "preservationPolicy": "Append-only event log.",
   "events": [
     {
@@ -1157,6 +1157,97 @@
         "certInEmpanelled": true,
         "sourceId": "certin-040-securelayer7",
         "firstVerifiedAt": "2026-09-09T05:25:00.000Z"
+      }
+    },
+    {
+      "eventId": "reverified-marmon-get-secops-4462783569-20260914-224253z",
+      "jobId": "marmon-get-secops-4462783569",
+      "eventType": "updated",
+      "occurredAt": "2026-09-14T22:42:53.000Z",
+      "previousStatus": "active",
+      "newStatus": "active",
+      "reason": "Reverified current LinkedIn vacancy, Bangalore location, Graduate Engineer Trainee title, and explicit 0–1 year eligibility",
+      "snapshot": {
+        "id": "marmon-get-secops-4462783569",
+        "title": "Graduate Engineer Trainee - SecOps",
+        "company": "Marmon Technologies India Pvt Ltd",
+        "domain": "SOC and Blue Team",
+        "level": "Fresher",
+        "experienceLevel": "Fresher / 0–1 year",
+        "location": "Bangalore Urban, Karnataka, India",
+        "workplace": "Not specified",
+        "employmentType": "Full-time",
+        "experienceText": "0–1 years; internships and co-op experience considered",
+        "fresherEligible": true,
+        "eligibilityReason": "Graduate trainee vacancy explicitly requests candidates 0–1 years out of college",
+        "postedAt": "2026-09-04",
+        "posted": "2026-09-04",
+        "postedAge": "1 week ago when reverified September 15, 2026",
+        "status": "Active LinkedIn vacancy · login required to apply",
+        "source": "LinkedIn Jobs",
+        "sourcePortal": "LinkedIn Jobs",
+        "discoveryUrl": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-secops-at-marmon-technologies-india-pvt-ltd-4462783569",
+        "applyUrl": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-secops-at-marmon-technologies-india-pvt-ltd-4462783569",
+        "applyMethod": "LinkedIn application; candidate login required",
+        "requisitionId": "4462783569",
+        "discoveredAt": "2026-09-09T01:47:12.528Z",
+        "lastVerified": "2026-09-14T22:42:53.000Z",
+        "verificationStatus": "Verified - Login Required to Apply",
+        "score": 88,
+        "scoreReasons": [
+          "Individual vacancy is live",
+          "Explicit 0–1 year eligibility",
+          "Company, title and India location are consistent"
+        ],
+        "skills": "SOC SIEM incident response threat analysis log analysis vulnerability management OWASP",
+        "certInEmpanelled": false
+      }
+    },
+    {
+      "eventId": "reverified-isecurion-security-analyst-intern-636906195185962927-20260914-224253z",
+      "jobId": "isecurion-security-analyst-intern-636906195185962927",
+      "eventType": "updated",
+      "occurredAt": "2026-09-14T22:42:53.000Z",
+      "previousStatus": "active",
+      "newStatus": "active",
+      "reason": "Reverified live Talent.com Apply control and current LinkedIn corroboration for the VAPT internship, fresher language, Bengaluru/Mumbai locations, and 0–1 year ceiling",
+      "snapshot": {
+        "id": "isecurion-security-analyst-intern-636906195185962927",
+        "title": "Security Analyst Intern",
+        "company": "ISECURION",
+        "domain": "VAPT and Penetration Testing",
+        "level": "Internship",
+        "experienceLevel": "Internship / 0–1 year",
+        "location": "Bengaluru or Mumbai, India",
+        "workplace": "On-site",
+        "employmentType": "Internship",
+        "experienceText": "0–1 year of relevant experience; explicitly described as suitable for a motivated fresher or recent graduate",
+        "fresherEligible": true,
+        "eligibilityReason": "Vacancy explicitly seeks a fresher or recent graduate and limits relevant experience to 0–1 year",
+        "postedAt": "2026-09-12",
+        "posted": "1 day ago on Talent.com",
+        "postedAge": "1 day ago on Talent.com when reverified September 15, 2026",
+        "status": "Active Talent.com vacancy with Apply control; corroborated by current LinkedIn vacancy",
+        "source": "Talent.com",
+        "sourcePortal": "Talent.com",
+        "sourceId": "portal-talent-com",
+        "discoveryUrl": "https://in.talent.com/view?id=636906195185962927",
+        "applyUrl": "https://in.talent.com/view?id=636906195185962927",
+        "applyMethod": "Talent.com vacancy-specific Apply route",
+        "requisitionId": "636906195185962927",
+        "discoveredAt": "2026-09-13T15:42:58.000Z",
+        "firstVerifiedAt": "2026-09-13T15:42:58.000Z",
+        "lastVerified": "2026-09-14T22:42:53.000Z",
+        "verificationStatus": "Verified - Portal Apply Route",
+        "score": 92,
+        "scoreReasons": [
+          "Vacancy-specific Talent.com page is live with an Apply control",
+          "LinkedIn independently corroborates the employer, title, locations, and description",
+          "Explicit fresher/recent-graduate language and 0–1 year experience ceiling",
+          "Current LinkedIn vacancy independently corroborates the role"
+        ],
+        "skills": "VAPT Burp Suite OWASP ZAP Nessus Nikto Acunetix Nmap Metasploit Wireshark Python Bash Kali Linux OWASP Top 10 CWE SANS Top 25",
+        "certInEmpanelled": true
       }
     }
   ]
