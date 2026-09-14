@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-09-14T06:35:04.000Z",
+  "lastUpdated": "2026-09-14T19:42:17.000Z",
   "summary": {
-    "totalLive": 24,
-    "earlyCareer": 24,
+    "totalLive": 25,
+    "earlyCareer": 25,
     "internships": 14,
     "apprenticeships": 0,
     "graduatePrograms": 1,
@@ -19,9 +19,9 @@
       "Entry level / 0–2 years": 3,
       "Internship / student or graduate": 4,
       "Internship / 0–1 year": 4,
-      "Fresher / experience not required": 1
+      "Fresher / experience not required": 2
     },
-    "verified": 24,
+    "verified": 25,
     "loginRequired": 19
   },
   "jobs": [
@@ -874,6 +874,43 @@
       ],
       "skills": "SOC security monitoring incident response alert triage phishing Python cyber laws",
       "certInEmpanelled": false
+    },
+    {
+      "id": "securelayer7-red-team-operator-fresher-pune",
+      "title": "Red Team Operator (Fresher)",
+      "company": "SecureLayer7",
+      "domain": "Red Teaming",
+      "level": "Fresher",
+      "experienceLevel": "Fresher / experience not required",
+      "location": "Pune, Maharashtra, India",
+      "workplace": "On-site",
+      "employmentType": "Full-time",
+      "experienceText": "Explicitly advertised as a fresher role; no professional-experience minimum is stated",
+      "fresherEligible": true,
+      "eligibilityReason": "The vacancy title explicitly identifies the role as Fresher",
+      "postedAt": null,
+      "posted": "Current SecureLayer7 hiring-portal listing",
+      "postedAge": "Verified September 15, 2026",
+      "status": "Active employer-authorized Sechire vacancy",
+      "source": "SecureLayer7 careers / Sechire",
+      "sourcePortal": "Employer careers / Sechire",
+      "sourceId": "certin-040-securelayer7",
+      "discoveryUrl": "https://securelayer7.net/careers",
+      "applyUrl": "https://sechire.net/jobs/red-team-operator-fresher-pune",
+      "applyMethod": "Employer-authorized Sechire vacancy application route",
+      "requisitionId": "red-team-operator-fresher-pune",
+      "discoveredAt": "2026-09-14T19:42:17.000Z",
+      "firstVerifiedAt": "2026-09-14T19:42:17.000Z",
+      "lastVerified": "2026-09-14T19:42:17.000Z",
+      "verificationStatus": "Verified - Employer-Authorized Hiring Portal",
+      "score": 94,
+      "scoreReasons": [
+        "Vacancy-specific Sechire page is live",
+        "SecureLayer7 official careers page links directly to the vacancy",
+        "Title explicitly states Fresher and identifies Pune, on-site, full-time employment"
+      ],
+      "skills": "red teaming adversary simulation penetration testing offensive security exploit validation vulnerability research",
+      "certInEmpanelled": true
     }
   ]
 }
