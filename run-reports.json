@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T04:29:16.000Z",
+  "lastUpdated": "2026-09-14T05:30:12.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -3753,8 +3753,62 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-053012z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T05:15:12.000Z",
+      "runCompletedAt": "2026-09-14T05:30:12.000Z",
+      "beforeCount": 23,
+      "afterCount": 23,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "ats-salesforce-sites-recruiting",
+        "ats-hcts-portals",
+        "ats-erpnext-recruitment"
+      ],
+      "sourceHealth": [
+        {
+          "source": "ats-salesforce-sites-recruiting",
+          "status": "platform-route-resolved-customer-specific-sites-no-central-recruiting-feed",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "ats-hcts-portals",
+          "status": "legacy-platform-resolved-symplr-employer-specific-healthcare-portals",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "ats-erpnext-recruitment",
+          "status": "open-source-module-resolved-self-hosted-employer-job-portals",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-042916z"
+  "latestRunId": "run-20260914-053012z"
 }
