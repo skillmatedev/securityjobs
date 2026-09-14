@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T17:42:29.000Z",
+  "lastUpdated": "2026-09-14T18:41:55.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4561,8 +4561,71 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260914-184155z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-14T18:31:55.000Z",
+      "runCompletedAt": "2026-09-14T18:41:55.000Z",
+      "beforeCount": 24,
+      "afterCount": 24,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-002-cybernx-technologies",
+        "certin-003-cyberq-consulting",
+        "certin-004-peneto-labs",
+        "certin-037-bug-hunters-private-limited"
+      ],
+      "sourceHealth": [
+        {
+          "source": "certin-002-cybernx-technologies",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-003-cyberq-consulting",
+          "status": "no-verifiable-official-careers-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-004-peneto-labs",
+          "status": "no-verifiable-official-careers-route",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "certin-037-bug-hunters-private-limited",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-vacancy-specific-fresher-evidence": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-174229z"
+  "latestRunId": "run-20260914-184155z"
 }
