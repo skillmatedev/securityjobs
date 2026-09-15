@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 108,
+    "employerCareerTargets": 112,
     "independentPortals": 38,
-    "totalUniqueConfigured": 223
+    "totalUniqueConfigured": 227
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T14:29:37.000Z",
-  "latestRun": "run-20260915-142937z",
+  "lastUpdated": "2026-09-15T15:29:38.000Z",
+  "latestRun": "run-20260915-152938z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -5012,16 +5012,84 @@
       "accessStatus": "official-jobs-route-public; historical vacancy not treated as current India fresher opening",
       "candidateYield": 0,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-siemens",
+      "name": "Siemens Careers",
+      "aliases": ["Siemens"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://jobs.siemens.com/careers",
+      "officialWebsite": "https://www.siemens.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 64; private application-folder URL replaced by official careers marketplace",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T15:29:38.000Z",
+      "lastSuccessfulCheck": "2026-09-15T15:29:38.000Z",
+      "nextRotationTime": "2026-09-18T15:29:38.000Z",
+      "accessStatus": "official-careers-marketplace-public; no qualifying India fresher cybersecurity vacancy verified",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bank-of-america",
+      "name": "Bank of America Careers",
+      "aliases": ["Bank of America", "BofA"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.bankofamerica.com/",
+      "officialWebsite": "https://www.bankofamerica.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 69; historical US Workday vacancy replaced by official careers page",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T15:29:38.000Z",
+      "lastSuccessfulCheck": "2026-09-15T15:29:38.000Z",
+      "nextRotationTime": "2026-09-18T15:29:38.000Z",
+      "accessStatus": "official-careers-route-public; historical US role outside India fresher scope",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bmw-group",
+      "name": "BMW Group Careers",
+      "aliases": ["BMW", "BMW Group", "BMW Group India"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.bmwgroup.jobs/in/en.html",
+      "officialWebsite": "https://www.bmw.in/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 70; LinkedIn vacancy replaced by official BMW Group India careers route",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T15:29:38.000Z",
+      "lastSuccessfulCheck": "2026-09-15T15:29:38.000Z",
+      "nextRotationTime": "2026-09-18T15:29:38.000Z",
+      "accessStatus": "official-india-careers-route-public; historical role not independently verified live",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-ge-aerospace",
+      "name": "GE Aerospace Careers",
+      "aliases": ["GE", "GE Careers", "General Electric"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.geaerospace.com/global/en",
+      "officialWebsite": "https://www.geaerospace.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 72; historical senior Workday vacancy normalized to official GE Aerospace careers",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T15:29:38.000Z",
+      "lastSuccessfulCheck": "2026-09-15T15:29:38.000Z",
+      "nextRotationTime": "2026-09-18T15:29:38.000Z",
+      "accessStatus": "official-careers-route-public; historical senior vacancy out of scope",
+      "candidateYield": 0,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 61,
-    "processedRows": 60,
-    "remainingRows": 486,
-    "lastProcessedAt": "2026-09-15T14:29:37.000Z",
+    "nextRow": 73,
+    "processedRows": 72,
+    "remainingRows": 474,
+    "lastProcessedAt": "2026-09-15T15:29:38.000Z",
     "records": [
       {
         "row": 1,
@@ -5212,7 +5280,19 @@
       {"row": 57, "label": "Angel.co", "status": "duplicate", "sourceId": "portal-angellist-legacy", "note": "legacy route superseded by Wellfound"},
       {"row": 58, "label": "Delivery Hero", "status": "source-registered", "sourceId": "employer-delivery-hero", "note": "historical vacancy normalized to official jobs index"},
       {"row": 59, "label": "Saudi Aramco / Senior Cyber Threat Intelligence Analyst", "status": "senior/out-of-scope", "sourceId": "employer-saudi-aramco", "note": "Singapore senior role; existing official careers source retained"},
-      {"row": 60, "label": "Oracle", "status": "duplicate", "sourceId": "employer-oracle", "note": "historical vacancy normalized to existing official Oracle careers route"}
+      {"row": 60, "label": "Oracle", "status": "duplicate", "sourceId": "employer-oracle", "note": "historical vacancy normalized to existing official Oracle careers route"},
+      {"row": 61, "label": "Fidanto", "status": "duplicate", "sourceId": "portal-fidanto", "note": "login/application link excluded; existing public portal source retained"},
+      {"row": 62, "label": "UKG / Senior Information Security Engineer", "status": "senior/out-of-scope", "sourceId": "ats-ukg", "note": "Canada opening and senior role outside India fresher scope"},
+      {"row": 63, "label": "SumUp / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-sumup", "note": "Berlin senior product-security role outside India scope"},
+      {"row": 64, "label": "Siemens / Cyber Security Professional", "status": "source-registered", "sourceId": "employer-siemens", "note": "private application-folder URL replaced by official careers marketplace"},
+      {"row": 65, "label": "Zoho", "status": "duplicate", "sourceId": "employer-zoho-corporation", "note": "historical vacancy normalized to official Zoho careers route"},
+      {"row": 66, "label": "Cisco / Security Engineering Manager", "status": "senior/out-of-scope", "sourceId": "employer-cisco", "note": "manager role; LinkedIn URL replaced by existing official Cisco careers route"},
+      {"row": 67, "label": "dnata / Senior Cybersecurity Technical Engineer", "status": "senior/out-of-scope", "sourceId": "employer-emirates-group", "note": "UAE senior role; portal link normalized to existing Emirates Group careers source"},
+      {"row": 68, "label": "Freshworks / Security Engineer", "status": "duplicate", "sourceId": "employer-freshworks", "note": "application confirmation URL excluded; official Freshworks careers source retained"},
+      {"row": 69, "label": "Bank of America / System Data Security Analyst", "status": "source-registered", "sourceId": "employer-bank-of-america", "note": "historical US vacancy replaced by official careers page"},
+      {"row": 70, "label": "BMW / Cyber Security Specialist", "status": "source-registered", "sourceId": "employer-bmw-group", "note": "LinkedIn vacancy replaced by official BMW Group India careers route"},
+      {"row": 71, "label": "Wipro / Cyber Security Analyst", "status": "duplicate", "sourceId": "employer-wipro", "note": "historical vacancy normalized to existing official Wipro careers source"},
+      {"row": 72, "label": "GE / Senior Cyber Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-ge-aerospace", "note": "historical senior role normalized to official GE Aerospace careers route"}
     ]
   },
   "brandsDirectory": {

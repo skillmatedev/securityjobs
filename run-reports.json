@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T14:29:37.000Z",
+  "lastUpdated": "2026-09-15T15:29:38.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5846,8 +5846,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 486, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 34, "linkedinBrandsNeedingOfficialCareerResolution": 64},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 108, "independentPortals": 38, "totalUniqueConfigured": 223},
       "deploymentResult": "prepared three workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-152938z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T15:19:38.000Z",
+      "runCompletedAt": "2026-09-15T15:29:38.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-61-72", "employer-siemens", "employer-bank-of-america", "employer-bmw-group", "employer-ge-aerospace", "employer-sumup", "employer-cisco", "employer-emirates-group", "employer-freshworks", "employer-wipro", "portal-fidanto", "ats-ukg"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 4},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "candidateYield": 9, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 4, "senior-or-outside-india-scope": 5, "private-application-link-excluded": 2},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 73},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 474, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 30, "linkedinBrandsNeedingOfficialCareerResolution": 63},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 112, "independentPortals": 38, "totalUniqueConfigured": 227},
+      "deploymentResult": "prepared four workbook-derived employer sources and advanced ingestion cursor; replaced LinkedIn and private discovery URLs with official career routes; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-142937z"
+  "latestRunId": "run-20260915-152938z"
 }
