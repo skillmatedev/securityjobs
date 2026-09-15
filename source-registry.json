@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 136,
+    "employerCareerTargets": 140,
     "independentPortals": 38,
-    "totalUniqueConfigured": 251
+    "totalUniqueConfigured": 255
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T19:30:01.000Z",
-  "latestRun": "run-20260915-193001z",
+  "lastUpdated": "2026-09-15T20:31:32.000Z",
+  "latestRun": "run-20260915-203132z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -5488,16 +5488,84 @@
       "accessStatus": "official-careers-portal-public; graduates program exists, but historical security-professional role lacks explicit fresher evidence",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-claranet",
+      "name": "Claranet Careers",
+      "aliases": ["Claranet", "Claranet India"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://claranet.jobs/recruit/fRecruit__ApplyJobList",
+      "officialWebsite": "https://www.claranet.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 121; application-complete URL replaced by official vacancy index",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T20:31:32.000Z",
+      "lastSuccessfulCheck": "2026-09-15T20:31:32.000Z",
+      "nextRotationTime": "2026-09-16T20:31:32.000Z",
+      "accessStatus": "official-vacancy-index-public; India security vacancies VN512 and VN519 are live but omit explicit fresher or 0-2-year eligibility",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-atlassian",
+      "name": "Atlassian Careers",
+      "aliases": ["Atlassian"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.atlassian.com/company/careers/all-jobs",
+      "officialWebsite": "https://www.atlassian.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 122; historical LinkedIn vacancy replaced by official careers portal",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T20:31:32.000Z",
+      "lastSuccessfulCheck": "2026-09-15T20:31:32.000Z",
+      "nextRotationTime": "2026-09-18T20:31:32.000Z",
+      "accessStatus": "official-careers-route-public; historical security intelligence manager role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-hcltech",
+      "name": "HCLTech Careers",
+      "aliases": ["HCLTech", "HCL Technologies", "HCL"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.hcltech.com/",
+      "officialWebsite": "https://www.hcltech.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 123; historical LinkedIn vacancy replaced by official careers search",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T20:31:32.000Z",
+      "lastSuccessfulCheck": "2026-09-15T20:31:32.000Z",
+      "nextRotationTime": "2026-09-18T20:31:32.000Z",
+      "accessStatus": "official-careers-search-public; historical IT audit/cybersecurity manager role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-flender",
+      "name": "Flender Careers",
+      "aliases": ["Flender", "Flender GmbH"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://flender.wd3.myworkdayjobs.com/Flender_Global",
+      "officialWebsite": "https://www.flender.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 125; private application-view URL replaced by official Workday careers index",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-15T20:31:32.000Z",
+      "lastSuccessfulCheck": "2026-09-15T20:31:32.000Z",
+      "nextRotationTime": "2026-09-22T20:31:32.000Z",
+      "accessStatus": "official-Workday-careers-index-public; historical CISO application is executive and out of scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 121,
-    "processedRows": 120,
-    "remainingRows": 426,
-    "lastProcessedAt": "2026-09-15T19:30:01.000Z",
+    "nextRow": 133,
+    "processedRows": 132,
+    "remainingRows": 414,
+    "lastProcessedAt": "2026-09-15T20:31:32.000Z",
     "records": [
       {
         "row": 1,
@@ -5748,7 +5816,19 @@
       {"row": 117, "label": "Riversand, a Syndigo company / Junior Information Security Analyst", "status": "source-registered", "sourceId": "employer-syndigo", "note": "LinkedIn vacancy replaced by official Syndigo openings page; junior title alone is insufficient fresher evidence"},
       {"row": 118, "label": "ArtemisPro / Senior DevSecOps Engineer", "status": "quarantined", "note": "ambiguous employer identity, LinkedIn-only historical evidence, and senior title; no safe official career route assigned"},
       {"row": 119, "label": "Navisite / Consultant - Cyber Security", "status": "source-registered", "sourceId": "employer-navisite-accenture", "note": "legacy Lever vacancy replaced by official Accenture careers search; consultant title lacks fresher evidence"},
-      {"row": 120, "label": "Persistent Systems / Security Professional", "status": "source-registered", "sourceId": "employer-persistent-systems", "note": "LinkedIn vacancy replaced by official Persistent careers portal; fresher eligibility not verified"}
+      {"row": 120, "label": "Persistent Systems / Security Professional", "status": "source-registered", "sourceId": "employer-persistent-systems", "note": "LinkedIn vacancy replaced by official Persistent careers portal; fresher eligibility not verified"},
+      {"row": 121, "label": "Claranet / Application Security Engineer (DVA)", "status": "source-registered", "sourceId": "employer-claranet", "note": "application-complete URL replaced by official vacancy index; historical role not verified live"},
+      {"row": 122, "label": "Atlassian / Manager, Security Intelligence", "status": "senior/out-of-scope", "sourceId": "employer-atlassian", "note": "manager role; LinkedIn replaced by official careers portal"},
+      {"row": 123, "label": "HCLTech / Manager or Senior Manager - IT Audit or Cyber Security", "status": "senior/out-of-scope", "sourceId": "employer-hcltech", "note": "manager role; LinkedIn replaced by official HCLTech careers search"},
+      {"row": 124, "label": "Capgemini / VAPT", "status": "duplicate", "sourceId": "employer-capgemini", "note": "personal email evidence excluded; existing official Capgemini careers source retained"},
+      {"row": 125, "label": "Flender / Chief Information Security Officer", "status": "senior/out-of-scope", "sourceId": "employer-flender", "note": "private application-view URL replaced by official Workday careers index"},
+      {"row": 126, "label": "Capgemini / Security Engineer", "status": "duplicate", "sourceId": "employer-capgemini", "note": "historical role lacks explicit fresher or 0-2-year evidence"},
+      {"row": 127, "label": "Capgemini / Vulnerability Assessment Penetration Testing", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "historical role explicitly required 9-12 years"},
+      {"row": 128, "label": "Capgemini / Tower Lead - Cyber Security", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "lead title outside fresher scope"},
+      {"row": 129, "label": "Capgemini / Cyber Security Tester", "status": "duplicate", "sourceId": "employer-capgemini", "note": "historical role lacks explicit fresher or 0-2-year evidence"},
+      {"row": 130, "label": "Capgemini / Cyber Security Consultant", "status": "duplicate", "sourceId": "employer-capgemini", "note": "consultant title lacks explicit fresher or 0-2-year evidence"},
+      {"row": 131, "label": "Capgemini / Junior Cyber Security Engineer", "status": "duplicate", "sourceId": "employer-capgemini", "note": "junior title alone is insufficient without explicit fresher or 0-2-year evidence"},
+      {"row": 132, "label": "Capgemini / Cyber Security Senior Engineer", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "senior role outside fresher scope"}
     ]
   },
   "brandsDirectory": {

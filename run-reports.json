@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T19:30:01.000Z",
+  "lastUpdated": "2026-09-15T20:31:32.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5957,8 +5957,31 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 426, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 6, "linkedinBrandsNeedingOfficialCareerResolution": 55},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 136, "independentPortals": 38, "totalUniqueConfigured": 251},
       "deploymentResult": "prepared five workbook-derived employer sources, refreshed two existing employer records through deduplication, and advanced ingestion cursor; LinkedIn and legacy ATS references replaced with official company career routes where safely resolvable; ArtemisPro quarantined; Gmail alerts yielded only senior roles or training promotion; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-203132z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T20:21:32.000Z",
+      "runCompletedAt": "2026-09-15T20:31:32.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-121-132", "gmail-recent-cyber-job-alerts", "employer-claranet", "employer-atlassian", "employer-hcltech", "employer-flender", "employer-capgemini"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "scheduled": 12, "attempted": 12, "succeeded": 12, "blocked": 0, "failed": 0, "candidateYield": 12, "acceptedYield": 4},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "scheduled": 5, "attempted": 5, "succeeded": 5, "blocked": 0, "failed": 0, "candidateYield": 4, "acceptedYield": 0},
+        {"source": "gmail-recent-cyber-job-alerts", "status": "success-no-new-message", "scheduled": 1, "attempted": 1, "succeeded": 1, "blocked": 0, "failed": 0, "candidateYield": 0, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 6, "senior-or-outside-fresher-scope": 5, "historical-or-insufficient-experience-evidence": 5},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 133},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 414, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 2, "linkedinBrandsNeedingOfficialCareerResolution": 53},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 140, "independentPortals": 38, "totalUniqueConfigured": 255},
+      "deploymentResult": "registered four workbook-derived employer sources and advanced ingestion cursor; LinkedIn, private application, personal email, and historical routes normalized to official career pages; two current Claranet India security vacancies remain directory-only because neither states explicit fresher or 0-2-year eligibility; Gmail had no new matching messages; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-193001z"
+  "latestRunId": "run-20260915-203132z"
 }
