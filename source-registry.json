@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T11:29:49.000Z",
-  "latestRun": "run-20260915-112949z",
+  "lastUpdated": "2026-09-15T11:45:00.000Z",
+  "latestRun": "run-20260915-114500z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -4909,9 +4909,9 @@
   },
   "brandsDirectory": {
     "path": "brands/index.html",
-    "publishedAt": "2026-09-15T10:50:56.000Z",
+    "publishedAt": "2026-09-15T11:45:00.000Z",
     "totalEntries": 624,
-    "entriesWithLinks": 428,
+    "entriesWithLinks": 363,
     "product": 22,
     "services": 57,
     "both": 28,
@@ -4921,6 +4921,12 @@
       "source-registry.json",
       "authorized Gmail LinkedIn job alerts"
     ],
-    "privacy": "personal contacts and private Gmail links excluded"
+    "privacy": "personal contacts and private Gmail links excluded",
+    "linkedinCleanup": {
+      "historicalLinkedinLinksReviewed": 156,
+      "replacedWithOfficialCareerPages": 91,
+      "hiddenPendingOfficialCareerVerification": 65,
+      "publicLinkedinLinksRemainingInDirectory": 0
+    }
   }
 }

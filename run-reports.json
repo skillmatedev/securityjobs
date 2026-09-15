@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T11:29:49.000Z",
+  "lastUpdated": "2026-09-15T11:45:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5755,8 +5755,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 522, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 50},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 92, "independentPortals": 38, "totalUniqueConfigured": 207},
       "deploymentResult": "prepared five workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-114500z",
+      "type": "brands-link-cleanup",
+      "runStartedAt": "2026-09-15T11:30:00.000Z",
+      "runCompletedAt": "2026-09-15T11:45:00.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["brands-linkedin-apply-links", "source-registry-official-career-routes"],
+      "sourceHealth": [
+        {"source": "brands-linkedin-apply-links", "status": "cleanup-complete", "candidateYield": 156, "acceptedYield": 91},
+        {"source": "source-registry-official-career-routes", "status": "used-as-authoritative-override", "candidateYield": 207, "acceptedYield": 91}
+      ],
+      "rejectedByReason": {"official-career-page-not-yet-verified": 65},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 25},
+      "remainingBacklog": {"workbookRowsToProcess": 522, "certInCompaniesToRegister": 192, "linkedinBrandsNeedingOfficialCareerResolution": 65},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 92, "independentPortals": 38, "totalUniqueConfigured": 207},
+      "deploymentResult": "replaced 91 displayed LinkedIn links with official career pages and hid 65 unresolved links; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-112949z"
+  "latestRunId": "run-20260915-114500z"
 }
