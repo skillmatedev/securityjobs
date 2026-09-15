@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-14T21:38:57.000Z",
+  "lastUpdated": "2026-09-15T03:41:47.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 8,
-    "totalQuarantined": 8,
-    "quarantined": 8
+    "total": 9,
+    "totalQuarantined": 9,
+    "quarantined": 9
   },
   "jobs": [
     {
@@ -121,6 +121,21 @@
       "applyUrl": "https://www.aujas.com/associate-consultant%E2%80%93soc-l1-1",
       "verificationStatus": "quarantined",
       "quarantineReason": "The official careers index lists the vacancy, location, domain, and experience threshold, but its vacancy-specific link returns HTTP 404. No working employer-intended application route or requisition ID could be verified."
+    },
+    {
+      "id": "bureau-veritas-cybersecurity-security-engineer-l1-mixed-levels",
+      "company": "Bureau Veritas Cybersecurity",
+      "title": "Security Engineer / Senior Security Engineer",
+      "location": "India (exact worksite not disclosed)",
+      "experienceEvidence": "The live employer ATS description defines Security Engineer levels L1–L3; Level 3 requires a minimum of 2 years, while Level 1 is paired with experienced engineers and is expected to progress within 12 months.",
+      "eligibilityReason": "The vacancy explicitly includes an L1 application-security track, but combines it with senior levels and does not state an exact experience requirement for L1.",
+      "discoveredAt": "2026-09-15T03:41:47.000Z",
+      "lastCheckedAt": "2026-09-15T03:41:47.000Z",
+      "sourceId": "employer-bureau-veritas-cybersecurity",
+      "discoveryUrl": "https://careers.kula.ai/bureau-veritas/19248?jobs=true",
+      "applyUrl": "https://careers.kula.ai/bureau-veritas/19248?jobs=true",
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The vacancy page is live and has an application form, but it combines L1 through L4 hiring under one title, omits the exact India worksite and requisition ID, and does not explicitly state the L1 experience ceiling. It cannot be safely presented as a fresher-only opening."
     }
   ]
 }
