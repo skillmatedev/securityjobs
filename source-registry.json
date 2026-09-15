@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 87,
+    "employerCareerTargets": 92,
     "independentPortals": 38,
-    "totalUniqueConfigured": 202
+    "totalUniqueConfigured": 207
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T10:50:56.000Z",
-  "latestRun": "run-20260915-105056z",
+  "lastUpdated": "2026-09-15T11:29:49.000Z",
+  "latestRun": "run-20260915-112949z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -4656,16 +4656,100 @@
       "accessStatus": "official-google-careers-route-public; India Mandiant roles found but sampled roles require more than 2 years",
       "candidateYield": 3,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-audacix",
+      "name": "Audacix Careers",
+      "aliases": ["Audacix"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://apply.workable.com/audacix/",
+      "officialWebsite": "https://www.audacix.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 14; official site and Workable careers route verified",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T11:29:49.000Z",
+      "lastSuccessfulCheck": "2026-09-15T11:29:49.000Z",
+      "nextRotationTime": "2026-09-18T11:29:49.000Z",
+      "accessStatus": "official-careers-route-public-no-current-openings",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-axa",
+      "name": "AXA Careers",
+      "aliases": ["AXA", "Axa Business Solutions", "AXA Business Services"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.axa.com/",
+      "officialWebsite": "https://www.axa.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 17; official AXA careers route verified",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T11:29:49.000Z",
+      "lastSuccessfulCheck": "2026-09-15T11:29:49.000Z",
+      "nextRotationTime": "2026-09-16T11:29:49.000Z",
+      "accessStatus": "official-careers-route-public; no qualifying India fresher cybersecurity vacancy verified in this batch",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-ibm",
+      "name": "IBM Careers",
+      "aliases": ["IBM", "International Business Machines"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.ibm.com/careers/search",
+      "officialWebsite": "https://www.ibm.com/in-en",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 19; official IBM careers route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T11:29:49.000Z",
+      "lastSuccessfulCheck": "2026-09-15T11:29:49.000Z",
+      "nextRotationTime": "2026-09-16T11:29:49.000Z",
+      "accessStatus": "official-career-target-registered; vacancy-specific fresher cybersecurity verification pending rotation",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-alstom",
+      "name": "Alstom Careers",
+      "aliases": ["Alstom"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://jobsearch.alstom.com/",
+      "officialWebsite": "https://www.alstom.com/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 20; historical LinkedIn lead replaced by official career portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T11:29:49.000Z",
+      "lastSuccessfulCheck": "2026-09-15T11:29:49.000Z",
+      "nextRotationTime": "2026-09-16T11:29:49.000Z",
+      "accessStatus": "official-careers-route-public; no qualifying cybersecurity opening verified in this batch",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-shell",
+      "name": "Shell Careers",
+      "aliases": ["Shell", "Shell India"],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.shell.com/careers.html",
+      "officialWebsite": "https://www.shell.in/",
+      "geography": ["India", "Remote India"],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 24; historical LinkedIn vacancy normalized to official careers route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T11:29:49.000Z",
+      "nextRotationTime": "2026-09-16T11:29:49.000Z",
+      "accessStatus": "official-career-target-registered; vacancy-specific fresher cybersecurity verification pending rotation",
+      "candidateYield": 0,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
-    "sheet": "Interview",
+    "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 13,
-    "processedRows": 12,
-    "remainingRows": 534,
-    "lastProcessedAt": "2026-09-15T10:40:56.000Z",
+    "nextRow": 25,
+    "processedRows": 24,
+    "remainingRows": 522,
+    "lastProcessedAt": "2026-09-15T11:29:49.000Z",
     "records": [
       {
         "row": 1,
@@ -4741,6 +4825,85 @@
         "label": "LTHarper Lead Security Analyst",
         "status": "senior/out-of-scope",
         "sourceId": "portal-ltharper"
+      },
+      {
+        "row": 13,
+        "label": "JPMorgan",
+        "status": "duplicate",
+        "sourceId": "employer-jpmorgan"
+      },
+      {
+        "row": 14,
+        "label": "Audacix",
+        "status": "source-registered",
+        "sourceId": "employer-audacix",
+        "note": "historical email/contact details excluded; official Workable route has no current openings"
+      },
+      {
+        "row": 15,
+        "label": "Mandiant",
+        "status": "duplicate",
+        "sourceId": "employer-mandiant-google-cloud"
+      },
+      {
+        "row": 16,
+        "label": "Ramognee",
+        "status": "quarantined",
+        "note": "historical interview note describes paid virtual-box offer; no public career route retained"
+      },
+      {
+        "row": 17,
+        "label": "AXA Business Solutions",
+        "status": "source-registered",
+        "sourceId": "employer-axa",
+        "note": "personal contact details excluded"
+      },
+      {
+        "row": 18,
+        "label": "Protiviti",
+        "status": "duplicate",
+        "sourceId": "employer-protiviti"
+      },
+      {
+        "row": 19,
+        "label": "IBM",
+        "status": "source-registered",
+        "sourceId": "employer-ibm",
+        "note": "personal interview contact excluded"
+      },
+      {
+        "row": 20,
+        "label": "Alstom",
+        "status": "source-registered",
+        "sourceId": "employer-alstom",
+        "note": "historical LinkedIn vacancy retained only as provenance; official careers portal registered"
+      },
+      {
+        "row": 21,
+        "label": "Datec / Network Trainer",
+        "status": "senior/out-of-scope",
+        "note": "non-cybersecurity role outside India; personal contact details excluded"
+      },
+      {
+        "row": 22,
+        "label": "Infosys",
+        "status": "duplicate",
+        "sourceId": "employer-infosys",
+        "note": "historical vacancy and personal contact details excluded"
+      },
+      {
+        "row": 23,
+        "label": "GAIN Credit",
+        "status": "duplicate",
+        "sourceId": "employer-gain-credit",
+        "note": "personal LinkedIn profile excluded"
+      },
+      {
+        "row": 24,
+        "label": "Shell",
+        "status": "source-registered",
+        "sourceId": "employer-shell",
+        "note": "historical LinkedIn vacancy normalized to official careers route"
       }
     ]
   },

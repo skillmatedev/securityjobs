@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:50:56.000Z",
+  "lastUpdated": "2026-09-15T11:29:49.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5729,8 +5729,34 @@
         "totalUniqueConfigured": 202
       },
       "deploymentResult": "published /brands directory with 624 deduplicated entries and 428 links; linked from main dashboard; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-112949z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T11:19:49.000Z",
+      "runCompletedAt": "2026-09-15T11:29:49.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-13-24", "employer-audacix", "employer-axa", "employer-ibm", "employer-alstom", "employer-shell"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 5},
+        {"source": "employer-audacix", "status": "registered-no-current-openings", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-axa", "status": "registered-no-qualified-vacancy", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-ibm", "status": "registered-pending-vacancy-check", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-alstom", "status": "registered-no-qualified-vacancy", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-shell", "status": "registered-pending-vacancy-check", "candidateYield": 0, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 5, "historical-pay-to-work-risk": 1, "non-security-out-of-geography": 1},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 25},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 522, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 50},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 92, "independentPortals": 38, "totalUniqueConfigured": 207},
+      "deploymentResult": "prepared five workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-105056z"
+  "latestRunId": "run-20260915-112949z"
 }
