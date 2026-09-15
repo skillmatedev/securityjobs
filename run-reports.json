@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T05:39:07.000Z",
+  "lastUpdated": "2026-09-15T07:05:10.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5343,8 +5343,76 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-070510z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T06:55:10.000Z",
+      "runCompletedAt": "2026-09-15T07:05:10.000Z",
+      "beforeCount": 25,
+      "afterCount": 27,
+      "idsAdded": [
+        "cloudsek-product-specialist-HR1178839514861733",
+        "cloudsek-customer-threat-advisor-offensive-HR1178309021811232"
+      ],
+      "idsUpdated": [
+        "cloudsek-security-consultant-intern-6115382004"
+      ],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-recruit-net",
+        "portal-totaljobs",
+        "portal-vanhack",
+        "portal-uplers"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-recruit-net",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-totaljobs",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-vanhack",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-uplers",
+          "status": "qualified-vacancies",
+          "candidateYield": 3,
+          "acceptedYield": 2
+        }
+      ],
+      "rejectedByReason": {
+        "duplicates": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-two-new-jobs-one-reverification-registry-and-history; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-053907z"
+  "latestRunId": "run-20260915-070510z"
 }
