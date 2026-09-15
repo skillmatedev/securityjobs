@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T20:31:32.000Z",
+  "lastUpdated": "2026-09-15T21:32:37.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5980,8 +5980,31 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 414, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 2, "linkedinBrandsNeedingOfficialCareerResolution": 53},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 140, "independentPortals": 38, "totalUniqueConfigured": 255},
       "deploymentResult": "registered four workbook-derived employer sources and advanced ingestion cursor; LinkedIn, private application, personal email, and historical routes normalized to official career pages; two current Claranet India security vacancies remain directory-only because neither states explicit fresher or 0-2-year eligibility; Gmail had no new matching messages; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-213237z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T21:22:37.000Z",
+      "runCompletedAt": "2026-09-15T21:32:37.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-133-144", "gmail-recent-cyber-job-alerts", "employer-capgemini", "employer-ingram-micro", "employer-bechtel", "employer-cognizant", "employer-getinz", "employer-experience-com"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "scheduled": 12, "attempted": 12, "succeeded": 12, "blocked": 0, "failed": 0, "candidateYield": 12, "acceptedYield": 1},
+        {"source": "official-career-routes-batch", "status": "partial-no-qualified-vacancy", "scheduled": 6, "attempted": 6, "succeeded": 5, "blocked": 0, "failed": 1, "candidateYield": 6, "acceptedYield": 0},
+        {"source": "gmail-recent-cyber-job-alerts", "status": "success-no-new-message", "scheduled": 1, "attempted": 1, "succeeded": 1, "blocked": 0, "failed": 0, "candidateYield": 0, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 5, "senior-or-outside-fresher-scope": 8, "historical-or-insufficient-experience-evidence": 3},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 145},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 402, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 1, "linkedinBrandsNeedingOfficialCareerResolution": 52},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 141, "independentPortals": 38, "totalUniqueConfigured": 256},
+      "deploymentResult": "registered Experience.com as one workbook-derived employer source and advanced the ingestion cursor; its historical LinkedIn vacancy was replaced by the official company Job Opportunities route; Gmail had no new matching messages; no job list change; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-203132z"
+  "latestRunId": "run-20260915-213237z"
 }
