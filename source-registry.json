@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 83,
+    "employerCareerTargets": 87,
     "independentPortals": 38,
-    "totalUniqueConfigured": 198
+    "totalUniqueConfigured": 202
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T09:39:56.000Z",
-  "latestRun": "run-20260915-093956z",
+  "lastUpdated": "2026-09-15T10:40:56.000Z",
+  "latestRun": "run-20260915-104056z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -4566,6 +4566,182 @@
       "status": "Vacancy-specific public LinkedIn page remains live with Apply control for the qualifying L1 SOC role",
       "lastJobCount": 1,
       "consecutiveFailures": 0
+    },
+    {
+      "sourceId": "employer-amazon",
+      "name": "Amazon Jobs",
+      "aliases": [
+        "Amazon",
+        "AWS",
+        "Amazon Security"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.amazon.jobs/search",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 1; official career route verified",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T10:40:56.000Z",
+      "lastSuccessfulCheck": "2026-09-15T10:40:56.000Z",
+      "nextRotationTime": "2026-09-16T10:40:56.000Z",
+      "accessStatus": "official-career-and-security-job-search-public; no qualifying fresher vacancy verified in this ingestion batch",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bose",
+      "name": "Bose Careers",
+      "aliases": [
+        "Bose",
+        "Bose Corporation"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.bose.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 5; official careers route verified",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-15T10:40:56.000Z",
+      "lastSuccessfulCheck": "2026-09-15T10:40:56.000Z",
+      "nextRotationTime": "2026-09-18T10:40:56.000Z",
+      "accessStatus": "official-careers-route-public; workbook record historical and no India fresher cybersecurity vacancy verified",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-cisco",
+      "name": "Cisco Careers",
+      "aliases": [
+        "Cisco",
+        "Cisco Talos",
+        "Talos"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://jobs.cisco.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 7; official employer career route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T10:40:56.000Z",
+      "nextRotationTime": "2026-09-16T10:40:56.000Z",
+      "accessStatus": "official-career-target-registered-from-workbook; vacancy search pending next rotation",
+      "candidateYield": 0,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-mandiant-google-cloud",
+      "name": "Mandiant / Google Cloud Careers",
+      "aliases": [
+        "Mandiant",
+        "FireEye",
+        "Google Cloud Mandiant"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.google.com/about/careers/applications/jobs/results/?q=Mandiant",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 8; FireEye historical label normalized to Mandiant/Google Cloud",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-15T10:40:56.000Z",
+      "lastSuccessfulCheck": "2026-09-15T10:40:56.000Z",
+      "nextRotationTime": "2026-09-16T10:40:56.000Z",
+      "accessStatus": "official-google-careers-route-public; India Mandiant roles found but sampled roles require more than 2 years",
+      "candidateYield": 3,
+      "acceptedYield": 0
     }
-  ]
+  ],
+  "workbookIngestion": {
+    "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
+    "sheet": "Interview",
+    "totalRows": 546,
+    "nextRow": 13,
+    "processedRows": 12,
+    "remainingRows": 534,
+    "lastProcessedAt": "2026-09-15T10:40:56.000Z",
+    "records": [
+      {
+        "row": 1,
+        "label": "Amazon",
+        "status": "source-registered",
+        "sourceId": "employer-amazon"
+      },
+      {
+        "row": 2,
+        "label": "Briskinfotech",
+        "status": "duplicate",
+        "sourceId": "certin-016-briskinfosec-technology-and-consulting-pvt-ltd",
+        "note": "personal LinkedIn profile not retained"
+      },
+      {
+        "row": 3,
+        "label": "Wipro",
+        "status": "duplicate",
+        "sourceId": "employer-wipro"
+      },
+      {
+        "row": 4,
+        "label": "Bishop Fox",
+        "status": "duplicate",
+        "sourceId": "employer-bishop-fox"
+      },
+      {
+        "row": 5,
+        "label": "Bose",
+        "status": "source-registered",
+        "sourceId": "employer-bose",
+        "note": "historical no-opening record"
+      },
+      {
+        "row": 6,
+        "label": "BT",
+        "status": "duplicate",
+        "sourceId": "employer-bt"
+      },
+      {
+        "row": 7,
+        "label": "Cisco Talos",
+        "status": "source-registered",
+        "sourceId": "employer-cisco"
+      },
+      {
+        "row": 8,
+        "label": "FireEye",
+        "status": "source-registered",
+        "sourceId": "employer-mandiant-google-cloud",
+        "note": "historical brand normalized to Mandiant/Google Cloud"
+      },
+      {
+        "row": 9,
+        "label": "Freshworks",
+        "status": "duplicate",
+        "sourceId": "employer-freshworks"
+      },
+      {
+        "row": 10,
+        "label": "Fujitsu",
+        "status": "duplicate",
+        "sourceId": "employer-fujitsu"
+      },
+      {
+        "row": 11,
+        "label": "Iqbal / SOC analyst",
+        "status": "historical",
+        "note": "personal contact and no opening; not registered as source"
+      },
+      {
+        "row": 12,
+        "label": "LTHarper Lead Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-ltharper"
+      }
+    ]
+  }
 }
