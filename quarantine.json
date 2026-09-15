@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-15T03:41:47.000Z",
+  "lastUpdated": "2026-09-15T17:28:17.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 9,
-    "totalQuarantined": 9,
-    "quarantined": 9
+    "total": 10,
+    "totalQuarantined": 10,
+    "quarantined": 10
   },
   "jobs": [
     {
@@ -136,6 +136,21 @@
       "applyUrl": "https://careers.kula.ai/bureau-veritas/19248?jobs=true",
       "verificationStatus": "quarantined",
       "quarantineReason": "The vacancy page is live and has an application form, but it combines L1 through L4 hiring under one title, omits the exact India worksite and requisition ID, and does not explicitly state the L1 experience ceiling. It cannot be safely presented as a fresher-only opening."
+    },
+    {
+      "id": "workbook-row-91-validus-cyber-security-lead",
+      "company": "Validus (identity unresolved)",
+      "title": "Cyber Security Lead",
+      "location": "Not stated",
+      "experienceEvidence": "Lead title only; no fresher or 0-2 year evidence.",
+      "eligibilityReason": "Historical workbook record uses a LinkedIn vacancy URL and does not establish which Validus company posted it.",
+      "discoveredAt": "2026-09-15T17:28:17.000Z",
+      "lastCheckedAt": "2026-09-15T17:28:17.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3260077550/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous employer identity, historical LinkedIn-only evidence, and senior title. No safe official career page can be assigned without risking a wrong-company link."
     }
   ]
 }

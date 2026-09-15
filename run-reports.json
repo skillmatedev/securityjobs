@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T16:31:13.000Z",
+  "lastUpdated": "2026-09-15T17:28:17.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5890,8 +5890,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 462, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 23, "linkedinBrandsNeedingOfficialCareerResolution": 62},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 119, "independentPortals": 38, "totalUniqueConfigured": 234},
       "deploymentResult": "prepared seven workbook-derived employer sources and advanced ingestion cursor; official career routes replaced historical LinkedIn, portal and ATS links where appropriate; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-172817z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T17:18:17.000Z",
+      "runCompletedAt": "2026-09-15T17:28:17.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": ["workbook-row-91-validus"],
+      "sourcesChecked": ["workbook-interview-rows-85-96", "employer-cyberark", "employer-6sense", "employer-banner-health", "employer-concentrix", "employer-oist", "employer-uber", "employer-visteon", "employer-disney", "employer-aujas-cybersecurity", "employer-anthology"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 7},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "candidateYield": 8, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 2, "senior-or-outside-india-scope": 4, "employer-url-mismatch": 1, "ambiguous-employer": 1},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 97},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 450, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 16, "linkedinBrandsNeedingOfficialCareerResolution": 60},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 126, "independentPortals": 38, "totalUniqueConfigured": 241},
+      "deploymentResult": "prepared seven workbook-derived employer sources and advanced ingestion cursor; official career routes replaced historical LinkedIn and ATS links; one ambiguous Validus record quarantined; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-163113z"
+  "latestRunId": "run-20260915-172817z"
 }
