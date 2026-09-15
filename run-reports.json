@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T15:29:38.000Z",
+  "lastUpdated": "2026-09-15T16:31:13.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5868,8 +5868,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 474, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 30, "linkedinBrandsNeedingOfficialCareerResolution": 63},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 112, "independentPortals": 38, "totalUniqueConfigured": 227},
       "deploymentResult": "prepared four workbook-derived employer sources and advanced ingestion cursor; replaced LinkedIn and private discovery URLs with official career routes; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-163113z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T16:21:13.000Z",
+      "runCompletedAt": "2026-09-15T16:31:13.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-73-84", "employer-td-synnex", "employer-ford", "employer-lennox-india", "employer-comcast", "employer-20cube-logistics", "employer-adobe", "employer-postman", "employer-accenture", "employer-disney", "employer-delivery-hero", "portal-instahyre"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 7},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "candidateYield": 9, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 1, "senior-or-unverified-experience": 4, "historical-vacancy-not-live": 7, "credential-like-data-excluded": 1},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 85},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 462, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 23, "linkedinBrandsNeedingOfficialCareerResolution": 62},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 119, "independentPortals": 38, "totalUniqueConfigured": 234},
+      "deploymentResult": "prepared seven workbook-derived employer sources and advanced ingestion cursor; official career routes replaced historical LinkedIn, portal and ATS links where appropriate; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-152938z"
+  "latestRunId": "run-20260915-163113z"
 }
