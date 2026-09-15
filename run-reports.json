@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T09:39:56.000Z",
+  "lastUpdated": "2026-09-15T10:40:56.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5594,8 +5594,83 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-104056z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T10:30:56.000Z",
+      "runCompletedAt": "2026-09-15T10:40:56.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-1-12",
+        "employer-amazon",
+        "employer-bose",
+        "employer-cisco",
+        "employer-mandiant-google-cloud"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "candidateYield": 12,
+          "acceptedYield": 4
+        },
+        {
+          "source": "employer-amazon",
+          "status": "registered-no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-bose",
+          "status": "registered-no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cisco",
+          "status": "registered-pending-vacancy-check",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-mandiant-google-cloud",
+          "status": "registered-sampled-roles-out-of-scope",
+          "candidateYield": 3,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 6,
+        "historical-personal-contact": 1,
+        "senior-out-of-scope": 1,
+        "sampled-role-over-2-years": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 13
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 534,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 55
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 87,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 202
+      },
+      "deploymentResult": "committed-four-workbook-derived-employer-sources-and-ingestion-cursor; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-093956z"
+  "latestRunId": "run-20260915-104056z"
 }
