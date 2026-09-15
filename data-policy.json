@@ -1,16 +1,21 @@
 {
   "schemaVersion": "1.0",
-  "effectiveAt": "2026-09-09T08:15:00.000Z",
+  "effectiveAt": "2026-09-15T04:40:00.000Z",
   "rules": {
     "appendMergeOnly": true,
     "neverDeleteJobs": true,
     "neverDeleteSources": true,
-    "archiveConfirmedClosures": true,
+    "archiveConfirmedClosures": false,
     "retainTemporarilyUnreachable": true,
     "abortUnexpectedLiveCountDecrease": true,
     "requirePerRecordArchiveReason": true,
     "stableJobIds": true,
-    "stableSourceIds": true
+    "stableSourceIds": true,
+    "retainExistingJobsIndefinitely": true,
+    "refreshLastVerifiedOnlyWithEvidence": true,
+    "preserveOriginalPostedAt": true,
+    "preserveOriginalDiscoveredAt": true,
+    "closedJobsRemainListedWithStatus": true
   },
   "datasets": {
     "activeJobs": "jobs.json",
