@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T07:05:10.000Z",
+  "lastUpdated": "2026-09-15T07:40:07.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5411,8 +5411,69 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-two-new-jobs-one-reverification-registry-and-history; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-074007z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T07:30:07.000Z",
+      "runCompletedAt": "2026-09-15T07:40:07.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-null-community-jobs",
+        "portal-jobtarget",
+        "portal-the-judge-group",
+        "portal-hays"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-null-community-jobs",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-jobtarget",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-the-judge-group",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-hays",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-070510z"
+  "latestRunId": "run-20260915-074007z"
 }
