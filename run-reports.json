@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T13:28:14.000Z",
+  "lastUpdated": "2026-09-15T14:29:37.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5824,8 +5824,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 498, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 37, "linkedinBrandsNeedingOfficialCareerResolution": 65},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 105, "independentPortals": 38, "totalUniqueConfigured": 220},
       "deploymentResult": "prepared nine workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-142937z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T14:19:37.000Z",
+      "runCompletedAt": "2026-09-15T14:29:37.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-49-60", "employer-sophos", "employer-diageo", "employer-delivery-hero", "employer-ey", "employer-dxc", "employer-oracle", "employer-saudi-aramco", "portal-totaljobs", "portal-wowjobs", "portal-recruit-net", "portal-angellist-legacy"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 3},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "candidateYield": 7, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 5, "senior-or-outside-india-scope": 4, "personal-contact-excluded": 3},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 61},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 486, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 34, "linkedinBrandsNeedingOfficialCareerResolution": 64},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 108, "independentPortals": 38, "totalUniqueConfigured": 223},
+      "deploymentResult": "prepared three workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-132814z"
+  "latestRunId": "run-20260915-142937z"
 }
