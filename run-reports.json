@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T02:39:32.000Z",
+  "lastUpdated": "2026-09-15T03:41:47.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5156,8 +5156,73 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260915-034147z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T03:31:47.000Z",
+      "runCompletedAt": "2026-09-15T03:41:47.000Z",
+      "beforeCount": 25,
+      "afterCount": 25,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "bureau-veritas-cybersecurity-security-engineer-l1-mixed-levels"
+      ],
+      "sourcesChecked": [
+        "employer-carlyle",
+        "employer-cohesity",
+        "employer-bureau-veritas-cybersecurity",
+        "employer-deutsche-bank"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-carlyle",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cohesity",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-bureau-veritas-cybersecurity",
+          "status": "candidate-quarantined",
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-deutsche-bank",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "insufficient-fresher-specificity": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-quarantine-registry-and-run-report-no-live-job-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-023932z"
+  "latestRunId": "run-20260915-034147z"
 }
