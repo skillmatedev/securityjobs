@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T10:40:56.000Z",
-  "latestRun": "run-20260915-104056z",
+  "lastUpdated": "2026-09-15T10:50:56.000Z",
+  "latestRun": "run-20260915-105056z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -4743,5 +4743,21 @@
         "sourceId": "portal-ltharper"
       }
     ]
+  },
+  "brandsDirectory": {
+    "path": "brands/index.html",
+    "publishedAt": "2026-09-15T10:50:56.000Z",
+    "totalEntries": 624,
+    "entriesWithLinks": 428,
+    "product": 22,
+    "services": 57,
+    "both": 28,
+    "unverified": 517,
+    "sources": [
+      "Google Drive Ethical Hacking workbook",
+      "source-registry.json",
+      "authorized Gmail LinkedIn job alerts"
+    ],
+    "privacy": "personal contacts and private Gmail links excluded"
   }
 }
