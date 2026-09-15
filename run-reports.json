@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T23:42:48.000Z",
+  "lastUpdated": "2026-09-15T00:42:41.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -4970,8 +4970,72 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-new-job-history-registry-and-run-report"
+    },
+    {
+      "runId": "run-20260915-004241z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T00:32:41.000Z",
+      "runCompletedAt": "2026-09-15T00:42:41.000Z",
+      "beforeCount": 25,
+      "afterCount": 25,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-ey",
+        "employer-bt",
+        "employer-capgemini",
+        "employer-cognizant"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-ey",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-bt",
+          "status": "no-qualified-india-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-capgemini",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cognizant",
+          "status": "no-qualified-india-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "outside-geography": 2,
+        "not-cybersecurity-specific": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260914-234248z"
+  "latestRunId": "run-20260915-004241z"
 }
