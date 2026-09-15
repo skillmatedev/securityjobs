@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T21:32:37.000Z",
+  "lastUpdated": "2026-09-15T22:29:27.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -6003,8 +6003,31 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 402, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 1, "linkedinBrandsNeedingOfficialCareerResolution": 52},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 141, "independentPortals": 38, "totalUniqueConfigured": 256},
       "deploymentResult": "registered Experience.com as one workbook-derived employer source and advanced the ingestion cursor; its historical LinkedIn vacancy was replaced by the official company Job Opportunities route; Gmail had no new matching messages; no job list change; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-222927z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T22:19:27.000Z",
+      "runCompletedAt": "2026-09-15T22:29:27.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": ["noventiq-security-analyst-l0-4435459842"],
+      "sourcesChecked": ["workbook-interview-rows-145-156", "gmail-recent-cyber-job-alerts", "employer-barclays", "employer-gain-credit", "employer-danfoss", "employer-infosys", "employer-tech-mahindra", "employer-nielseniq", "employer-m2p-fintech", "employer-oportun", "employer-noventiq"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "scheduled": 12, "attempted": 12, "succeeded": 12, "blocked": 0, "failed": 0, "candidateYield": 12, "acceptedYield": 6},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "scheduled": 9, "attempted": 9, "succeeded": 9, "blocked": 0, "failed": 0, "candidateYield": 9, "acceptedYield": 0},
+        {"source": "gmail-recent-cyber-job-alerts", "status": "success-no-new-message", "scheduled": 1, "attempted": 1, "succeeded": 1, "blocked": 0, "failed": 0, "candidateYield": 0, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 3, "senior-or-outside-fresher-scope": 9, "historical-or-insufficient-experience-evidence": 3, "conflicting-vacancy-status-quarantined": 1},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 157},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 390, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 0, "linkedinBrandsNeedingOfficialCareerResolution": 51},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 147, "independentPortals": 38, "totalUniqueConfigured": 262},
+      "deploymentResult": "registered six workbook-derived employer sources and advanced the ingestion cursor; historical LinkedIn and legacy ATS routes were normalized to official careers pages; a fresher-looking Noventiq Security Analyst L0 vacancy was quarantined because public sources conflict on whether it is open; Gmail had no new matching messages; no job list change; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-213237z"
+  "latestRunId": "run-20260915-222927z"
 }

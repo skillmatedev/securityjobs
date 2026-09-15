@@ -6,6 +6,7 @@
     .replace(/(privatelimited|pvtltd|limited|ltd|inc|llc|plc)$/g, "");
 
   const verified = {
+    "Barclays": "https://search.jobs.barclays/",
     "[24]7.ai": "https://www.247.ai/careers",
     "20 Cube Logistics Solutions Pvt. Ltd": "https://www.20cube.com/careers/",
     "ACL Digital": "https://www.acldigital.com/careers",
@@ -63,8 +64,11 @@
     "Mashreq": "https://careers.mashreq.com/",
     "Mérieux NutriSciences Brasil": "https://careers.merieuxnutrisciences.com/",
     "Mindsprint": "https://www.mindsprint.org/careers/",
+    "M2P fintech": "https://careers.m2pfintech.com/view-jobs/",
     "NielsenIQ": "https://jobs.smartrecruiters.com/NielsenIQ",
+    "Noventiq": "https://careers.noventiq.com/",
     "Oben Electric": "https://obenelectric.com/careers",
+    "Oportun": "https://oportun.com/careers/",
     "Oscar Health": "https://www.hioscar.com/careers",
     "Palo Alto Networks": "https://jobs.paloaltonetworks.com/",
     "PayNearMe": "https://home.paynearme.com/careers/",

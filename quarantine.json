@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-15T19:30:01.000Z",
+  "lastUpdated": "2026-09-15T22:29:27.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 12,
-    "totalQuarantined": 12,
-    "quarantined": 12
+    "total": 13,
+    "totalQuarantined": 13,
+    "quarantined": 13
   },
   "jobs": [
     {
@@ -181,6 +181,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous employer identity, LinkedIn-only historical evidence, and senior title. No official career page can be safely assigned without risking a wrong-company link."
+    },
+    {
+      "id": "noventiq-security-analyst-l0-4435459842",
+      "company": "Noventiq India",
+      "title": "Security Analyst - L0",
+      "location": "Bengaluru, Karnataka, India",
+      "experienceEvidence": "LinkedIn labels the role Entry level and a portal copy states Fresher/0-1 years; duties include initial SIEM alert triage and escalation to L1/L2.",
+      "eligibilityReason": "The role appears fresher-eligible, but public sources conflict on whether the same vacancy is still accepting applications.",
+      "discoveredAt": "2026-09-15T22:29:27.000Z",
+      "lastCheckedAt": "2026-09-15T22:29:27.000Z",
+      "sourceId": "employer-noventiq",
+      "discoveryUrl": "https://in.linkedin.com/jobs/view/security-analyst-l0-at-noventiq-india-4435459842",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "LinkedIn remains publicly readable, while Foundit marks the corresponding 0-1-year vacancy closed; no current vacancy-specific official Noventiq application route was located. Publication is withheld until status is resolved."
     }
   ]
 }
