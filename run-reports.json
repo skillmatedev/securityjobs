@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T03:41:47.000Z",
+  "lastUpdated": "2026-09-15T04:37:35.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5221,8 +5221,69 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-quarantine-registry-and-run-report-no-live-job-change"
+    },
+    {
+      "runId": "run-20260915-043735z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T04:27:35.000Z",
+      "runCompletedAt": "2026-09-15T04:37:35.000Z",
+      "beforeCount": 25,
+      "afterCount": 25,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-naukri",
+        "portal-internshala",
+        "employer-copeland",
+        "employer-cotiviti"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-naukri",
+          "status": "blocked-by-robots",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-internshala",
+          "status": "blocked-by-robots",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-copeland",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-cotiviti",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-034147z"
+  "latestRunId": "run-20260915-043735z"
 }
