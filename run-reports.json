@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T00:42:41.000Z",
+  "lastUpdated": "2026-09-15T01:37:37.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5034,8 +5034,69 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
+    },
+    {
+      "runId": "run-20260915-013737z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T01:27:37.000Z",
+      "runCompletedAt": "2026-09-15T01:37:37.000Z",
+      "beforeCount": 25,
+      "afterCount": 25,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-infosys",
+        "employer-airbnb",
+        "employer-dhl",
+        "employer-anthology"
+      ],
+      "sourceHealth": [
+        {
+          "source": "employer-infosys",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-airbnb",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-dhl",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "employer-anthology",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-004241z"
+  "latestRunId": "run-20260915-013737z"
 }
