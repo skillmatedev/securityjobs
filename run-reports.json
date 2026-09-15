@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T11:45:00.000Z",
+  "lastUpdated": "2026-09-15T12:27:08.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5777,8 +5777,33 @@
       "remainingBacklog": {"workbookRowsToProcess": 522, "certInCompaniesToRegister": 192, "linkedinBrandsNeedingOfficialCareerResolution": 65},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 92, "independentPortals": 38, "totalUniqueConfigured": 207},
       "deploymentResult": "replaced 91 displayed LinkedIn links with official career pages and hid 65 unresolved links; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-122708z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T12:17:08.000Z",
+      "runCompletedAt": "2026-09-15T12:27:08.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": ["workbook-interview-rows-25-36", "employer-qualys", "employer-honeywell", "employer-gojek", "employer-zoho-corporation"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 4},
+        {"source": "employer-qualys", "status": "registered-no-qualified-vacancy", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-honeywell", "status": "registered-no-qualified-vacancy", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-gojek", "status": "registered-no-qualified-vacancy", "candidateYield": 0, "acceptedYield": 0},
+        {"source": "employer-zoho-corporation", "status": "registered-sampled-role-out-of-scope", "candidateYield": 1, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 7, "historical-personal-contact": 1, "sampled-role-over-2-years": 1},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 37},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 510, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 46, "linkedinBrandsNeedingOfficialCareerResolution": 65},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 96, "independentPortals": 38, "totalUniqueConfigured": 211},
+      "deploymentResult": "prepared four workbook-derived employer sources and advanced ingestion cursor; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-114500z"
+  "latestRunId": "run-20260915-122708z"
 }
