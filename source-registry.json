@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T07:40:07.000Z",
-  "latestRun": "run-20260915-074007z",
+  "lastUpdated": "2026-09-15T08:37:14.000Z",
+  "latestRun": "run-20260915-083714z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -1773,76 +1773,80 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
-      "aliases": [],
+      "accessStatus": "official-site-rebranded-to-hi-rex-public-jobs-route-checked-no-india-fresher-vacancy",
+      "aliases": [
+        "Locke & McCloud",
+        "REX",
+        "HI-REX"
+      ],
       "candidateYield": 0,
       "canonicalUrl": "https://www.locke-mccloud.com/jobs/",
-      "checkIntervalHours": 1,
+      "checkIntervalHours": 72,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T18:45:44.000Z",
-      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
-      "name": "Locke & McCloud",
-      "nextRotationTime": "2026-09-13T19:45:44.000Z",
+      "lastAttempt": "2026-09-15T08:37:14.000Z",
+      "lastSuccessfulCheck": "2026-09-15T08:37:14.000Z",
+      "name": "HI-REX (formerly Locke & McCloud)",
+      "nextRotationTime": "2026-09-18T08:37:14.000Z",
       "sourceId": "portal-locke-mccloud",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "specialist-cybersecurity-recruiter-checked-no-india-or-remote-india-fresher-vacancy",
+      "accessStatus": "specialist-cybersecurity-recruiter-public-search-checked-no-india-fresher-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.ltharper.com/jobs/",
-      "checkIntervalHours": 1,
+      "checkIntervalHours": 72,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T18:45:44.000Z",
-      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
+      "lastAttempt": "2026-09-15T08:37:14.000Z",
+      "lastSuccessfulCheck": "2026-09-15T08:37:14.000Z",
       "name": "LTHarper",
-      "nextRotationTime": "2026-09-13T19:45:44.000Z",
+      "nextRotationTime": "2026-09-18T08:37:14.000Z",
       "sourceId": "portal-ltharper",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "australia-focused-recruiter-no-india-or-remote-india-fresher-cybersecurity-vacancy",
+      "accessStatus": "official-australia-europe-recruiter-route-checked-no-india-fresher-cybersecurity-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.sustainrecruit.com/",
-      "checkIntervalHours": 1,
+      "checkIntervalHours": 72,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T18:45:44.000Z",
-      "lastSuccessfulCheck": "2026-09-13T18:45:44.000Z",
+      "lastAttempt": "2026-09-15T08:37:14.000Z",
+      "lastSuccessfulCheck": "2026-09-15T08:37:14.000Z",
       "name": "SustainRecruit",
-      "nextRotationTime": "2026-09-13T19:45:44.000Z",
+      "nextRotationTime": "2026-09-18T08:37:14.000Z",
       "sourceId": "portal-sustainrecruit",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-index-checked-no-current-vacancy-specific-india-fresher-result",
+      "accessStatus": "public-search-index-checked-no-new-vacancy-specific-india-fresher-result",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://sechire.net/jobs",
-      "checkIntervalHours": 1,
+      "checkIntervalHours": 72,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T19:47:52.000Z",
-      "lastSuccessfulCheck": "2026-09-13T19:47:52.000Z",
+      "lastAttempt": "2026-09-15T08:37:14.000Z",
+      "lastSuccessfulCheck": "2026-09-15T08:37:14.000Z",
       "name": "SecHire",
-      "nextRotationTime": "2026-09-13T20:47:52.000Z",
+      "nextRotationTime": "2026-09-18T08:37:14.000Z",
       "sourceId": "portal-sechire",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal"
