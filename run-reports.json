@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T08:37:14.000Z",
+  "lastUpdated": "2026-09-15T09:39:56.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5533,8 +5533,69 @@
         "totalUniqueConfigured": 198
       },
       "deploymentResult": "committed-source-rebrand-registry-and-run-report-no-job-list-change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-093956z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-15T09:29:56.000Z",
+      "runCompletedAt": "2026-09-15T09:39:56.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "portal-shine",
+        "portal-dice",
+        "portal-infosec-jobs",
+        "portal-apna"
+      ],
+      "sourceHealth": [
+        {
+          "source": "portal-shine",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-dice",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-infosec-jobs",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "portal-apna",
+          "status": "no-qualified-vacancy",
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {},
+      "cursors": {
+        "nextRosterNumber": 45
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 59
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 83,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 198
+      },
+      "deploymentResult": "committed-registry-and-run-report-no-job-list-change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-083714z"
+  "latestRunId": "run-20260915-093956z"
 }
