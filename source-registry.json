@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-15T05:39:07.000Z",
-  "latestRun": "run-20260915-053907z",
+  "lastUpdated": "2026-09-15T07:05:10.000Z",
+  "latestRun": "run-20260915-070510z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -1586,7 +1586,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-index-checked-no-qualified-india-cybersecurity-candidate",
+      "accessStatus": "accessible-no-qualified-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.recruit.net/",
@@ -1596,16 +1596,20 @@
         "Remote India"
       ],
       "lastAttempt": "2026-09-13T16:44:12.000Z",
-      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-15T07:05:10.000Z",
       "name": "Recruit.net",
-      "nextRotationTime": "2026-09-13T17:44:12.000Z",
+      "nextRotationTime": "2026-09-18T07:05:10.000Z",
       "sourceId": "portal-recruit-net",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "lastCareerCheck": "2026-09-15T07:05:10.000Z",
+      "consecutiveFailures": 0,
+      "lastJobCount": 0,
+      "status": "Public job index checked; no vacancy-specific India or remote-India cybersecurity role with explicit fresher or <=2-year eligibility and a verifiable application route was found"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "accessible-uk-focused-no-qualified-india-cybersecurity-candidate",
+      "accessStatus": "accessible-no-qualified-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://www.totaljobs.com/",
@@ -1615,12 +1619,16 @@
         "Remote India"
       ],
       "lastAttempt": "2026-09-13T16:44:12.000Z",
-      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-15T07:05:10.000Z",
       "name": "Totaljobs",
-      "nextRotationTime": "2026-09-13T17:44:12.000Z",
+      "nextRotationTime": "2026-09-18T07:05:10.000Z",
       "sourceId": "portal-totaljobs",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "lastCareerCheck": "2026-09-15T07:05:10.000Z",
+      "consecutiveFailures": 0,
+      "lastJobCount": 0,
+      "status": "Public job index checked; no vacancy-specific India or remote-India cybersecurity role with explicit fresher or <=2-year eligibility and a verifiable application route was found"
     },
     {
       "acceptedYield": 0,
@@ -1643,7 +1651,7 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-index-checked-no-qualified-india-or-remote-india-cybersecurity-candidate",
+      "accessStatus": "accessible-no-qualified-vacancy",
       "aliases": [],
       "candidateYield": 0,
       "canonicalUrl": "https://vanhack.com/",
@@ -1653,18 +1661,22 @@
         "Remote India"
       ],
       "lastAttempt": "2026-09-13T16:44:12.000Z",
-      "lastSuccessfulCheck": "2026-09-13T16:44:12.000Z",
+      "lastSuccessfulCheck": "2026-09-15T07:05:10.000Z",
       "name": "VanHack",
-      "nextRotationTime": "2026-09-13T17:44:12.000Z",
+      "nextRotationTime": "2026-09-18T07:05:10.000Z",
       "sourceId": "portal-vanhack",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "lastCareerCheck": "2026-09-15T07:05:10.000Z",
+      "consecutiveFailures": 0,
+      "lastJobCount": 0,
+      "status": "Public job index checked; no vacancy-specific India or remote-India cybersecurity role with explicit fresher or <=2-year eligibility and a verifiable application route was found"
     },
     {
-      "acceptedYield": 0,
-      "accessStatus": "public-index-checked-no-qualified-india-cybersecurity-candidate",
+      "acceptedYield": 2,
+      "accessStatus": "accessible-qualified-vacancies",
       "aliases": [],
-      "candidateYield": 0,
+      "candidateYield": 3,
       "canonicalUrl": "https://www.uplers.com/",
       "checkIntervalHours": 1,
       "geography": [
@@ -1672,12 +1684,16 @@
         "Remote India"
       ],
       "lastAttempt": "2026-09-13T17:44:43.000Z",
-      "lastSuccessfulCheck": "2026-09-13T17:44:43.000Z",
+      "lastSuccessfulCheck": "2026-09-15T07:05:10.000Z",
       "name": "Uplers",
-      "nextRotationTime": "2026-09-13T18:44:43.000Z",
+      "nextRotationTime": "2026-09-15T08:05:10.000Z",
       "sourceId": "portal-uplers",
       "sourceOrigin": "Consolidated supplied portal lists",
-      "sourceType": "independent-job-portal"
+      "sourceType": "independent-job-portal",
+      "lastCareerCheck": "2026-09-15T07:05:10.000Z",
+      "consecutiveFailures": 0,
+      "lastJobCount": 3,
+      "status": "Current CloudSEK employer listing yielded two newly verified <=2-year cybersecurity roles and corroborated one existing fresher security internship"
     },
     {
       "acceptedYield": 0,
