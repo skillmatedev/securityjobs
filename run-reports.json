@@ -5912,8 +5912,30 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 450, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 16, "linkedinBrandsNeedingOfficialCareerResolution": 60},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 126, "independentPortals": 38, "totalUniqueConfigured": 241},
       "deploymentResult": "prepared seven workbook-derived employer sources and advanced ingestion cursor; official career routes replaced historical LinkedIn and ATS links; one ambiguous Validus record quarantined; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-182832z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T18:18:32.000Z",
+      "runCompletedAt": "2026-09-15T18:28:32.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": ["workbook-row-103-secure-ai-labs-head-security-engineering"],
+      "sourcesChecked": ["workbook-interview-rows-97-108", "employer-vestas", "employer-danfoss", "employer-wells-fargo", "employer-lennox-india", "employer-siemens", "employer-ventuno", "employer-globallogic", "employer-comcast", "employer-sapwood-ventures"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "candidateYield": 12, "acceptedYield": 5},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "candidateYield": 10, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 2, "senior-or-outside-fresher-scope": 5, "ambiguous-employer": 1, "historical-unverified": 4},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 109},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 438, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 11, "linkedinBrandsNeedingOfficialCareerResolution": 57},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 131, "independentPortals": 38, "totalUniqueConfigured": 246},
+      "deploymentResult": "prepared five workbook-derived employer sources and advanced ingestion cursor; LinkedIn, aggregator, private, and legacy ATS references replaced with official company career routes where safely resolvable; Secure AI Labs quarantined; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-172817z"
+  "latestRunId": "run-20260915-182832z"
 }
