@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:40:56.000Z",
+  "lastUpdated": "2026-09-15T10:50:56.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5669,8 +5669,68 @@
         "totalUniqueConfigured": 202
       },
       "deploymentResult": "committed-four-workbook-derived-employer-sources-and-ingestion-cursor; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-105056z",
+      "type": "brands-directory-publication",
+      "runStartedAt": "2026-09-15T10:30:56.000Z",
+      "runCompletedAt": "2026-09-15T10:50:56.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "google-drive-ethical-hacking-workbook",
+        "source-registry",
+        "gmail-linkedin-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "google-drive-ethical-hacking-workbook",
+          "status": "success",
+          "candidateYield": 546,
+          "acceptedYield": 416
+        },
+        {
+          "source": "source-registry",
+          "status": "success",
+          "candidateYield": 202,
+          "acceptedYield": 202
+        },
+        {
+          "source": "gmail-linkedin-job-alerts",
+          "status": "success-private-links-excluded",
+          "candidateYield": 98,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "personal-or-private-contact-data": "excluded from public page",
+        "duplicate-brand-labels": "deduplicated",
+        "uncertain-company-type": "labelled Unverified"
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 13
+      },
+      "remainingBacklog": {
+        "workbookRowsToProcess": 534,
+        "certInCompaniesToRegister": 192,
+        "companyTypesToVerify": 517,
+        "careerLinksToResolve": 196
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 87,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 202
+      },
+      "deploymentResult": "published /brands directory with 624 deduplicated entries and 428 links; linked from main dashboard; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-104056z"
+  "latestRunId": "run-20260915-105056z"
 }
