@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T18:28:32.000Z",
+  "lastUpdated": "2026-09-15T19:30:01.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -5934,8 +5934,31 @@
       "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 438, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 11, "linkedinBrandsNeedingOfficialCareerResolution": 57},
       "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 131, "independentPortals": 38, "totalUniqueConfigured": 246},
       "deploymentResult": "prepared five workbook-derived employer sources and advanced ingestion cursor; LinkedIn, aggregator, private, and legacy ATS references replaced with official company career routes where safely resolvable; Secure AI Labs quarantined; no job list change; all existing jobs retained"
+    },
+    {
+      "runId": "run-20260915-193001z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-15T19:20:01.000Z",
+      "runCompletedAt": "2026-09-15T19:30:01.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": ["workbook-row-118-artemispro-senior-devsecops-engineer"],
+      "sourcesChecked": ["workbook-interview-rows-109-120", "gmail-recent-cyber-job-alerts", "employer-wells-fargo", "employer-nike", "employer-watchtowr", "employer-cyberowl", "employer-cohesity", "employer-oracle", "employer-freshworks", "employer-syndigo", "employer-navisite-accenture", "employer-persistent-systems"],
+      "sourceHealth": [
+        {"source": "workbook-ethical-hacking-interview", "status": "success-partial", "scheduled": 12, "attempted": 12, "succeeded": 12, "blocked": 0, "failed": 0, "candidateYield": 12, "acceptedYield": 5},
+        {"source": "official-career-routes-batch", "status": "success-no-qualified-vacancy", "scheduled": 11, "attempted": 11, "succeeded": 10, "blocked": 0, "failed": 1, "candidateYield": 10, "acceptedYield": 0},
+        {"source": "gmail-recent-cyber-job-alerts", "status": "success-no-qualified-vacancy", "scheduled": 1, "attempted": 1, "succeeded": 1, "blocked": 0, "failed": 0, "candidateYield": 4, "acceptedYield": 0}
+      ],
+      "rejectedByReason": {"duplicate-source": 3, "senior-or-outside-fresher-scope": 4, "ambiguous-employer": 1, "historical-or-insufficient-experience-evidence": 4, "gmail-senior-or-promotional": 5},
+      "cursors": {"nextRosterNumber": 45, "workbookNextRow": 121},
+      "remainingBacklog": {"pendingRegisteredSources": 0, "workbookRowsToProcess": 426, "certInCompaniesToRegister": 192, "employerCareerTargetsToRegister": 6, "linkedinBrandsNeedingOfficialCareerResolution": 55},
+      "sourceRegistryCounts": {"atsSystems": 33, "certInCompanies": 44, "employerCareerTargets": 136, "independentPortals": 38, "totalUniqueConfigured": 251},
+      "deploymentResult": "prepared five workbook-derived employer sources, refreshed two existing employer records through deduplication, and advanced ingestion cursor; LinkedIn and legacy ATS references replaced with official company career routes where safely resolvable; ArtemisPro quarantined; Gmail alerts yielded only senior roles or training promotion; no job list change; all existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260915-182832z"
+  "latestRunId": "run-20260915-193001z"
 }

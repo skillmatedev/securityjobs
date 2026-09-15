@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-15T18:28:32.000Z",
+  "lastUpdated": "2026-09-15T19:30:01.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 11,
-    "totalQuarantined": 11,
-    "quarantined": 11
+    "total": 12,
+    "totalQuarantined": 12,
+    "quarantined": 12
   },
   "jobs": [
     {
@@ -166,6 +166,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous employer identity, private legacy application evidence, and executive title. No official career page can be safely assigned without risking a wrong-company link."
+    },
+    {
+      "id": "workbook-row-118-artemispro-senior-devsecops-engineer",
+      "company": "ArtemisPro (identity unresolved)",
+      "title": "Senior DevSecOps Engineer",
+      "location": "Not stated",
+      "experienceEvidence": "Senior title; no fresher or 0-2 year evidence.",
+      "eligibilityReason": "Historical workbook record contains only a LinkedIn vacancy and the employer name does not resolve safely to one official company.",
+      "discoveredAt": "2026-09-15T19:30:01.000Z",
+      "lastCheckedAt": "2026-09-15T19:30:01.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": null,
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous employer identity, LinkedIn-only historical evidence, and senior title. No official career page can be safely assigned without risking a wrong-company link."
     }
   ]
 }
