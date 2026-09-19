@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-19T20:30:35.000Z",
+  "lastUpdated": "2026-09-19T21:32:58.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 18,
-    "totalQuarantined": 18,
-    "quarantined": 18
+    "total": 21,
+    "totalQuarantined": 21,
+    "quarantined": 21
   },
   "jobs": [
     {
@@ -271,6 +271,51 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "The employer identity, official website/careers route, requisition ID, posting date, location, current status, experience requirement, and intended final apply route could not be safely verified."
+    },
+    {
+      "id": "workbook-row-317-simple-solutions-senior-network-security-engineer",
+      "company": "Simple Solutions (identity unresolved)",
+      "title": "Sr. Network Security Engineer - Remote",
+      "location": "Remote (country unverified)",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical aggregator lead does not establish a current eligible vacancy or resolved employer.",
+      "discoveredAt": "2026-09-19T21:32:58.000Z",
+      "lastCheckedAt": "2026-09-19T21:32:58.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://in.talent.com/view?id=b32751d4e2e6",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity, official career page, requisition ID, posting date, current status, remote-India eligibility, experience requirement, and final apply route could not be safely verified."
+    },
+    {
+      "id": "workbook-row-320-tlj-senior-information-security-specialist",
+      "company": "TLJ Information Technology Solutions, LLC",
+      "title": "Senior Information Security Specialist",
+      "location": "Not verified",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical LinkedIn-only record lacks a safely verified official vacancy route.",
+      "discoveredAt": "2026-09-19T21:32:58.000Z",
+      "lastCheckedAt": "2026-09-19T21:32:58.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3796959135/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "No official careers route, requisition ID, posting date, current vacancy status, India eligibility, experience ceiling, or intended final application route could be verified."
+    },
+    {
+      "id": "workbook-row-324-team-it-security-specialist",
+      "company": "team.it (identity unresolved)",
+      "title": "Security Specialist",
+      "location": "Not verified",
+      "experienceEvidence": "Specialist title alone is insufficient; no explicit fresher or 0-2-year requirement.",
+      "eligibilityReason": "Historical LinkedIn record does not uniquely resolve the employer or establish eligibility.",
+      "discoveredAt": "2026-09-19T21:32:58.000Z",
+      "lastCheckedAt": "2026-09-19T21:32:58.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3798117394/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous employer identity plus missing official career route, requisition ID, posting date, location, live status, experience requirement, and final apply route."
     }
   ]
 }

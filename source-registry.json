@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 225,
-    "independentPortals": 41,
-    "totalUniqueConfigured": 342
+    "employerCareerTargets": 231,
+    "independentPortals": 42,
+    "totalUniqueConfigured": 349
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T20:30:35.000Z",
-  "latestRun": "run-20260919-203035z",
+  "lastUpdated": "2026-09-19T21:32:58.000Z",
+  "latestRun": "run-20260919-213258z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7859,16 +7859,169 @@
       "accessStatus": "official careers page verified; historical Web Security Analyst evidence does not establish a current India or remote-India vacancy",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-vattenfall",
+      "name": "Vattenfall Careers",
+      "aliases": [
+        "Vattenfall"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.vattenfall.com/",
+      "officialWebsite": "https://group.vattenfall.com/",
+      "geography": [
+        "Europe",
+        "Global"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-26T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 313; historical ATS link normalized to official careers",
+      "accessStatus": "official careers verified; historical senior security-officer role is outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-mygwork",
+      "name": "myGwork Jobs",
+      "aliases": [
+        "myGwork"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://www.mygwork.com/en/jobs",
+      "geography": [
+        "Global",
+        "India"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-20T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 314",
+      "accessStatus": "legitimate diversity-focused discovery portal; employer-specific applications must be resolved to official routes",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-wpp",
+      "name": "WPP Careers",
+      "aliases": [
+        "WPP"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.wpp.com/careers/search-and-apply",
+      "officialWebsite": "https://www.wpp.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-22T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 314-315; Greenhouse vacancies normalized to official WPP careers",
+      "accessStatus": "official careers and Greenhouse board verified; workbook roles are L3/team-lead and outside fresher scope",
+      "candidateYield": 2,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "tenant": "wpp"
+    },
+    {
+      "sourceId": "employer-validus-india-vietnam",
+      "name": "Validus India & Vietnam Careers",
+      "aliases": [
+        "Validus India & Vietnam Technology Services Private Limited"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://validus.zohorecruit.in/jobs/Careers",
+      "officialWebsite": "https://validus.zohorecruit.in/",
+      "geography": [
+        "India",
+        "Vietnam",
+        "Remote"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-26T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 316; aggregator lead resolved to public Zoho Recruit tenant",
+      "accessStatus": "official-looking company Zoho Recruit tenant verified; historical senior security-engineer lead is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Zoho Recruit",
+      "tenant": "validus"
+    },
+    {
+      "sourceId": "employer-tvs-credit",
+      "name": "TVS Credit Careers",
+      "aliases": [
+        "TVS Credit",
+        "TVS Credit Services Ltd."
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.tvscredit.com/careers/",
+      "officialWebsite": "https://www.tvscredit.com/",
+      "geography": [
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-22T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 319; LinkedIn lead normalized to official careers",
+      "accessStatus": "official careers verified; historical CISO vacancy is executive and outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-natobotics",
+      "name": "Natobotics Careers",
+      "aliases": [
+        "Natobotics",
+        "Natobotics Technologies Pvt Limited"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.natobotics.com/careers.html",
+      "officialWebsite": "https://www.natobotics.com/",
+      "geography": [
+        "India",
+        "United Kingdom",
+        "Global"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-26T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 321; Hirist lead normalized to official careers",
+      "accessStatus": "official careers verified; historical information-security lead required 5-7 years and is outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-aspire-technology-partners",
+      "name": "Aspire Technology Partners Careers",
+      "aliases": [
+        "Aspire Technology",
+        "Aspire Technology Partners"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.aspiretransforms.com/careers/openings/",
+      "officialWebsite": "https://www.aspiretransforms.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T21:32:58.000Z",
+      "nextRotationTime": "2026-09-26T21:32:58.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 322; LinkedIn lead normalized to official careers",
+      "accessStatus": "official careers verified; historical principal analyst vacancy is outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 313,
-    "processedRows": 312,
-    "remainingRows": 234,
-    "lastProcessedAt": "2026-09-19T20:30:35.000Z",
+    "nextRow": 325,
+    "processedRows": 324,
+    "remainingRows": 222,
+    "lastProcessedAt": "2026-09-19T21:32:58.000Z",
     "records": [
       {
         "row": 1,
@@ -10019,6 +10172,87 @@
         "status": "stale",
         "sourceId": "employer-sitelock",
         "note": "official SiteLock careers registered; historical LinkedIn evidence does not establish a current India or remote-India vacancy"
+      },
+      {
+        "row": 313,
+        "label": "Vattenfall / Senior IT Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-vattenfall",
+        "note": "official careers registered; senior European role outside India and fresher scope"
+      },
+      {
+        "row": 314,
+        "label": "myGwork / WPP Vulnerability Remediation Engineer L3",
+        "status": "source-registered",
+        "sourceId": "employer-wpp",
+        "note": "myGwork portal and official WPP careers registered; L3 role outside fresher scope"
+      },
+      {
+        "row": 315,
+        "label": "WPP / Vulnerability Remediation Team Lead",
+        "status": "duplicate",
+        "sourceId": "employer-wpp",
+        "note": "official WPP source retained; team-lead role outside fresher scope"
+      },
+      {
+        "row": 316,
+        "label": "Validus India & Vietnam / Sr. Cyber Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-validus-india-vietnam",
+        "note": "public Zoho Recruit tenant registered; senior role outside fresher scope"
+      },
+      {
+        "row": 317,
+        "label": "Simple Solutions / Sr. Network Security Engineer",
+        "status": "quarantined",
+        "note": "aggregator-only historical senior lead; official employer identity and safe career route unresolved"
+      },
+      {
+        "row": 318,
+        "label": "OutSystems / Principal Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-outsystems",
+        "note": "existing OutSystems source retained; principal role outside fresher scope"
+      },
+      {
+        "row": 319,
+        "label": "TVS Credit / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-tvs-credit",
+        "note": "official TVS Credit careers registered; executive role outside fresher scope"
+      },
+      {
+        "row": 320,
+        "label": "TLJ Information Technology Solutions / Senior Information Security Specialist",
+        "status": "quarantined",
+        "note": "historical LinkedIn-only senior lead; no safely verified official career route"
+      },
+      {
+        "row": 321,
+        "label": "Natobotics / Lead - Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-natobotics",
+        "note": "official careers registered; historical lead role required 5-7 years"
+      },
+      {
+        "row": 322,
+        "label": "Aspire Technology / Principal Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-aspire-technology-partners",
+        "note": "official careers registered; principal US role outside scope"
+      },
+      {
+        "row": 323,
+        "label": "Freshworks / Deputy CISO",
+        "status": "duplicate",
+        "sourceId": "employer-freshworks",
+        "note": "existing Freshworks source retained; senior director role outside fresher scope"
+      },
+      {
+        "row": 324,
+        "label": "team.it / Security Specialist",
+        "status": "quarantined",
+        "note": "historical LinkedIn lead; ambiguous employer identity, location and experience requirement"
       }
     ]
   },
