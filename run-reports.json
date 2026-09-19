@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T19:28:05.000Z",
+  "lastUpdated": "2026-09-19T20:30:35.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -7712,8 +7712,99 @@
         "totalUniqueConfigured": 337
       },
       "deploymentResult": "processed workbook rows 289-300; registered Blink Health, UK DMO, ICE, and Deloitte USI; quarantined ambiguous Motto HR evidence; no role met India fresher or explicit 0-2-year criteria; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260919-203035z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T20:20:35.000Z",
+      "runCompletedAt": "2026-09-19T20:30:35.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "workbook-row-302-encore-senior-information-security",
+        "workbook-row-306-client-server-software-solutions-cybersecurity-intel-analyst"
+      ],
+      "sourcesChecked": [
+        "workbook-interview-rows-301-312",
+        "gmail-recent-cyber-job-alerts",
+        "employer-sapiens",
+        "employer-kroll",
+        "employer-amazon",
+        "employer-freshworks",
+        "employer-hexaware",
+        "employer-altered-security",
+        "employer-epam",
+        "employer-hid-global",
+        "employer-opendoor",
+        "employer-sitelock"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 5
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 5,
+          "blocked": 7,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 5,
+        "senior-or-outside-fresher-scope": 8,
+        "non-cybersecurity": 1,
+        "historical-or-stale": 3,
+        "ambiguous-employer-quarantined": 2,
+        "gmail-senior-or-non-india": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 313
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 234,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 225,
+        "independentPortals": 41,
+        "totalUniqueConfigured": 342
+      },
+      "deploymentResult": "processed workbook rows 301-312; registered Hexaware, Altered Security, EPAM, HID, and SiteLock; quarantined two ambiguous historical leads; Gmail alert was a GRC Program Manager role outside scope; no role met India fresher or explicit 0-2-year criteria; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-192805z"
+  "latestRunId": "run-20260919-203035z"
 }

@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 220,
+    "employerCareerTargets": 225,
     "independentPortals": 41,
-    "totalUniqueConfigured": 337
+    "totalUniqueConfigured": 342
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T19:28:05.000Z",
-  "latestRun": "run-20260919-192805z",
+  "lastUpdated": "2026-09-19T20:30:35.000Z",
+  "latestRun": "run-20260919-203035z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7748,16 +7748,127 @@
       "accessStatus": "official careers identified; Hyderabad information-security manager role outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-hexaware",
+      "name": "Hexaware Careers",
+      "aliases": [
+        "Hexaware",
+        "Hexaware Technologies"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://hexaware.com/about-us/join-hexaware/",
+      "officialWebsite": "https://hexaware.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T20:30:35.000Z",
+      "nextRotationTime": "2026-09-22T20:30:35.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 307; historical third-party apply route normalized to official Hexaware careers",
+      "accessStatus": "official careers verified; historical senior cloud-security architect role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-altered-security",
+      "name": "Altered Security Careers",
+      "aliases": [
+        "Altered Security"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.alteredsecurity.com/careers",
+      "officialWebsite": "https://www.alteredsecurity.com/",
+      "geography": [
+        "India",
+        "Singapore",
+        "Remote"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T20:30:35.000Z",
+      "nextRotationTime": "2026-09-22T20:30:35.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 308; LinkedIn lead normalized to official company careers",
+      "accessStatus": "official company page publicly states Security Researcher hiring, but no vacancy-specific requisition, posting date, location, experience ceiling, or application URL was exposed; directory only",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-epam",
+      "name": "EPAM Careers",
+      "aliases": [
+        "EPAM",
+        "EPAM Anywhere"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.epam.com/careers",
+      "officialWebsite": "https://www.epam.com/",
+      "geography": [
+        "India",
+        "Global",
+        "Remote"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T20:30:35.000Z",
+      "nextRotationTime": "2026-09-22T20:30:35.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 309; historical LinkedIn lead normalized to official EPAM careers",
+      "accessStatus": "official careers route registered; historical senior security-engineer role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-hid-global",
+      "name": "HID Careers",
+      "aliases": [
+        "HID",
+        "HID Global"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.hidglobal.com/careers",
+      "officialWebsite": "https://www.hidglobal.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T20:30:35.000Z",
+      "nextRotationTime": "2026-09-22T20:30:35.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 310; historical LinkedIn lead normalized to official HID careers",
+      "accessStatus": "official corporate careers route identified; historical senior analyst vacancy is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-sitelock",
+      "name": "SiteLock Careers",
+      "aliases": [
+        "SiteLock",
+        "Sectigo SiteLock"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.sitelock.com/careers/",
+      "officialWebsite": "https://www.sitelock.com/",
+      "geography": [
+        "United States",
+        "Remote"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T20:30:35.000Z",
+      "nextRotationTime": "2026-09-26T20:30:35.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 312; historical LinkedIn lead normalized to official SiteLock careers",
+      "accessStatus": "official careers page verified; historical Web Security Analyst evidence does not establish a current India or remote-India vacancy",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 301,
-    "processedRows": 300,
-    "remainingRows": 246,
-    "lastProcessedAt": "2026-09-19T19:28:05.000Z",
+    "nextRow": 313,
+    "processedRows": 312,
+    "remainingRows": 234,
+    "lastProcessedAt": "2026-09-19T20:30:35.000Z",
     "records": [
       {
         "row": 1,
@@ -9826,6 +9937,88 @@
         "status": "duplicate",
         "sourceId": "portal-randstad",
         "note": "existing Randstad portal retained; application-confirmation URL and non-cybersecurity manager role rejected"
+      },
+      {
+        "row": 301,
+        "label": "Sapiens / Principal Quality Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-sapiens",
+        "note": "existing Sapiens source retained; principal QA role is non-cybersecurity and outside scope"
+      },
+      {
+        "row": 302,
+        "label": "Encore Software Services / Senior Information Security",
+        "status": "quarantined",
+        "note": "historical LinkedIn-only senior lead; official employer identity and safe career route remain unresolved"
+      },
+      {
+        "row": 303,
+        "label": "Kroll / Senior Consultant, Offensive Security",
+        "status": "duplicate",
+        "sourceId": "employer-kroll",
+        "note": "existing Kroll source retained; senior consultant role outside fresher scope"
+      },
+      {
+        "row": 304,
+        "label": "Amazon / Security Engineer - Penetration Testing",
+        "status": "duplicate",
+        "sourceId": "employer-amazon",
+        "note": "existing Amazon source retained; historical vacancy lacks explicit fresher or 0-2-year eligibility"
+      },
+      {
+        "row": 305,
+        "label": "Freshworks / Lead Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-freshworks",
+        "note": "existing Freshworks source retained; lead role outside fresher scope"
+      },
+      {
+        "row": 306,
+        "label": "Client Server Software Solutions / Cybersecurity Intel Analyst",
+        "status": "quarantined",
+        "note": "historical JobTarget apply link; employer identity, current status, location and experience ceiling remain unresolved"
+      },
+      {
+        "row": 307,
+        "label": "Hexaware / Senior Cloud Security Architect",
+        "status": "source-registered",
+        "sourceId": "employer-hexaware",
+        "note": "official Hexaware careers registered; senior architect role outside fresher scope"
+      },
+      {
+        "row": 308,
+        "label": "Altered Security / Security Researcher (Remote)",
+        "status": "source-registered",
+        "sourceId": "employer-altered-security",
+        "note": "official careers registered; title alone and generic resume route do not prove 0-2-year eligibility or a live vacancy-specific application"
+      },
+      {
+        "row": 309,
+        "label": "EPAM Anywhere / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-epam",
+        "note": "official EPAM careers registered; senior role outside fresher scope"
+      },
+      {
+        "row": 310,
+        "label": "HID / Senior Information Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-hid-global",
+        "note": "official HID careers registered; senior role outside fresher scope"
+      },
+      {
+        "row": 311,
+        "label": "Opendoor / Senior Software Engineer - Security",
+        "status": "duplicate",
+        "sourceId": "employer-opendoor",
+        "note": "existing Opendoor source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 312,
+        "label": "SiteLock / Web Security Analyst",
+        "status": "stale",
+        "sourceId": "employer-sitelock",
+        "note": "official SiteLock careers registered; historical LinkedIn evidence does not establish a current India or remote-India vacancy"
       }
     ]
   },

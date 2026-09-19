@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-19T19:28:05.000Z",
+  "lastUpdated": "2026-09-19T20:30:35.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 16,
-    "totalQuarantined": 16,
-    "quarantined": 16
+    "total": 18,
+    "totalQuarantined": 18,
+    "quarantined": 18
   },
   "jobs": [
     {
@@ -241,6 +241,36 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Only an historical Indeed vacancy was available; the employer official website and career route, requisition ID, posting date, live status, India location, experience requirement, and intended final apply route could not be safely verified."
+    },
+    {
+      "id": "workbook-row-302-encore-senior-information-security",
+      "company": "Encore Software Services, Inc. (identity unresolved)",
+      "title": "Senior Information Security",
+      "location": "Not verified",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical LinkedIn lead does not establish a current eligible vacancy or a safely resolved official employer route.",
+      "discoveredAt": "2026-09-19T20:30:35.000Z",
+      "lastCheckedAt": "2026-09-19T20:30:35.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3788238832/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity, official career page, requisition ID, posting date, location, current status, and final application route could not be safely verified; the senior title is also outside fresher scope."
+    },
+    {
+      "id": "workbook-row-306-client-server-software-solutions-cybersecurity-intel-analyst",
+      "company": "Client Server Software Solutions (identity unresolved)",
+      "title": "Cybersecurity Intel Analyst",
+      "location": "Not verified",
+      "experienceEvidence": "No explicit fresher or 0-2-year requirement verified.",
+      "eligibilityReason": "Historical JobTarget application evidence is insufficient to establish a current eligible vacancy.",
+      "discoveredAt": "2026-09-19T20:30:35.000Z",
+      "lastCheckedAt": "2026-09-19T20:30:35.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://hosted-apply.jobtarget.com/job/Cybersecurity-Intel-Analyst-Mm48kdCJbWN51toR8te6QD",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The employer identity, official website/careers route, requisition ID, posting date, location, current status, experience requirement, and intended final apply route could not be safely verified."
     }
   ]
 }
