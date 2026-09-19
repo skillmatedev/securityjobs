@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 187,
+    "employerCareerTargets": 193,
     "independentPortals": 38,
-    "totalUniqueConfigured": 302
+    "totalUniqueConfigured": 308
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T12:30:27.000Z",
-  "latestRun": "run-20260919-123027z",
+  "lastUpdated": "2026-09-19T14:29:32.000Z",
+  "latestRun": "run-20260919-142932z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -6958,16 +6958,155 @@
       "accessStatus": "official careers and iCIMS search public; historical senior US security role outside India fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-junior-achievement-se-michigan",
+      "name": "Junior Achievement of Southeastern Michigan",
+      "aliases": [
+        "JASEM"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.jamichigan.org/",
+      "officialWebsite": "https://www.jamichigan.org/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 231; historical LinkedIn vacancy normalized to official organization website",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "lastSuccessfulCheck": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-26T14:29:32.000Z",
+      "accessStatus": "official organization site public; no dedicated career route resolved and historical senior non-security US role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-alcon",
+      "name": "Alcon Careers",
+      "aliases": [
+        "Alcon"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.alcon.com/careers/",
+      "officialWebsite": "https://www.alcon.com/",
+      "atsProvider": "Workday",
+      "tenant": "alcon",
+      "feedUrl": "https://alcon.wd5.myworkdayjobs.com/careers_alcon",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 232; official Alcon careers and Workday route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "lastSuccessfulCheck": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-20T14:29:32.000Z",
+      "accessStatus": "official careers and Workday search public; historical senior threat-intelligence role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-calance",
+      "name": "Calance Careers",
+      "aliases": [
+        "Calance"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.calanceus.com/careers",
+      "officialWebsite": "https://www.calanceus.com/",
+      "feedUrl": "https://www.calancejobs.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 233; historical LinkedIn vacancy replaced by official careers and staffing board",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "lastSuccessfulCheck": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-22T14:29:32.000Z",
+      "accessStatus": "official careers public; internal openings currently absent and historical senior role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-entrata",
+      "name": "Entrata Careers",
+      "aliases": [
+        "Entrata"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.entrata.com/careers",
+      "officialWebsite": "https://www.entrata.com/",
+      "atsProvider": "Lever",
+      "tenant": "entrata",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 234; legacy Lever vacancy normalized to official careers",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "lastSuccessfulCheck": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-22T14:29:32.000Z",
+      "accessStatus": "official careers public; historical senior application-security role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-netlink-voice",
+      "name": "Netlink Voice Careers",
+      "aliases": [
+        "Netlink Voice"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://netlinkvoice.com/careers/",
+      "officialWebsite": "https://netlinkvoice.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 235; NULL Community lead normalized to official employer careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "lastSuccessfulCheck": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-26T14:29:32.000Z",
+      "accessStatus": "official careers page public; historical red-team role lacks current vacancy, India location, and explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-outsystems",
+      "name": "OutSystems Careers",
+      "aliases": [
+        "OutSystems"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.outsystems.com/company/careers/",
+      "officialWebsite": "https://www.outsystems.com/",
+      "atsProvider": "Workday",
+      "tenant": "OutSystems",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 240; official Workday vacancy normalized to employer careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T14:29:32.000Z",
+      "nextRotationTime": "2026-09-20T14:29:32.000Z",
+      "accessStatus": "official careers route identified but verifier access failed; principal India-remote role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 229,
-    "processedRows": 228,
-    "remainingRows": 318,
-    "lastProcessedAt": "2026-09-19T12:30:27.000Z",
+    "nextRow": 241,
+    "processedRows": 240,
+    "remainingRows": 306,
+    "lastProcessedAt": "2026-09-19T14:29:32.000Z",
     "records": [
       {
         "row": 1,
@@ -8534,6 +8673,90 @@
         "status": "duplicate",
         "sourceId": "employer-claranet",
         "note": "duplicate principal UK listing; existing official Claranet source retained"
+      },
+      {
+        "row": 229,
+        "label": "Claranet / Application Security Engineer (SVA)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-claranet",
+        "note": "existing official Claranet source retained; UK role lacks India location and explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 230,
+        "label": "Claranet / Operations Director - Cybersecurity",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-claranet",
+        "note": "director role outside scope; application-complete URL excluded"
+      },
+      {
+        "row": 231,
+        "label": "Junior Achievement of Southeastern Michigan / Senior Vice President Operations",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-junior-achievement-se-michigan",
+        "note": "official organization site registered; senior non-security US role outside scope"
+      },
+      {
+        "row": 232,
+        "label": "Alcon / Senior Product Security Engineer - Threat Intelligence",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-alcon",
+        "note": "official Alcon careers registered; senior role outside fresher scope"
+      },
+      {
+        "row": 233,
+        "label": "Calance / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-calance",
+        "note": "official Calance careers registered; senior historical role outside scope"
+      },
+      {
+        "row": 234,
+        "label": "Entrata / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-entrata",
+        "note": "official Entrata careers registered; senior role outside scope"
+      },
+      {
+        "row": 235,
+        "label": "Netlink Voice / Network Penetration Tester - Red Teamer",
+        "status": "source-registered",
+        "sourceId": "employer-netlink-voice",
+        "note": "NULL Community discovery normalized to official employer careers; current status, India location, and 0-2-year eligibility unverified"
+      },
+      {
+        "row": 236,
+        "label": "LSEG / Senior Engineer, Infrastructure Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-lseg",
+        "note": "existing official LSEG source retained; senior role outside scope"
+      },
+      {
+        "row": 237,
+        "label": "Burns & McDonnell / Senior Electronic Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-burns-mcdonnell",
+        "note": "existing official source retained; senior US physical/electronic-security role outside India cybersecurity scope"
+      },
+      {
+        "row": 238,
+        "label": "Celestica / Manager, Information Security - Application Security Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-celestica",
+        "note": "existing official Celestica source retained; Chennai manager/lead role outside fresher scope"
+      },
+      {
+        "row": 239,
+        "label": "GlobalLogic / Lead Security - Security Team 1",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-globallogic",
+        "note": "existing official GlobalLogic source retained; lead role outside fresher scope"
+      },
+      {
+        "row": 240,
+        "label": "OutSystems / Principal Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-outsystems",
+        "note": "official OutSystems source registered; principal India-remote role outside fresher scope"
       }
     ]
   },
