@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T15:27:19.000Z",
+  "lastUpdated": "2026-09-19T16:28:29.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -7356,8 +7356,96 @@
         "totalUniqueConfigured": 317
       },
       "deploymentResult": "processed workbook rows 241-252; registered nine employer sources and reused Vestas and DHL; all roles were senior, historical, non-India, or lacked explicit fresher evidence; no new Gmail evidence; no job list change; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260919-162829z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T16:18:29.000Z",
+      "runCompletedAt": "2026-09-19T16:28:29.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-253-264",
+        "gmail-recent-cyber-job-alerts",
+        "employer-2u",
+        "employer-lennox-india",
+        "employer-vivriti-capital",
+        "employer-godaddy",
+        "employer-live-connections",
+        "employer-surveysparrow",
+        "employer-conga",
+        "employer-csc-global",
+        "employer-emaratech",
+        "employer-zynga",
+        "employer-vayuz-technologies"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 6
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 11,
+          "attempted": 11,
+          "succeeded": 3,
+          "blocked": 8,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 4,
+        "senior-or-outside-fresher-scope": 9,
+        "historical-or-insufficient-experience-evidence": 3,
+        "blocked-or-unavailable-career-route": 5,
+        "gmail-senior-role": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 265
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 282,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 41
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 208,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 323
+      },
+      "deploymentResult": "processed workbook rows 253-264; registered six employer sources and reused five existing employer sources; all candidates were senior, historical, duplicate, or lacked explicit fresher evidence; Gmail alert was senior-level; no job list change; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-152719z"
+  "latestRunId": "run-20260919-162829z"
 }
