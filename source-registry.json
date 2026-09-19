@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 173,
+    "employerCareerTargets": 183,
     "independentPortals": 38,
-    "totalUniqueConfigured": 288
+    "totalUniqueConfigured": 298
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T10:31:38.000Z",
-  "latestRun": "run-20260919-103138z",
+  "lastUpdated": "2026-09-19T11:29:55.000Z",
+  "latestRun": "run-20260919-112955z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -6631,16 +6631,244 @@
       "accessStatus": "official careers and job-search routes public; historical senior-staff role outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-guidewire",
+      "name": "Guidewire Careers",
+      "aliases": [
+        "Guidewire",
+        "Guidewire Software"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.guidewire.com/",
+      "officialWebsite": "https://www.guidewire.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 205; historical LinkedIn vacancy replaced by official careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": "2026-09-19T11:29:55.000Z",
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official careers route identified; principal role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-vectra",
+      "name": "Vectra AI Careers",
+      "aliases": [
+        "Vectra",
+        "Vectra AI",
+        "Vectra Networks"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.vectra.ai/about/careers",
+      "officialWebsite": "https://www.vectra.ai/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 206; legacy Greenhouse vacancy normalized to official careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": "2026-09-19T11:29:55.000Z",
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official careers page and openings route public; historical analyst role lacks current India and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-fis",
+      "name": "FIS Careers",
+      "aliases": [
+        "FIS",
+        "FIS Global"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.fisglobal.com/us/en",
+      "officialWebsite": "https://www.fisglobal.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 207; Workday vacancy normalized to official FIS careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": "2026-09-19T11:29:55.000Z",
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official global careers public; historical principal non-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bloomreach",
+      "name": "Bloomreach Careers",
+      "aliases": [
+        "Bloomreach"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.bloomreach.com/en/about/careers",
+      "officialWebsite": "https://www.bloomreach.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 208; legacy Greenhouse vacancy normalized to employer careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; historical analyst lacks current India and fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-cloudsek",
+      "name": "CloudSEK Careers",
+      "aliases": [
+        "CloudSEK",
+        "CloudSek"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.cloudsek.com/careers",
+      "officialWebsite": "https://www.cloudsek.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 209; legacy Greenhouse vacancy normalized to official CloudSEK careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; historical analyst lacks confirmed current vacancy and explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-first-entertainment-credit-union",
+      "name": "First Entertainment Credit Union Careers",
+      "aliases": [
+        "First Entertainment Credit Union",
+        "First Entertainment"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.firstent.org/about-us/careers",
+      "officialWebsite": "https://www.firstent.org/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 212; Lever application normalized to official employer careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-26T11:29:55.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; US credit-union vacancy outside India scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-opendoor",
+      "name": "Opendoor Careers",
+      "aliases": [
+        "Opendoor"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.opendoor.com/careers",
+      "officialWebsite": "https://www.opendoor.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 213; Greenhouse vacancy normalized to official careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": "2026-09-19T11:29:55.000Z",
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official careers page public; historical Hyderabad role is senior and outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-clouddefense",
+      "name": "CloudDefense.AI Careers",
+      "aliases": [
+        "CloudDefense",
+        "CloudDefense.AI"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.clouddefense.ai/careers",
+      "officialWebsite": "https://www.clouddefense.ai/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 214; historical LinkedIn vacancy replaced by official employer careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; historical senior software role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-infoblox",
+      "name": "Infoblox Careers",
+      "aliases": [
+        "Infoblox"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.infoblox.com/",
+      "officialWebsite": "https://www.infoblox.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 215; Jobvite vacancy normalized to official careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; historical senior product-security role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-maersk",
+      "name": "Maersk Careers",
+      "aliases": [
+        "Maersk",
+        "A.P. Moller - Maersk"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.maersk.com/careers",
+      "officialWebsite": "https://www.maersk.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 216; Workday vacancy normalized to official Maersk careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T11:29:55.000Z",
+      "lastSuccessfulCheck": "2026-09-19T11:29:55.000Z",
+      "nextRotationTime": "2026-09-20T11:29:55.000Z",
+      "accessStatus": "official global careers page public; historical Bangalore role is senior and outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 205,
-    "processedRows": 204,
-    "remainingRows": 342,
-    "lastProcessedAt": "2026-09-19T10:31:38.000Z",
+    "nextRow": 217,
+    "processedRows": 216,
+    "remainingRows": 330,
+    "lastProcessedAt": "2026-09-19T11:29:55.000Z",
     "records": [
       {
         "row": 1,
@@ -8039,12 +8267,96 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-illumina",
         "note": "official Illumina careers registered; senior-staff role outside fresher scope"
+      },
+      {
+        "row": 205,
+        "label": "Guidewire Software / Principal Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-guidewire",
+        "note": "historical LinkedIn link replaced by official Guidewire careers; principal role outside fresher scope"
+      },
+      {
+        "row": 206,
+        "label": "Vectra / Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-vectra",
+        "note": "official Vectra careers registered; historical Greenhouse vacancy lacks current India and explicit 0-2-year evidence"
+      },
+      {
+        "row": 207,
+        "label": "FIS / Principal Analyst - Managed Service Change",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-fis",
+        "note": "official FIS careers registered; principal non-security role outside scope"
+      },
+      {
+        "row": 208,
+        "label": "Bloomreach / Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-bloomreach",
+        "note": "official careers route registered; historical vacancy lacks current India and explicit fresher evidence"
+      },
+      {
+        "row": 209,
+        "label": "CloudSEK / Cyber Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-cloudsek",
+        "note": "official careers route registered; historical vacancy not confirmed current and lacks explicit fresher evidence"
+      },
+      {
+        "row": 210,
+        "label": "Match Group / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-match-group",
+        "note": "existing official Match Group source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 211,
+        "label": "Eureka / Project Manager",
+        "status": "duplicate",
+        "sourceId": "employer-match-group",
+        "note": "Match Group-owned brand and non-security manager role; existing source retained"
+      },
+      {
+        "row": 212,
+        "label": "First Entertainment Credit Union / Information Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-first-entertainment-credit-union",
+        "note": "official employer careers registered; US-only historical vacancy outside India scope"
+      },
+      {
+        "row": 213,
+        "label": "Opendoor / Senior Software Engineer - Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-opendoor",
+        "note": "official Opendoor careers registered; Hyderabad role is senior"
+      },
+      {
+        "row": 214,
+        "label": "CloudDefense / Senior Software Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-clouddefense",
+        "note": "historical LinkedIn link replaced by official company careers; senior role outside scope"
+      },
+      {
+        "row": 215,
+        "label": "Infoblox / Senior Product Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-infoblox",
+        "note": "official Infoblox careers registered; senior role outside scope"
+      },
+      {
+        "row": 216,
+        "label": "Maersk / Senior Cyber Engineer - GCDC",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-maersk",
+        "note": "official Maersk careers registered; Bangalore role is senior"
       }
     ]
   },
   "brandsDirectory": {
     "path": "brands/index.html",
-    "publishedAt": "2026-09-19T10:31:38.000Z",
+    "publishedAt": "2026-09-19T11:29:55.000Z",
     "totalEntries": 624,
     "entriesWithLinks": 363,
     "product": 22,
@@ -8058,8 +8370,8 @@
     ],
     "privacy": "personal contacts and private Gmail links excluded",
     "linkedinCleanup": {
-      "historicalLinkedinLinksReviewed": 165,
-      "replacedWithOfficialCareerPages": 99,
+      "historicalLinkedinLinksReviewed": 167,
+      "replacedWithOfficialCareerPages": 101,
       "hiddenPendingOfficialCareerVerification": 65,
       "publicLinkedinLinksRemainingInDirectory": 0
     }

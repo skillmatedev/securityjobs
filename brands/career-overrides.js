@@ -6,6 +6,16 @@
     .replace(/(privatelimited|pvtltd|limited|ltd|inc|llc|plc)$/g, "");
 
   const verified = {
+    "Guidewire Software": "https://careers.guidewire.com/",
+    "Vectra": "https://www.vectra.ai/about/careers",
+    "FIS": "https://careers.fisglobal.com/us/en",
+    "Bloomreach": "https://www.bloomreach.com/en/about/careers",
+    "CloudSek": "https://www.cloudsek.com/careers",
+    "First Entertainment Credit Union": "https://www.firstent.org/about-us/careers",
+    "Opendoor": "https://www.opendoor.com/careers",
+    "Clouddefense": "https://www.clouddefense.ai/careers",
+    "Infoblox": "https://careers.infoblox.com/",
+    "Maersk": "https://www.maersk.com/careers",
     "Cymotive": "https://www.cymotive.com/join-the-team/",
     "Hitachi": "https://careers.hitachi.com/",
     "E.ON Digital Technology GmbH": "https://careers.eon.com/",
