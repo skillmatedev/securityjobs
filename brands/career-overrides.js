@@ -6,6 +6,13 @@
     .replace(/(privatelimited|pvtltd|limited|ltd|inc|llc|plc)$/g, "");
 
   const verified = {
+    "Crowdstrike": "https://www.crowdstrike.com/en-us/careers/",
+    "CrowdStrike": "https://www.crowdstrike.com/en-us/careers/",
+    "Emeritus": "https://careers.emeritus.org/",
+    "Emirates BND Bank": "https://careers.emiratesnbd.com/",
+    "Emirates NBD": "https://careers.emiratesnbd.com/",
+    "Koch companies": "https://www.kochinc.com/career-opportunities",
+    "Kroll": "https://careers.kroll.com/en",
     "Barclays": "https://search.jobs.barclays/",
     "[24]7.ai": "https://www.247.ai/careers",
     "20 Cube Logistics Solutions Pvt. Ltd": "https://www.20cube.com/careers/",

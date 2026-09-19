@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 158,
+    "employerCareerTargets": 165,
     "independentPortals": 38,
-    "totalUniqueConfigured": 273
+    "totalUniqueConfigured": 280
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T09:27:47.000Z",
-  "latestRun": "run-20260919-092747z",
+  "lastUpdated": "2026-09-19T09:35:17.000Z",
+  "latestRun": "run-20260919-093517z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -4660,11 +4660,16 @@
     {
       "sourceId": "employer-audacix",
       "name": "Audacix Careers",
-      "aliases": ["Audacix"],
+      "aliases": [
+        "Audacix"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://apply.workable.com/audacix/",
       "officialWebsite": "https://www.audacix.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 14; official site and Workable careers route verified",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T11:29:49.000Z",
@@ -4677,11 +4682,18 @@
     {
       "sourceId": "employer-axa",
       "name": "AXA Careers",
-      "aliases": ["AXA", "Axa Business Solutions", "AXA Business Services"],
+      "aliases": [
+        "AXA",
+        "Axa Business Solutions",
+        "AXA Business Services"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.axa.com/",
       "officialWebsite": "https://www.axa.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 17; official AXA careers route verified",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T11:29:49.000Z",
@@ -4694,11 +4706,17 @@
     {
       "sourceId": "employer-ibm",
       "name": "IBM Careers",
-      "aliases": ["IBM", "International Business Machines"],
+      "aliases": [
+        "IBM",
+        "International Business Machines"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.ibm.com/careers/search",
       "officialWebsite": "https://www.ibm.com/in-en",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 19; official IBM careers route",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T11:29:49.000Z",
@@ -4711,11 +4729,16 @@
     {
       "sourceId": "employer-alstom",
       "name": "Alstom Careers",
-      "aliases": ["Alstom"],
+      "aliases": [
+        "Alstom"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://jobsearch.alstom.com/",
       "officialWebsite": "https://www.alstom.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 20; historical LinkedIn lead replaced by official career portal",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T11:29:49.000Z",
@@ -4728,11 +4751,17 @@
     {
       "sourceId": "employer-shell",
       "name": "Shell Careers",
-      "aliases": ["Shell", "Shell India"],
+      "aliases": [
+        "Shell",
+        "Shell India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.shell.com/careers.html",
       "officialWebsite": "https://www.shell.in/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 24; historical LinkedIn vacancy normalized to official careers route",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T11:29:49.000Z",
@@ -4744,11 +4773,17 @@
     {
       "sourceId": "employer-qualys",
       "name": "Qualys Careers",
-      "aliases": ["Qualys", "Qualys Inc"],
+      "aliases": [
+        "Qualys",
+        "Qualys Inc"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://qualys.wd5.myworkdayjobs.com/",
       "officialWebsite": "https://www.qualys.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 29; historical Jobvite route normalized to current official Workday careers route",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T12:27:08.000Z",
@@ -4761,11 +4796,16 @@
     {
       "sourceId": "employer-honeywell",
       "name": "Honeywell Careers",
-      "aliases": ["Honeywell"],
+      "aliases": [
+        "Honeywell"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.honeywell.com/",
       "officialWebsite": "https://www.honeywell.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 30; official careers and student/graduate routes verified",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T12:27:08.000Z",
@@ -4778,11 +4818,17 @@
     {
       "sourceId": "employer-gojek",
       "name": "Gojek Careers",
-      "aliases": ["Gojek", "GoTo Gojek Tokopedia"],
+      "aliases": [
+        "Gojek",
+        "GoTo Gojek Tokopedia"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.gojek.io/careers",
       "officialWebsite": "https://www.gojek.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 31; official Gojek careers route verified",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T12:27:08.000Z",
@@ -4795,11 +4841,17 @@
     {
       "sourceId": "employer-zoho-corporation",
       "name": "Zoho Corporation Careers",
-      "aliases": ["Zoho", "Zoho Corporation"],
+      "aliases": [
+        "Zoho",
+        "Zoho Corporation"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.zohocorp.com/",
       "officialWebsite": "https://www.zoho.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 32; official Zoho candidate portal verified",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T12:27:08.000Z",
@@ -4812,11 +4864,17 @@
     {
       "sourceId": "employer-synopsys",
       "name": "Synopsys Careers",
-      "aliases": ["Synopsys", "Synopsys Inc"],
+      "aliases": [
+        "Synopsys",
+        "Synopsys Inc"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.synopsys.com/",
       "officialWebsite": "https://www.synopsys.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 37; legacy BrassRing vacancy normalized to official careers portal",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4829,11 +4887,17 @@
     {
       "sourceId": "employer-caterpillar",
       "name": "Caterpillar Careers",
-      "aliases": ["Caterpillar", "CAT"],
+      "aliases": [
+        "Caterpillar",
+        "CAT"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.caterpillar.com/",
       "officialWebsite": "https://www.caterpillar.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 38; official careers route verified and personal recruiter details excluded",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4846,11 +4910,18 @@
     {
       "sourceId": "employer-walmart-global-tech",
       "name": "Walmart Global Tech Careers",
-      "aliases": ["Walmart", "Wallmart", "Walmart Global Tech India"],
+      "aliases": [
+        "Walmart",
+        "Wallmart",
+        "Walmart Global Tech India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
       "officialWebsite": "https://tech.walmart.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 39; legacy Workday route normalized to official Walmart Global Tech careers",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4863,11 +4934,17 @@
     {
       "sourceId": "employer-emirates-group",
       "name": "Emirates Group Careers",
-      "aliases": ["Emirates", "The Emirates Group"],
+      "aliases": [
+        "Emirates",
+        "The Emirates Group"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.emiratesgroupcareers.com/",
       "officialWebsite": "https://www.emirates.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 41; legacy Taleo route normalized to official careers portal",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4880,11 +4957,16 @@
     {
       "sourceId": "employer-la-fosse",
       "name": "La Fosse Jobs",
-      "aliases": ["La Fosse"],
+      "aliases": [
+        "La Fosse"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.lafosse.com/jobs/",
       "officialWebsite": "https://www.lafosse.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 42; historical senior UK vacancy and personal contact details excluded",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4897,11 +4979,17 @@
     {
       "sourceId": "employer-gattaca-plc",
       "name": "Gattaca Careers",
-      "aliases": ["Gattaca", "Gattaca Plc"],
+      "aliases": [
+        "Gattaca",
+        "Gattaca Plc"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.gattacaplc.com/jobs",
       "officialWebsite": "https://www.gattacaplc.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 43-44; personal contacts and historical CWJobs links excluded",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4914,11 +5002,18 @@
     {
       "sourceId": "employer-adroc-group",
       "name": "AdRoc Group Careers",
-      "aliases": ["AdRoc", "AdRoc Consulting", "AdRoc Group"],
+      "aliases": [
+        "AdRoc",
+        "AdRoc Consulting",
+        "AdRoc Group"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://adrocgroup.com/people-and-teams/",
       "officialWebsite": "https://adrocgroup.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 45; personal contact and senior UK role excluded",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4931,11 +5026,16 @@
     {
       "sourceId": "employer-practicus",
       "name": "Practicus Jobs",
-      "aliases": ["Practicus"],
+      "aliases": [
+        "Practicus"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.practicus.com/candidates/jobs",
       "officialWebsite": "https://www.practicus.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 46; personal application confirmation and recruiter email excluded",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4948,11 +5048,17 @@
     {
       "sourceId": "employer-currys",
       "name": "Currys Careers",
-      "aliases": ["Currys", "Currys plc"],
+      "aliases": [
+        "Currys",
+        "Currys plc"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.currysplc.com/careers/",
       "officialWebsite": "https://www.currysplc.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 47; SuccessFactors tenant normalized to official careers route",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T13:28:14.000Z",
@@ -4965,11 +5071,17 @@
     {
       "sourceId": "employer-sophos",
       "name": "Sophos Careers",
-      "aliases": ["Sophos", "Sophos Office"],
+      "aliases": [
+        "Sophos",
+        "Sophos Office"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.sophos.com/en-us/company/careers",
       "officialWebsite": "https://www.sophos.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 51; personal phone contact excluded",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T14:29:37.000Z",
@@ -4982,11 +5094,17 @@
     {
       "sourceId": "employer-diageo",
       "name": "Diageo Careers",
-      "aliases": ["Diageo", "DIAGEO India"],
+      "aliases": [
+        "Diageo",
+        "DIAGEO India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.diageo.com/en/careers/search-and-apply",
       "officialWebsite": "https://www.diageo.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 54; LinkedIn search URL replaced by official career page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T14:29:37.000Z",
@@ -4999,11 +5117,16 @@
     {
       "sourceId": "employer-delivery-hero",
       "name": "Delivery Hero Careers",
-      "aliases": ["Delivery Hero"],
+      "aliases": [
+        "Delivery Hero"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.deliveryhero.com/jobs",
       "officialWebsite": "https://www.deliveryhero.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 58; historical vacancy normalized to official jobs index",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T14:29:37.000Z",
@@ -5016,11 +5139,16 @@
     {
       "sourceId": "employer-siemens",
       "name": "Siemens Careers",
-      "aliases": ["Siemens"],
+      "aliases": [
+        "Siemens"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://jobs.siemens.com/careers",
       "officialWebsite": "https://www.siemens.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 64; private application-folder URL replaced by official careers marketplace",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T15:29:38.000Z",
@@ -5033,11 +5161,17 @@
     {
       "sourceId": "employer-bank-of-america",
       "name": "Bank of America Careers",
-      "aliases": ["Bank of America", "BofA"],
+      "aliases": [
+        "Bank of America",
+        "BofA"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.bankofamerica.com/",
       "officialWebsite": "https://www.bankofamerica.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 69; historical US Workday vacancy replaced by official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T15:29:38.000Z",
@@ -5050,11 +5184,18 @@
     {
       "sourceId": "employer-bmw-group",
       "name": "BMW Group Careers",
-      "aliases": ["BMW", "BMW Group", "BMW Group India"],
+      "aliases": [
+        "BMW",
+        "BMW Group",
+        "BMW Group India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.bmwgroup.jobs/in/en.html",
       "officialWebsite": "https://www.bmw.in/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 70; LinkedIn vacancy replaced by official BMW Group India careers route",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T15:29:38.000Z",
@@ -5067,11 +5208,18 @@
     {
       "sourceId": "employer-ge-aerospace",
       "name": "GE Aerospace Careers",
-      "aliases": ["GE", "GE Careers", "General Electric"],
+      "aliases": [
+        "GE",
+        "GE Careers",
+        "General Electric"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.geaerospace.com/global/en",
       "officialWebsite": "https://www.geaerospace.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 72; historical senior Workday vacancy normalized to official GE Aerospace careers",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T15:29:38.000Z",
@@ -5084,11 +5232,18 @@
     {
       "sourceId": "employer-td-synnex",
       "name": "TD SYNNEX Careers",
-      "aliases": ["TD SYNNEX", "Tech Data", "SYNNEX"],
+      "aliases": [
+        "TD SYNNEX",
+        "Tech Data",
+        "SYNNEX"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.tdsynnex.com/",
       "officialWebsite": "https://www.tdsynnex.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 73; historical Workday vacancy normalized to official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5101,11 +5256,17 @@
     {
       "sourceId": "employer-ford",
       "name": "Ford Careers",
-      "aliases": ["Ford", "Ford Motor Company"],
+      "aliases": [
+        "Ford",
+        "Ford Motor Company"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.careers.ford.com/",
       "officialWebsite": "https://www.ford.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 74; legacy BrassRing vacancy replaced by official careers search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5118,11 +5279,17 @@
     {
       "sourceId": "employer-lennox-india",
       "name": "Lennox India Careers",
-      "aliases": ["Lennox", "Lennox India Technology Centre"],
+      "aliases": [
+        "Lennox",
+        "Lennox India Technology Centre"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://globalcareers-lennox.icims.com/jobs/search?searchLocation=13228--Chennai&ss=1",
       "officialWebsite": "https://www.lennox.com/in",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 75; Fidanto vacancy replaced by official Lennox India iCIMS search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5135,11 +5302,16 @@
     {
       "sourceId": "employer-comcast",
       "name": "Comcast Careers",
-      "aliases": ["Comcast"],
+      "aliases": [
+        "Comcast"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://jobs.comcast.com/",
       "officialWebsite": "https://corporate.comcast.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 76; historical Workday vacancy and exposed credential excluded",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5152,11 +5324,17 @@
     {
       "sourceId": "employer-20cube-logistics",
       "name": "20Cube Logistics Careers",
-      "aliases": ["20Cube", "20 Cube Logistics Solutions Pvt. Ltd"],
+      "aliases": [
+        "20Cube",
+        "20 Cube Logistics Solutions Pvt. Ltd"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.20cube.com/careers/",
       "officialWebsite": "https://www.20cube.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 77; LinkedIn vacancy replaced by official company careers route",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5169,11 +5347,16 @@
     {
       "sourceId": "employer-adobe",
       "name": "Adobe Careers",
-      "aliases": ["Adobe"],
+      "aliases": [
+        "Adobe"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.adobe.com/us/en",
       "officialWebsite": "https://www.adobe.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 81; historical Workday vacancy normalized to official Adobe careers",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5186,11 +5369,16 @@
     {
       "sourceId": "employer-postman",
       "name": "Postman Careers",
-      "aliases": ["Postman"],
+      "aliases": [
+        "Postman"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.postman.com/company/careers/",
       "officialWebsite": "https://www.postman.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 84; historical Greenhouse vacancy normalized to official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T16:31:13.000Z",
@@ -5203,11 +5391,17 @@
     {
       "sourceId": "employer-cyberark",
       "name": "CyberArk Careers",
-      "aliases": ["Cyber Ark", "CyberArk"],
+      "aliases": [
+        "Cyber Ark",
+        "CyberArk"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.cyberark.com/",
       "officialWebsite": "https://www.cyberark.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 86; legacy SuccessFactors session URL replaced by official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5220,11 +5414,17 @@
     {
       "sourceId": "employer-6sense",
       "name": "6sense Careers",
-      "aliases": ["6sense", "6sense Insights"],
+      "aliases": [
+        "6sense",
+        "6sense Insights"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://6sense.com/careers/",
       "officialWebsite": "https://6sense.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 87; historical Comparably/Greenhouse link normalized to official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5237,11 +5437,16 @@
     {
       "sourceId": "employer-banner-health",
       "name": "Banner Health Careers",
-      "aliases": ["Banner Health"],
+      "aliases": [
+        "Banner Health"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.bannerhealth.com/careers/job-search",
       "officialWebsite": "https://www.bannerhealth.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 89-90; mislabeled Bank of America row normalized to Banner Health",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5254,11 +5459,16 @@
     {
       "sourceId": "employer-concentrix",
       "name": "Concentrix Careers",
-      "aliases": ["Concentrix"],
+      "aliases": [
+        "Concentrix"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://jobs.concentrix.com/job-search/",
       "officialWebsite": "https://www.concentrix.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 93; private Workday application view replaced by official jobs search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5271,11 +5481,17 @@
     {
       "sourceId": "employer-oist",
       "name": "OIST Careers",
-      "aliases": ["Okinawa Institute of Science and Technology", "OIST"],
+      "aliases": [
+        "Okinawa Institute of Science and Technology",
+        "OIST"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.oist.jp/careers",
       "officialWebsite": "https://www.oist.jp/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 94; third-party executive vacancy replaced by official careers page",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5288,11 +5504,17 @@
     {
       "sourceId": "employer-uber",
       "name": "Uber Careers",
-      "aliases": ["Uber", "Uber India"],
+      "aliases": [
+        "Uber",
+        "Uber India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://jobs.uber.com/en/jobs/",
       "officialWebsite": "https://www.uber.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 95; historical senior interstitial link replaced by official jobs search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5305,11 +5527,17 @@
     {
       "sourceId": "employer-visteon",
       "name": "Visteon Careers",
-      "aliases": ["Visteon", "Visteon Corporation"],
+      "aliases": [
+        "Visteon",
+        "Visteon Corporation"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.visteon.com/careers/join-us/default.aspx",
       "officialWebsite": "https://www.visteon.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 96; historical UKG vacancy normalized to official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T17:28:17.000Z",
@@ -5322,11 +5550,17 @@
     {
       "sourceId": "employer-vestas",
       "name": "Vestas Careers",
-      "aliases": ["Vestas", "Vestas Wind Systems"],
+      "aliases": [
+        "Vestas",
+        "Vestas Wind Systems"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.vestas.com/en/careers",
       "officialWebsite": "https://www.vestas.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 97; legacy SuccessFactors vacancy replaced by official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T18:28:32.000Z",
@@ -5339,11 +5573,17 @@
     {
       "sourceId": "employer-danfoss",
       "name": "Danfoss Careers",
-      "aliases": ["Danfoss", "Danfoss India"],
+      "aliases": [
+        "Danfoss",
+        "Danfoss India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.danfoss.com/en/about-danfoss/careers/",
       "officialWebsite": "https://www.danfoss.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 98-99; legacy SuccessFactors vacancies replaced by official careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T18:28:32.000Z",
@@ -5356,11 +5596,17 @@
     {
       "sourceId": "employer-wells-fargo",
       "name": "Wells Fargo Careers",
-      "aliases": ["Wells Fargo", "Wells Fargo India"],
+      "aliases": [
+        "Wells Fargo",
+        "Wells Fargo India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.wellsfargojobs.com/en/locations/asia-pacific/india/",
       "officialWebsite": "https://www.wellsfargo.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 100; historical Workday vacancy replaced by official India careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T18:28:32.000Z",
@@ -5373,11 +5619,17 @@
     {
       "sourceId": "employer-ventuno",
       "name": "Ventuno Technologies Careers",
-      "aliases": ["Ventuno", "Ventuno Technologies"],
+      "aliases": [
+        "Ventuno",
+        "Ventuno Technologies"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.ventunotech.com/careers",
       "officialWebsite": "https://www.ventunotech.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 105; LinkedIn vacancy replaced by official company careers page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T18:28:32.000Z",
@@ -5390,11 +5642,17 @@
     {
       "sourceId": "employer-sapwood-ventures",
       "name": "Sapwood Ventures Careers",
-      "aliases": ["Sapwood Ventures", "Sapwood"],
+      "aliases": [
+        "Sapwood Ventures",
+        "Sapwood"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.sapwood.net/jobseekers",
       "officialWebsite": "https://www.sapwood.net/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 108; LinkedIn vacancy replaced by official staffing firm jobseeker page",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T18:28:32.000Z",
@@ -5407,11 +5665,17 @@
     {
       "sourceId": "employer-watchtowr",
       "name": "watchTowr Careers",
-      "aliases": ["watchTowr", "watchTowr Labs"],
+      "aliases": [
+        "watchTowr",
+        "watchTowr Labs"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.watchtowr.com/",
       "officialWebsite": "https://watchtowr.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 111; legacy Angel.co vacancy replaced by official careers site",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T19:30:01.000Z",
@@ -5424,11 +5688,17 @@
     {
       "sourceId": "employer-cyberowl",
       "name": "CyberOwl",
-      "aliases": ["CyberOwl", "Cyber Owl"],
+      "aliases": [
+        "CyberOwl",
+        "Cyber Owl"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://cyberowl.io/",
       "officialWebsite": "https://cyberowl.io/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 112; legacy Angel.co vacancy replaced by official company site",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T19:30:01.000Z",
@@ -5441,11 +5711,18 @@
     {
       "sourceId": "employer-syndigo",
       "name": "Syndigo Careers",
-      "aliases": ["Syndigo", "Riversand", "Riversand Technologies"],
+      "aliases": [
+        "Syndigo",
+        "Riversand",
+        "Riversand Technologies"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://syndigo.com/open-positions/",
       "officialWebsite": "https://syndigo.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 117; Riversand normalized to acquiring company Syndigo and LinkedIn replaced",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T19:30:01.000Z",
@@ -5458,11 +5735,17 @@
     {
       "sourceId": "employer-navisite-accenture",
       "name": "Navisite / Accenture Careers",
-      "aliases": ["Navisite", "Navisite, part of Accenture"],
+      "aliases": [
+        "Navisite",
+        "Navisite, part of Accenture"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.accenture.com/in-en/careers/jobsearch?jk=Navisite",
       "officialWebsite": "https://www.navisite.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 119; legacy Lever application replaced by official owner Accenture careers search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T19:30:01.000Z",
@@ -5475,11 +5758,17 @@
     {
       "sourceId": "employer-persistent-systems",
       "name": "Persistent Systems Careers",
-      "aliases": ["Persistent Systems", "Persistent"],
+      "aliases": [
+        "Persistent Systems",
+        "Persistent"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.persistent.com/",
       "officialWebsite": "https://www.persistent.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 120; LinkedIn vacancy replaced by official careers portal",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T19:30:01.000Z",
@@ -5492,11 +5781,17 @@
     {
       "sourceId": "employer-claranet",
       "name": "Claranet Careers",
-      "aliases": ["Claranet", "Claranet India"],
+      "aliases": [
+        "Claranet",
+        "Claranet India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://claranet.jobs/recruit/fRecruit__ApplyJobList",
       "officialWebsite": "https://www.claranet.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 121; application-complete URL replaced by official vacancy index",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T20:31:32.000Z",
@@ -5509,11 +5804,16 @@
     {
       "sourceId": "employer-atlassian",
       "name": "Atlassian Careers",
-      "aliases": ["Atlassian"],
+      "aliases": [
+        "Atlassian"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.atlassian.com/company/careers/all-jobs",
       "officialWebsite": "https://www.atlassian.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 122; historical LinkedIn vacancy replaced by official careers portal",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T20:31:32.000Z",
@@ -5526,11 +5826,18 @@
     {
       "sourceId": "employer-hcltech",
       "name": "HCLTech Careers",
-      "aliases": ["HCLTech", "HCL Technologies", "HCL"],
+      "aliases": [
+        "HCLTech",
+        "HCL Technologies",
+        "HCL"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.hcltech.com/",
       "officialWebsite": "https://www.hcltech.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 123; historical LinkedIn vacancy replaced by official careers search",
       "checkIntervalHours": 72,
       "lastAttempt": "2026-09-15T20:31:32.000Z",
@@ -5543,11 +5850,17 @@
     {
       "sourceId": "employer-barclays",
       "name": "Barclays Careers",
-      "aliases": ["Barclays", "Barclays India"],
+      "aliases": [
+        "Barclays",
+        "Barclays India"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://search.jobs.barclays/",
       "officialWebsite": "https://home.barclays/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 145-148; legacy Taleo routes replaced by current official Barclays job search",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5560,11 +5873,18 @@
     {
       "sourceId": "employer-tech-mahindra",
       "name": "Tech Mahindra Careers",
-      "aliases": ["Tech Mahindra", "Techmahendra", "TechM"],
+      "aliases": [
+        "Tech Mahindra",
+        "Techmahendra",
+        "TechM"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.techmahindra.com/careers/",
       "officialWebsite": "https://www.techmahindra.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 152; company-only historical record normalized to official careers page",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5577,11 +5897,17 @@
     {
       "sourceId": "employer-nielseniq",
       "name": "NielsenIQ Careers",
-      "aliases": ["NielsenIQ", "NIQ"],
+      "aliases": [
+        "NielsenIQ",
+        "NIQ"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://nielseniq.com/global/en/jobs/",
       "officialWebsite": "https://nielseniq.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 153; historical LinkedIn vacancy replaced by official NielsenIQ jobs route",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5594,11 +5920,17 @@
     {
       "sourceId": "employer-m2p-fintech",
       "name": "M2P Fintech Careers",
-      "aliases": ["M2P", "M2P Fintech"],
+      "aliases": [
+        "M2P",
+        "M2P Fintech"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.m2pfintech.com/view-jobs/",
       "officialWebsite": "https://www.m2pfintech.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 154; company record normalized to official M2P job listing",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5611,11 +5943,16 @@
     {
       "sourceId": "employer-oportun",
       "name": "Oportun Careers",
-      "aliases": ["Oportun"],
+      "aliases": [
+        "Oportun"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://oportun.com/careers/",
       "officialWebsite": "https://oportun.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 155; historical company record normalized to official careers page",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5628,11 +5965,18 @@
     {
       "sourceId": "employer-noventiq",
       "name": "Noventiq Careers",
-      "aliases": ["Noventiq", "Noventiq India", "Softline"],
+      "aliases": [
+        "Noventiq",
+        "Noventiq India",
+        "Softline"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.noventiq.com/",
       "officialWebsite": "https://noventiq.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 156; legacy Jobvite route replaced by official Noventiq careers site",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-15T22:29:27.000Z",
@@ -5645,11 +5989,17 @@
     {
       "sourceId": "employer-experience-com",
       "name": "Experience.com Careers",
-      "aliases": ["Experience.com", "Experience.com, Inc."],
+      "aliases": [
+        "Experience.com",
+        "Experience.com, Inc."
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.experience.com/",
       "officialWebsite": "https://www.experience.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 144; historical LinkedIn vacancy replaced by the official company site's Job Opportunities route",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T21:32:37.000Z",
@@ -5662,11 +6012,17 @@
     {
       "sourceId": "employer-flender",
       "name": "Flender Careers",
-      "aliases": ["Flender", "Flender GmbH"],
+      "aliases": [
+        "Flender",
+        "Flender GmbH"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://flender.wd3.myworkdayjobs.com/Flender_Global",
       "officialWebsite": "https://www.flender.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 125; private application-view URL replaced by official Workday careers index",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-15T20:31:32.000Z",
@@ -5679,11 +6035,17 @@
     {
       "sourceId": "employer-pepsico",
       "name": "PepsiCo Careers",
-      "aliases": ["PepsiCo", "Pepsico"],
+      "aliases": [
+        "PepsiCo",
+        "Pepsico"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.pepsicojobs.com/",
       "officialWebsite": "https://www.pepsico.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 159; legacy iCIMS vacancy replaced by the official PepsiCo jobs portal",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T08:32:51.000Z",
@@ -5696,11 +6058,19 @@
     {
       "sourceId": "employer-exotel",
       "name": "Exotel Careers",
-      "aliases": ["Exotel", "Cogno AI", "Cogno Al", "Ameyo"],
+      "aliases": [
+        "Exotel",
+        "Cogno AI",
+        "Cogno Al",
+        "Ameyo"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://exotel.com/careers/",
       "officialWebsite": "https://exotel.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 160; Cogno AI was acquired by Exotel and the legacy Trakstar vacancy was normalized to Exotel's official careers route",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T08:32:51.000Z",
@@ -5713,11 +6083,17 @@
     {
       "sourceId": "employer-edifecs-cotiviti",
       "name": "Edifecs / Cotiviti Careers",
-      "aliases": ["Edifecs", "Cotiviti"],
+      "aliases": [
+        "Edifecs",
+        "Cotiviti"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.edifecs.com/careers/",
       "officialWebsite": "https://www.edifecs.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 161 and 164; historical Jobvite vacancies normalized to the official Edifecs careers route; Edifecs is now a Cotiviti business",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T08:32:51.000Z",
@@ -5730,11 +6106,17 @@
     {
       "sourceId": "employer-grammarly",
       "name": "Grammarly Careers",
-      "aliases": ["Grammarly", "Grammerly"],
+      "aliases": [
+        "Grammarly",
+        "Grammerly"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.grammarly.com/jobs",
       "officialWebsite": "https://www.grammarly.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview rows 167 and 168; misspelled employer name and legacy Greenhouse vacancies normalized to official Grammarly careers",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-19T08:32:51.000Z",
@@ -5747,11 +6129,17 @@
     {
       "sourceId": "employer-crayon",
       "name": "Crayon Careers",
-      "aliases": ["Crayon", "Crayon Group"],
+      "aliases": [
+        "Crayon",
+        "Crayon Group"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.crayon.com/careers/",
       "officialWebsite": "https://www.crayon.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 170; historical LinkedIn vacancy replaced by Crayon's official careers route",
       "checkIntervalHours": 168,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5764,11 +6152,17 @@
     {
       "sourceId": "employer-saas-labs",
       "name": "SaaS Labs Careers",
-      "aliases": ["SaaS Labs", "Saas Labs"],
+      "aliases": [
+        "SaaS Labs",
+        "Saas Labs"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.saaslabs.co/careers",
       "officialWebsite": "https://www.saaslabs.co/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 172; Instahyre discovery replaced by official SaaS Labs careers page",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5781,11 +6175,18 @@
     {
       "sourceId": "employer-netrix-global",
       "name": "Netrix Global Careers",
-      "aliases": ["Netrix", "Netrix LLC", "Netrix Global"],
+      "aliases": [
+        "Netrix",
+        "Netrix LLC",
+        "Netrix Global"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.netrixglobal.com/careers",
       "officialWebsite": "https://www.netrixglobal.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 173; vacancy route normalized to the official Netrix careers index",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5798,11 +6199,18 @@
     {
       "sourceId": "employer-globalization-partners",
       "name": "G-P / Globalization Partners Careers",
-      "aliases": ["G-P", "Globalization Partners", "G-P/Globalization Partners"],
+      "aliases": [
+        "G-P",
+        "Globalization Partners",
+        "G-P/Globalization Partners"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.globalization-partners.com/careers/",
       "officialWebsite": "https://www.globalization-partners.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 174; legacy Greenhouse vacancy normalized to the official G-P careers page",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5815,11 +6223,18 @@
     {
       "sourceId": "employer-lseg",
       "name": "LSEG Careers",
-      "aliases": ["LSEG", "London Stock Exchange Group", "Refinitiv"],
+      "aliases": [
+        "LSEG",
+        "London Stock Exchange Group",
+        "Refinitiv"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.lseg.com/en/careers",
       "officialWebsite": "https://www.lseg.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 176; legacy Refinitiv Workday vacancy replaced by current official LSEG careers",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5832,11 +6247,17 @@
     {
       "sourceId": "employer-bradken",
       "name": "Bradken Careers",
-      "aliases": ["Bradken", "Bradken Limited"],
+      "aliases": [
+        "Bradken",
+        "Bradken Limited"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://www.bradken.com/careers/current-opportunities",
       "officialWebsite": "https://www.bradken.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 178; legacy JobAdder vacancy normalized to Bradken's official current-opportunities page",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5849,11 +6270,18 @@
     {
       "sourceId": "employer-merieux-nutrisciences",
       "name": "Mérieux NutriSciences Careers",
-      "aliases": ["Mérieux NutriSciences", "Mérieux NutriSciences Brasil", "Merieux NutriSciences"],
+      "aliases": [
+        "Mérieux NutriSciences",
+        "Mérieux NutriSciences Brasil",
+        "Merieux NutriSciences"
+      ],
       "sourceType": "employer-career-target",
       "canonicalUrl": "https://careers.merieuxnutrisciences.com/",
       "officialWebsite": "https://www.merieuxnutrisciences.com/",
-      "geography": ["India", "Remote India"],
+      "geography": [
+        "India",
+        "Remote India"
+      ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 179; historical LinkedIn vacancy replaced by the official global careers portal",
       "checkIntervalHours": 24,
       "lastAttempt": "2026-09-19T09:27:47.000Z",
@@ -5862,16 +6290,176 @@
       "accessStatus": "official careers portal identified but direct automated verification was unavailable; historical India IT Security Analyst lacks current vacancy and fresher evidence",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-crowdstrike",
+      "name": "CrowdStrike Careers",
+      "aliases": [
+        "CrowdStrike",
+        "Crowdstrike"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.crowdstrike.com/en-us/careers/",
+      "officialWebsite": "https://www.crowdstrike.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 181 and 187; Workday vacancy and candidate-session links normalized to the official CrowdStrike careers page",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official careers page and Workday job-postings route public; historical roles are senior and outside fresher scope",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-emeritus",
+      "name": "Emeritus Careers",
+      "aliases": [
+        "Emeritus"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.emeritus.org/",
+      "officialWebsite": "https://emeritus.org/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 182; legacy Lever vacancy normalized to the official Emeritus careers site",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official careers site and open-positions route public; historical Senior Consultant role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-tcs",
+      "name": "Tata Consultancy Services Careers",
+      "aliases": [
+        "Tata Consultancy Services",
+        "TCS",
+        "Tata Consultancy Services (TCS)"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.tcs.com/careers",
+      "officialWebsite": "https://www.tcs.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 183; historical LinkedIn vacancy replaced by the official TCS careers page",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official global careers route public; historical Lead Application Security role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-radware",
+      "name": "Radware Careers",
+      "aliases": [
+        "Radware"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.radware.com/company/careers/",
+      "officialWebsite": "https://www.radware.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 185 and 188; LinkedIn and generic Taleo links normalized to the official Radware careers page",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official careers route identified; historical vacancies lack current status and explicit fresher eligibility",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-emirates-nbd",
+      "name": "Emirates NBD Careers",
+      "aliases": [
+        "Emirates NBD",
+        "Emirates BND Bank"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.emiratesnbd.com/",
+      "officialWebsite": "https://www.emiratesnbd.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 189; historical Talentera vacancy normalized to the official Emirates NBD careers route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official employer careers route identified; historical Saudi assistant-risk-manager vacancy is not a verified India fresher cybersecurity opening",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-koch",
+      "name": "Koch Careers",
+      "aliases": [
+        "Koch",
+        "Koch companies",
+        "Koch Industries"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.kochinc.com/career-opportunities",
+      "officialWebsite": "https://www.kochinc.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 190 and 191; private Avature application pages replaced by Koch current career opportunities",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-20T09:35:17.000Z",
+      "accessStatus": "official career opportunities page public; director role is senior and historical network-security analyst lacks explicit fresher evidence",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-kroll",
+      "name": "Kroll Careers",
+      "aliases": [
+        "Kroll"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.kroll.com/en",
+      "officialWebsite": "https://www.kroll.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 192; Oracle vacancy normalized to Kroll official careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T09:35:17.000Z",
+      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
+      "nextRotationTime": "2026-09-26T09:35:17.000Z",
+      "accessStatus": "official careers site public; historical Principal Offensive Security Consultant role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 181,
-    "processedRows": 180,
-    "remainingRows": 366,
-    "lastProcessedAt": "2026-09-19T09:27:47.000Z",
+    "nextRow": 193,
+    "processedRows": 192,
+    "remainingRows": 354,
+    "lastProcessedAt": "2026-09-19T09:35:17.000Z",
     "records": [
       {
         "row": 1,
@@ -6027,167 +6615,1171 @@
         "sourceId": "employer-shell",
         "note": "historical LinkedIn vacancy normalized to official careers route"
       },
-      {"row": 25, "label": "SISA", "status": "duplicate", "sourceId": "employer-sisa"},
-      {"row": 26, "label": "Sky", "status": "duplicate", "sourceId": "employer-sky", "note": "historical senior vacancy retained as provenance only"},
-      {"row": 27, "label": "Sundeep Shetty Irukulla", "status": "historical", "note": "personal LinkedIn profile and phone number excluded; no opening"},
-      {"row": 28, "label": "VanHack", "status": "duplicate", "sourceId": "portal-vanhack"},
-      {"row": 29, "label": "Qualys", "status": "source-registered", "sourceId": "employer-qualys", "note": "historical Jobvite route replaced with current official Workday careers route"},
-      {"row": 30, "label": "Honeywell", "status": "source-registered", "sourceId": "employer-honeywell"},
-      {"row": 31, "label": "Gojek", "status": "source-registered", "sourceId": "employer-gojek"},
-      {"row": 32, "label": "Zoho", "status": "source-registered", "sourceId": "employer-zoho-corporation"},
-      {"row": 33, "label": "Harvey Nash", "status": "duplicate", "sourceId": "employer-harvey-nash", "note": "historical application-confirmation URL not retained"},
-      {"row": 34, "label": "Age UK", "status": "duplicate", "sourceId": "employer-age-uk", "note": "historical vacancy-specific route retained only as provenance"},
-      {"row": 35, "label": "Totaljobs", "status": "duplicate", "sourceId": "portal-totaljobs", "note": "personal application-confirmation URL not retained"},
-      {"row": 36, "label": "CWJobs", "status": "duplicate", "sourceId": "portal-cwjobs", "note": "personal application-confirmation URL not retained"},
-      {"row": 37, "label": "Synopsys Inc", "status": "source-registered", "sourceId": "employer-synopsys", "note": "legacy BrassRing vacancy normalized to official careers portal"},
-      {"row": 38, "label": "Caterpillar", "status": "source-registered", "sourceId": "employer-caterpillar", "note": "personal recruiter email excluded"},
-      {"row": 39, "label": "Walmart", "status": "source-registered", "sourceId": "employer-walmart-global-tech"},
-      {"row": 40, "label": "Guidehouse", "status": "duplicate", "sourceId": "employer-guidehouse", "note": "historical authenticated application URL not retained"},
-      {"row": 41, "label": "Emirates", "status": "source-registered", "sourceId": "employer-emirates-group", "note": "legacy Taleo link replaced by official careers portal"},
-      {"row": 42, "label": "La Fosse / Senior Security Architect", "status": "senior/out-of-scope", "sourceId": "employer-la-fosse", "note": "UK senior role and personal contact details excluded"},
-      {"row": 43, "label": "Gattaca", "status": "source-registered", "sourceId": "employer-gattaca-plc", "note": "historical CWJobs link and recruiter email excluded"},
-      {"row": 44, "label": "Gattaca", "status": "duplicate", "sourceId": "employer-gattaca-plc", "note": "personal application confirmation and recruiter email excluded"},
-      {"row": 45, "label": "AdRoc Consulting / Principal Security Architect", "status": "senior/out-of-scope", "sourceId": "employer-adroc-group", "note": "personal contact details excluded"},
-      {"row": 46, "label": "Practicus", "status": "source-registered", "sourceId": "employer-practicus", "note": "personal application confirmation and recruiter email excluded"},
-      {"row": 47, "label": "Currys Careers", "status": "source-registered", "sourceId": "employer-currys"},
-      {"row": 48, "label": "Hays / Cyber Security Lead", "status": "senior/out-of-scope", "sourceId": "portal-hays", "note": "UK senior role; existing Hays India source retained"},
-      {"row": 49, "label": "Staffing 360 Solutions / Senior Security Architect", "status": "senior/out-of-scope", "sourceId": "portal-totaljobs", "note": "UK senior role; personal recruiter phone and email excluded"},
-      {"row": 50, "label": "Senitor Associates / Information Security Consultant", "status": "senior/out-of-scope", "sourceId": "portal-totaljobs", "note": "UK consultancy role without fresher evidence; personal recruiter phone and email excluded"},
-      {"row": 51, "label": "Sophos", "status": "source-registered", "sourceId": "employer-sophos", "note": "personal phone contact excluded; official careers route registered"},
-      {"row": 52, "label": "Canada openings / WowJobs", "status": "duplicate", "sourceId": "portal-wowjobs", "note": "Canada-only historical portal, outside India scope"},
-      {"row": 53, "label": "Singapore openings / Recruit.net", "status": "duplicate", "sourceId": "portal-recruit-net", "note": "Singapore-only search route, outside India scope"},
-      {"row": 54, "label": "Diageo India", "status": "source-registered", "sourceId": "employer-diageo", "note": "LinkedIn search route replaced by official Diageo search-and-apply page"},
-      {"row": 55, "label": "EY / Cyber Security Senior Consultant", "status": "senior/out-of-scope", "sourceId": "employer-ey", "note": "historical Luxembourg senior vacancy; existing official EY careers source retained"},
-      {"row": 56, "label": "DXC", "status": "duplicate", "sourceId": "employer-dxc"},
-      {"row": 57, "label": "Angel.co", "status": "duplicate", "sourceId": "portal-angellist-legacy", "note": "legacy route superseded by Wellfound"},
-      {"row": 58, "label": "Delivery Hero", "status": "source-registered", "sourceId": "employer-delivery-hero", "note": "historical vacancy normalized to official jobs index"},
-      {"row": 59, "label": "Saudi Aramco / Senior Cyber Threat Intelligence Analyst", "status": "senior/out-of-scope", "sourceId": "employer-saudi-aramco", "note": "Singapore senior role; existing official careers source retained"},
-      {"row": 60, "label": "Oracle", "status": "duplicate", "sourceId": "employer-oracle", "note": "historical vacancy normalized to existing official Oracle careers route"},
-      {"row": 61, "label": "Fidanto", "status": "duplicate", "sourceId": "portal-fidanto", "note": "login/application link excluded; existing public portal source retained"},
-      {"row": 62, "label": "UKG / Senior Information Security Engineer", "status": "senior/out-of-scope", "sourceId": "ats-ukg", "note": "Canada opening and senior role outside India fresher scope"},
-      {"row": 63, "label": "SumUp / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-sumup", "note": "Berlin senior product-security role outside India scope"},
-      {"row": 64, "label": "Siemens / Cyber Security Professional", "status": "source-registered", "sourceId": "employer-siemens", "note": "private application-folder URL replaced by official careers marketplace"},
-      {"row": 65, "label": "Zoho", "status": "duplicate", "sourceId": "employer-zoho-corporation", "note": "historical vacancy normalized to official Zoho careers route"},
-      {"row": 66, "label": "Cisco / Security Engineering Manager", "status": "senior/out-of-scope", "sourceId": "employer-cisco", "note": "manager role; LinkedIn URL replaced by existing official Cisco careers route"},
-      {"row": 67, "label": "dnata / Senior Cybersecurity Technical Engineer", "status": "senior/out-of-scope", "sourceId": "employer-emirates-group", "note": "UAE senior role; portal link normalized to existing Emirates Group careers source"},
-      {"row": 68, "label": "Freshworks / Security Engineer", "status": "duplicate", "sourceId": "employer-freshworks", "note": "application confirmation URL excluded; official Freshworks careers source retained"},
-      {"row": 69, "label": "Bank of America / System Data Security Analyst", "status": "source-registered", "sourceId": "employer-bank-of-america", "note": "historical US vacancy replaced by official careers page"},
-      {"row": 70, "label": "BMW / Cyber Security Specialist", "status": "source-registered", "sourceId": "employer-bmw-group", "note": "LinkedIn vacancy replaced by official BMW Group India careers route"},
-      {"row": 71, "label": "Wipro / Cyber Security Analyst", "status": "duplicate", "sourceId": "employer-wipro", "note": "historical vacancy normalized to existing official Wipro careers source"},
-      {"row": 72, "label": "GE / Senior Cyber Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-ge-aerospace", "note": "historical senior role normalized to official GE Aerospace careers route"},
-      {"row": 73, "label": "TD SYNNEX / Cybersecurity Defense Analyst", "status": "source-registered", "sourceId": "employer-td-synnex", "note": "historical Workday vacancy normalized to official careers page; freshness and experience not verified"},
-      {"row": 74, "label": "Ford / Cyber Security Analyst", "status": "source-registered", "sourceId": "employer-ford", "note": "legacy BrassRing vacancy replaced by official Ford careers search"},
-      {"row": 75, "label": "Lennox India / SOC Analyst", "status": "source-registered", "sourceId": "employer-lennox-india", "note": "Fidanto vacancy replaced by official Lennox India careers search; historical role not verified live"},
-      {"row": 76, "label": "Comcast / Engineer 4 Security", "status": "source-registered", "sourceId": "employer-comcast", "note": "historical senior vacancy; credential-like workbook content excluded"},
-      {"row": 77, "label": "20Cube Logistics / IT Security Specialist", "status": "source-registered", "sourceId": "employer-20cube-logistics", "note": "LinkedIn vacancy replaced by official company careers route"},
-      {"row": 78, "label": "Accenture / Security Senior Analyst", "status": "senior/out-of-scope", "sourceId": "employer-accenture", "note": "historical senior role; existing official Accenture careers source retained"},
-      {"row": 79, "label": "Walt Disney / Manager Information Security", "status": "senior/out-of-scope", "sourceId": "employer-disney", "note": "manager role; existing official Disney careers source retained"},
-      {"row": 80, "label": "Instahyre", "status": "duplicate", "sourceId": "portal-instahyre"},
-      {"row": 81, "label": "Adobe / Penetration Tester", "status": "source-registered", "sourceId": "employer-adobe", "note": "historical Workday vacancy normalized to official Adobe careers route"},
-      {"row": 82, "label": "Delivery Hero / Senior IAM Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-delivery-hero"},
-      {"row": 83, "label": "Delivery Hero / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-delivery-hero"},
-      {"row": 84, "label": "Postman / Security Engineer", "status": "source-registered", "sourceId": "employer-postman", "note": "historical Greenhouse vacancy normalized to official Postman careers page"},
-      {"row": 85, "label": "Walt Disney / Staff Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-disney", "note": "staff-level historical role; official Disney careers source retained"},
-      {"row": 86, "label": "CyberArk / Security Test Engineer", "status": "source-registered", "sourceId": "employer-cyberark", "note": "legacy SuccessFactors session URL replaced by official careers page"},
-      {"row": 87, "label": "6sense / Security Engineer", "status": "source-registered", "sourceId": "employer-6sense", "note": "historical ATS link normalized to official careers route"},
-      {"row": 88, "label": "Aujas / Consultant Application Security", "status": "duplicate", "sourceId": "employer-aujas-cybersecurity", "note": "existing official Aujas careers source retained; role lacks fresher evidence"},
-      {"row": 89, "label": "Bank of America / Cyber Security Cyber Crime Specialist", "status": "broken", "sourceId": "employer-banner-health", "note": "label and target conflict: URL belongs to Banner Health, not Bank of America"},
-      {"row": 90, "label": "Banner Health / Remote Cybersecurity Engineer I", "status": "source-registered", "sourceId": "employer-banner-health", "note": "US-only historical role outside India scope"},
-      {"row": 91, "label": "Validus / Cyber Security Lead", "status": "quarantined", "note": "ambiguous employer identity and historical LinkedIn-only senior role; no safe official career route assigned"},
-      {"row": 92, "label": "Anthology / IT Security Engineer", "status": "duplicate", "sourceId": "employer-anthology", "note": "existing official careers source retained; historical role freshness and experience unverified"},
-      {"row": 93, "label": "Concentrix / Client Security Analyst", "status": "source-registered", "sourceId": "employer-concentrix", "note": "private application view replaced by official job search"},
-      {"row": 94, "label": "OIST / Chief Information Security Officer", "status": "senior/out-of-scope", "sourceId": "employer-oist", "note": "Japan executive role replaced by official OIST careers route"},
-      {"row": 95, "label": "Uber / Senior Security Engineer Investigations", "status": "senior/out-of-scope", "sourceId": "employer-uber", "note": "historical senior interstitial link replaced by official jobs search"},
-      {"row": 96, "label": "Visteon / Embedded Cybersecurity Engineer", "status": "source-registered", "sourceId": "employer-visteon", "note": "historical UKG vacancy normalized to official careers page"},
-      {"row": 97, "label": "Vestas / Cyber Security Specialist", "status": "source-registered", "sourceId": "employer-vestas", "note": "legacy SuccessFactors vacancy replaced by official Vestas careers page"},
-      {"row": 98, "label": "Danfoss / Senior Infrastructure Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-danfoss", "note": "historical senior role; official careers route registered"},
-      {"row": 99, "label": "Danfoss / Senior Consultant Information Security", "status": "senior/out-of-scope", "sourceId": "employer-danfoss", "note": "historical senior role; official careers route registered"},
-      {"row": 100, "label": "Wells Fargo / Senior Information Security Engineer AppSec SAST", "status": "senior/out-of-scope", "sourceId": "employer-wells-fargo", "note": "historical senior Workday vacancy replaced by official India careers page"},
-      {"row": 101, "label": "Lennox India / Cyber Security Analyst", "status": "duplicate", "sourceId": "employer-lennox-india", "note": "LinkedIn vacancy replaced by existing official Lennox India careers source"},
-      {"row": 102, "label": "Siemens / Cyber Security Professional - SVP", "status": "senior/out-of-scope", "sourceId": "employer-siemens", "note": "aggregator link replaced by existing official Siemens careers route"},
-      {"row": 103, "label": "Secure AI Labs / Head of Security Engineering", "status": "quarantined", "note": "ambiguous company identity, private legacy Angel.co application route, and senior title; no safe official careers page assigned"},
-      {"row": 104, "label": "Validus / Cyber Security Lead", "status": "duplicate", "note": "duplicate of quarantined workbook row 91; ambiguous employer identity and LinkedIn-only evidence"},
-      {"row": 105, "label": "Ventuno Technologies / Security Engineer", "status": "source-registered", "sourceId": "employer-ventuno", "note": "LinkedIn vacancy replaced by official company careers page; historical role not verified live"},
-      {"row": 106, "label": "GlobalLogic / Security Architect", "status": "senior/out-of-scope", "sourceId": "employer-globallogic", "note": "LinkedIn vacancy replaced by existing official GlobalLogic careers route"},
-      {"row": 107, "label": "Comcast / Security Assessment Engineer 4", "status": "senior/out-of-scope", "sourceId": "employer-comcast", "note": "LinkedIn vacancy replaced by existing official Comcast jobs route"},
-      {"row": 108, "label": "Sapwood Ventures / Security Standard Consultant", "status": "source-registered", "sourceId": "employer-sapwood-ventures", "note": "LinkedIn vacancy replaced by official jobseeker page; historical role not verified live"},
-      {"row": 109, "label": "Wells Fargo / Information Security Engineer", "status": "duplicate", "sourceId": "employer-wells-fargo", "note": "historical Workday vacancy normalized to existing official Wells Fargo India careers source; experience not verified"},
-      {"row": 110, "label": "NIKE / Senior Cybersecurity Engineer - CIS", "status": "senior/out-of-scope", "sourceId": "employer-nike", "note": "historical senior role normalized to official Nike careers portal"},
-      {"row": 111, "label": "watchTowr / Cyber Security Engineer", "status": "source-registered", "sourceId": "employer-watchtowr", "note": "legacy Angel.co vacancy replaced by official watchTowr careers site; India fresher eligibility not verified"},
-      {"row": 112, "label": "CyberOwl / Cyber Security Consultant", "status": "source-registered", "sourceId": "employer-cyberowl", "note": "legacy Angel.co vacancy replaced by official company site; no dedicated first-party careers page found"},
-      {"row": 113, "label": "Cohesity / Senior Security Engineer - Pen Testing", "status": "senior/out-of-scope", "sourceId": "employer-cohesity", "note": "official open-positions route registered; historical senior role excluded"},
-      {"row": 114, "label": "Oracle / Senior Principal Security Researcher", "status": "senior/out-of-scope", "sourceId": "employer-oracle", "note": "historical senior vacancy; existing official Oracle careers source retained"},
-      {"row": 115, "label": "Freshworks / Security Engineer", "status": "duplicate", "sourceId": "employer-freshworks", "note": "historical Smartr application replaced by existing official Freshworks careers source; experience not verified"},
-      {"row": 116, "label": "Freshworks / Lead Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-freshworks", "note": "lead role; historical Smartr link replaced by existing official careers source"},
-      {"row": 117, "label": "Riversand, a Syndigo company / Junior Information Security Analyst", "status": "source-registered", "sourceId": "employer-syndigo", "note": "LinkedIn vacancy replaced by official Syndigo openings page; junior title alone is insufficient fresher evidence"},
-      {"row": 118, "label": "ArtemisPro / Senior DevSecOps Engineer", "status": "quarantined", "note": "ambiguous employer identity, LinkedIn-only historical evidence, and senior title; no safe official career route assigned"},
-      {"row": 119, "label": "Navisite / Consultant - Cyber Security", "status": "source-registered", "sourceId": "employer-navisite-accenture", "note": "legacy Lever vacancy replaced by official Accenture careers search; consultant title lacks fresher evidence"},
-      {"row": 120, "label": "Persistent Systems / Security Professional", "status": "source-registered", "sourceId": "employer-persistent-systems", "note": "LinkedIn vacancy replaced by official Persistent careers portal; fresher eligibility not verified"},
-      {"row": 121, "label": "Claranet / Application Security Engineer (DVA)", "status": "source-registered", "sourceId": "employer-claranet", "note": "application-complete URL replaced by official vacancy index; historical role not verified live"},
-      {"row": 122, "label": "Atlassian / Manager, Security Intelligence", "status": "senior/out-of-scope", "sourceId": "employer-atlassian", "note": "manager role; LinkedIn replaced by official careers portal"},
-      {"row": 123, "label": "HCLTech / Manager or Senior Manager - IT Audit or Cyber Security", "status": "senior/out-of-scope", "sourceId": "employer-hcltech", "note": "manager role; LinkedIn replaced by official HCLTech careers search"},
-      {"row": 124, "label": "Capgemini / VAPT", "status": "duplicate", "sourceId": "employer-capgemini", "note": "personal email evidence excluded; existing official Capgemini careers source retained"},
-      {"row": 125, "label": "Flender / Chief Information Security Officer", "status": "senior/out-of-scope", "sourceId": "employer-flender", "note": "private application-view URL replaced by official Workday careers index"},
-      {"row": 126, "label": "Capgemini / Security Engineer", "status": "duplicate", "sourceId": "employer-capgemini", "note": "historical role lacks explicit fresher or 0-2-year evidence"},
-      {"row": 127, "label": "Capgemini / Vulnerability Assessment Penetration Testing", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "historical role explicitly required 9-12 years"},
-      {"row": 128, "label": "Capgemini / Tower Lead - Cyber Security", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "lead title outside fresher scope"},
-      {"row": 129, "label": "Capgemini / Cyber Security Tester", "status": "duplicate", "sourceId": "employer-capgemini", "note": "historical role lacks explicit fresher or 0-2-year evidence"},
-      {"row": 130, "label": "Capgemini / Cyber Security Consultant", "status": "duplicate", "sourceId": "employer-capgemini", "note": "consultant title lacks explicit fresher or 0-2-year evidence"},
-      {"row": 131, "label": "Capgemini / Junior Cyber Security Engineer", "status": "duplicate", "sourceId": "employer-capgemini", "note": "junior title alone is insufficient without explicit fresher or 0-2-year evidence"},
-      {"row": 132, "label": "Capgemini / Cyber Security Senior Engineer", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "senior role outside fresher scope"},
-      {"row": 133, "label": "Capgemini / Cyber Security Consultant", "status": "duplicate", "sourceId": "employer-capgemini", "note": "historical consultant role lacks explicit fresher or 0-2-year evidence"},
-      {"row": 134, "label": "Capgemini / Security Governance", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "historical vacancy explicitly required 9-12 years"},
-      {"row": 135, "label": "Capgemini / Operational Technology Security Consultant", "status": "duplicate", "sourceId": "employer-capgemini", "note": "consultant title lacks explicit fresher or 0-2-year evidence"},
-      {"row": 136, "label": "Capgemini / Operations Security Lead or Manager", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "lead or manager role outside fresher scope"},
-      {"row": 137, "label": "Capgemini / VAPT", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "historical vacancy explicitly required 9-12 years"},
-      {"row": 138, "label": "Ingram Micro / Principal, Cyber Security-IND", "status": "senior/out-of-scope", "sourceId": "employer-ingram-micro", "note": "principal-level role outside fresher scope"},
-      {"row": 139, "label": "Bechtel / Cyber Security Specialist", "status": "senior/out-of-scope", "sourceId": "employer-bechtel", "note": "historical Jubail, Saudi Arabia vacancy is outside India and remote-India scope"},
-      {"row": 140, "label": "Capgemini / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-capgemini", "note": "senior role outside fresher scope"},
-      {"row": 141, "label": "Capgemini / Operations Security Lead or Manager", "status": "duplicate", "sourceId": "employer-capgemini", "note": "duplicate senior role from workbook row 136"},
-      {"row": 142, "label": "Cognizant / Threat and Intelligence Lead", "status": "senior/out-of-scope", "sourceId": "employer-cognizant", "note": "lead role outside fresher scope; existing official Cognizant careers source retained"},
-      {"row": 143, "label": "Getinz / Offensive Security-GOPT", "status": "duplicate", "sourceId": "employer-getinz", "note": "historical Freshteam vacancy could not be verified live and lacks explicit fresher or 0-2-year evidence"},
-      {"row": 144, "label": "Experience.com / Senior Security Operations", "status": "senior/out-of-scope", "sourceId": "employer-experience-com", "note": "historical LinkedIn vacancy replaced by official company Job Opportunities navigation; senior role outside fresher scope"},
-      {"row": 145, "label": "Barclays / Tech Lead", "status": "senior/out-of-scope", "sourceId": "employer-barclays", "note": "legacy Taleo route replaced by official Barclays careers search; lead role outside fresher scope"},
-      {"row": 146, "label": "Barclays / Senior Analyst", "status": "senior/out-of-scope", "sourceId": "employer-barclays", "note": "senior role outside fresher scope"},
-      {"row": 147, "label": "Barclays / Vulnerability Management SME", "status": "senior/out-of-scope", "sourceId": "employer-barclays", "note": "SME role outside fresher scope"},
-      {"row": 148, "label": "Barclays / Level 3 Support Engineer", "status": "senior/out-of-scope", "sourceId": "employer-barclays", "note": "L3 role outside fresher scope"},
-      {"row": 149, "label": "Gain Credit / Senior Security Analyst I", "status": "senior/out-of-scope", "sourceId": "employer-gain-credit", "note": "existing official Gain Credit careers source retained; senior role outside fresher scope"},
-      {"row": 150, "label": "Danfoss / Senior Consultant, Security Operations Center", "status": "senior/out-of-scope", "sourceId": "employer-danfoss", "note": "legacy SuccessFactors route normalized to existing official Danfoss careers page; senior role outside fresher scope"},
-      {"row": 151, "label": "Infosys / Infrastructure Consultant", "status": "senior/out-of-scope", "sourceId": "employer-infosys", "note": "non-specific infrastructure consultant record lacks a cybersecurity vacancy and fresher evidence"},
-      {"row": 152, "label": "Tech Mahindra", "status": "source-registered", "sourceId": "employer-tech-mahindra", "note": "company-only historical record normalized to official Tech Mahindra careers page"},
-      {"row": 153, "label": "NielsenIQ / Cyber Analyst", "status": "source-registered", "sourceId": "employer-nielseniq", "note": "historical LinkedIn vacancy replaced by official NielsenIQ jobs route; current status and fresher eligibility not verified"},
-      {"row": 154, "label": "M2P Fintech / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-m2p-fintech", "note": "official M2P careers index registered; historical senior role outside fresher scope"},
-      {"row": 155, "label": "Oportun / Senior Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-oportun", "note": "official Oportun careers page registered; historical senior role outside fresher scope"},
-      {"row": 156, "label": "Noventiq / Technical Specialist - Security L3", "status": "senior/out-of-scope", "sourceId": "employer-noventiq", "note": "legacy Jobvite route replaced by official Noventiq careers site; L3 role outside fresher scope"},
-      {"row": 157, "label": "EY GDS / Penetration Tester Senior", "status": "senior/out-of-scope", "sourceId": "employer-ey", "note": "existing official EY careers source retained; senior role outside fresher scope"},
-      {"row": 158, "label": "Checkmate Partners / Senior Security Engineer", "status": "quarantined", "sourceId": "workbook-ethical-hacking-interview", "note": "historical Glassdoor alert and ambiguous employer identity; no safe official careers page could be verified"},
-      {"row": 159, "label": "PepsiCo / Director - Information Security", "status": "senior/out-of-scope", "sourceId": "employer-pepsico", "note": "legacy iCIMS vacancy replaced by official PepsiCo jobs portal; director role outside fresher scope"},
-      {"row": 160, "label": "Cogno AI / Information Security Analyst", "status": "source-registered", "sourceId": "employer-exotel", "note": "Cogno AI was acquired by Exotel; legacy Trakstar vacancy replaced by Exotel official careers route; current vacancy and fresher eligibility unverified"},
-      {"row": 161, "label": "Edifecs / Security Compliance Analyst", "status": "source-registered", "sourceId": "employer-edifecs-cotiviti", "note": "legacy Jobvite route replaced by official Edifecs/Cotiviti careers route; current vacancy and fresher eligibility unverified"},
-      {"row": 162, "label": "Cisco / Information Security Engineer", "status": "duplicate", "sourceId": "employer-cisco", "note": "existing official Cisco careers source retained; historical requisition 1391030 could not be verified live"},
-      {"row": 163, "label": "VMware / Offensive Security Engineer", "status": "duplicate", "sourceId": "employer-vmware", "note": "existing official VMware/Broadcom careers source retained; historical vacancy could not be verified live"},
-      {"row": 164, "label": "Edifecs / Security Operations Analyst", "status": "duplicate", "sourceId": "employer-edifecs-cotiviti", "note": "second historical Edifecs Jobvite vacancy; official careers source registered at row 161"},
-      {"row": 165, "label": "EY / Penetration Tester Cyber Security Technology Consulting", "status": "senior/out-of-scope", "sourceId": "employer-ey", "note": "Melbourne vacancy is outside India and remote-India scope and lacks fresher evidence"},
-      {"row": 166, "label": "Bloom Consulting Services / Senior Security Engineer", "status": "quarantined", "sourceId": "workbook-ethical-hacking-interview", "note": "historical HireCiel record does not safely identify an official employer site; senior role outside fresher scope"},
-      {"row": 167, "label": "Grammarly / Security Engineer, Application Security", "status": "source-registered", "sourceId": "employer-grammarly", "note": "misspelled workbook company and legacy Greenhouse vacancy normalized to official Grammarly careers; fresher eligibility unverified"},
-      {"row": 168, "label": "Grammarly / Engineering Manager, Security", "status": "senior/out-of-scope", "sourceId": "employer-grammarly", "note": "official Grammarly careers source registered at row 167; manager role outside fresher scope"},
-      {"row": 169, "label": "Grammarly / Security Engineer, Enterprise Security", "status": "duplicate", "sourceId": "employer-grammarly", "note": "existing official Grammarly careers source retained; historical engineer vacancy lacks explicit fresher eligibility"},
-      {"row": 170, "label": "Crayon / Senior Security Consultant", "status": "senior/out-of-scope", "sourceId": "employer-crayon", "note": "historical LinkedIn vacancy replaced by official Crayon careers route; senior consultant outside fresher scope"},
-      {"row": 171, "label": "Wipro / Security Analyst", "status": "duplicate", "sourceId": "employer-wipro", "note": "existing official Wipro careers source retained; historical requisition 2921312 lacks verified current status and explicit fresher evidence"},
-      {"row": 172, "label": "SaaS Labs / Engineering Manager", "status": "senior/out-of-scope", "sourceId": "employer-saas-labs", "note": "Instahyre discovery replaced by official SaaS Labs careers page; manager role is non-security and senior"},
-      {"row": 173, "label": "Netrix Global / Security Advisory Consultant", "status": "source-registered", "sourceId": "employer-netrix-global", "note": "official careers index registered; historical consultant vacancy lacks India location and explicit fresher eligibility"},
-      {"row": 174, "label": "G-P / Information Security Analyst", "status": "source-registered", "sourceId": "employer-globalization-partners", "note": "legacy Greenhouse vacancy replaced by official G-P careers page; current vacancy and fresher eligibility unverified"},
-      {"row": 175, "label": "Principal Global Services / Senior Analyst - Security Administration", "status": "senior/out-of-scope", "sourceId": "employer-principal-global-services", "note": "existing official Principal India careers source retained; senior role outside fresher scope and candidate-session URL excluded"},
-      {"row": 176, "label": "LSEG / Senior Manager, Security Engineering", "status": "senior/out-of-scope", "sourceId": "employer-lseg", "note": "legacy Refinitiv Workday vacancy replaced by official LSEG careers; senior-manager role outside fresher scope"},
-      {"row": 177, "label": "Anthology / Principal Security Engineer", "status": "senior/out-of-scope", "sourceId": "employer-anthology", "note": "existing Anthology/Blackboard careers source retained; principal role outside fresher scope"},
-      {"row": 178, "label": "Bradken / Cyber Security Analyst", "status": "source-registered", "sourceId": "employer-bradken", "note": "legacy JobAdder vacancy replaced by official Bradken opportunities index; current vacancy and fresher eligibility unverified"},
-      {"row": 179, "label": "Mérieux NutriSciences / IT Security Analyst (India)", "status": "source-registered", "sourceId": "employer-merieux-nutrisciences", "note": "historical LinkedIn vacancy replaced by official global careers portal; current vacancy and fresher eligibility unverified"},
-      {"row": 180, "label": "Proprius Recruitment / Cyber Attack Analyst", "status": "closed", "sourceId": "workbook-ethical-hacking-interview", "note": "historical LinkedIn-only vacancy; UK recruiter is in liquidation and the former specialist recruiter route is not a current application source"}
+      {
+        "row": 25,
+        "label": "SISA",
+        "status": "duplicate",
+        "sourceId": "employer-sisa"
+      },
+      {
+        "row": 26,
+        "label": "Sky",
+        "status": "duplicate",
+        "sourceId": "employer-sky",
+        "note": "historical senior vacancy retained as provenance only"
+      },
+      {
+        "row": 27,
+        "label": "Sundeep Shetty Irukulla",
+        "status": "historical",
+        "note": "personal LinkedIn profile and phone number excluded; no opening"
+      },
+      {
+        "row": 28,
+        "label": "VanHack",
+        "status": "duplicate",
+        "sourceId": "portal-vanhack"
+      },
+      {
+        "row": 29,
+        "label": "Qualys",
+        "status": "source-registered",
+        "sourceId": "employer-qualys",
+        "note": "historical Jobvite route replaced with current official Workday careers route"
+      },
+      {
+        "row": 30,
+        "label": "Honeywell",
+        "status": "source-registered",
+        "sourceId": "employer-honeywell"
+      },
+      {
+        "row": 31,
+        "label": "Gojek",
+        "status": "source-registered",
+        "sourceId": "employer-gojek"
+      },
+      {
+        "row": 32,
+        "label": "Zoho",
+        "status": "source-registered",
+        "sourceId": "employer-zoho-corporation"
+      },
+      {
+        "row": 33,
+        "label": "Harvey Nash",
+        "status": "duplicate",
+        "sourceId": "employer-harvey-nash",
+        "note": "historical application-confirmation URL not retained"
+      },
+      {
+        "row": 34,
+        "label": "Age UK",
+        "status": "duplicate",
+        "sourceId": "employer-age-uk",
+        "note": "historical vacancy-specific route retained only as provenance"
+      },
+      {
+        "row": 35,
+        "label": "Totaljobs",
+        "status": "duplicate",
+        "sourceId": "portal-totaljobs",
+        "note": "personal application-confirmation URL not retained"
+      },
+      {
+        "row": 36,
+        "label": "CWJobs",
+        "status": "duplicate",
+        "sourceId": "portal-cwjobs",
+        "note": "personal application-confirmation URL not retained"
+      },
+      {
+        "row": 37,
+        "label": "Synopsys Inc",
+        "status": "source-registered",
+        "sourceId": "employer-synopsys",
+        "note": "legacy BrassRing vacancy normalized to official careers portal"
+      },
+      {
+        "row": 38,
+        "label": "Caterpillar",
+        "status": "source-registered",
+        "sourceId": "employer-caterpillar",
+        "note": "personal recruiter email excluded"
+      },
+      {
+        "row": 39,
+        "label": "Walmart",
+        "status": "source-registered",
+        "sourceId": "employer-walmart-global-tech"
+      },
+      {
+        "row": 40,
+        "label": "Guidehouse",
+        "status": "duplicate",
+        "sourceId": "employer-guidehouse",
+        "note": "historical authenticated application URL not retained"
+      },
+      {
+        "row": 41,
+        "label": "Emirates",
+        "status": "source-registered",
+        "sourceId": "employer-emirates-group",
+        "note": "legacy Taleo link replaced by official careers portal"
+      },
+      {
+        "row": 42,
+        "label": "La Fosse / Senior Security Architect",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-la-fosse",
+        "note": "UK senior role and personal contact details excluded"
+      },
+      {
+        "row": 43,
+        "label": "Gattaca",
+        "status": "source-registered",
+        "sourceId": "employer-gattaca-plc",
+        "note": "historical CWJobs link and recruiter email excluded"
+      },
+      {
+        "row": 44,
+        "label": "Gattaca",
+        "status": "duplicate",
+        "sourceId": "employer-gattaca-plc",
+        "note": "personal application confirmation and recruiter email excluded"
+      },
+      {
+        "row": 45,
+        "label": "AdRoc Consulting / Principal Security Architect",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-adroc-group",
+        "note": "personal contact details excluded"
+      },
+      {
+        "row": 46,
+        "label": "Practicus",
+        "status": "source-registered",
+        "sourceId": "employer-practicus",
+        "note": "personal application confirmation and recruiter email excluded"
+      },
+      {
+        "row": 47,
+        "label": "Currys Careers",
+        "status": "source-registered",
+        "sourceId": "employer-currys"
+      },
+      {
+        "row": 48,
+        "label": "Hays / Cyber Security Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-hays",
+        "note": "UK senior role; existing Hays India source retained"
+      },
+      {
+        "row": 49,
+        "label": "Staffing 360 Solutions / Senior Security Architect",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-totaljobs",
+        "note": "UK senior role; personal recruiter phone and email excluded"
+      },
+      {
+        "row": 50,
+        "label": "Senitor Associates / Information Security Consultant",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-totaljobs",
+        "note": "UK consultancy role without fresher evidence; personal recruiter phone and email excluded"
+      },
+      {
+        "row": 51,
+        "label": "Sophos",
+        "status": "source-registered",
+        "sourceId": "employer-sophos",
+        "note": "personal phone contact excluded; official careers route registered"
+      },
+      {
+        "row": 52,
+        "label": "Canada openings / WowJobs",
+        "status": "duplicate",
+        "sourceId": "portal-wowjobs",
+        "note": "Canada-only historical portal, outside India scope"
+      },
+      {
+        "row": 53,
+        "label": "Singapore openings / Recruit.net",
+        "status": "duplicate",
+        "sourceId": "portal-recruit-net",
+        "note": "Singapore-only search route, outside India scope"
+      },
+      {
+        "row": 54,
+        "label": "Diageo India",
+        "status": "source-registered",
+        "sourceId": "employer-diageo",
+        "note": "LinkedIn search route replaced by official Diageo search-and-apply page"
+      },
+      {
+        "row": 55,
+        "label": "EY / Cyber Security Senior Consultant",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ey",
+        "note": "historical Luxembourg senior vacancy; existing official EY careers source retained"
+      },
+      {
+        "row": 56,
+        "label": "DXC",
+        "status": "duplicate",
+        "sourceId": "employer-dxc"
+      },
+      {
+        "row": 57,
+        "label": "Angel.co",
+        "status": "duplicate",
+        "sourceId": "portal-angellist-legacy",
+        "note": "legacy route superseded by Wellfound"
+      },
+      {
+        "row": 58,
+        "label": "Delivery Hero",
+        "status": "source-registered",
+        "sourceId": "employer-delivery-hero",
+        "note": "historical vacancy normalized to official jobs index"
+      },
+      {
+        "row": 59,
+        "label": "Saudi Aramco / Senior Cyber Threat Intelligence Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-saudi-aramco",
+        "note": "Singapore senior role; existing official careers source retained"
+      },
+      {
+        "row": 60,
+        "label": "Oracle",
+        "status": "duplicate",
+        "sourceId": "employer-oracle",
+        "note": "historical vacancy normalized to existing official Oracle careers route"
+      },
+      {
+        "row": 61,
+        "label": "Fidanto",
+        "status": "duplicate",
+        "sourceId": "portal-fidanto",
+        "note": "login/application link excluded; existing public portal source retained"
+      },
+      {
+        "row": 62,
+        "label": "UKG / Senior Information Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "ats-ukg",
+        "note": "Canada opening and senior role outside India fresher scope"
+      },
+      {
+        "row": 63,
+        "label": "SumUp / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-sumup",
+        "note": "Berlin senior product-security role outside India scope"
+      },
+      {
+        "row": 64,
+        "label": "Siemens / Cyber Security Professional",
+        "status": "source-registered",
+        "sourceId": "employer-siemens",
+        "note": "private application-folder URL replaced by official careers marketplace"
+      },
+      {
+        "row": 65,
+        "label": "Zoho",
+        "status": "duplicate",
+        "sourceId": "employer-zoho-corporation",
+        "note": "historical vacancy normalized to official Zoho careers route"
+      },
+      {
+        "row": 66,
+        "label": "Cisco / Security Engineering Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cisco",
+        "note": "manager role; LinkedIn URL replaced by existing official Cisco careers route"
+      },
+      {
+        "row": 67,
+        "label": "dnata / Senior Cybersecurity Technical Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emirates-group",
+        "note": "UAE senior role; portal link normalized to existing Emirates Group careers source"
+      },
+      {
+        "row": 68,
+        "label": "Freshworks / Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-freshworks",
+        "note": "application confirmation URL excluded; official Freshworks careers source retained"
+      },
+      {
+        "row": 69,
+        "label": "Bank of America / System Data Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-bank-of-america",
+        "note": "historical US vacancy replaced by official careers page"
+      },
+      {
+        "row": 70,
+        "label": "BMW / Cyber Security Specialist",
+        "status": "source-registered",
+        "sourceId": "employer-bmw-group",
+        "note": "LinkedIn vacancy replaced by official BMW Group India careers route"
+      },
+      {
+        "row": 71,
+        "label": "Wipro / Cyber Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-wipro",
+        "note": "historical vacancy normalized to existing official Wipro careers source"
+      },
+      {
+        "row": 72,
+        "label": "GE / Senior Cyber Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ge-aerospace",
+        "note": "historical senior role normalized to official GE Aerospace careers route"
+      },
+      {
+        "row": 73,
+        "label": "TD SYNNEX / Cybersecurity Defense Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-td-synnex",
+        "note": "historical Workday vacancy normalized to official careers page; freshness and experience not verified"
+      },
+      {
+        "row": 74,
+        "label": "Ford / Cyber Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-ford",
+        "note": "legacy BrassRing vacancy replaced by official Ford careers search"
+      },
+      {
+        "row": 75,
+        "label": "Lennox India / SOC Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-lennox-india",
+        "note": "Fidanto vacancy replaced by official Lennox India careers search; historical role not verified live"
+      },
+      {
+        "row": 76,
+        "label": "Comcast / Engineer 4 Security",
+        "status": "source-registered",
+        "sourceId": "employer-comcast",
+        "note": "historical senior vacancy; credential-like workbook content excluded"
+      },
+      {
+        "row": 77,
+        "label": "20Cube Logistics / IT Security Specialist",
+        "status": "source-registered",
+        "sourceId": "employer-20cube-logistics",
+        "note": "LinkedIn vacancy replaced by official company careers route"
+      },
+      {
+        "row": 78,
+        "label": "Accenture / Security Senior Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-accenture",
+        "note": "historical senior role; existing official Accenture careers source retained"
+      },
+      {
+        "row": 79,
+        "label": "Walt Disney / Manager Information Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-disney",
+        "note": "manager role; existing official Disney careers source retained"
+      },
+      {
+        "row": 80,
+        "label": "Instahyre",
+        "status": "duplicate",
+        "sourceId": "portal-instahyre"
+      },
+      {
+        "row": 81,
+        "label": "Adobe / Penetration Tester",
+        "status": "source-registered",
+        "sourceId": "employer-adobe",
+        "note": "historical Workday vacancy normalized to official Adobe careers route"
+      },
+      {
+        "row": 82,
+        "label": "Delivery Hero / Senior IAM Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-delivery-hero"
+      },
+      {
+        "row": 83,
+        "label": "Delivery Hero / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-delivery-hero"
+      },
+      {
+        "row": 84,
+        "label": "Postman / Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-postman",
+        "note": "historical Greenhouse vacancy normalized to official Postman careers page"
+      },
+      {
+        "row": 85,
+        "label": "Walt Disney / Staff Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-disney",
+        "note": "staff-level historical role; official Disney careers source retained"
+      },
+      {
+        "row": 86,
+        "label": "CyberArk / Security Test Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-cyberark",
+        "note": "legacy SuccessFactors session URL replaced by official careers page"
+      },
+      {
+        "row": 87,
+        "label": "6sense / Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-6sense",
+        "note": "historical ATS link normalized to official careers route"
+      },
+      {
+        "row": 88,
+        "label": "Aujas / Consultant Application Security",
+        "status": "duplicate",
+        "sourceId": "employer-aujas-cybersecurity",
+        "note": "existing official Aujas careers source retained; role lacks fresher evidence"
+      },
+      {
+        "row": 89,
+        "label": "Bank of America / Cyber Security Cyber Crime Specialist",
+        "status": "broken",
+        "sourceId": "employer-banner-health",
+        "note": "label and target conflict: URL belongs to Banner Health, not Bank of America"
+      },
+      {
+        "row": 90,
+        "label": "Banner Health / Remote Cybersecurity Engineer I",
+        "status": "source-registered",
+        "sourceId": "employer-banner-health",
+        "note": "US-only historical role outside India scope"
+      },
+      {
+        "row": 91,
+        "label": "Validus / Cyber Security Lead",
+        "status": "quarantined",
+        "note": "ambiguous employer identity and historical LinkedIn-only senior role; no safe official career route assigned"
+      },
+      {
+        "row": 92,
+        "label": "Anthology / IT Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-anthology",
+        "note": "existing official careers source retained; historical role freshness and experience unverified"
+      },
+      {
+        "row": 93,
+        "label": "Concentrix / Client Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-concentrix",
+        "note": "private application view replaced by official job search"
+      },
+      {
+        "row": 94,
+        "label": "OIST / Chief Information Security Officer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-oist",
+        "note": "Japan executive role replaced by official OIST careers route"
+      },
+      {
+        "row": 95,
+        "label": "Uber / Senior Security Engineer Investigations",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-uber",
+        "note": "historical senior interstitial link replaced by official jobs search"
+      },
+      {
+        "row": 96,
+        "label": "Visteon / Embedded Cybersecurity Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-visteon",
+        "note": "historical UKG vacancy normalized to official careers page"
+      },
+      {
+        "row": 97,
+        "label": "Vestas / Cyber Security Specialist",
+        "status": "source-registered",
+        "sourceId": "employer-vestas",
+        "note": "legacy SuccessFactors vacancy replaced by official Vestas careers page"
+      },
+      {
+        "row": 98,
+        "label": "Danfoss / Senior Infrastructure Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-danfoss",
+        "note": "historical senior role; official careers route registered"
+      },
+      {
+        "row": 99,
+        "label": "Danfoss / Senior Consultant Information Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-danfoss",
+        "note": "historical senior role; official careers route registered"
+      },
+      {
+        "row": 100,
+        "label": "Wells Fargo / Senior Information Security Engineer AppSec SAST",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-wells-fargo",
+        "note": "historical senior Workday vacancy replaced by official India careers page"
+      },
+      {
+        "row": 101,
+        "label": "Lennox India / Cyber Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-lennox-india",
+        "note": "LinkedIn vacancy replaced by existing official Lennox India careers source"
+      },
+      {
+        "row": 102,
+        "label": "Siemens / Cyber Security Professional - SVP",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-siemens",
+        "note": "aggregator link replaced by existing official Siemens careers route"
+      },
+      {
+        "row": 103,
+        "label": "Secure AI Labs / Head of Security Engineering",
+        "status": "quarantined",
+        "note": "ambiguous company identity, private legacy Angel.co application route, and senior title; no safe official careers page assigned"
+      },
+      {
+        "row": 104,
+        "label": "Validus / Cyber Security Lead",
+        "status": "duplicate",
+        "note": "duplicate of quarantined workbook row 91; ambiguous employer identity and LinkedIn-only evidence"
+      },
+      {
+        "row": 105,
+        "label": "Ventuno Technologies / Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-ventuno",
+        "note": "LinkedIn vacancy replaced by official company careers page; historical role not verified live"
+      },
+      {
+        "row": 106,
+        "label": "GlobalLogic / Security Architect",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-globallogic",
+        "note": "LinkedIn vacancy replaced by existing official GlobalLogic careers route"
+      },
+      {
+        "row": 107,
+        "label": "Comcast / Security Assessment Engineer 4",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-comcast",
+        "note": "LinkedIn vacancy replaced by existing official Comcast jobs route"
+      },
+      {
+        "row": 108,
+        "label": "Sapwood Ventures / Security Standard Consultant",
+        "status": "source-registered",
+        "sourceId": "employer-sapwood-ventures",
+        "note": "LinkedIn vacancy replaced by official jobseeker page; historical role not verified live"
+      },
+      {
+        "row": 109,
+        "label": "Wells Fargo / Information Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-wells-fargo",
+        "note": "historical Workday vacancy normalized to existing official Wells Fargo India careers source; experience not verified"
+      },
+      {
+        "row": 110,
+        "label": "NIKE / Senior Cybersecurity Engineer - CIS",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nike",
+        "note": "historical senior role normalized to official Nike careers portal"
+      },
+      {
+        "row": 111,
+        "label": "watchTowr / Cyber Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-watchtowr",
+        "note": "legacy Angel.co vacancy replaced by official watchTowr careers site; India fresher eligibility not verified"
+      },
+      {
+        "row": 112,
+        "label": "CyberOwl / Cyber Security Consultant",
+        "status": "source-registered",
+        "sourceId": "employer-cyberowl",
+        "note": "legacy Angel.co vacancy replaced by official company site; no dedicated first-party careers page found"
+      },
+      {
+        "row": 113,
+        "label": "Cohesity / Senior Security Engineer - Pen Testing",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cohesity",
+        "note": "official open-positions route registered; historical senior role excluded"
+      },
+      {
+        "row": 114,
+        "label": "Oracle / Senior Principal Security Researcher",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-oracle",
+        "note": "historical senior vacancy; existing official Oracle careers source retained"
+      },
+      {
+        "row": 115,
+        "label": "Freshworks / Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-freshworks",
+        "note": "historical Smartr application replaced by existing official Freshworks careers source; experience not verified"
+      },
+      {
+        "row": 116,
+        "label": "Freshworks / Lead Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-freshworks",
+        "note": "lead role; historical Smartr link replaced by existing official careers source"
+      },
+      {
+        "row": 117,
+        "label": "Riversand, a Syndigo company / Junior Information Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-syndigo",
+        "note": "LinkedIn vacancy replaced by official Syndigo openings page; junior title alone is insufficient fresher evidence"
+      },
+      {
+        "row": 118,
+        "label": "ArtemisPro / Senior DevSecOps Engineer",
+        "status": "quarantined",
+        "note": "ambiguous employer identity, LinkedIn-only historical evidence, and senior title; no safe official career route assigned"
+      },
+      {
+        "row": 119,
+        "label": "Navisite / Consultant - Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-navisite-accenture",
+        "note": "legacy Lever vacancy replaced by official Accenture careers search; consultant title lacks fresher evidence"
+      },
+      {
+        "row": 120,
+        "label": "Persistent Systems / Security Professional",
+        "status": "source-registered",
+        "sourceId": "employer-persistent-systems",
+        "note": "LinkedIn vacancy replaced by official Persistent careers portal; fresher eligibility not verified"
+      },
+      {
+        "row": 121,
+        "label": "Claranet / Application Security Engineer (DVA)",
+        "status": "source-registered",
+        "sourceId": "employer-claranet",
+        "note": "application-complete URL replaced by official vacancy index; historical role not verified live"
+      },
+      {
+        "row": 122,
+        "label": "Atlassian / Manager, Security Intelligence",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-atlassian",
+        "note": "manager role; LinkedIn replaced by official careers portal"
+      },
+      {
+        "row": 123,
+        "label": "HCLTech / Manager or Senior Manager - IT Audit or Cyber Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-hcltech",
+        "note": "manager role; LinkedIn replaced by official HCLTech careers search"
+      },
+      {
+        "row": 124,
+        "label": "Capgemini / VAPT",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "personal email evidence excluded; existing official Capgemini careers source retained"
+      },
+      {
+        "row": 125,
+        "label": "Flender / Chief Information Security Officer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-flender",
+        "note": "private application-view URL replaced by official Workday careers index"
+      },
+      {
+        "row": 126,
+        "label": "Capgemini / Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "historical role lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 127,
+        "label": "Capgemini / Vulnerability Assessment Penetration Testing",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "historical role explicitly required 9-12 years"
+      },
+      {
+        "row": 128,
+        "label": "Capgemini / Tower Lead - Cyber Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "lead title outside fresher scope"
+      },
+      {
+        "row": 129,
+        "label": "Capgemini / Cyber Security Tester",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "historical role lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 130,
+        "label": "Capgemini / Cyber Security Consultant",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "consultant title lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 131,
+        "label": "Capgemini / Junior Cyber Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "junior title alone is insufficient without explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 132,
+        "label": "Capgemini / Cyber Security Senior Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "senior role outside fresher scope"
+      },
+      {
+        "row": 133,
+        "label": "Capgemini / Cyber Security Consultant",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "historical consultant role lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 134,
+        "label": "Capgemini / Security Governance",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "historical vacancy explicitly required 9-12 years"
+      },
+      {
+        "row": 135,
+        "label": "Capgemini / Operational Technology Security Consultant",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "consultant title lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 136,
+        "label": "Capgemini / Operations Security Lead or Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "lead or manager role outside fresher scope"
+      },
+      {
+        "row": 137,
+        "label": "Capgemini / VAPT",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "historical vacancy explicitly required 9-12 years"
+      },
+      {
+        "row": 138,
+        "label": "Ingram Micro / Principal, Cyber Security-IND",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ingram-micro",
+        "note": "principal-level role outside fresher scope"
+      },
+      {
+        "row": 139,
+        "label": "Bechtel / Cyber Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-bechtel",
+        "note": "historical Jubail, Saudi Arabia vacancy is outside India and remote-India scope"
+      },
+      {
+        "row": 140,
+        "label": "Capgemini / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-capgemini",
+        "note": "senior role outside fresher scope"
+      },
+      {
+        "row": 141,
+        "label": "Capgemini / Operations Security Lead or Manager",
+        "status": "duplicate",
+        "sourceId": "employer-capgemini",
+        "note": "duplicate senior role from workbook row 136"
+      },
+      {
+        "row": 142,
+        "label": "Cognizant / Threat and Intelligence Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cognizant",
+        "note": "lead role outside fresher scope; existing official Cognizant careers source retained"
+      },
+      {
+        "row": 143,
+        "label": "Getinz / Offensive Security-GOPT",
+        "status": "duplicate",
+        "sourceId": "employer-getinz",
+        "note": "historical Freshteam vacancy could not be verified live and lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 144,
+        "label": "Experience.com / Senior Security Operations",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-experience-com",
+        "note": "historical LinkedIn vacancy replaced by official company Job Opportunities navigation; senior role outside fresher scope"
+      },
+      {
+        "row": 145,
+        "label": "Barclays / Tech Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-barclays",
+        "note": "legacy Taleo route replaced by official Barclays careers search; lead role outside fresher scope"
+      },
+      {
+        "row": 146,
+        "label": "Barclays / Senior Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-barclays",
+        "note": "senior role outside fresher scope"
+      },
+      {
+        "row": 147,
+        "label": "Barclays / Vulnerability Management SME",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-barclays",
+        "note": "SME role outside fresher scope"
+      },
+      {
+        "row": 148,
+        "label": "Barclays / Level 3 Support Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-barclays",
+        "note": "L3 role outside fresher scope"
+      },
+      {
+        "row": 149,
+        "label": "Gain Credit / Senior Security Analyst I",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-gain-credit",
+        "note": "existing official Gain Credit careers source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 150,
+        "label": "Danfoss / Senior Consultant, Security Operations Center",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-danfoss",
+        "note": "legacy SuccessFactors route normalized to existing official Danfoss careers page; senior role outside fresher scope"
+      },
+      {
+        "row": 151,
+        "label": "Infosys / Infrastructure Consultant",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-infosys",
+        "note": "non-specific infrastructure consultant record lacks a cybersecurity vacancy and fresher evidence"
+      },
+      {
+        "row": 152,
+        "label": "Tech Mahindra",
+        "status": "source-registered",
+        "sourceId": "employer-tech-mahindra",
+        "note": "company-only historical record normalized to official Tech Mahindra careers page"
+      },
+      {
+        "row": 153,
+        "label": "NielsenIQ / Cyber Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-nielseniq",
+        "note": "historical LinkedIn vacancy replaced by official NielsenIQ jobs route; current status and fresher eligibility not verified"
+      },
+      {
+        "row": 154,
+        "label": "M2P Fintech / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-m2p-fintech",
+        "note": "official M2P careers index registered; historical senior role outside fresher scope"
+      },
+      {
+        "row": 155,
+        "label": "Oportun / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-oportun",
+        "note": "official Oportun careers page registered; historical senior role outside fresher scope"
+      },
+      {
+        "row": 156,
+        "label": "Noventiq / Technical Specialist - Security L3",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-noventiq",
+        "note": "legacy Jobvite route replaced by official Noventiq careers site; L3 role outside fresher scope"
+      },
+      {
+        "row": 157,
+        "label": "EY GDS / Penetration Tester Senior",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ey",
+        "note": "existing official EY careers source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 158,
+        "label": "Checkmate Partners / Senior Security Engineer",
+        "status": "quarantined",
+        "sourceId": "workbook-ethical-hacking-interview",
+        "note": "historical Glassdoor alert and ambiguous employer identity; no safe official careers page could be verified"
+      },
+      {
+        "row": 159,
+        "label": "PepsiCo / Director - Information Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-pepsico",
+        "note": "legacy iCIMS vacancy replaced by official PepsiCo jobs portal; director role outside fresher scope"
+      },
+      {
+        "row": 160,
+        "label": "Cogno AI / Information Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-exotel",
+        "note": "Cogno AI was acquired by Exotel; legacy Trakstar vacancy replaced by Exotel official careers route; current vacancy and fresher eligibility unverified"
+      },
+      {
+        "row": 161,
+        "label": "Edifecs / Security Compliance Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-edifecs-cotiviti",
+        "note": "legacy Jobvite route replaced by official Edifecs/Cotiviti careers route; current vacancy and fresher eligibility unverified"
+      },
+      {
+        "row": 162,
+        "label": "Cisco / Information Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-cisco",
+        "note": "existing official Cisco careers source retained; historical requisition 1391030 could not be verified live"
+      },
+      {
+        "row": 163,
+        "label": "VMware / Offensive Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-vmware",
+        "note": "existing official VMware/Broadcom careers source retained; historical vacancy could not be verified live"
+      },
+      {
+        "row": 164,
+        "label": "Edifecs / Security Operations Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-edifecs-cotiviti",
+        "note": "second historical Edifecs Jobvite vacancy; official careers source registered at row 161"
+      },
+      {
+        "row": 165,
+        "label": "EY / Penetration Tester Cyber Security Technology Consulting",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ey",
+        "note": "Melbourne vacancy is outside India and remote-India scope and lacks fresher evidence"
+      },
+      {
+        "row": 166,
+        "label": "Bloom Consulting Services / Senior Security Engineer",
+        "status": "quarantined",
+        "sourceId": "workbook-ethical-hacking-interview",
+        "note": "historical HireCiel record does not safely identify an official employer site; senior role outside fresher scope"
+      },
+      {
+        "row": 167,
+        "label": "Grammarly / Security Engineer, Application Security",
+        "status": "source-registered",
+        "sourceId": "employer-grammarly",
+        "note": "misspelled workbook company and legacy Greenhouse vacancy normalized to official Grammarly careers; fresher eligibility unverified"
+      },
+      {
+        "row": 168,
+        "label": "Grammarly / Engineering Manager, Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-grammarly",
+        "note": "official Grammarly careers source registered at row 167; manager role outside fresher scope"
+      },
+      {
+        "row": 169,
+        "label": "Grammarly / Security Engineer, Enterprise Security",
+        "status": "duplicate",
+        "sourceId": "employer-grammarly",
+        "note": "existing official Grammarly careers source retained; historical engineer vacancy lacks explicit fresher eligibility"
+      },
+      {
+        "row": 170,
+        "label": "Crayon / Senior Security Consultant",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-crayon",
+        "note": "historical LinkedIn vacancy replaced by official Crayon careers route; senior consultant outside fresher scope"
+      },
+      {
+        "row": 171,
+        "label": "Wipro / Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-wipro",
+        "note": "existing official Wipro careers source retained; historical requisition 2921312 lacks verified current status and explicit fresher evidence"
+      },
+      {
+        "row": 172,
+        "label": "SaaS Labs / Engineering Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-saas-labs",
+        "note": "Instahyre discovery replaced by official SaaS Labs careers page; manager role is non-security and senior"
+      },
+      {
+        "row": 173,
+        "label": "Netrix Global / Security Advisory Consultant",
+        "status": "source-registered",
+        "sourceId": "employer-netrix-global",
+        "note": "official careers index registered; historical consultant vacancy lacks India location and explicit fresher eligibility"
+      },
+      {
+        "row": 174,
+        "label": "G-P / Information Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-globalization-partners",
+        "note": "legacy Greenhouse vacancy replaced by official G-P careers page; current vacancy and fresher eligibility unverified"
+      },
+      {
+        "row": 175,
+        "label": "Principal Global Services / Senior Analyst - Security Administration",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-principal-global-services",
+        "note": "existing official Principal India careers source retained; senior role outside fresher scope and candidate-session URL excluded"
+      },
+      {
+        "row": 176,
+        "label": "LSEG / Senior Manager, Security Engineering",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-lseg",
+        "note": "legacy Refinitiv Workday vacancy replaced by official LSEG careers; senior-manager role outside fresher scope"
+      },
+      {
+        "row": 177,
+        "label": "Anthology / Principal Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-anthology",
+        "note": "existing Anthology/Blackboard careers source retained; principal role outside fresher scope"
+      },
+      {
+        "row": 178,
+        "label": "Bradken / Cyber Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-bradken",
+        "note": "legacy JobAdder vacancy replaced by official Bradken opportunities index; current vacancy and fresher eligibility unverified"
+      },
+      {
+        "row": 179,
+        "label": "Mérieux NutriSciences / IT Security Analyst (India)",
+        "status": "source-registered",
+        "sourceId": "employer-merieux-nutrisciences",
+        "note": "historical LinkedIn vacancy replaced by official global careers portal; current vacancy and fresher eligibility unverified"
+      },
+      {
+        "row": 180,
+        "label": "Proprius Recruitment / Cyber Attack Analyst",
+        "status": "closed",
+        "sourceId": "workbook-ethical-hacking-interview",
+        "note": "historical LinkedIn-only vacancy; UK recruiter is in liquidation and the former specialist recruiter route is not a current application source"
+      },
+      {
+        "row": 181,
+        "label": "CrowdStrike / Threat Researcher (Red Team), Remote India",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-crowdstrike",
+        "note": "official CrowdStrike careers route registered; historical requisition R11851 is a senior threat-research role"
+      },
+      {
+        "row": 182,
+        "label": "Emeritus / Sr Consultant - Information Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emeritus",
+        "note": "legacy Lever link replaced by official Emeritus careers; senior consultant outside fresher scope"
+      },
+      {
+        "row": 183,
+        "label": "Tata Consultancy Services / Lead Application Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-tcs",
+        "note": "historical LinkedIn link replaced by official TCS careers; lead role outside fresher scope"
+      },
+      {
+        "row": 184,
+        "label": "Lennox International / Senior Security Analyst - Penetration Testing",
+        "status": "duplicate",
+        "sourceId": "employer-lennox-india",
+        "note": "existing official Lennox India source retained; senior role and application-session route excluded"
+      },
+      {
+        "row": 185,
+        "label": "Radware / Emergency Response Team Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-radware",
+        "note": "historical LinkedIn link replaced by official Radware careers; current status and fresher eligibility unverified"
+      },
+      {
+        "row": 186,
+        "label": "Wells Fargo / Senior Information Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-wells-fargo",
+        "note": "existing official Wells Fargo India source retained; private application page excluded and senior role outside scope"
+      },
+      {
+        "row": 187,
+        "label": "CrowdStrike / Sr. Manager, Threat Efficacy",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-crowdstrike",
+        "note": "existing source registered at row 181; candidate-session link excluded and senior manager outside scope"
+      },
+      {
+        "row": 188,
+        "label": "Radware / Application Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-radware",
+        "note": "official Radware careers source retained; generic Taleo route lacks a vacancy ID and explicit fresher evidence"
+      },
+      {
+        "row": 189,
+        "label": "Emirates NBD / Assistant Risk Manager",
+        "status": "source-registered",
+        "sourceId": "employer-emirates-nbd",
+        "note": "historical Saudi vacancy normalized to official careers; not verified as India or fresher cybersecurity"
+      },
+      {
+        "row": 190,
+        "label": "Koch / Director - Cyber Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-koch",
+        "note": "private application route replaced by official Koch careers; director role outside scope"
+      },
+      {
+        "row": 191,
+        "label": "Koch / Network Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-koch",
+        "note": "official Koch source registered at row 190; historical application route lacks current vacancy and explicit fresher evidence"
+      },
+      {
+        "row": 192,
+        "label": "Kroll / Principal Offensive Security Consultant, Red Team",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-kroll",
+        "note": "Oracle vacancy normalized to official Kroll careers; principal role outside fresher scope"
+      }
     ]
   },
   "brandsDirectory": {
     "path": "brands/index.html",
-    "publishedAt": "2026-09-19T09:27:47.000Z",
+    "publishedAt": "2026-09-19T09:35:17.000Z",
     "totalEntries": 624,
     "entriesWithLinks": 363,
     "product": 22,
@@ -6201,8 +7793,8 @@
     ],
     "privacy": "personal contacts and private Gmail links excluded",
     "linkedinCleanup": {
-      "historicalLinkedinLinksReviewed": 162,
-      "replacedWithOfficialCareerPages": 96,
+      "historicalLinkedinLinksReviewed": 164,
+      "replacedWithOfficialCareerPages": 98,
       "hiddenPendingOfficialCareerVerification": 65,
       "publicLinkedinLinksRemainingInDirectory": 0
     }
