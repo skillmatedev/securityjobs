@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 208,
-    "independentPortals": 38,
-    "totalUniqueConfigured": 323
+    "employerCareerTargets": 213,
+    "independentPortals": 39,
+    "totalUniqueConfigured": 328
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T16:28:29.000Z",
-  "latestRun": "run-20260919-162829z",
+  "lastUpdated": "2026-09-19T17:31:36.000Z",
+  "latestRun": "run-20260919-173136z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7430,16 +7430,132 @@
       "accessStatus": "career route timed out; cybersecurity tester title lacks vacancy-specific current evidence and explicit 0-2-year eligibility",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-chargepoint",
+      "name": "ChargePoint Careers",
+      "aliases": [
+        "ChargePoint"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.chargepoint.com/about/careers",
+      "officialWebsite": "https://www.chargepoint.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T17:31:36.000Z",
+      "nextRotationTime": "2026-09-22T17:31:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 265; Greenhouse vacancy normalized to official employer careers",
+      "accessStatus": "official employer route identified but inaccessible during check; senior product-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "tenant": "chargepoint"
+    },
+    {
+      "sourceId": "employer-apollo-io",
+      "name": "Apollo.io Careers",
+      "aliases": [
+        "Apollo.io",
+        "Apollo"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.apollo.io/careers",
+      "officialWebsite": "https://www.apollo.io/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T17:31:36.000Z",
+      "nextRotationTime": "2026-09-22T17:31:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 266; Greenhouse vacancy normalized to official employer careers",
+      "accessStatus": "official careers page verified; India-remote application-security role is explicitly senior and outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "tenant": "apolloio"
+    },
+    {
+      "sourceId": "employer-sterling-first-advantage",
+      "name": "First Advantage Careers",
+      "aliases": [
+        "Sterling",
+        "Sterling Check",
+        "First Advantage"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://fadv.com/careers/",
+      "officialWebsite": "https://fadv.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T17:31:36.000Z",
+      "nextRotationTime": "2026-09-22T17:31:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 268; Sterling careers now redirects to First Advantage",
+      "accessStatus": "official careers and Workday route verified; historical information-security audit role lacks current vacancy and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "tenant": "firstadvantage"
+    },
+    {
+      "sourceId": "employer-six-degrees-group",
+      "name": "Six Degrees Group Careers",
+      "aliases": [
+        "6 Degree",
+        "Six Degrees",
+        "6DG"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.6dg.co.uk/careers/",
+      "officialWebsite": "https://www.6dg.co.uk/",
+      "geography": [
+        "United Kingdom",
+        "Remote"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T17:31:36.000Z",
+      "nextRotationTime": "2026-09-26T17:31:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 270; LinkedIn lead normalized to official employer domain",
+      "accessStatus": "career route unavailable; role location is not verified for India and fresher eligibility is absent",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-cybersec-people",
+      "name": "CyberSec People Jobs",
+      "aliases": [
+        "CyberSec People"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://cybersecpeople.com/jobs",
+      "officialWebsite": "https://cybersecpeople.com/",
+      "geography": [
+        "Global",
+        "Remote"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T17:31:36.000Z",
+      "nextRotationTime": "2026-09-20T17:31:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 271; specialist cybersecurity recruiter job board",
+      "accessStatus": "public jobs route verified; historical remote vulnerability-research lead lacks India and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 265,
-    "processedRows": 264,
-    "remainingRows": 282,
-    "lastProcessedAt": "2026-09-19T16:28:29.000Z",
+    "nextRow": 277,
+    "processedRows": 276,
+    "remainingRows": 270,
+    "lastProcessedAt": "2026-09-19T17:31:36.000Z",
     "records": [
       {
         "row": 1,
@@ -9258,6 +9374,89 @@
         "status": "source-registered",
         "sourceId": "employer-vayuz-technologies",
         "note": "official employer source registered; current vacancy and explicit 0-2-year eligibility could not be verified"
+      },
+      {
+        "row": 265,
+        "label": "ChargePoint / Senior Product Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-chargepoint",
+        "note": "official source registered; senior role outside scope"
+      },
+      {
+        "row": 266,
+        "label": "Apollo.io / Senior Application Security Engineer (India Remote)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-apollo-io",
+        "note": "official careers verified; explicitly senior role outside scope"
+      },
+      {
+        "row": 267,
+        "label": "Principal / Lead Cyber Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-principal-global-services",
+        "note": "existing official Principal source retained; lead role outside scope"
+      },
+      {
+        "row": 268,
+        "label": "Sterling / Information Security & Audit Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-sterling-first-advantage",
+        "note": "Sterling careers now redirects to First Advantage; current vacancy and explicit 0-2-year eligibility unverified"
+      },
+      {
+        "row": 269,
+        "label": "Amazon / Security Engineer, Application Security",
+        "status": "duplicate",
+        "sourceId": "employer-amazon",
+        "note": "existing official Amazon source retained; title alone does not establish fresher eligibility and historical requisition is unverified"
+      },
+      {
+        "row": 270,
+        "label": "Six Degrees / Cyber Security Assurance Tester",
+        "status": "source-registered",
+        "sourceId": "employer-six-degrees-group",
+        "note": "official employer source registered; India location and explicit fresher eligibility unverified"
+      },
+      {
+        "row": 271,
+        "label": "CyberSec People / Vulnerability Researcher - Remote",
+        "status": "source-registered",
+        "sourceId": "portal-cybersec-people",
+        "note": "specialist recruiter portal registered; remote geography and explicit fresher eligibility unverified"
+      },
+      {
+        "row": 272,
+        "label": "Lever Demo / Cybersecurity Analyst (Remote)",
+        "status": "broken",
+        "note": "demo ATS tenant and post-application thanks URL; not a legitimate vacancy or source"
+      },
+      {
+        "row": 273,
+        "label": "HealthPartners / Senior Cyber Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-healthpartners",
+        "note": "official careers registered; senior US role outside scope"
+      },
+      {
+        "row": 274,
+        "label": "CBRE / Senior Cybersecurity Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cbre",
+        "note": "existing official CBRE source retained; senior role outside scope"
+      },
+      {
+        "row": 275,
+        "label": "dnata / Senior Cybersecurity Technical Engineer - Avionics",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emirates-group",
+        "note": "normalized to existing Emirates Group source; senior role outside scope"
+      },
+      {
+        "row": 276,
+        "label": "dnata / Senior Security Assurance Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emirates-group",
+        "note": "normalized to existing Emirates Group source; senior role outside scope"
       }
     ]
   },
