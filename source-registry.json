@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 202,
+    "employerCareerTargets": 208,
     "independentPortals": 38,
-    "totalUniqueConfigured": 317
+    "totalUniqueConfigured": 323
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T15:27:19.000Z",
-  "latestRun": "run-20260919-152719z",
+  "lastUpdated": "2026-09-19T16:28:29.000Z",
+  "latestRun": "run-20260919-162829z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7297,16 +7297,149 @@
       "acceptedYield": 0,
       "atsProvider": "Dayforce",
       "tenant": "cyderes"
+    },
+    {
+      "sourceId": "employer-2u",
+      "name": "2U Careers",
+      "aliases": [
+        "2U",
+        "edX"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://2u.com/careers/",
+      "officialWebsite": "https://2u.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 253; legacy Greenhouse vacancy normalized to official 2U careers",
+      "accessStatus": "official careers page verified; senior vice-president role outside scope and current hubs exclude India",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "tenant": "2u"
+    },
+    {
+      "sourceId": "employer-vivriti-capital",
+      "name": "Vivriti Capital Careers",
+      "aliases": [
+        "Vivriti Capital",
+        "Vivriti Group",
+        "Vivriti Next"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://vivriticapital.com/careers/",
+      "officialWebsite": "https://vivriticapital.com/",
+      "geography": [
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 255; LinkedIn lead normalized to employer domain",
+      "accessStatus": "career route unavailable during check; CISO role is executive-level and outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-live-connections",
+      "name": "Live Connections Careers",
+      "aliases": [
+        "Live Connections"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://liveconnections.in/careers/",
+      "officialWebsite": "https://liveconnections.in/",
+      "geography": [
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 257; LinkedIn recruitment lead normalized to official agency domain",
+      "accessStatus": "career route unavailable during check; CISO role requires executive experience and is outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-conga",
+      "name": "Conga Careers",
+      "aliases": [
+        "Conga",
+        "Apttus"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://conga.com/careers",
+      "officialWebsite": "https://conga.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 259; LinkedIn vacancy normalized to official careers and Workday",
+      "accessStatus": "official careers page verified; historical senior product-security role outside scope and no current qualified opening",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "tenant": "apttus"
+    },
+    {
+      "sourceId": "employer-emaratech",
+      "name": "Emaratech Careers",
+      "aliases": [
+        "Emaratech",
+        "emarat technology solutions"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.emaratech.ae/careers/",
+      "officialWebsite": "https://www.emaratech.ae/",
+      "geography": [
+        "India",
+        "United Arab Emirates"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 262; LinkedIn vacancy normalized to official employer domain",
+      "accessStatus": "official employer site identified but careers route timed out; lead application-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-vayuz-technologies",
+      "name": "VAYUZ Technologies Careers",
+      "aliases": [
+        "VAYUZ Technologies",
+        "VAYUZ"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.vayuz.com/careers/",
+      "officialWebsite": "https://www.vayuz.com/",
+      "geography": [
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T16:28:29.000Z",
+      "nextRotationTime": "2026-09-22T16:28:29.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 264; LinkedIn vacancy normalized to official employer domain",
+      "accessStatus": "career route timed out; cybersecurity tester title lacks vacancy-specific current evidence and explicit 0-2-year eligibility",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 253,
-    "processedRows": 252,
-    "remainingRows": 294,
-    "lastProcessedAt": "2026-09-19T15:27:19.000Z",
+    "nextRow": 265,
+    "processedRows": 264,
+    "remainingRows": 282,
+    "lastProcessedAt": "2026-09-19T16:28:29.000Z",
     "records": [
       {
         "row": 1,
@@ -9041,6 +9174,90 @@
         "status": "source-registered",
         "sourceId": "employer-cyderes",
         "note": "official employer and Dayforce route registered; India location and explicit 0-2-year eligibility unverified"
+      },
+      {
+        "row": 253,
+        "label": "2U / Senior Vice President, Cybersecurity and Runtime Operations",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-2u",
+        "note": "official careers registered; executive role and non-India hubs outside scope"
+      },
+      {
+        "row": 254,
+        "label": "Lennox / Security Specialist - Vulnerability Management",
+        "status": "duplicate",
+        "sourceId": "employer-lennox-india",
+        "note": "existing official Lennox India source retained; specialist title lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 255,
+        "label": "Vivriti Capital / Chief Information Security Officer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-vivriti-capital",
+        "note": "official employer source registered; CISO role outside scope"
+      },
+      {
+        "row": 256,
+        "label": "GoDaddy / Senior Penetration Tester",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-godaddy",
+        "note": "existing official GoDaddy source retained; senior role outside scope"
+      },
+      {
+        "row": 257,
+        "label": "Live Connections / Chief Information Security Officer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-live-connections",
+        "note": "official recruitment company source registered; executive role outside scope"
+      },
+      {
+        "row": 258,
+        "label": "SurveySparrow / Senior Information Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-surveysparrow",
+        "note": "duplicate of workbook row 251; senior role outside scope"
+      },
+      {
+        "row": 259,
+        "label": "Conga / Senior Product Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-conga",
+        "note": "official careers and Workday route registered; senior role outside scope"
+      },
+      {
+        "row": 260,
+        "label": "CSC / Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-csc-global",
+        "note": "existing official CSC source retained; historical requisition 7034 is not verifiably current and lacks explicit fresher evidence"
+      },
+      {
+        "row": 261,
+        "label": "CSC / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-csc-global",
+        "note": "existing official CSC source retained; senior role outside scope"
+      },
+      {
+        "row": 262,
+        "label": "Emaratech / Lead Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emaratech",
+        "note": "official employer source registered; lead role outside scope"
+      },
+      {
+        "row": 263,
+        "label": "Zynga / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-zynga",
+        "note": "existing official Zynga source retained; senior role outside scope"
+      },
+      {
+        "row": 264,
+        "label": "VAYUZ Technologies / Cyber Security Tester",
+        "status": "source-registered",
+        "sourceId": "employer-vayuz-technologies",
+        "note": "official employer source registered; current vacancy and explicit 0-2-year eligibility could not be verified"
       }
     ]
   },
