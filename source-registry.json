@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 231,
+    "employerCareerTargets": 234,
     "independentPortals": 42,
-    "totalUniqueConfigured": 349
+    "totalUniqueConfigured": 352
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T21:32:58.000Z",
-  "latestRun": "run-20260919-213258z",
+  "lastUpdated": "2026-09-19T22:30:37.000Z",
+  "latestRun": "run-20260919-223037z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -8012,16 +8012,81 @@
       "accessStatus": "official careers verified; historical principal analyst vacancy is outside India and fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-airbase-paylocity",
+      "name": "Airbase / Paylocity Careers",
+      "aliases": [
+        "Airbase",
+        "Airbase Inc",
+        "Paylocity"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.paylocity.com/company/careers/",
+      "officialWebsite": "https://www.airbase.com/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T22:30:37.000Z",
+      "nextRotationTime": "2026-09-26T22:30:37.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 325; historical Greenhouse lead normalized through Airbase careers redirect to Paylocity",
+      "accessStatus": "official Airbase careers route redirects to Paylocity; historical product-security vacancy is not verified live and title alone does not prove fresher eligibility",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-transunion",
+      "name": "TransUnion Careers",
+      "aliases": [
+        "TransUnion"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://transunion.wd5.myworkdayjobs.com/TransUnion",
+      "officialWebsite": "https://www.transunion.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T22:30:37.000Z",
+      "nextRotationTime": "2026-09-22T22:30:37.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 326; Workday tenant confirmed from official TransUnion careers route",
+      "accessStatus": "public Workday careers tenant verified; historical senior-manager cybersecurity vacancy is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-accenture-federal-services",
+      "name": "Accenture Federal Services Careers",
+      "aliases": [
+        "Accenture Federal Services",
+        "AFS"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.accenture.com/us-en/careers/local/federal-careers",
+      "officialWebsite": "https://www.accenture.com/en-us/industries/accenture-federal-services",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T22:30:37.000Z",
+      "nextRotationTime": "2026-09-26T22:30:37.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 331; historical Greenhouse vacancy normalized to official Accenture Federal Services careers",
+      "accessStatus": "official federal careers route verified; historical senior US role is outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 325,
-    "processedRows": 324,
-    "remainingRows": 222,
-    "lastProcessedAt": "2026-09-19T21:32:58.000Z",
+    "nextRow": 337,
+    "processedRows": 336,
+    "remainingRows": 210,
+    "lastProcessedAt": "2026-09-19T22:30:37.000Z",
     "records": [
       {
         "row": 1,
@@ -10253,6 +10318,90 @@
         "label": "team.it / Security Specialist",
         "status": "quarantined",
         "note": "historical LinkedIn lead; ambiguous employer identity, location and experience requirement"
+      },
+      {
+        "row": 325,
+        "label": "Airbase / Product Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-airbase-paylocity",
+        "note": "Airbase careers redirects to Paylocity; historical Greenhouse role is not verified live and title alone is insufficient for fresher eligibility"
+      },
+      {
+        "row": 326,
+        "label": "TransUnion / Senior Manager, Cybersecurity",
+        "status": "source-registered",
+        "sourceId": "employer-transunion",
+        "note": "official TransUnion Workday source registered; senior-manager role outside fresher scope"
+      },
+      {
+        "row": 327,
+        "label": "Deloitte / Lead Cyber Security Architect Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-deloitte-usi",
+        "note": "existing official Deloitte USI source retained; lead architect role outside fresher scope"
+      },
+      {
+        "row": 328,
+        "label": "Randstad / Cybersecurity Specialist (Canada)",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-randstad",
+        "note": "existing Randstad portal retained; Canada-only historical lead outside India scope and no explicit 0-2-year evidence"
+      },
+      {
+        "row": 329,
+        "label": "Randstad / Information Security Operations Manager (Canada)",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-randstad",
+        "note": "existing Randstad portal retained; manager role in Canada outside India fresher scope"
+      },
+      {
+        "row": 330,
+        "label": "Randstad / Information Security Operations Manager (Canada)",
+        "status": "duplicate",
+        "sourceId": "portal-randstad",
+        "note": "duplicate of workbook row 329; manager role in Canada outside scope"
+      },
+      {
+        "row": 331,
+        "label": "Accenture Federal Services / Senior Information System Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-accenture-federal-services",
+        "note": "official federal careers registered; senior US federal role outside India and fresher scope"
+      },
+      {
+        "row": 332,
+        "label": "Ergon / Senior Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ergon",
+        "note": "existing official Ergon source retained; senior US role outside scope"
+      },
+      {
+        "row": 333,
+        "label": "Netsentries / Senior Offensive Security Consultant (Remote)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-netsentries",
+        "note": "existing official Netsentries source retained; senior title and unspecified remote geography do not meet eligibility rules"
+      },
+      {
+        "row": 334,
+        "label": "Randstad / Penetration Testing Analyst (Canada)",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-randstad",
+        "note": "existing Randstad portal retained; onsite Canada role outside India scope and no explicit fresher evidence"
+      },
+      {
+        "row": 335,
+        "label": "Oracle / Incident Response Analyst",
+        "status": "stale",
+        "sourceId": "employer-oracle",
+        "note": "existing official Oracle source retained; historical LinkedIn evidence does not establish a current India vacancy or explicit 0-2-year eligibility"
+      },
+      {
+        "row": 336,
+        "label": "Wipro / Principal Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-wipro",
+        "note": "existing official Wipro source retained; principal role outside fresher scope"
       }
     ]
   },
