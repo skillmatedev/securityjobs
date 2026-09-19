@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-15T22:29:27.000Z",
+  "lastUpdated": "2026-09-19T08:32:51.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 13,
-    "totalQuarantined": 13,
-    "quarantined": 13
+    "total": 15,
+    "totalQuarantined": 15,
+    "quarantined": 15
   },
   "jobs": [
     {
@@ -196,6 +196,36 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "LinkedIn remains publicly readable, while Foundit marks the corresponding 0-1-year vacancy closed; no current vacancy-specific official Noventiq application route was located. Publication is withheld until status is resolved."
+    },
+    {
+      "id": "workbook-row-158-checkmate-partners-senior-security-engineer",
+      "company": "Checkmate Partners (identity unresolved)",
+      "title": "Senior Security Engineer",
+      "location": "Not stated",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical workbook record contains a Glassdoor alert URL and does not establish a unique official employer identity.",
+      "discoveredAt": "2026-09-19T08:32:51.000Z",
+      "lastCheckedAt": "2026-09-19T08:32:51.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": null,
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous employer identity, historical aggregator evidence, and senior title. No official career page can be assigned without risking a wrong-company link."
+    },
+    {
+      "id": "workbook-row-166-bloom-consulting-services-senior-security-engineer",
+      "company": "Bloom Consulting Services (identity unresolved)",
+      "title": "Senior Security Engineer",
+      "location": "Not stated",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical workbook record identifies a HireCiel vacancy but does not safely establish the employer's official production website.",
+      "discoveredAt": "2026-09-19T08:32:51.000Z",
+      "lastCheckedAt": "2026-09-19T08:32:51.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": null,
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The employer identity and official careers route remain unresolved, and the historical role is senior. The record is retained without publishing a potentially incorrect company link."
     }
   ]
 }
