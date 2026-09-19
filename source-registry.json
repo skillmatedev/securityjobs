@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 183,
+    "employerCareerTargets": 187,
     "independentPortals": 38,
-    "totalUniqueConfigured": 298
+    "totalUniqueConfigured": 302
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T11:29:55.000Z",
-  "latestRun": "run-20260919-112955z",
+  "lastUpdated": "2026-09-19T12:30:27.000Z",
+  "latestRun": "run-20260919-123027z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -6859,16 +6859,115 @@
       "accessStatus": "official global careers page public; historical Bangalore role is senior and outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-leadsquared",
+      "name": "LeadSquared Careers",
+      "aliases": [
+        "LeadSquared"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.leadsquared.com/careers/",
+      "officialWebsite": "https://www.leadsquared.com/",
+      "atsProvider": "Darwinbox",
+      "feedUrl": "https://leadsquaredhrms.darwinbox.in/ms/candidate/careers",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 220; historical LinkedIn vacancy replaced by official employer careers and Darwinbox route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T12:30:27.000Z",
+      "lastSuccessfulCheck": "2026-09-19T12:30:27.000Z",
+      "nextRotationTime": "2026-09-20T12:30:27.000Z",
+      "accessStatus": "official careers and Darwinbox vacancy index public; historical product-security role lacks current vacancy and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-gemini",
+      "name": "Gemini Careers",
+      "aliases": [
+        "Gemini Trust",
+        "Gemini Space Station"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.gemini.com/careers",
+      "officialWebsite": "https://www.gemini.com/",
+      "atsProvider": "Greenhouse",
+      "tenant": "gemini",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 221-222; legacy Greenhouse links normalized to official careers",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T12:30:27.000Z",
+      "lastSuccessfulCheck": "2026-09-19T12:30:27.000Z",
+      "nextRotationTime": "2026-09-22T12:30:27.000Z",
+      "accessStatus": "official careers public; current roles are outside India and historical workbook roles are senior or principal",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-yubi",
+      "name": "Yubi Careers",
+      "aliases": [
+        "Yubi",
+        "CredAvenue"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://go-yubi.zohorecruit.in/jobs/Careers",
+      "officialWebsite": "https://www.go-yubi.com/",
+      "atsProvider": "Zoho Recruit",
+      "tenant": "go-yubi",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 223; Zoho Recruit employer tenant retained as intended application route",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T12:30:27.000Z",
+      "nextRotationTime": "2026-09-20T12:30:27.000Z",
+      "accessStatus": "official employer identity confirmed; Zoho Recruit vacancy route blocked to verifier and historical product-security role lacks explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-spa",
+      "name": "Systems Planning and Analysis Careers",
+      "aliases": [
+        "SPA",
+        "Systems Planning and Analysis, Inc."
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://spa.com/careers/",
+      "officialWebsite": "https://spa.com/",
+      "atsProvider": "iCIMS",
+      "tenant": "spa",
+      "feedUrl": "https://talent.spa.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 226; iCIMS vacancy normalized to official SPA careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T12:30:27.000Z",
+      "lastSuccessfulCheck": "2026-09-19T12:30:27.000Z",
+      "nextRotationTime": "2026-09-26T12:30:27.000Z",
+      "accessStatus": "official careers and iCIMS search public; historical senior US security role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 217,
-    "processedRows": 216,
-    "remainingRows": 330,
-    "lastProcessedAt": "2026-09-19T11:29:55.000Z",
+    "nextRow": 229,
+    "processedRows": 228,
+    "remainingRows": 318,
+    "lastProcessedAt": "2026-09-19T12:30:27.000Z",
     "records": [
       {
         "row": 1,
@@ -8351,6 +8450,90 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-maersk",
         "note": "official Maersk careers registered; Bangalore role is senior"
+      },
+      {
+        "row": 217,
+        "label": "Rubrik / Staff Engineer - Shield Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-rubrik",
+        "note": "existing official Rubrik careers source retained; staff-level role outside fresher scope"
+      },
+      {
+        "row": 218,
+        "label": "Rubrik / Senior Product Security Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-rubrik",
+        "note": "existing official Rubrik careers source retained; senior manager role outside fresher scope"
+      },
+      {
+        "row": 219,
+        "label": "Rubrik / Senior Information Security Engineer - FedRAMP",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-rubrik",
+        "note": "existing official Rubrik careers source retained; senior US role outside India fresher scope"
+      },
+      {
+        "row": 220,
+        "label": "LeadSquared / Product Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-leadsquared",
+        "note": "historical LinkedIn vacancy replaced by official careers and Darwinbox route; current status and explicit fresher eligibility unverified"
+      },
+      {
+        "row": 221,
+        "label": "Gemini / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-gemini",
+        "note": "legacy Greenhouse vacancy normalized to official Gemini careers; senior role and current listings are outside India scope"
+      },
+      {
+        "row": 222,
+        "label": "Gemini / Principal, Internal Audit (UK and Europe)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-gemini",
+        "note": "official Gemini source registered at row 221; principal non-cybersecurity UK/Europe role outside scope"
+      },
+      {
+        "row": 223,
+        "label": "Yubi / Product Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-yubi",
+        "note": "official Zoho Recruit tenant registered; vacancy verification was blocked and explicit 0-2-year eligibility is absent"
+      },
+      {
+        "row": 224,
+        "label": "Guidewire Software / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-guidewire",
+        "note": "existing official Guidewire careers source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 225,
+        "label": "The Judge Group / Security Specialist III (Senior)",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-the-judge-group",
+        "note": "existing official staffing-board source retained; senior US vacancy outside India scope"
+      },
+      {
+        "row": 226,
+        "label": "SPA / Senior Cyber Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-spa",
+        "note": "official SPA careers and iCIMS route registered; senior US role outside India fresher scope"
+      },
+      {
+        "row": 227,
+        "label": "Claranet / Principal Security Consultant (Red Team)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-claranet",
+        "note": "existing official Claranet source retained; principal UK role outside scope"
+      },
+      {
+        "row": 228,
+        "label": "Claranet / Principal Security Consultant (Red Team)",
+        "status": "duplicate",
+        "sourceId": "employer-claranet",
+        "note": "duplicate principal UK listing; existing official Claranet source retained"
       }
     ]
   },
