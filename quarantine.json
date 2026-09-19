@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-19T08:32:51.000Z",
+  "lastUpdated": "2026-09-19T19:28:05.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 15,
-    "totalQuarantined": 15,
-    "quarantined": 15
+    "total": 16,
+    "totalQuarantined": 16,
+    "quarantined": 16
   },
   "jobs": [
     {
@@ -226,6 +226,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "The employer identity and official careers route remain unresolved, and the historical role is senior. The record is retained without publishing a potentially incorrect company link."
+    },
+    {
+      "id": "workbook-row-298-motto-hr-consulting",
+      "company": "Motto HR Consulting (identity unresolved)",
+      "title": "Security Analyst",
+      "location": "India (unverified)",
+      "experienceEvidence": "Historical Indeed listing; no explicit fresher or 0-2-year evidence verified.",
+      "eligibilityReason": "Potential security role, but employer identity, current vacancy status, and official application route remain unresolved.",
+      "discoveredAt": "2026-09-19T19:28:05.000Z",
+      "lastCheckedAt": "2026-09-19T19:28:05.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.indeed.com/viewjob?jk=9bf04f1ac4363a7b",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Only an historical Indeed vacancy was available; the employer official website and career route, requisition ID, posting date, live status, India location, experience requirement, and intended final apply route could not be safely verified."
     }
   ]
 }

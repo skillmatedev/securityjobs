@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T18:30:53.000Z",
+  "lastUpdated": "2026-09-19T19:28:05.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -7621,8 +7621,99 @@
         "totalUniqueConfigured": 333
       },
       "deploymentResult": "processed workbook rows 277-288; registered three employer targets and two recruitment portals; all roles were senior, non-India, duplicate, or lacked explicit fresher evidence; Gmail contained no new job alert; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260919-192805z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T19:18:05.000Z",
+      "runCompletedAt": "2026-09-19T19:28:05.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "workbook-row-298-motto-hr-consulting"
+      ],
+      "sourcesChecked": [
+        "workbook-interview-rows-289-300",
+        "gmail-recent-cyber-job-alerts",
+        "employer-hitachi",
+        "employer-san-francisco-health-plan",
+        "employer-celestica",
+        "employer-blink-health",
+        "employer-uk-debt-management-office",
+        "employer-amazon",
+        "employer-intercontinental-exchange",
+        "employer-burns-mcdonnell",
+        "employer-deloitte-usi",
+        "certin-032-bharti-airtel-limited",
+        "portal-randstad"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 4
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 4,
+          "blocked": 8,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-new-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 7,
+        "senior-or-outside-fresher-scope": 7,
+        "non-cybersecurity": 4,
+        "historical-or-stale": 2,
+        "ambiguous-employer-quarantined": 1,
+        "gmail-no-job-alert": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 301
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 246,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 220,
+        "independentPortals": 41,
+        "totalUniqueConfigured": 337
+      },
+      "deploymentResult": "processed workbook rows 289-300; registered Blink Health, UK DMO, ICE, and Deloitte USI; quarantined ambiguous Motto HR evidence; no role met India fresher or explicit 0-2-year criteria; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-183053z"
+  "latestRunId": "run-20260919-192805z"
 }
