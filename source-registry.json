@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 193,
+    "employerCareerTargets": 202,
     "independentPortals": 38,
-    "totalUniqueConfigured": 308
+    "totalUniqueConfigured": 317
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T14:29:32.000Z",
-  "latestRun": "run-20260919-142932z",
+  "lastUpdated": "2026-09-19T15:27:19.000Z",
+  "latestRun": "run-20260919-152719z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7097,16 +7097,216 @@
       "accessStatus": "official careers route identified but verifier access failed; principal India-remote role outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-cleareye-ai",
+      "name": "Cleareye.ai Careers",
+      "aliases": [
+        "Cleareye.ai",
+        "Cleareye"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://cleareye.ai/careers/",
+      "officialWebsite": "https://cleareye.ai/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 241; historical LinkedIn link replaced by official employer route",
+      "accessStatus": "official employer identified; careers route not accessible to verifier and senior-director role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-standard-chartered",
+      "name": "Standard Chartered Careers",
+      "aliases": [
+        "Standard Chartered",
+        "SCB"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.sc.com/en/global-careers/",
+      "officialWebsite": "https://www.sc.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "lastSuccessfulCheck": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-20T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 242; incomplete Taleo route replaced by official global careers",
+      "accessStatus": "official global careers and early-careers routes public; historical senior threat-model role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-security-joes",
+      "name": "Security Joes Careers",
+      "aliases": [
+        "Security Joes"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.securityjoes.com/careers",
+      "officialWebsite": "https://www.securityjoes.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 244; historical LinkedIn role normalized to official employer site",
+      "accessStatus": "official employer site identified but careers route inaccessible to verifier; senior researcher role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-ags-cyber",
+      "name": "AGS Cyber",
+      "aliases": [
+        "AGS Cyber"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://ags-cyber.com/",
+      "officialWebsite": "https://ags-cyber.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-26T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 245; LinkedIn-only historical lead normalized to employer domain",
+      "accessStatus": "official career route unavailable to verifier; team-lead penetration-testing role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-docebo",
+      "name": "Docebo Careers",
+      "aliases": [
+        "Docebo"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.docebo.com/careers/",
+      "officialWebsite": "https://www.docebo.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "lastSuccessfulCheck": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 246; application-thanks URL replaced by official careers",
+      "accessStatus": "official careers public; historical AppSec vacancy lacks current India and explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Lever",
+      "tenant": "docebo"
+    },
+    {
+      "sourceId": "employer-centric-consulting",
+      "name": "Centric Consulting Careers",
+      "aliases": [
+        "Centric Consulting"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://centricconsulting.com/careers/",
+      "officialWebsite": "https://centricconsulting.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 249; historical LinkedIn vacancy replaced by official employer careers",
+      "accessStatus": "official employer careers identified; historical penetration-tester role lacks current India and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-news-corp",
+      "name": "News Corp Careers",
+      "aliases": [
+        "News Corp",
+        "Dow Jones"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://newscorp.com/careers/",
+      "officialWebsite": "https://newscorp.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-20T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 250; Workday vacancy normalized to official News Corp careers",
+      "accessStatus": "official careers route identified; historical Bangalore analyst vacancy not verified current and lacks explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "tenant": "News_Corp_Careers"
+    },
+    {
+      "sourceId": "employer-surveysparrow",
+      "name": "SurveySparrow Careers",
+      "aliases": [
+        "SurveySparrow"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://surveysparrow.com/careers/",
+      "officialWebsite": "https://surveysparrow.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 251; historical LinkedIn vacancy replaced by official employer careers",
+      "accessStatus": "official careers route identified; senior information-security role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-cyderes",
+      "name": "Cyderes Careers",
+      "aliases": [
+        "Cyderes"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.cyderes.com/careers/",
+      "officialWebsite": "https://www.cyderes.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T15:27:19.000Z",
+      "nextRotationTime": "2026-09-22T15:27:19.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 252; Dayforce vacancy normalized to official careers",
+      "accessStatus": "official employer and Dayforce route identified; security-consultant role lacks India and explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Dayforce",
+      "tenant": "cyderes"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 241,
-    "processedRows": 240,
-    "remainingRows": 306,
-    "lastProcessedAt": "2026-09-19T14:29:32.000Z",
+    "nextRow": 253,
+    "processedRows": 252,
+    "remainingRows": 294,
+    "lastProcessedAt": "2026-09-19T15:27:19.000Z",
     "records": [
       {
         "row": 1,
@@ -8757,6 +8957,90 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-outsystems",
         "note": "official OutSystems source registered; principal India-remote role outside fresher scope"
+      },
+      {
+        "row": 241,
+        "label": "Cleareye.ai / Senior Director",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cleareye-ai",
+        "note": "official employer source registered; senior non-security leadership role outside scope"
+      },
+      {
+        "row": 242,
+        "label": "Standard Chartered / Senior Security Engineer - Threat Model",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-standard-chartered",
+        "note": "incomplete Taleo URL replaced by official global careers; senior role outside scope"
+      },
+      {
+        "row": 243,
+        "label": "Vestas / Senior Specialist, Cybersecurity",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-vestas",
+        "note": "existing official Vestas source retained; senior specialist outside scope"
+      },
+      {
+        "row": 244,
+        "label": "Security Joes / Senior Security Researcher",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-security-joes",
+        "note": "official employer source registered; senior role outside fresher scope"
+      },
+      {
+        "row": 245,
+        "label": "AGS Cyber / Team Lead Penetration Tester",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-ags-cyber",
+        "note": "employer domain registered with unavailable career route; team-lead role outside scope"
+      },
+      {
+        "row": 246,
+        "label": "Docebo / Application Security Engineer - AppSec",
+        "status": "source-registered",
+        "sourceId": "employer-docebo",
+        "note": "application-confirmation URL replaced by official careers; current India status and explicit 0-2-year eligibility unverified"
+      },
+      {
+        "row": 247,
+        "label": "DHL / Principal Information Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-dhl",
+        "note": "existing official DHL source retained; principal role outside scope"
+      },
+      {
+        "row": 248,
+        "label": "DHL / Information Security Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-dhl",
+        "note": "existing official DHL source retained; application-method URL lacks verifiable current vacancy and explicit fresher evidence"
+      },
+      {
+        "row": 249,
+        "label": "Centric Consulting / Penetration Tester",
+        "status": "source-registered",
+        "sourceId": "employer-centric-consulting",
+        "note": "historical LinkedIn lead replaced by official careers; India location and explicit fresher eligibility unverified"
+      },
+      {
+        "row": 250,
+        "label": "News Corp / Analyst, Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-news-corp",
+        "note": "official News Corp careers registered; historical Bangalore Workday vacancy not verified current and lacks explicit 0-2-year evidence"
+      },
+      {
+        "row": 251,
+        "label": "SurveySparrow / Senior Information Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-surveysparrow",
+        "note": "official SurveySparrow careers registered; senior role outside fresher scope"
+      },
+      {
+        "row": 252,
+        "label": "Cyderes / Security Consultant, Threat Management",
+        "status": "source-registered",
+        "sourceId": "employer-cyderes",
+        "note": "official employer and Dayforce route registered; India location and explicit 0-2-year eligibility unverified"
       }
     ]
   },
