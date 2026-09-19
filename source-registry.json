@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 213,
-    "independentPortals": 39,
-    "totalUniqueConfigured": 328
+    "employerCareerTargets": 216,
+    "independentPortals": 41,
+    "totalUniqueConfigured": 333
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T17:31:36.000Z",
-  "latestRun": "run-20260919-173136z",
+  "lastUpdated": "2026-09-19T18:30:53.000Z",
+  "latestRun": "run-20260919-183053z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -7546,16 +7546,129 @@
       "accessStatus": "public jobs route verified; historical remote vulnerability-research lead lacks India and explicit fresher evidence",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-smarta-minds",
+      "name": "smarta minds Jobs",
+      "aliases": [
+        "Smarta minds GmbH",
+        "smarta minds"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://smartaminds.com/",
+      "officialWebsite": "https://smartaminds.com/",
+      "geography": [
+        "Germany",
+        "Europe"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T18:30:53.000Z",
+      "nextRotationTime": "2026-09-22T18:30:53.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 278; specialist recruitment company job board",
+      "accessStatus": "public recruiter jobs route verified; historical senior Germany role outside India scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bruker",
+      "name": "Bruker Careers",
+      "aliases": [
+        "Bruker",
+        "Bruker Corporation"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://uscareers-bruker.icims.com/",
+      "officialWebsite": "https://www.bruker.com/",
+      "geography": [
+        "Global",
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T18:30:53.000Z",
+      "nextRotationTime": "2026-09-22T18:30:53.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 280; iCIMS vacancy normalized to official careers center",
+      "accessStatus": "official iCIMS careers verified; historical senior analyst role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "iCIMS",
+      "tenant": "bruker"
+    },
+    {
+      "sourceId": "employer-newberry-group",
+      "name": "Newberry Group Careers",
+      "aliases": [
+        "Newberry Group",
+        "The Newberry Group"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://newberry-gs.com/careers/",
+      "officialWebsite": "https://newberry-gs.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T18:30:53.000Z",
+      "nextRotationTime": "2026-09-26T18:30:53.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 281; LinkedIn lead normalized to official employer careers",
+      "accessStatus": "official careers verified; senior US government-services role outside India scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-coalfire",
+      "name": "Coalfire Careers",
+      "aliases": [
+        "Coal Fire",
+        "Coalfire"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.coalfire.com/",
+      "officialWebsite": "https://coalfire.com/",
+      "geography": [
+        "United States",
+        "Remote US"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T18:30:53.000Z",
+      "nextRotationTime": "2026-09-26T18:30:53.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 284; Lever vacancy normalized to official careers",
+      "accessStatus": "official careers verified; senior-manager remote-US role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Lever",
+      "tenant": "coalfire"
+    },
+    {
+      "sourceId": "portal-randstad",
+      "name": "Randstad Jobs",
+      "aliases": [
+        "Randstad",
+        "Randstad Canada"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://www.randstad.com/jobs/",
+      "officialWebsite": "https://www.randstad.com/",
+      "geography": [
+        "Global",
+        "India"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T18:30:53.000Z",
+      "nextRotationTime": "2026-09-20T18:30:53.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 288; staffing vacancy normalized to global Randstad jobs",
+      "accessStatus": "official staffing portal registered; historical Canada architect role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 277,
-    "processedRows": 276,
-    "remainingRows": 270,
-    "lastProcessedAt": "2026-09-19T17:31:36.000Z",
+    "nextRow": 289,
+    "processedRows": 288,
+    "remainingRows": 258,
+    "lastProcessedAt": "2026-09-19T18:30:53.000Z",
     "records": [
       {
         "row": 1,
@@ -9457,6 +9570,90 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-emirates-group",
         "note": "normalized to existing Emirates Group source; senior role outside scope"
+      },
+      {
+        "row": 277,
+        "label": "Amazon / Sr. Security Engineer, Application Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-amazon",
+        "note": "existing official Amazon source retained; senior role outside scope"
+      },
+      {
+        "row": 278,
+        "label": "smarta minds / Senior Information Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-smarta-minds",
+        "note": "official recruiter portal registered; senior Germany role outside India scope"
+      },
+      {
+        "row": 279,
+        "label": "Akamai / Senior Security Incident Responder (Poland Remote)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-akamai",
+        "note": "existing official Akamai source retained; senior Poland-remote role outside India scope"
+      },
+      {
+        "row": 280,
+        "label": "Bruker / Senior Cyber Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-bruker",
+        "note": "official iCIMS careers registered; senior role outside scope"
+      },
+      {
+        "row": 281,
+        "label": "Newberry Group / Senior Cybersecurity Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-newberry-group",
+        "note": "official careers registered; senior US role outside India scope"
+      },
+      {
+        "row": 282,
+        "label": "CVP / Cybersecurity Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-cvp",
+        "note": "existing official CVP source retained; title alone is insufficient and US location/experience evidence was not verified"
+      },
+      {
+        "row": 283,
+        "label": "CBRE / Senior Cybersecurity Analyst",
+        "status": "duplicate",
+        "sourceId": "employer-cbre",
+        "note": "duplicate of workbook row 274; senior role outside scope"
+      },
+      {
+        "row": 284,
+        "label": "Coalfire / Senior Manager - Application Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-coalfire",
+        "note": "official careers registered; senior-manager remote-US role outside scope"
+      },
+      {
+        "row": 285,
+        "label": "Cyderes / Senior Security Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cyderes",
+        "note": "existing official Cyderes source retained; senior role outside scope"
+      },
+      {
+        "row": 286,
+        "label": "Rightway / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-rightway",
+        "note": "existing official Rightway source retained; senior role outside scope"
+      },
+      {
+        "row": 287,
+        "label": "Cotiviti / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cotiviti",
+        "note": "existing official Cotiviti source retained; senior role outside scope"
+      },
+      {
+        "row": 288,
+        "label": "Randstad / Information Security Architect - Remote",
+        "status": "senior/out-of-scope",
+        "sourceId": "portal-randstad",
+        "note": "official staffing portal registered; Canada architect role outside India fresher scope"
       }
     ]
   },
