@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T16:28:29.000Z",
+  "lastUpdated": "2026-09-19T17:31:36.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -7444,8 +7444,96 @@
         "totalUniqueConfigured": 323
       },
       "deploymentResult": "processed workbook rows 253-264; registered six employer sources and reused five existing employer sources; all candidates were senior, historical, duplicate, or lacked explicit fresher evidence; Gmail alert was senior-level; no job list change; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260919-173136z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T17:21:36.000Z",
+      "runCompletedAt": "2026-09-19T17:31:36.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-265-276",
+        "gmail-recent-cyber-job-alerts",
+        "employer-chargepoint",
+        "employer-apollo-io",
+        "employer-principal-global-services",
+        "employer-sterling-first-advantage",
+        "employer-amazon",
+        "employer-six-degrees-group",
+        "portal-cybersec-people",
+        "employer-healthpartners",
+        "employer-cbre",
+        "employer-emirates-group"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 7
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 11,
+          "attempted": 11,
+          "succeeded": 4,
+          "blocked": 7,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-new-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 5,
+        "senior-or-outside-fresher-scope": 8,
+        "historical-or-insufficient-experience-evidence": 4,
+        "broken-demo-vacancy": 1,
+        "blocked-or-unavailable-career-route": 4,
+        "gmail-no-new-evidence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 277
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 270,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 40
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 212,
+        "independentPortals": 1,
+        "totalUniqueConfigured": 328
+      },
+      "deploymentResult": "processed workbook rows 265-276; registered five employer targets plus one cybersecurity portal; rejected one demo ATS record as broken; reused Principal, Amazon, CBRE, and Emirates Group; no role met explicit fresher or 0-2-year criteria; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-162829z"
+  "latestRunId": "run-20260919-173136z"
 }
