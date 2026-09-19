@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 234,
+    "employerCareerTargets": 239,
     "independentPortals": 42,
-    "totalUniqueConfigured": 352
+    "totalUniqueConfigured": 357
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T22:30:37.000Z",
-  "latestRun": "run-20260919-223037z",
+  "lastUpdated": "2026-09-19T23:37:21.000Z",
+  "latestRun": "run-20260919-233721z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -8077,16 +8077,126 @@
       "accessStatus": "official federal careers route verified; historical senior US role is outside India and fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-network-optix",
+      "name": "Network Optix Careers",
+      "aliases": [
+        "Network Optix",
+        "Nx"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.networkoptix.com/company/careers",
+      "officialWebsite": "https://www.networkoptix.com/",
+      "geography": [
+        "United States",
+        "Europe",
+        "Taiwan",
+        "Global"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T23:37:21.000Z",
+      "nextRotationTime": "2026-09-26T23:37:21.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 339; Greenhouse vacancy normalized to official careers",
+      "accessStatus": "official careers and Greenhouse route verified; historical senior application-security role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-red-oak-technologies",
+      "name": "Red Oak Technologies Careers",
+      "aliases": [
+        "Red Oak Technologies",
+        "Red Oak Tech"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://redoaktech.com/careers/",
+      "officialWebsite": "https://redoaktech.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T23:37:21.000Z",
+      "nextRotationTime": "2026-09-26T23:37:21.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 343; Dice lead normalized to official careers",
+      "accessStatus": "official careers verified; historical security-lead vacancy is outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-sp-global",
+      "name": "S&P Global Careers",
+      "aliases": [
+        "S & P Global",
+        "S&P Global",
+        "SPGI"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.spglobal.com/",
+      "officialWebsite": "https://www.spglobal.com/en/explore-s-p-global/careers",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T23:37:21.000Z",
+      "nextRotationTime": "2026-09-22T23:37:21.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 346; Workday record normalized to official careers",
+      "accessStatus": "official careers verified; historical principal fuels-and-refining analyst role is non-cybersecurity and outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-valeo",
+      "name": "Valeo Careers",
+      "aliases": [
+        "Valeo"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://valeo.wd3.myworkdayjobs.com/valeo_jobs",
+      "officialWebsite": "https://www.valeo.com/en/careers/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T23:37:21.000Z",
+      "nextRotationTime": "2026-09-22T23:37:21.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 347; Workday tenant confirmed by official careers",
+      "accessStatus": "official careers and Workday route verified; historical senior cyber-security role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-logitech",
+      "name": "Logitech Careers",
+      "aliases": [
+        "Logitech"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.logitech.com/en-us/careers.html",
+      "officialWebsite": "https://www.logitech.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-19T23:37:21.000Z",
+      "nextRotationTime": "2026-09-22T23:37:21.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 348; expired Jobvite vacancy normalized to official careers",
+      "accessStatus": "official employer careers registered; historical product-security architect link is expired and role is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 337,
-    "processedRows": 336,
-    "remainingRows": 210,
-    "lastProcessedAt": "2026-09-19T22:30:37.000Z",
+    "nextRow": 349,
+    "processedRows": 348,
+    "remainingRows": 198,
+    "lastProcessedAt": "2026-09-19T23:37:21.000Z",
     "records": [
       {
         "row": 1,
@@ -10402,6 +10512,89 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-wipro",
         "note": "existing official Wipro source retained; principal role outside fresher scope"
+      },
+      {
+        "row": 337,
+        "label": "CSC / Senior Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-csc-global",
+        "note": "existing official CSC source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 338,
+        "label": "Vanilla / Senior Security Engineer",
+        "status": "quarantined",
+        "note": "historical LinkedIn-only senior role; employer identity and official career route could not be safely resolved"
+      },
+      {
+        "row": 339,
+        "label": "Network Optix / Senior Application Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-network-optix",
+        "note": "official careers and Greenhouse route registered; senior role outside fresher scope"
+      },
+      {
+        "row": 340,
+        "label": "NielsenIQ / Senior Engineer, Cyber and Network Security",
+        "status": "duplicate",
+        "sourceId": "employer-nielseniq",
+        "note": "existing official NielsenIQ source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 341,
+        "label": "Netflix / Security Engineer L4, Application Security",
+        "status": "duplicate",
+        "sourceId": "employer-netflix",
+        "note": "existing official Netflix source retained; L4 historical role lacks explicit fresher or 0-2-year evidence"
+      },
+      {
+        "row": 342,
+        "label": "Suzy / Senior Security Engineer",
+        "status": "duplicate",
+        "sourceId": "employer-suzy",
+        "note": "existing official Suzy source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 343,
+        "label": "Red Oak Technologies / Security Lead",
+        "status": "source-registered",
+        "sourceId": "employer-red-oak-technologies",
+        "note": "official careers registered; US lead role outside India fresher scope"
+      },
+      {
+        "row": 344,
+        "label": "Microsoft / Security Engineer II",
+        "status": "duplicate",
+        "sourceId": "employer-microsoft",
+        "note": "existing official Microsoft source retained; Engineer II title and historical vacancy do not prove fresher eligibility"
+      },
+      {
+        "row": 345,
+        "label": "Microsoft / Principal Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-microsoft",
+        "note": "existing official Microsoft source retained; principal role outside scope"
+      },
+      {
+        "row": 346,
+        "label": "S&P Global / Principal Research Analyst, Fuels and Refining",
+        "status": "source-registered",
+        "sourceId": "employer-sp-global",
+        "note": "official careers registered; principal non-cybersecurity role outside scope"
+      },
+      {
+        "row": 347,
+        "label": "Valeo / Senior Engineer - Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-valeo",
+        "note": "official careers and Workday route registered; senior role outside fresher scope"
+      },
+      {
+        "row": 348,
+        "label": "Logitech / Product Security Architect",
+        "status": "source-registered",
+        "sourceId": "employer-logitech",
+        "note": "official careers registered; historical Jobvite link is expired and architect role lacks fresher evidence"
       }
     ]
   },

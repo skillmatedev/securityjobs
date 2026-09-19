@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-19T21:32:58.000Z",
+  "lastUpdated": "2026-09-19T23:37:21.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 21,
-    "totalQuarantined": 21,
-    "quarantined": 21
+    "total": 22,
+    "totalQuarantined": 22,
+    "quarantined": 22
   },
   "jobs": [
     {
@@ -316,6 +316,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous employer identity plus missing official career route, requisition ID, posting date, location, live status, experience requirement, and final apply route."
+    },
+    {
+      "id": "workbook-row-338-vanilla-senior-security-engineer",
+      "company": "Vanilla (identity unresolved)",
+      "title": "Senior Security Engineer",
+      "location": "Not verified",
+      "experienceEvidence": "Senior title; no fresher or 0-2-year evidence.",
+      "eligibilityReason": "Historical LinkedIn-only record does not uniquely resolve the employer or establish a safe official route.",
+      "discoveredAt": "2026-09-19T23:37:21.000Z",
+      "lastCheckedAt": "2026-09-19T23:37:21.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3808649736/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous employer identity plus missing official career route, requisition ID, posting date, location, live status, experience ceiling, and final apply route."
     }
   ]
 }

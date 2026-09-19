@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T22:30:37.000Z",
+  "lastUpdated": "2026-09-19T23:37:21.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -7978,8 +7978,96 @@
         "totalUniqueConfigured": 352
       },
       "deploymentResult": "processed workbook rows 325-336; registered Airbase/Paylocity, TransUnion and Accenture Federal Services career targets; all historical roles were senior, manager, lead, principal, outside India, stale, or lacked explicit 0-2-year evidence; Gmail alert contained only Europe-based or senior roles; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260919-233721z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T23:27:21.000Z",
+      "runCompletedAt": "2026-09-19T23:37:21.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "workbook-row-338-vanilla-senior-security-engineer"
+      ],
+      "sourcesChecked": [
+        "workbook-interview-rows-337-348",
+        "gmail-recent-cyber-job-alerts",
+        "employer-csc-global",
+        "employer-network-optix",
+        "employer-nielseniq",
+        "employer-netflix",
+        "employer-suzy",
+        "employer-red-oak-technologies",
+        "employer-microsoft",
+        "employer-sp-global",
+        "employer-valeo",
+        "employer-logitech"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 5
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 5,
+          "blocked": 7,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-new-alerts",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 6,
+        "senior-or-outside-fresher-scope": 10,
+        "historical-or-stale": 3,
+        "ambiguous-employer-quarantined": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 349
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 198,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 239,
+        "independentPortals": 42,
+        "totalUniqueConfigured": 357
+      },
+      "deploymentResult": "processed workbook rows 337-348; registered five employer career targets; quarantined one ambiguous Vanilla record; all roles were senior, L4, principal, lead, architect, non-cybersecurity, stale, or lacked explicit 0-2-year evidence; Gmail had no new matching alert; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-223037z"
+  "latestRunId": "run-20260919-233721z"
 }
