@@ -6,6 +6,15 @@
     .replace(/(privatelimited|pvtltd|limited|ltd|inc|llc|plc)$/g, "");
 
   const verified = {
+    "Cymotive": "https://www.cymotive.com/join-the-team/",
+    "Hitachi": "https://careers.hitachi.com/",
+    "E.ON Digital Technology GmbH": "https://careers.eon.com/",
+    "Kyndryl": "https://www.kyndryl.com/us/en/careers",
+    "RedRock Consulting": "https://www.redrockconsulting.co.uk/jobs/",
+    "Bio Rad": "https://careers.bio-rad.com/homepage",
+    "CSC - Legal Services": "https://careers.cscglobal.com/",
+    "Match Group": "https://mtch.com/careers/",
+    "Illumina": "https://www.illumina.com/company/careers.html",
     "Crowdstrike": "https://www.crowdstrike.com/en-us/careers/",
     "CrowdStrike": "https://www.crowdstrike.com/en-us/careers/",
     "Emeritus": "https://careers.emeritus.org/",

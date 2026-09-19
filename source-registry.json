@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 165,
+    "employerCareerTargets": 173,
     "independentPortals": 38,
-    "totalUniqueConfigured": 280
+    "totalUniqueConfigured": 288
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T09:35:17.000Z",
-  "latestRun": "run-20260919-093517z",
+  "lastUpdated": "2026-09-19T10:31:38.000Z",
+  "latestRun": "run-20260919-103138z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -6450,16 +6450,197 @@
       "accessStatus": "official careers site public; historical Principal Offensive Security Consultant role is outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-hitachi",
+      "name": "Hitachi Careers",
+      "aliases": [
+        "Hitachi",
+        "Hitachi Group"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.hitachi.com/",
+      "officialWebsite": "https://www.hitachi.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 194; Workday vacancy normalized to official Hitachi careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-20T10:31:38.000Z",
+      "accessStatus": "official global careers and job search public; historical researcher vacancy lacks India fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-eon",
+      "name": "E.ON Careers",
+      "aliases": [
+        "E.ON",
+        "E.ON Digital Technology GmbH"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.eon.com/",
+      "officialWebsite": "https://www.eon.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 195; SuccessFactors vacancy normalized to E.ON global careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official global job search public; historical Germany specialist role outside India scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-kyndryl",
+      "name": "Kyndryl Careers",
+      "aliases": [
+        "Kyndryl"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.kyndryl.com/us/en/careers",
+      "officialWebsite": "https://www.kyndryl.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 196; Workday vacancy normalized to official Kyndryl careers",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-20T10:31:38.000Z",
+      "accessStatus": "official careers route public with India region; historical senior specialist is outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-redrock-consulting",
+      "name": "RedRock Consulting Careers",
+      "aliases": [
+        "RedRock Consulting"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.redrockconsulting.co.uk/jobs/",
+      "officialWebsite": "https://www.redrockconsulting.co.uk/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 197; historical LinkedIn vacancy replaced by company jobs route",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official employer jobs route identified but automated verification unavailable; historical senior consultant role outside fresher and India scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-bio-rad",
+      "name": "Bio-Rad Careers",
+      "aliases": [
+        "Bio-Rad",
+        "Bio Rad"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.bio-rad.com/homepage",
+      "officialWebsite": "https://www.bio-rad.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 198 and 199; iCIMS vacancies normalized to official Bio-Rad careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official careers portal public; historical roles are US-focused and do not establish India fresher eligibility",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-csc-global",
+      "name": "CSC Global Careers",
+      "aliases": [
+        "CSC",
+        "CSC - Legal Services",
+        "Corporation Service Company"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.cscglobal.com/",
+      "officialWebsite": "https://www.cscglobal.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 200; private Oracle candidate-profile route replaced by official CSC careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": null,
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official employer careers route identified but automated verification unavailable; historical senior role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-match-group",
+      "name": "Match Group Careers",
+      "aliases": [
+        "Match Group"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://mtch.com/careers/",
+      "officialWebsite": "https://mtch.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 201; Lever application URL normalized to official Match Group careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official careers page public; historical senior remote role lacks India eligibility",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-illumina",
+      "name": "Illumina Careers",
+      "aliases": [
+        "Illumina"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.illumina.com/company/careers.html",
+      "officialWebsite": "https://www.illumina.com/",
+      "geography": [
+        "India",
+        "Remote India"
+      ],
+      "sourceOrigin": "Ethical Hacking workbook Interview row 204; Workday vacancy normalized to official Illumina careers",
+      "checkIntervalHours": 168,
+      "lastAttempt": "2026-09-19T10:31:38.000Z",
+      "lastSuccessfulCheck": "2026-09-19T10:31:38.000Z",
+      "nextRotationTime": "2026-09-26T10:31:38.000Z",
+      "accessStatus": "official careers and job-search routes public; historical senior-staff role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 193,
-    "processedRows": 192,
-    "remainingRows": 354,
-    "lastProcessedAt": "2026-09-19T09:35:17.000Z",
+    "nextRow": 205,
+    "processedRows": 204,
+    "remainingRows": 342,
+    "lastProcessedAt": "2026-09-19T10:31:38.000Z",
     "records": [
       {
         "row": 1,
@@ -7774,12 +7955,96 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-kroll",
         "note": "Oracle vacancy normalized to official Kroll careers; principal role outside fresher scope"
+      },
+      {
+        "row": 193,
+        "label": "CYMOTIVE / Cyber Security Risk Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cymotive",
+        "note": "official careers page retained; Wolfsburg, Germany role is outside India and remote-India scope"
+      },
+      {
+        "row": 194,
+        "label": "Hitachi / Cyber Security Researcher",
+        "status": "source-registered",
+        "sourceId": "employer-hitachi",
+        "note": "official Hitachi careers registered; historical vacancy lacks explicit India location and fresher or 0-2-year evidence"
+      },
+      {
+        "row": 195,
+        "label": "E.ON Digital Technology / Cyber Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-eon",
+        "note": "official E.ON careers registered; Essen, Germany specialist role is outside India scope"
+      },
+      {
+        "row": 196,
+        "label": "Kyndryl / IT Senior Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-kyndryl",
+        "note": "official Kyndryl careers registered; senior specialist role outside fresher scope"
+      },
+      {
+        "row": 197,
+        "label": "RedRock Consulting / Senior Security Testing Consultant",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-redrock-consulting",
+        "note": "historical LinkedIn URL replaced by employer jobs route; UK senior consultant role outside scope"
+      },
+      {
+        "row": 198,
+        "label": "Bio-Rad / Sr. Security Pentester",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-bio-rad",
+        "note": "official Bio-Rad careers registered; senior US vacancy outside scope"
+      },
+      {
+        "row": 199,
+        "label": "Bio-Rad / Information Security Specialist I",
+        "status": "duplicate",
+        "sourceId": "employer-bio-rad",
+        "note": "official source registered at row 198; historical vacancy does not establish India or 0-2-year eligibility"
+      },
+      {
+        "row": 200,
+        "label": "CSC / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-csc-global",
+        "note": "private Oracle candidate-profile route replaced by official CSC careers; senior role outside scope"
+      },
+      {
+        "row": 201,
+        "label": "Match Group / Senior Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-match-group",
+        "note": "Lever apply link normalized to official careers; senior remote role lacks India eligibility"
+      },
+      {
+        "row": 202,
+        "label": "Honeywell / Lead Cyber Security Architect-Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-honeywell",
+        "note": "existing official Honeywell careers source retained; lead role outside fresher scope"
+      },
+      {
+        "row": 203,
+        "label": "Honeywell / Sr Advanced Cyber Security Architect-Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-honeywell",
+        "note": "existing official Honeywell careers source retained; senior role outside fresher scope and application-session route excluded"
+      },
+      {
+        "row": 204,
+        "label": "Illumina / Senior Staff Product Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-illumina",
+        "note": "official Illumina careers registered; senior-staff role outside fresher scope"
       }
     ]
   },
   "brandsDirectory": {
     "path": "brands/index.html",
-    "publishedAt": "2026-09-19T09:35:17.000Z",
+    "publishedAt": "2026-09-19T10:31:38.000Z",
     "totalEntries": 624,
     "entriesWithLinks": 363,
     "product": 22,
@@ -7793,8 +8058,8 @@
     ],
     "privacy": "personal contacts and private Gmail links excluded",
     "linkedinCleanup": {
-      "historicalLinkedinLinksReviewed": 164,
-      "replacedWithOfficialCareerPages": 98,
+      "historicalLinkedinLinksReviewed": 165,
+      "replacedWithOfficialCareerPages": 99,
       "hiddenPendingOfficialCareerVerification": 65,
       "publicLinkedinLinksRemainingInDirectory": 0
     }

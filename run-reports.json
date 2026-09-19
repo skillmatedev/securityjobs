@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T09:35:17.000Z",
+  "lastUpdated": "2026-09-19T10:31:38.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -6919,8 +6919,95 @@
         "totalUniqueConfigured": 280
       },
       "deploymentResult": "processed workbook rows 181-192; registered seven official employer career sources and reused Lennox India and Wells Fargo; LinkedIn, private application, generic Taleo, Lever, Workday, Talentera, Avature, and Oracle routes were normalized to official career pages; Gmail produced only senior roles, tutoring, messages, or personal mail; no job list change; all 27 existing jobs retained"
+    },
+    {
+      "runId": "run-20260919-103138z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-19T10:21:38.000Z",
+      "runCompletedAt": "2026-09-19T10:31:38.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-193-204",
+        "gmail-recent-cyber-job-alerts",
+        "employer-cymotive",
+        "employer-hitachi",
+        "employer-eon",
+        "employer-kyndryl",
+        "employer-redrock-consulting",
+        "employer-bio-rad",
+        "employer-csc-global",
+        "employer-match-group",
+        "employer-illumina",
+        "employer-honeywell"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 8
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-no-qualified-vacancy",
+          "scheduled": 10,
+          "attempted": 10,
+          "succeeded": 8,
+          "blocked": 2,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "duplicate-source": 4,
+        "senior-or-outside-fresher-scope": 9,
+        "outside-india-scope": 5,
+        "historical-or-insufficient-experience-evidence": 2,
+        "gmail-principal-outside-scope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 205
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 342,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 43
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 173,
+        "independentPortals": 38,
+        "totalUniqueConfigured": 288
+      },
+      "deploymentResult": "processed workbook rows 193-204; registered eight official employer career sources and reused existing CYMOTIVE and Honeywell sources; LinkedIn, Workday, SuccessFactors, iCIMS, Oracle candidate-profile, Lever, and application-session routes were normalized to official career pages; one new Gmail alert was principal-level and ineligible; no job list change; all 27 existing jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-093517z"
+  "latestRunId": "run-20260919-103138z"
 }
