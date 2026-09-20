@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T03:41:28.000Z",
+  "lastUpdated": "2026-09-20T04:40:48.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8408,6 +8408,91 @@
         "totalUniqueConfigured": 394
       },
       "deploymentResult": "processed workbook rows 385-396; registered six employer career targets; all historical leads were senior, lead, expert, staff, director, principal, outside India, or lacked explicit fresher evidence; no new Gmail alert; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-044048z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T04:30:48.000Z",
+      "runCompletedAt": "2026-09-20T04:40:48.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-397-408",
+        "gmail-recent-cyber-job-alerts",
+        "employer-godaddy",
+        "employer-grow-inc",
+        "employer-fleetpartners-eclipx",
+        "portal-aegistech",
+        "portal-eames-group",
+        "employer-gorilla-energy-data-applications",
+        "portal-sustainrecruit",
+        "employer-philips",
+        "employer-american-express",
+        "employer-sitero",
+        "portal-hampton-north"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-access-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 9,
+          "blocked": 3,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-eligible-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 10,
+        "no-explicit-fresher-evidence": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 409
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 138,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 278,
+        "independentPortals": 49,
+        "totalUniqueConfigured": 403
+      },
+      "deploymentResult": "processed workbook rows 397-408; registered six employer targets and three recruitment portals; all leads were senior, manager, lead, CISO/head-level, outside India, explicitly required 7-12 years, or lacked fresher evidence; Gmail produced only an unrelated LinkedIn network notification; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",

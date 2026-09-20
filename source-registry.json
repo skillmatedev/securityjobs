@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 272,
-    "independentPortals": 46,
-    "totalUniqueConfigured": 394
+    "employerCareerTargets": 278,
+    "independentPortals": 49,
+    "totalUniqueConfigured": 403
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T03:41:28.000Z",
-  "latestRun": "run-20260920-034128z",
+  "lastUpdated": "2026-09-20T04:40:48.000Z",
+  "latestRun": "run-20260920-044048z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -9009,16 +9009,220 @@
       "atsProvider": "Workday",
       "feedUrl": "https://leidos.wd5.myworkdayjobs.com/External",
       "tenant": "leidos"
+    },
+    {
+      "sourceId": "employer-grow-inc",
+      "name": "GROW Inc Careers",
+      "aliases": [
+        "GROW Inc",
+        "GROW Technology Services"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://grow.inc/",
+      "officialWebsite": "https://grow.inc/",
+      "geography": [
+        "Australia"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 399; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official career route could not be resolved publicly; historical senior Australia role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "employer-fleetpartners-eclipx",
+      "name": "FleetPartners Careers",
+      "aliases": [
+        "Eclipx Group",
+        "Eclipx"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.fleetpartners.com.au/careers/",
+      "officialWebsite": "https://www.fleetpartners.com.au/",
+      "geography": [
+        "Australia",
+        "New Zealand"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 400; legacy Eclipx brand normalized to FleetPartners",
+      "accessStatus": "official careers route was inaccessible during this check; historical manager role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "portal-aegistech",
+      "name": "Aegistech Search Jobs",
+      "aliases": [
+        "Aegistech"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://aegistech.com/careers/",
+      "officialWebsite": "https://aegistech.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-21T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 401; specialist staffing route",
+      "accessStatus": "official staffing careers route accessible; historical CISO role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-eames-group",
+      "name": "Eames Group Jobs",
+      "aliases": [
+        "Eames Consulting",
+        "Eames Group"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://www.eames-group.com/jobs",
+      "officialWebsite": "https://www.eames-group.com/",
+      "geography": [
+        "Global"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-21T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 402; specialist recruitment route",
+      "accessStatus": "official jobs route accessible; historical CISO role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-gorilla-energy-data-applications",
+      "name": "Gorilla Careers",
+      "aliases": [
+        "Gorilla - Energy data applications",
+        "Gorilla"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.gorilla.co/careers",
+      "officialWebsite": "https://www.gorilla.co/",
+      "geography": [
+        "Europe",
+        "Australia",
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 403; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; no India vacancy or explicit 0-2-year eligibility verified",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-philips",
+      "name": "Philips India Careers",
+      "aliases": [
+        "Philips",
+        "Philips India"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.careers.philips.com/in/en",
+      "officialWebsite": "https://www.philips.co.in/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 405; historical Naukri lead normalized to official careers route",
+      "accessStatus": "official India careers route accessible; historical Information Security Lead required 7-10 years",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-american-express",
+      "name": "American Express Careers",
+      "aliases": [
+        "American Express",
+        "Amex",
+        "Americal express"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.americanexpress.com/en/sites/CX_1/jobs",
+      "officialWebsite": "https://www.americanexpress.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 406; historical Naukri lead normalized to official careers route",
+      "accessStatus": "official careers route accessible with India vacancies; historical senior security analyst required 8-9 years",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Oracle Recruiting Cloud"
+    },
+    {
+      "sourceId": "employer-sitero",
+      "name": "Sitero Careers",
+      "aliases": [
+        "Sitero Solutions India",
+        "Sitero"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://sitero.com/careers/",
+      "officialWebsite": "https://sitero.com/",
+      "geography": [
+        "India",
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-23T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 407; historical Naukri lead normalized to official company route",
+      "accessStatus": "official careers route was inaccessible, but official contact page confirms a careers contact and India presence; historical role required 10-12 years",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "portal-hampton-north",
+      "name": "Hampton North",
+      "aliases": [
+        "Hampton North"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://hamptonnorth.com/",
+      "officialWebsite": "https://hamptonnorth.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T04:40:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T04:40:48.000Z",
+      "nextRotationTime": "2026-09-21T04:40:48.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 408; cybersecurity recruitment specialist",
+      "accessStatus": "official cybersecurity recruitment site accessible; historical head-level role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 397,
-    "processedRows": 396,
-    "remainingRows": 150,
-    "lastProcessedAt": "2026-09-20T03:41:28.000Z",
+    "nextRow": 409,
+    "processedRows": 408,
+    "remainingRows": 138,
+    "lastProcessedAt": "2026-09-20T04:40:48.000Z",
     "records": [
       {
         "row": 1,
@@ -11753,6 +11957,90 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-godaddy",
         "note": "existing official GoDaddy source retained; principal India role outside fresher scope"
+      },
+      {
+        "row": 397,
+        "label": "GoDaddy / Senior Security Engineer (United States)",
+        "status": "duplicate",
+        "sourceId": "employer-godaddy",
+        "note": "existing official GoDaddy source retained; senior US role outside scope"
+      },
+      {
+        "row": 398,
+        "label": "GoDaddy / Senior Security Engineer (India)",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-godaddy",
+        "note": "existing official GoDaddy source retained; senior India role outside fresher scope"
+      },
+      {
+        "row": 399,
+        "label": "GROW Inc / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-grow-inc",
+        "note": "official company route registered; senior Australia historical role outside India fresher scope"
+      },
+      {
+        "row": 400,
+        "label": "Eclipx Group / Security Manager",
+        "status": "source-registered",
+        "sourceId": "employer-fleetpartners-eclipx",
+        "note": "legacy Eclipx normalized to FleetPartners; manager role outside scope"
+      },
+      {
+        "row": 401,
+        "label": "Aegistech / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "portal-aegistech",
+        "note": "official staffing route registered; US executive role outside scope"
+      },
+      {
+        "row": 402,
+        "label": "Eames Consulting / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "portal-eames-group",
+        "note": "official recruitment route registered; CISO role outside scope"
+      },
+      {
+        "row": 403,
+        "label": "Gorilla / Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-gorilla-energy-data-applications",
+        "note": "official careers route registered; no India location or explicit 0-2-year eligibility"
+      },
+      {
+        "row": 404,
+        "label": "Sustain / Head of Cyber Security",
+        "status": "duplicate",
+        "sourceId": "portal-sustainrecruit",
+        "note": "existing SustainRecruit portal retained; head-level role outside scope"
+      },
+      {
+        "row": 405,
+        "label": "Philips / Information Security Lead",
+        "status": "source-registered",
+        "sourceId": "employer-philips",
+        "note": "official India careers registered; historical vacancy explicitly required 7-10 years"
+      },
+      {
+        "row": 406,
+        "label": "American Express / Senior Information Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-american-express",
+        "note": "official careers registered; historical vacancy explicitly required 8-9 years"
+      },
+      {
+        "row": 407,
+        "label": "Sitero Solutions India / Sr Cyber Security Specialist and CISO",
+        "status": "source-registered",
+        "sourceId": "employer-sitero",
+        "note": "official company route registered; historical vacancy explicitly required 10-12 years"
+      },
+      {
+        "row": 408,
+        "label": "Hampton North / Head of Information Security",
+        "status": "source-registered",
+        "sourceId": "portal-hampton-north",
+        "note": "official cybersecurity recruitment route registered; head-level role outside India fresher scope"
       }
     ]
   },
