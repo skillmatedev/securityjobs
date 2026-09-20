@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T20:40:00.000Z",
+  "lastUpdated": "2026-09-20T21:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9868,8 +9868,90 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked CERT-In sources 017-024 and recent Gmail alerts; three sources succeeded and five were blocked or unresolved; Gmail results were senior-level or tutoring; no qualifying vacancy added; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-214000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T21:30:00.000Z",
+      "runCompletedAt": "2026-09-20T21:40:00.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-025-ana-cyber-forensic-pvt-ltd",
+        "certin-026-ankura-consulting-india-private-limited",
+        "certin-027-arridae-infosec-pvt-ltd",
+        "certin-028-ameya-cyber-risk-solutions-pvt-ltd",
+        "certin-029-arm-innovations-pvt-ltd",
+        "certin-030-aurionpro-solutions-limited",
+        "certin-031-bharat-electronics-limited",
+        "certin-032-bharti-airtel-limited",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-due-batch-025-032",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 4,
+          "blocked": 4,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 4,
+        "official-career-route-blocked-or-unresolved": 4,
+        "gmail-senior-out-of-scope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked CERT-In sources 025-032 and recent Gmail alerts; four sources succeeded and four were blocked; Arridae reported no active openings and Gmail was senior-level; no qualifying vacancy added; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-204000z"
+  "latestRunId": "run-20260920-214000z"
 }
