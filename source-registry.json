@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 239,
-    "independentPortals": 42,
-    "totalUniqueConfigured": 357
+    "employerCareerTargets": 250,
+    "independentPortals": 43,
+    "totalUniqueConfigured": 369
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-19T23:37:21.000Z",
-  "latestRun": "run-20260919-233721z",
+  "lastUpdated": "2026-09-20T00:37:08.000Z",
+  "latestRun": "run-20260920-003708z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -8187,16 +8187,270 @@
       "accessStatus": "official employer careers registered; historical product-security architect link is expired and role is outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-skechers",
+      "name": "Skechers Careers",
+      "aliases": [
+        "Skechers"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.skechers.com/",
+      "officialWebsite": "https://www.skechers.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 349; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior application-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-amtex-systems",
+      "name": "Amtex Systems Careers",
+      "aliases": [
+        "Amtex Systems",
+        "Amtex Systems Inc."
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.amtexsystems.com/",
+      "officialWebsite": "https://www.amtexsystems.com/",
+      "geography": [
+        "India",
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 350; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior security-analyst role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-cloudflare",
+      "name": "Cloudflare Careers",
+      "aliases": [
+        "Cloudflare"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.cloudflare.com/careers/",
+      "officialWebsite": "https://www.cloudflare.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 351; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior security-engineer role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-pondurance",
+      "name": "Pondurance Careers",
+      "aliases": [
+        "Pondurance"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://pondurance.applytojob.com/",
+      "officialWebsite": "https://www.pondurance.com/",
+      "geography": [
+        "United States",
+        "Remote"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 352; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; historical security-engineer role lacks India eligibility and explicit 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-lucid-software",
+      "name": "Lucid Software Careers",
+      "aliases": [
+        "Lucid Software"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://lucid.co/careers",
+      "officialWebsite": "https://lucid.co/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 353; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior security-engineer role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-zoominfo",
+      "name": "ZoomInfo Careers",
+      "aliases": [
+        "ZoomInfo"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.zoominfo.com/about/careers",
+      "officialWebsite": "https://www.zoominfo.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 354; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; principal non-cybersecurity role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-ellevation-education",
+      "name": "Ellevation Education Careers",
+      "aliases": [
+        "Ellevation",
+        "Ellevation Education"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://jobs.lever.co/ellevationeducation",
+      "officialWebsite": "https://ellevationeducation.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 355; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior US security-engineer role outside scope; historical thanks URL not retained",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-chime",
+      "name": "Chime Careers",
+      "aliases": [
+        "Chime"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.chime.com/",
+      "officialWebsite": "https://www.chime.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 356; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior application-security role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-247-ai",
+      "name": "[24]7.ai Careers",
+      "aliases": [
+        "[24]7.ai",
+        "247.ai"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.247.ai/careers",
+      "officialWebsite": "https://www.247.ai/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 357; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior information-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-oscar-health",
+      "name": "Oscar Health Careers",
+      "aliases": [
+        "Oscar Health"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.hioscar.com/careers",
+      "officialWebsite": "https://www.hioscar.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 358; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; senior US application-security role outside scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-cititec-talent",
+      "name": "Cititec Talent Jobs",
+      "aliases": [
+        "Cititec Talent"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://www.cititec.com/jobs",
+      "officialWebsite": "https://www.cititec.com/",
+      "geography": [
+        "United Kingdom",
+        "Europe",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 359; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; lead recruiter vacancy outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-starkflow",
+      "name": "Starkflow Careers",
+      "aliases": [
+        "Starkflow"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.starkflow.co/careers",
+      "officialWebsite": "https://www.starkflow.co/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T00:37:08.000Z",
+      "nextRotationTime": "2026-09-23T00:37:08.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 360; historical lead normalized to official career or intended recruitment route",
+      "accessStatus": "official route registered; lead security-engineer role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 349,
-    "processedRows": 348,
-    "remainingRows": 198,
-    "lastProcessedAt": "2026-09-19T23:37:21.000Z",
+    "nextRow": 361,
+    "processedRows": 360,
+    "remainingRows": 186,
+    "lastProcessedAt": "2026-09-20T00:37:08.000Z",
     "records": [
       {
         "row": 1,
@@ -10595,6 +10849,90 @@
         "status": "source-registered",
         "sourceId": "employer-logitech",
         "note": "official careers registered; historical Jobvite link is expired and architect role lacks fresher evidence"
+      },
+      {
+        "row": 349,
+        "label": "Skechers / Sr. Application Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-skechers",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 350,
+        "label": "Amtex Systems / Sr Security Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-amtex-systems",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 351,
+        "label": "Cloudflare / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-cloudflare",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 352,
+        "label": "Pondurance / Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-pondurance",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 353,
+        "label": "Lucid Software / Sr. Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-lucid-software",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 354,
+        "label": "ZoomInfo / Principal Data Analyst",
+        "status": "source-registered",
+        "sourceId": "employer-zoominfo",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 355,
+        "label": "Ellevation / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-ellevation-education",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 356,
+        "label": "Chime / Senior Application Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-chime",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 357,
+        "label": "[24]7.ai / Senior Information Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-247-ai",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 358,
+        "label": "Oscar Health / Senior Security Engineer, Application Security",
+        "status": "source-registered",
+        "sourceId": "employer-oscar-health",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 359,
+        "label": "Cititec Talent / Lead Security Engineer",
+        "status": "source-registered",
+        "sourceId": "portal-cititec-talent",
+        "note": "official route registered; undefined"
+      },
+      {
+        "row": 360,
+        "label": "Starkflow / Lead Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-starkflow",
+        "note": "official route registered; undefined"
       }
     ]
   },

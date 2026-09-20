@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T23:37:21.000Z",
+  "lastUpdated": "2026-09-20T00:37:08.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8066,8 +8066,96 @@
         "totalUniqueConfigured": 357
       },
       "deploymentResult": "processed workbook rows 337-348; registered five employer career targets; quarantined one ambiguous Vanilla record; all roles were senior, L4, principal, lead, architect, non-cybersecurity, stale, or lacked explicit 0-2-year evidence; Gmail had no new matching alert; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-003708z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T00:27:08.000Z",
+      "runCompletedAt": "2026-09-20T00:37:08.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-349-360",
+        "gmail-recent-cyber-job-alerts",
+        "employer-skechers",
+        "employer-amtex-systems",
+        "employer-cloudflare",
+        "employer-pondurance",
+        "employer-lucid-software",
+        "employer-zoominfo",
+        "employer-ellevation-education",
+        "employer-chime",
+        "employer-247-ai",
+        "employer-oscar-health",
+        "portal-cititec-talent",
+        "employer-starkflow"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 6,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 15,
+        "historical-or-stale": 3,
+        "non-cybersecurity": 1,
+        "gmail-non-india": 6
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 361
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 186,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 250,
+        "independentPortals": 43,
+        "totalUniqueConfigured": 369
+      },
+      "deploymentResult": "processed workbook rows 349-360; registered eleven employer targets and Cititec Talent portal; every historical role was senior, lead, principal, outside India, non-cybersecurity, or lacked explicit 0-2-year evidence; Gmail alert contained six Germany-only roles; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260919-233721z"
+  "latestRunId": "run-20260920-003708z"
 }
