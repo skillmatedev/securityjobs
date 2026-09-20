@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T19:40:00.000Z",
+  "lastUpdated": "2026-09-20T20:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9785,8 +9785,91 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked CERT-In sources 009-016 and recent Gmail alerts; five sources succeeded and three were blocked or unresolved; Briskinfosec openings lacked explicit fresher eligibility or were non-cybersecurity; no qualifying vacancy added; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-204000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T20:30:00.000Z",
+      "runCompletedAt": "2026-09-20T20:40:00.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-017-allied-boston-consultants-india-pvt-ltd",
+        "certin-018-a3s-tech-company",
+        "certin-019-andhra-pradesh-technology-services-ltd",
+        "certin-020-anzen-technologies-pvt-ltd",
+        "certin-021-auriseg-consulting-private-limited",
+        "certin-022-audix-techno-consulting-solutions-private-limited",
+        "certin-023-avasure-technologies-pvt-ltd",
+        "certin-024-acquisory-consulting-llp",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-due-batch-017-024",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 3,
+          "blocked": 5,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 3,
+        "official-career-route-blocked-or-unresolved": 5,
+        "gmail-senior-out-of-scope": 1,
+        "gmail-tutoring-not-employment": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked CERT-In sources 017-024 and recent Gmail alerts; three sources succeeded and five were blocked or unresolved; Gmail results were senior-level or tutoring; no qualifying vacancy added; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-194000z"
+  "latestRunId": "run-20260920-204000z"
 }
