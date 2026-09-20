@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T12:37:07.000Z",
+  "lastUpdated": "2026-09-20T14:38:13.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 28,
-    "totalQuarantined": 28,
-    "quarantined": 28,
-    "lastUpdated": "2026-09-20T12:37:07.000Z"
+    "total": 31,
+    "totalQuarantined": 31,
+    "quarantined": 31,
+    "lastUpdated": "2026-09-20T14:38:13.000Z"
   },
   "jobs": [
     {
@@ -422,6 +422,51 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Public evidence did not establish a reliable official employer identity, live vacancy status, requisition details, or safe vacancy-specific application route."
+    },
+    {
+      "id": "workbook-row-519-domnic-lewis-product-security-manager",
+      "company": "Employer unresolved (personal-name lead)",
+      "title": "Product Security Manager",
+      "location": "Not verified",
+      "experienceEvidence": "Manager/head-level historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T14:28:13.000Z",
+      "lastCheckedAt": "2026-09-20T14:38:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4339106713",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The workbook identifies a person rather than a verified employer; no official vacancy-specific application route, requisition, posting date, or live status was established."
+    },
+    {
+      "id": "workbook-row-522-toptek-talent-head-cyber-security",
+      "company": "TopTek Talent (identity unresolved)",
+      "title": "Head of Cyber Security",
+      "location": "Not verified",
+      "experienceEvidence": "Manager/head-level historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T14:28:13.000Z",
+      "lastCheckedAt": "2026-09-20T14:38:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4343020436",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Historical recruiter lead could not be tied safely to an official live vacancy route; the head-level title is outside fresher scope."
+    },
+    {
+      "id": "workbook-row-527-talent-connect-group-head-information-security",
+      "company": "Talent Connect Group (identity unresolved)",
+      "title": "Head of Information Security",
+      "location": "Not verified",
+      "experienceEvidence": "Manager/head-level historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T14:28:13.000Z",
+      "lastCheckedAt": "2026-09-20T14:38:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4343382904",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous recruiter identity and no verified official vacancy-specific route; the head-level role is outside fresher scope."
     }
   ]
 }

@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 314,
+    "employerCareerTargets": 318,
     "independentPortals": 64,
-    "totalUniqueConfigured": 454
+    "totalUniqueConfigured": 458
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T13:41:22.000Z",
-  "latestRun": "run-20260920-134122z",
+  "lastUpdated": "2026-09-20T14:38:13.000Z",
+  "latestRun": "run-20260920-143813z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -10374,16 +10374,105 @@
       "nextRotationTime": "2026-09-23T13:41:22.000Z",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-interglobe-enterprises",
+      "name": "InterGlobe Enterprises Careers",
+      "aliases": [
+        "InterGlobe Enterprises",
+        "InterGlobe"
+      ],
+      "canonicalUrl": "https://www.interglobe.com/careers",
+      "officialWebsite": "https://www.interglobe.com/",
+      "geography": [
+        "India"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 518; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route recorded; manager role outside fresher scope",
+      "lastAttempt": "2026-09-20T14:38:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T14:38:13.000Z",
+      "nextRotationTime": "2026-09-23T14:38:13.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-tazapay",
+      "name": "Tazapay Careers",
+      "aliases": [
+        "Tazapay"
+      ],
+      "canonicalUrl": "https://tazapay.freshteam.com/jobs",
+      "officialWebsite": "https://tazapay.com/",
+      "geography": [
+        "India",
+        "Singapore",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 24,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 523; official Freshteam vacancy and jobs route",
+      "accessStatus": "official Freshteam route resolved; historical senior security engineer role outside fresher scope",
+      "atsProvider": "Freshteam",
+      "tenant": "tazapay",
+      "lastAttempt": "2026-09-20T14:38:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T14:38:13.000Z",
+      "nextRotationTime": "2026-09-21T14:38:13.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-gargash-group",
+      "name": "Gargash Group Careers",
+      "aliases": [
+        "Gargash Group"
+      ],
+      "canonicalUrl": "https://gargashgroup.com/careers",
+      "officialWebsite": "https://gargashgroup.com/",
+      "geography": [
+        "United Arab Emirates"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 524; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company route recorded; head-level UAE role outside India fresher scope",
+      "lastAttempt": "2026-09-20T14:38:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T14:38:13.000Z",
+      "nextRotationTime": "2026-09-23T14:38:13.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-oben-electric",
+      "name": "Oben Electric Careers",
+      "aliases": [
+        "Oben Electric"
+      ],
+      "canonicalUrl": "https://obenelectric.com/careers",
+      "officialWebsite": "https://obenelectric.com/",
+      "geography": [
+        "India"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 528; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route recorded; deputy-CISO role outside fresher scope",
+      "lastAttempt": "2026-09-20T14:38:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T14:38:13.000Z",
+      "nextRotationTime": "2026-09-23T14:38:13.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 517,
-    "processedRows": 516,
-    "remainingRows": 30,
-    "lastProcessedAt": "2026-09-20T13:41:22.000Z",
+    "nextRow": 529,
+    "processedRows": 528,
+    "remainingRows": 18,
+    "lastProcessedAt": "2026-09-20T14:38:13.000Z",
     "records": [
       {
         "row": 1,
@@ -13952,6 +14041,87 @@
         "status": "duplicate",
         "sourceId": "employer-infosys",
         "note": "Finacle normalized to existing Infosys careers source; vague product-security title lacks explicit fresher evidence"
+      },
+      {
+        "row": 517,
+        "label": "Swiggy / Infosec Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-swiggy",
+        "note": "existing official source retained; manager role outside fresher scope"
+      },
+      {
+        "row": 518,
+        "label": "InterGlobe Enterprises / Information Security Manager",
+        "status": "source-registered",
+        "sourceId": "employer-interglobe-enterprises",
+        "note": "official company route registered; manager role outside fresher scope"
+      },
+      {
+        "row": 519,
+        "label": "Domnic Lewis / Product Security Manager",
+        "status": "quarantined",
+        "note": "personal-name LinkedIn lead; employer identity and official application route are unresolved"
+      },
+      {
+        "row": 520,
+        "label": "HCLSoftware / Director of Product Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-hcltech",
+        "note": "HCLSoftware normalized to existing HCLTech careers source; director role outside scope"
+      },
+      {
+        "row": 521,
+        "label": "Sutherland / VAPT Application Penetration Tester",
+        "status": "stale",
+        "sourceId": "employer-sutherland",
+        "note": "existing official vacancy route retained; title does not provide explicit fresher or <=2-year eligibility"
+      },
+      {
+        "row": 522,
+        "label": "TopTek Talent / Head of Cyber Security",
+        "status": "quarantined",
+        "note": "recruiter identity and official vacancy route could not be safely resolved; head-level role outside scope"
+      },
+      {
+        "row": 523,
+        "label": "Tazapay / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-tazapay",
+        "note": "official Freshteam route registered; senior role outside fresher scope"
+      },
+      {
+        "row": 524,
+        "label": "Gargash Group / Head of Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-gargash-group",
+        "note": "official company route registered; head-level UAE role outside India scope"
+      },
+      {
+        "row": 525,
+        "label": "JioHotstar / Director - Product Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-jiostar-jiohotstar",
+        "note": "existing official JioStar/JioHotstar source retained; director role outside scope"
+      },
+      {
+        "row": 526,
+        "label": "ASML / Head of second line IT security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-asml",
+        "note": "existing official ASML source retained; head-level role outside scope"
+      },
+      {
+        "row": 527,
+        "label": "Talent Connect Group / Head of Information Security",
+        "status": "quarantined",
+        "note": "ambiguous recruiter identity and LinkedIn-only historical lead; no safely verified official vacancy route"
+      },
+      {
+        "row": 528,
+        "label": "Oben Electric / Deputy Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-oben-electric",
+        "note": "official company route registered; deputy-CISO role outside fresher scope"
       }
     ]
   },
