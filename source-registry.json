@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 278,
-    "independentPortals": 49,
-    "totalUniqueConfigured": 403
+    "employerCareerTargets": 280,
+    "independentPortals": 50,
+    "totalUniqueConfigured": 406
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T04:40:48.000Z",
-  "latestRun": "run-20260920-044048z",
+  "lastUpdated": "2026-09-20T05:41:54.000Z",
+  "latestRun": "run-20260920-054154z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -9213,16 +9213,85 @@
       "accessStatus": "official cybersecurity recruitment site accessible; historical head-level role outside India fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-unacademy",
+      "name": "Unacademy Careers",
+      "aliases": [
+        "Unacademy",
+        "Sorting Hat Technologies"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://unacademy.com/careers",
+      "officialWebsite": "https://unacademy.com/",
+      "geography": [
+        "India"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T05:41:54.000Z",
+      "lastSuccessfulCheck": "2026-09-20T05:41:54.000Z",
+      "nextRotationTime": "2026-09-23T05:41:54.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 410-411; historical LinkedIn leads normalized to official careers route",
+      "accessStatus": "official India careers route accessible; historical roles were senior and lead-level",
+      "candidateYield": 2,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-cybersn",
+      "name": "CyberSN Cybersecurity Jobs",
+      "aliases": [
+        "CyberSN"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://cybersn.com/job-search/",
+      "officialWebsite": "https://cybersn.com/",
+      "geography": [
+        "United States",
+        "Remote"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T05:41:54.000Z",
+      "nextRotationTime": "2026-09-21T05:41:54.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 415; specialist cybersecurity recruitment portal",
+      "accessStatus": "public job-search route was inaccessible during this check; historical lead role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "employer-nasdaq",
+      "name": "Nasdaq Careers",
+      "aliases": [
+        "Nasdaq"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.nasdaq.com/about/careers",
+      "officialWebsite": "https://www.nasdaq.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T05:41:54.000Z",
+      "lastSuccessfulCheck": "2026-09-20T05:41:54.000Z",
+      "nextRotationTime": "2026-09-23T05:41:54.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview rows 416-417; Workday vacancies normalized to official careers route",
+      "accessStatus": "official careers and Workday routes accessible; historical roles were senior specialist and director-level",
+      "candidateYield": 2,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "feedUrl": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "tenant": "nasdaq"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 409,
-    "processedRows": 408,
-    "remainingRows": 138,
-    "lastProcessedAt": "2026-09-20T04:40:48.000Z",
+    "nextRow": 421,
+    "processedRows": 420,
+    "remainingRows": 126,
+    "lastProcessedAt": "2026-09-20T05:41:54.000Z",
     "records": [
       {
         "row": 1,
@@ -12041,6 +12110,90 @@
         "status": "source-registered",
         "sourceId": "portal-hampton-north",
         "note": "official cybersecurity recruitment route registered; head-level role outside India fresher scope"
+      },
+      {
+        "row": 409,
+        "label": "Locke & McCloud / Information & Cyber Security Specialist",
+        "status": "duplicate",
+        "sourceId": "portal-locke-mccloud",
+        "note": "existing specialist recruitment portal retained; completion URL is not a vacancy-specific apply route and no fresher evidence exists"
+      },
+      {
+        "row": 410,
+        "label": "Unacademy / Senior Information Security Engineer - Cloud Security",
+        "status": "source-registered",
+        "sourceId": "employer-unacademy",
+        "note": "official India careers registered; senior role outside fresher scope"
+      },
+      {
+        "row": 411,
+        "label": "Unacademy / Product Security Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-unacademy",
+        "note": "official Unacademy source retained; lead role outside fresher scope"
+      },
+      {
+        "row": 412,
+        "label": "TCS / Penetration Testing SME",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-tcs",
+        "note": "existing official TCS source retained; SME role outside fresher scope"
+      },
+      {
+        "row": 413,
+        "label": "Atlassian / Senior Security Software Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-atlassian",
+        "note": "existing official Atlassian source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 414,
+        "label": "Uber / Senior Security & Awareness Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-uber",
+        "note": "existing official Uber source retained; senior lead role outside fresher scope"
+      },
+      {
+        "row": 415,
+        "label": "CyberSN / Lead Security Engineer",
+        "status": "source-registered",
+        "sourceId": "portal-cybersn",
+        "note": "specialist cybersecurity portal registered; lead role outside India fresher scope"
+      },
+      {
+        "row": 416,
+        "label": "Nasdaq / Information Security Senior Specialist",
+        "status": "source-registered",
+        "sourceId": "employer-nasdaq",
+        "note": "official careers and Workday routes registered; senior specialist role outside fresher scope"
+      },
+      {
+        "row": 417,
+        "label": "Nasdaq / Director Information Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nasdaq",
+        "note": "official Nasdaq source retained; director role outside fresher scope"
+      },
+      {
+        "row": 418,
+        "label": "Oracle / Senior Principal Security Researcher",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-oracle",
+        "note": "existing official Oracle source retained; senior principal role outside scope"
+      },
+      {
+        "row": 419,
+        "label": "Oracle / Cloud Security Specialist",
+        "status": "stale",
+        "sourceId": "employer-oracle",
+        "note": "existing official Oracle source retained; historical profile-preview URL is not a vacancy route and explicit 0-2-year eligibility is unverified"
+      },
+      {
+        "row": 420,
+        "label": "Emirates Flight Catering / Cyber Security Manager",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emirates-group",
+        "note": "existing Emirates Group careers source retained; manager UAE role outside India fresher scope"
       }
     ]
   },

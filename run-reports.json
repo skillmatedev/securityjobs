@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T04:40:48.000Z",
+  "lastUpdated": "2026-09-20T05:41:54.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8493,6 +8493,89 @@
         "totalUniqueConfigured": 403
       },
       "deploymentResult": "processed workbook rows 397-408; registered six employer targets and three recruitment portals; all leads were senior, manager, lead, CISO/head-level, outside India, explicitly required 7-12 years, or lacked fresher evidence; Gmail produced only an unrelated LinkedIn network notification; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-054154z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T05:31:54.000Z",
+      "runCompletedAt": "2026-09-20T05:41:54.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-409-420",
+        "gmail-recent-cyber-job-alerts",
+        "portal-locke-mccloud",
+        "employer-unacademy",
+        "employer-tcs",
+        "employer-atlassian",
+        "employer-uber",
+        "portal-cybersn",
+        "employer-nasdaq",
+        "employer-oracle",
+        "employer-emirates-group"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-access-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 11,
+          "blocked": 1,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-eligible-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 10,
+        "no-explicit-fresher-evidence-or-valid-vacancy-route": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 421
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 126,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 280,
+        "independentPortals": 50,
+        "totalUniqueConfigured": 406
+      },
+      "deploymentResult": "processed workbook rows 409-420; registered Unacademy, CyberSN, and Nasdaq; all leads were senior, lead, SME, director, principal, manager, outside India, or lacked explicit fresher evidence; Gmail produced only an unrelated LinkedIn network notification; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
