@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 266,
+    "employerCareerTargets": 272,
     "independentPortals": 46,
-    "totalUniqueConfigured": 388
+    "totalUniqueConfigured": 394
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T02:42:36.000Z",
-  "latestRun": "run-20260920-024236z",
+  "lastUpdated": "2026-09-20T03:41:28.000Z",
+  "latestRun": "run-20260920-034128z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -8865,16 +8865,160 @@
       "acceptedYield": 0,
       "atsProvider": "Workday",
       "feedUrl": "https://wd1.myworkdaysite.com/recruiting/snapchat/snap"
+    },
+    {
+      "sourceId": "employer-nhn-global",
+      "name": "NHN Global Careers",
+      "aliases": [
+        "NHN Global",
+        "NHN"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.nhn.com/",
+      "officialWebsite": "https://www.nhn.com/",
+      "geography": [
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "lastSuccessfulCheck": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 385; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; Engineer II historical role lacks explicit fresher or 0-2-year evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-mastercard",
+      "name": "Mastercard Careers",
+      "aliases": [
+        "Mastercard"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.mastercard.com/",
+      "officialWebsite": "https://www.mastercard.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "lastSuccessfulCheck": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 386; historical Workday lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; lead role outside fresher scope and historical location outside India",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday"
+    },
+    {
+      "sourceId": "employer-evidation",
+      "name": "Evidation Careers",
+      "aliases": [
+        "Evidation"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://evidation.com/careers",
+      "officialWebsite": "https://evidation.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "lastSuccessfulCheck": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 392; historical Greenhouse lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; staff-level US role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "feedUrl": "https://boards.greenhouse.io/evidation",
+      "tenant": "evidation"
+    },
+    {
+      "sourceId": "employer-datacom",
+      "name": "Datacom Careers",
+      "aliases": [
+        "Datacom"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://datacom.com/nz/en/careers",
+      "officialWebsite": "https://datacom.com/",
+      "geography": [
+        "Australia",
+        "New Zealand"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "lastSuccessfulCheck": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 393; historical Workable lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; senior role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workable",
+      "feedUrl": "https://apply.workable.com/datacom1/",
+      "tenant": "datacom1"
+    },
+    {
+      "sourceId": "employer-kaleris",
+      "name": "Kaleris Careers",
+      "aliases": [
+        "Kaleris"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.kaleris.com/careers",
+      "officialWebsite": "https://www.kaleris.com/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 394; historical Greenhouse lead normalized to official careers route",
+      "accessStatus": "official careers route was temporarily blocked; senior director/CISO role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "feedUrl": "https://boards.greenhouse.io/kaleris",
+      "tenant": "kaleris",
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "employer-leidos",
+      "name": "Leidos Careers",
+      "aliases": [
+        "Leidos"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.leidos.com/",
+      "officialWebsite": "https://www.leidos.com/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T03:41:28.000Z",
+      "lastSuccessfulCheck": "2026-09-20T03:41:28.000Z",
+      "nextRotationTime": "2026-09-23T03:41:28.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 395; historical Workday lead normalized to official careers route",
+      "accessStatus": "official careers route accessible; historical US vacancy lacks current status, India location, and explicit fresher evidence",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "feedUrl": "https://leidos.wd5.myworkdayjobs.com/External",
+      "tenant": "leidos"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 385,
-    "processedRows": 384,
-    "remainingRows": 162,
-    "lastProcessedAt": "2026-09-20T02:42:36.000Z",
+    "nextRow": 397,
+    "processedRows": 396,
+    "remainingRows": 150,
+    "lastProcessedAt": "2026-09-20T03:41:28.000Z",
     "records": [
       {
         "row": 1,
@@ -11525,6 +11669,90 @@
         "status": "source-registered",
         "sourceId": "employer-snap",
         "note": "official Snap careers registered; staff US role outside fresher scope"
+      },
+      {
+        "row": 385,
+        "label": "NHN Global / Security Engineer II",
+        "status": "source-registered",
+        "sourceId": "employer-nhn-global",
+        "note": "official careers registered; Engineer II title and historical LinkedIn evidence do not prove fresher or 0-2-year eligibility"
+      },
+      {
+        "row": 386,
+        "label": "Mastercard / Information Security Lead",
+        "status": "source-registered",
+        "sourceId": "employer-mastercard",
+        "note": "official careers registered; lead role and historical Israel vacancy are outside India fresher scope"
+      },
+      {
+        "row": 387,
+        "label": "Nordea / Senior IT Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nordea",
+        "note": "existing official Nordea source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 388,
+        "label": "Nordea / Senior Cybersecurity Advisor",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nordea",
+        "note": "existing official Nordea source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 389,
+        "label": "Nordea / Senior Cyber Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nordea",
+        "note": "existing official Nordea source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 390,
+        "label": "Nordea / Expert Cybersecurity Advisor",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nordea",
+        "note": "existing official Nordea source retained; expert role outside fresher scope"
+      },
+      {
+        "row": 391,
+        "label": "Nordea / Expert Penetration Tester / Ethical Hacker",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nordea",
+        "note": "existing official Nordea source retained; expert role outside fresher scope"
+      },
+      {
+        "row": 392,
+        "label": "Evidation / Staff Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-evidation",
+        "note": "official careers and Greenhouse routes registered; staff US role outside India fresher scope"
+      },
+      {
+        "row": 393,
+        "label": "Datacom / Senior Cybersecurity Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-datacom",
+        "note": "official careers and Workable routes registered; senior Australia/New Zealand role outside scope"
+      },
+      {
+        "row": 394,
+        "label": "Kaleris / Senior Director, CISO",
+        "status": "source-registered",
+        "sourceId": "employer-kaleris",
+        "note": "official careers and Greenhouse routes registered; route was blocked during this check and executive role is outside scope"
+      },
+      {
+        "row": 395,
+        "label": "Leidos / Cybersecurity Penetration Tester Engineer - Red Team",
+        "status": "source-registered",
+        "sourceId": "employer-leidos",
+        "note": "official careers and Workday routes registered; historical US vacancy lacks current status and explicit 0-2-year evidence"
+      },
+      {
+        "row": 396,
+        "label": "GoDaddy / Principal Application Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-godaddy",
+        "note": "existing official GoDaddy source retained; principal India role outside fresher scope"
       }
     ]
   },
