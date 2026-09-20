@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:37:07.000Z",
+  "lastUpdated": "2026-09-20T13:41:22.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9189,8 +9189,95 @@
         "totalUniqueConfigured": 450
       },
       "deploymentResult": "processed workbook rows 493-504; registered three employer targets and two recruitment portals; refreshed two existing employer sources; quarantined one unresolved lead; Gmail alert was director-level; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-134122z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T13:31:22.000Z",
+      "runCompletedAt": "2026-09-20T13:41:22.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-505-516",
+        "gmail-recent-cyber-job-alerts",
+        "employer-infobeans",
+        "employer-harvey-nash",
+        "portal-synchro-talent",
+        "portal-my3tech",
+        "employer-one-esecurity",
+        "employer-amazon",
+        "employer-google",
+        "employer-akamai",
+        "employer-siemens",
+        "employer-logiq-consulting",
+        "employer-infosys"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 10,
+          "blocked": 2,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 7,
+        "no-explicit-fresher-evidence": 5,
+        "gmail-senior-director-alert": 1,
+        "gmail-non-job-training-feedback": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 517
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 30,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 314,
+        "independentPortals": 64,
+        "totalUniqueConfigured": 454
+      },
+      "deploymentResult": "processed workbook rows 505-516; registered two employer targets and two recruitment portals; Gmail results were director-level or non-job feedback; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-123707z"
+  "latestRunId": "run-20260920-134122z"
 }
