@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T21:40:00.000Z",
+  "lastUpdated": "2026-09-20T22:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9950,8 +9950,93 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked CERT-In sources 025-032 and recent Gmail alerts; four sources succeeded and four were blocked; Arridae reported no active openings and Gmail was senior-level; no qualifying vacancy added; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-224000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T22:30:00.000Z",
+      "runCompletedAt": "2026-09-20T22:40:00.000Z",
+      "beforeCount": 27,
+      "afterCount": 28,
+      "idsAdded": [
+        "bug-hunters-security-engineer-i-vapt-noida"
+      ],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-033-accenture-solutions-pvt-ltd",
+        "certin-034-army-cyber-group",
+        "certin-035-associated-it-consultants-private-limited",
+        "certin-036-asa-associates-llp",
+        "certin-037-bug-hunters-private-limited",
+        "certin-038-techdefence-labs",
+        "certin-039-securium-solutions",
+        "certin-040-securelayer7",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-due-batch-033-040",
+          "status": "partial-success-one-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 5,
+          "blocked": 3,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 1
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 3,
+        "official-career-route-blocked-or-unresolved": 3,
+        "broken-apply-route": 1,
+        "gmail-unrelated-or-senior": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked CERT-In sources 033-040 and recent Gmail alerts; five sources succeeded and three were blocked; added Bug Hunters Security Engineer I (VAPT), retained Securium in quarantine due to its broken apply route, and preserved all prior records"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-214000z"
+  "latestRunId": "run-20260920-224000z"
 }

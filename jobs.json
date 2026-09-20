@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-09-20T21:40:00.000Z",
+  "lastUpdated": "2026-09-20T22:40:00.000Z",
   "summary": {
-    "totalLive": 27,
-    "earlyCareer": 25,
+    "totalLive": 28,
+    "earlyCareer": 26,
     "internships": 14,
     "apprenticeships": 0,
     "graduatePrograms": 1,
-    "zeroToOneYears": 7,
-    "zeroToTwoYears": 15,
+    "zeroToOneYears": 8,
+    "zeroToTwoYears": 16,
     "byExperienceLevel": {
       "Entry level / 1–2 years": 1,
       "Internship / foundational knowledge": 1,
@@ -19,11 +19,12 @@
       "Entry level / 0–2 years": 4,
       "Internship / student or graduate": 4,
       "Internship / 0–1 year": 4,
-      "Fresher / experience not required": 1
+      "Fresher / experience not required": 1,
+      "Entry level / 0–1 year": 1
     },
-    "verified": 25,
+    "verified": 26,
     "loginRequired": 20,
-    "lastUpdated": "2026-09-20T21:40:00.000Z"
+    "lastUpdated": "2026-09-20T22:40:00.000Z"
   },
   "jobs": [
     {
@@ -994,6 +995,44 @@
       ],
       "skills": "red teaming penetration testing scripting security automation vulnerability exploitation Python Go",
       "certInEmpanelled": false
+    },
+    {
+      "id": "bug-hunters-security-engineer-i-vapt-noida",
+      "title": "Security Engineer I (VAPT)",
+      "company": "Bug Hunters",
+      "domain": "VAPT & Pentest",
+      "level": "Entry level",
+      "experienceLevel": "Entry level / 0–1 year",
+      "location": "Noida, Uttar Pradesh, India",
+      "workplace": "On-site",
+      "employmentType": "Full-time",
+      "experienceText": "0–1 years; the official listing describes the role as entry-level and suitable for candidates with foundational cybersecurity knowledge",
+      "fresherEligible": true,
+      "eligibilityReason": "Official employer listing explicitly states 0–1 years and identifies the position as entry-level",
+      "postedAt": null,
+      "posted": "Current Bug Hunters careers listing",
+      "postedAge": "Verified September 21, 2026",
+      "status": "Active official employer vacancy",
+      "source": "Company career page",
+      "sourcePortal": "Bug Hunters careers",
+      "sourceId": "certin-037-bug-hunters-private-limited",
+      "discoveryUrl": "https://bughunters.io/join-us",
+      "applyUrl": "https://bughunters.io/apply-now",
+      "applyMethod": "Official employer application form linked from the current role card",
+      "requisitionId": "security-engineer-i-vapt-noida",
+      "discoveredAt": "2026-09-20T22:40:00.000Z",
+      "firstVerifiedAt": "2026-09-20T22:40:00.000Z",
+      "lastVerified": "2026-09-20T22:40:00.000Z",
+      "verificationStatus": "Verified - Official Employer Career Page",
+      "score": 92,
+      "scoreReasons": [
+        "Official employer careers page lists the current role",
+        "Explicit 0–1 year experience requirement",
+        "Entry-level VAPT responsibilities across web applications, APIs, and mobile applications",
+        "Official employer application route is accessible"
+      ],
+      "skills": "VAPT vulnerability assessment penetration testing web security API security mobile security ethical hacking OWASP Top 10",
+      "certInEmpanelled": true
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T21:40:00.000Z",
+  "lastUpdated": "2026-09-20T22:40:00.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
     "total": 35,
     "totalQuarantined": 35,
     "quarantined": 35,
-    "lastUpdated": "2026-09-20T18:41:18.000Z"
+    "lastUpdated": "2026-09-20T22:40:00.000Z"
   },
   "jobs": [
     {
@@ -87,7 +87,7 @@
       "experienceEvidence": "Internship for 3–6 months; asks for 2–6 months of practical VAPT experience, including academic projects or labs",
       "eligibilityReason": "Explicit cybersecurity internship with experience evidence compatible with freshers",
       "discoveredAt": "2026-09-14T19:42:17.000Z",
-      "lastCheckedAt": "2026-09-14T19:42:17.000Z",
+      "lastCheckedAt": "2026-09-20T22:40:00.000Z",
       "sourceId": "certin-039-securium-solutions",
       "discoveryUrl": "https://www.securiumacademy.com/career/",
       "applyUrl": "https://www.securiumacademy.com/career/apply?job_id=26",
