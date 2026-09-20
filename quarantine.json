@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T08:40:41.000Z",
+  "lastUpdated": "2026-09-20T09:37:52.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 26,
-    "totalQuarantined": 22,
-    "quarantined": 22
+    "total": 27,
+    "totalQuarantined": 27,
+    "quarantined": 27
   },
   "jobs": [
     {
@@ -391,6 +391,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous recruiter identity, missing official career route, requisition ID, posting date, and current vacancy status."
+    },
+    {
+      "id": "workbook-row-461-centrico-india-cyber-security-specialist",
+      "company": "Centrico India Private Ltd (Ex-Sella India)",
+      "title": "Cyber Security Specialist",
+      "location": "India (exact location not stated)",
+      "experienceEvidence": "Historical LinkedIn-only record; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Specialist title alone is insufficient and employer identity/career route could not be safely resolved.",
+      "discoveredAt": "2026-09-20T09:37:52.000Z",
+      "lastCheckedAt": "2026-09-20T09:37:52.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4318327257/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Search evidence did not establish a reliable official employer careers route for Centrico India / ex-Sella India, and the historical vacancy lacks explicit fresher eligibility and a vacancy-specific employer apply path."
     }
   ]
 }

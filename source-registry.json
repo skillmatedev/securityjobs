@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 296,
+    "employerCareerTargets": 299,
     "independentPortals": 55,
-    "totalUniqueConfigured": 427
+    "totalUniqueConfigured": 430
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T08:40:41.000Z",
-  "latestRun": "run-20260920-084041z",
+  "lastUpdated": "2026-09-20T09:37:52.000Z",
+  "latestRun": "run-20260920-093752z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -2771,9 +2771,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "public-no-qualifying-vacancy",
+      "accessStatus": "official ASML Workday route retained; historical expert role lacks explicit fresher evidence",
       "atsProvider": "First-party",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://www.asml.com/en/careers",
       "checkIntervalHours": 24,
       "company": "ASML",
@@ -2782,16 +2782,17 @@
       "lastLinkedInCheck": "2026-09-14T23:42:48.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/asml/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/asml/jobs/",
-      "nextRotationTime": "2026-09-17T23:42:48.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.asml.com/",
       "sourceId": "employer-asml",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": null,
       "status": "Official careers route and public LinkedIn/search evidence checked; no vacancy-specific India or remote-India cybersecurity role meeting the explicit fresher/0–2-year threshold was verified.",
-      "lastSuccessfulCheck": "2026-09-14T23:42:48.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
       "consecutiveFailures": 0,
-      "lastJobCount": 0
+      "lastJobCount": 0,
+      "lastAttempt": "2026-09-20T09:37:52.000Z"
     },
     {
       "acceptedYield": 0,
@@ -3485,9 +3486,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "accessible-candidate-quarantined",
+      "accessStatus": "official Bureau Veritas Cybersecurity careers route retained; historical consultant record lacks explicit <=2-year evidence",
       "atsProvider": "Kula",
-      "candidateYield": 1,
+      "candidateYield": 2,
       "careersUrl": "https://careers.kula.ai/bureau-veritas-cybersecurity",
       "checkIntervalHours": 24,
       "company": "Bureau Veritas Cybersecurity",
@@ -3496,14 +3497,14 @@
       "lastLinkedInCheck": "2026-09-15T03:41:47.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/bureau-veritas-cybersecurity/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/bureau-veritas-cybersecurity/jobs/",
-      "nextRotationTime": "2026-09-16T03:41:47.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://cybersecurity.bureauveritas.com/",
       "sourceId": "employer-bureau-veritas-cybersecurity",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "bureau-veritas-cybersecurity",
-      "lastAttempt": "2026-09-12T11:31:22.000Z",
-      "lastSuccessfulCheck": "2026-09-15T03:41:47.000Z",
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
       "consecutiveFailures": 0,
       "lastJobCount": 0,
       "status": "Live mixed-level Security Engineer / Senior Security Engineer vacancy includes an L1 track, but exact L1 experience ceiling, worksite, and requisition ID are not disclosed; quarantined pending clearer fresher eligibility"
@@ -3532,9 +3533,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "accessible-no-qualified-vacancy",
+      "accessStatus": "official Deutsche Bank careers route retained; historical AVP role outside fresher scope",
       "atsProvider": "Workday",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://careers.db.com/",
       "checkIntervalHours": 24,
       "company": "Deutsche Bank",
@@ -3543,14 +3544,14 @@
       "lastLinkedInCheck": "2026-09-15T03:41:47.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/deutsche-bank/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/deutsche-bank/jobs/",
-      "nextRotationTime": "2026-09-18T03:41:47.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.db.com/",
       "sourceId": "employer-deutsche-bank",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "db",
-      "lastAttempt": "2026-09-12T12:31:59.000Z",
-      "lastSuccessfulCheck": "2026-09-15T03:41:47.000Z",
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
       "consecutiveFailures": 0,
       "lastJobCount": 0,
       "status": "Official career/ATS route and public LinkedIn Jobs evidence checked; no vacancy-specific India or remote-India cybersecurity role with explicit fresher or <=2-year eligibility verified"
@@ -3937,9 +3938,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-routes-resolved-india-security-candidates-outside-fresher-scope",
+      "accessStatus": "official Marvell careers route retained; historical senior-principal role outside fresher scope",
       "atsProvider": "Workday",
-      "candidateYield": 2,
+      "candidateYield": 3,
       "careersUrl": "https://www.marvell.com/company/careers.html",
       "checkIntervalHours": 168,
       "company": "Marvell",
@@ -3948,20 +3949,20 @@
       "lastLinkedInCheck": "2026-09-12T21:28:57.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/marvell",
       "linkedinJobsUrl": "https://www.linkedin.com/company/marvell/jobs/",
-      "nextRotationTime": "2026-09-19T21:28:57.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.marvell.com/",
       "sourceId": "employer-marvell",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "marvell/MarvellCareers",
-      "lastAttempt": "2026-09-12T21:28:57.000Z",
-      "lastSuccessfulCheck": "2026-09-12T21:28:57.000Z"
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z"
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-routes-resolved-india-openings-present-no-qualifying-cybersecurity-vacancy",
+      "accessStatus": "official Northern Trust careers route retained; historical senior-lead role outside fresher scope",
       "atsProvider": "Workday",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://www.northerntrust.com/united-states/about-us/careers",
       "checkIntervalHours": 168,
       "company": "Northern Trust",
@@ -3970,14 +3971,14 @@
       "lastLinkedInCheck": "2026-09-12T22:31:14.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/northern-trust",
       "linkedinJobsUrl": "https://www.linkedin.com/company/northern-trust/jobs/",
-      "nextRotationTime": "2026-09-19T22:31:14.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.northerntrust.com/",
       "sourceId": "employer-northern-trust",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "ntrs/northerntrust",
-      "lastAttempt": "2026-09-12T22:31:14.000Z",
-      "lastSuccessfulCheck": "2026-09-12T22:31:14.000Z"
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4003,9 +4004,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-routes-resolved-india-security-candidate-senior-analyst-outside-fresher-scope",
+      "accessStatus": "official NatWest Workday route retained; historical director role outside fresher scope",
       "atsProvider": "Proprietary",
-      "candidateYield": 1,
+      "candidateYield": 2,
       "careersUrl": "https://jobs.natwestgroup.com/",
       "checkIntervalHours": 168,
       "company": "NatWest",
@@ -4014,14 +4015,14 @@
       "lastLinkedInCheck": "2026-09-12T23:31:36.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/natwest-group",
       "linkedinJobsUrl": "https://www.linkedin.com/company/natwest-group/jobs/",
-      "nextRotationTime": "2026-09-19T23:31:36.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.natwestgroup.com/",
       "sourceId": "employer-natwest",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "natwestgroup",
-      "lastAttempt": "2026-09-12T23:31:36.000Z",
-      "lastSuccessfulCheck": "2026-09-12T23:31:36.000Z"
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4377,9 +4378,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official SmartRecruiters route retained; historical senior analyst record lacks explicit fresher or <=2-year evidence",
+      "accessStatus": "official Freshworks route retained; historical lead role outside fresher scope",
       "atsProvider": "SmartRecruiters",
-      "candidateYield": 3,
+      "candidateYield": 4,
       "careersUrl": "https://www.freshworks.com/company/careers/",
       "checkIntervalHours": 168,
       "company": "Freshworks",
@@ -4388,14 +4389,14 @@
       "lastLinkedInCheck": "2026-09-13T08:55:00.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/freshworks-inc",
       "linkedinJobsUrl": "https://www.linkedin.com/company/freshworks-inc/jobs",
-      "nextRotationTime": "2026-09-23T08:40:41.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
       "officialWebsite": "https://www.freshworks.com/",
       "sourceId": "employer-freshworks",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "Freshworks",
-      "lastAttempt": "2026-09-20T08:40:41.000Z",
-      "lastSuccessfulCheck": "2026-09-20T08:40:41.000Z"
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4973,11 +4974,11 @@
       ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 42; historical senior UK vacancy and personal contact details excluded",
       "checkIntervalHours": 168,
-      "lastAttempt": "2026-09-15T13:28:14.000Z",
-      "lastSuccessfulCheck": "2026-09-15T13:28:14.000Z",
-      "nextRotationTime": "2026-09-22T13:28:14.000Z",
-      "accessStatus": "official-recruitment-job-board-public; no qualifying India fresher vacancy verified",
-      "candidateYield": 0,
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "accessStatus": "official La Fosse jobs route retained; historical director role outside India fresher scope",
+      "candidateYield": 1,
       "acceptedYield": 0
     },
     {
@@ -6241,10 +6242,10 @@
       ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 176; legacy Refinitiv Workday vacancy replaced by current official LSEG careers",
       "checkIntervalHours": 24,
-      "lastAttempt": "2026-09-20T08:40:41.000Z",
-      "lastSuccessfulCheck": "2026-09-20T08:40:41.000Z",
-      "nextRotationTime": "2026-09-23T08:40:41.000Z",
-      "accessStatus": "official LSEG careers route retained; Gmail-alerted senior security analyst role outside fresher scope",
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "accessStatus": "official LSEG route retained; previously screened Gmail alert remains senior-level and ineligible",
       "candidateYield": 2,
       "acceptedYield": 0
     },
@@ -9764,16 +9765,82 @@
       "atsProvider": "Greenhouse",
       "tenant": "underdogfantasy",
       "feedUrl": "https://boards-api.greenhouse.io/v1/boards/underdogfantasy/jobs"
+    },
+    {
+      "sourceId": "employer-experian",
+      "name": "Experian Careers",
+      "aliases": [
+        "Experian"
+      ],
+      "canonicalUrl": "https://jobs.experian.com/",
+      "officialWebsite": "https://www.experian.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 460; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official global careers route resolved; historical director role outside fresher scope"
+    },
+    {
+      "sourceId": "employer-asana",
+      "name": "Asana Careers",
+      "aliases": [
+        "Asana"
+      ],
+      "canonicalUrl": "https://asana.com/jobs",
+      "officialWebsite": "https://asana.com/",
+      "geography": [
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 463; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official careers route resolved; historical director role outside fresher scope"
+    },
+    {
+      "sourceId": "employer-university-illinois-chicago",
+      "name": "University of Illinois Chicago Careers",
+      "aliases": [
+        "University of Illinois Chicago",
+        "UIC"
+      ],
+      "canonicalUrl": "https://jobs.uic.edu/",
+      "officialWebsite": "https://www.uic.edu/",
+      "geography": [
+        "United States"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T09:37:52.000Z",
+      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 466; historical Cornerstone vacancy normalized to official university jobs route",
+      "accessStatus": "official university jobs route resolved; historical director US role outside India fresher scope",
+      "atsProvider": "Cornerstone OnDemand"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 457,
-    "processedRows": 456,
-    "remainingRows": 90,
-    "lastProcessedAt": "2026-09-20T08:40:41.000Z",
+    "nextRow": 469,
+    "processedRows": 468,
+    "remainingRows": 78,
+    "lastProcessedAt": "2026-09-20T09:37:52.000Z",
     "records": [
       {
         "row": 1,
@@ -12924,6 +12991,89 @@
         "status": "source-registered",
         "sourceId": "employer-underdog-fantasy",
         "note": "official Greenhouse route registered; director US role outside scope"
+      },
+      {
+        "row": 457,
+        "label": "Marvell / Senior Principal Engineer, Product Security",
+        "status": "senior/out-of-scope",
+        "note": "existing official source retained; senior-principal role outside scope",
+        "sourceId": "employer-marvell"
+      },
+      {
+        "row": 458,
+        "label": "Freshworks / Lead - Cybersecurity Risk & Compliance",
+        "status": "senior/out-of-scope",
+        "note": "existing official source retained; lead role outside scope",
+        "sourceId": "employer-freshworks"
+      },
+      {
+        "row": 459,
+        "label": "NatWest Group / Technology Controls Lead, Director",
+        "status": "senior/out-of-scope",
+        "note": "existing official Workday source retained; director role outside scope",
+        "sourceId": "employer-natwest"
+      },
+      {
+        "row": 460,
+        "label": "Experian / Director - Global Network Security",
+        "status": "source-registered",
+        "note": "official careers route registered; director role outside scope",
+        "sourceId": "employer-experian"
+      },
+      {
+        "row": 461,
+        "label": "Centrico India / Cyber Security Specialist",
+        "status": "quarantined",
+        "note": "employer identity and official route unresolved; specialist title has no explicit fresher evidence"
+      },
+      {
+        "row": 462,
+        "label": "La Fosse / Director of GRC",
+        "status": "senior/out-of-scope",
+        "note": "existing official recruitment route retained; director role outside scope",
+        "sourceId": "employer-la-fosse"
+      },
+      {
+        "row": 463,
+        "label": "Asana / Director of Security",
+        "status": "source-registered",
+        "note": "official careers route registered; director role outside scope",
+        "sourceId": "employer-asana"
+      },
+      {
+        "row": 464,
+        "label": "Bureau Veritas / Security Management Consultant",
+        "status": "stale",
+        "note": "existing official careers source retained; consultant title and historical email note do not prove <=2-year eligibility",
+        "sourceId": "employer-bureau-veritas-cybersecurity"
+      },
+      {
+        "row": 465,
+        "label": "ASML / Product Security Expert",
+        "status": "stale",
+        "note": "existing official source retained; expert title lacks explicit fresher evidence",
+        "sourceId": "employer-asml"
+      },
+      {
+        "row": 466,
+        "label": "University of Illinois Chicago / Director of Infrastructure and Security",
+        "status": "source-registered",
+        "note": "official university jobs route registered; director US role outside scope",
+        "sourceId": "employer-university-illinois-chicago"
+      },
+      {
+        "row": 467,
+        "label": "Northern Trust / Sr Lead, Cyber Sec IT RiskM",
+        "status": "senior/out-of-scope",
+        "note": "existing official source retained; senior-lead role outside scope",
+        "sourceId": "employer-northern-trust"
+      },
+      {
+        "row": 468,
+        "label": "Deutsche Bank / IT Application Owner, AVP",
+        "status": "senior/out-of-scope",
+        "note": "existing official source retained; AVP role outside scope",
+        "sourceId": "employer-deutsche-bank"
       }
     ]
   },
