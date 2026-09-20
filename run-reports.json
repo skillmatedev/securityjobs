@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T06:41:13.000Z",
+  "lastUpdated": "2026-09-20T07:42:53.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8664,6 +8664,92 @@
         "totalUniqueConfigured": 411
       },
       "deploymentResult": "processed workbook rows 421-432; registered four employer targets and Jobgether; quarantined four unresolved historical leads; Gmail Gainsight alert was lead-level and ineligible; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-074253z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T07:32:53.000Z",
+      "runCompletedAt": "2026-09-20T07:42:53.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-433-444",
+        "gmail-recent-cyber-job-alerts",
+        "employer-zip-co",
+        "employer-ripple",
+        "employer-msd",
+        "employer-copeland",
+        "employer-included-health",
+        "employer-majid-al-futtaim",
+        "portal-ams-international-uae",
+        "employer-headway",
+        "employer-freshworks",
+        "employer-miller-zell",
+        "employer-us-bank"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-eligible-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 10,
+        "no-explicit-fresher-evidence": 2,
+        "gmail-lead-level-or-non-job": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 445
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 102,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 290,
+        "independentPortals": 52,
+        "totalUniqueConfigured": 418
+      },
+      "deploymentResult": "processed workbook rows 433-444; registered six employer targets and AMS International UAE; Gmail alert was lead-level and ineligible; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
