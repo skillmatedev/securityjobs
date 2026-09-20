@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 318,
-    "independentPortals": 64,
-    "totalUniqueConfigured": 458
+    "employerCareerTargets": 321,
+    "independentPortals": 66,
+    "totalUniqueConfigured": 463
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T14:38:13.000Z",
-  "latestRun": "run-20260920-143813z",
+  "lastUpdated": "2026-09-20T15:41:16.000Z",
+  "latestRun": "run-20260920-154116z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -10463,16 +10463,123 @@
       "nextRotationTime": "2026-09-23T14:38:13.000Z",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-marshalls-plc",
+      "name": "Marshalls plc Careers",
+      "aliases": [
+        "Marshalls plc",
+        "Marshalls"
+      ],
+      "canonicalUrl": "https://www.marshalls.co.uk/careers",
+      "officialWebsite": "https://www.marshalls.co.uk/",
+      "geography": [
+        "United Kingdom"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 529; historical LinkedIn lead normalized to official company careers route",
+      "accessStatus": "official company careers route recorded; head-level role outside India fresher scope",
+      "lastAttempt": "2026-09-20T15:41:16.000Z",
+      "lastSuccessfulCheck": "2026-09-20T15:41:16.000Z",
+      "nextRotationTime": "2026-09-23T15:41:16.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-charterhouse-middle-east",
+      "name": "Charterhouse Middle East Jobs",
+      "aliases": [
+        "Charterhouse Middle East"
+      ],
+      "canonicalUrl": "https://www.charterhouseme.ae/jobs",
+      "officialWebsite": "https://www.charterhouseme.ae/",
+      "geography": [
+        "Middle East"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 530; historical LinkedIn lead normalized to official recruitment portal",
+      "accessStatus": "official recruitment portal recorded; manager role outside India fresher scope",
+      "lastAttempt": "2026-09-20T15:41:16.000Z",
+      "lastSuccessfulCheck": "2026-09-20T15:41:16.000Z",
+      "nextRotationTime": "2026-09-23T15:41:16.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-chevron",
+      "name": "Chevron Careers",
+      "aliases": [
+        "Chevron"
+      ],
+      "canonicalUrl": "https://careers.chevron.com/",
+      "officialWebsite": "https://www.chevron.com/",
+      "geography": [
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 533; historical LinkedIn lead normalized to official careers portal",
+      "accessStatus": "official careers portal recorded; risk-manager role outside fresher scope",
+      "lastAttempt": "2026-09-20T15:41:16.000Z",
+      "lastSuccessfulCheck": "2026-09-20T15:41:16.000Z",
+      "nextRotationTime": "2026-09-23T15:41:16.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-intaso",
+      "name": "Intaso Cyber Security Recruitment",
+      "aliases": [
+        "Intaso"
+      ],
+      "canonicalUrl": "https://www.intaso.co.uk/jobs",
+      "officialWebsite": "https://www.intaso.co.uk/",
+      "geography": [
+        "United Kingdom",
+        "Global"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 535; historical LinkedIn lead normalized to specialist recruitment portal",
+      "accessStatus": "official recruitment route recorded; senior engineer role outside India fresher scope",
+      "lastAttempt": "2026-09-20T15:41:16.000Z",
+      "lastSuccessfulCheck": "2026-09-20T15:41:16.000Z",
+      "nextRotationTime": "2026-09-23T15:41:16.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-tata-electronics",
+      "name": "Tata Electronics Careers",
+      "aliases": [
+        "Tata Electronics"
+      ],
+      "canonicalUrl": "https://www.tataelectronics.com/careers",
+      "officialWebsite": "https://www.tataelectronics.com/",
+      "geography": [
+        "India"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 536; historical LinkedIn lead normalized to official company careers route",
+      "accessStatus": "official company careers route recorded; CISO role outside fresher scope",
+      "lastAttempt": "2026-09-20T15:41:16.000Z",
+      "lastSuccessfulCheck": "2026-09-20T15:41:16.000Z",
+      "nextRotationTime": "2026-09-23T15:41:16.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 529,
-    "processedRows": 528,
-    "remainingRows": 18,
-    "lastProcessedAt": "2026-09-20T14:38:13.000Z",
+    "nextRow": 541,
+    "processedRows": 540,
+    "remainingRows": 6,
+    "lastProcessedAt": "2026-09-20T15:41:16.000Z",
     "records": [
       {
         "row": 1,
@@ -14122,6 +14229,86 @@
         "status": "source-registered",
         "sourceId": "employer-oben-electric",
         "note": "official company route registered; deputy-CISO role outside fresher scope"
+      },
+      {
+        "row": 529,
+        "label": "Marshalls plc / Head of Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-marshalls-plc",
+        "note": "official company careers route registered; head-level UK role outside scope"
+      },
+      {
+        "row": 530,
+        "label": "Charterhouse Middle East / Cybersecurity Manager",
+        "status": "source-registered",
+        "sourceId": "portal-charterhouse-middle-east",
+        "note": "official recruitment portal registered; manager role outside India fresher scope"
+      },
+      {
+        "row": 531,
+        "label": "Mashreq / Senior Manager - Cybersecurity & Cyber Defense Center",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-mashreq",
+        "note": "existing official source retained; senior-manager role outside scope"
+      },
+      {
+        "row": 532,
+        "label": "OrbitronAI.com / Lead Security Engineer",
+        "status": "quarantined",
+        "note": "employer identity and official application route could not be safely verified; lead title outside fresher scope"
+      },
+      {
+        "row": 533,
+        "label": "Chevron / Risk Manager",
+        "status": "source-registered",
+        "sourceId": "employer-chevron",
+        "note": "official careers portal registered; manager role outside fresher scope"
+      },
+      {
+        "row": 534,
+        "label": "SearchWorks / Lead Security Engineer",
+        "status": "quarantined",
+        "note": "ambiguous recruiter identity and no verified official vacancy route; lead title outside fresher scope"
+      },
+      {
+        "row": 535,
+        "label": "Intaso / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "portal-intaso",
+        "note": "official cybersecurity recruitment portal registered; senior role outside scope"
+      },
+      {
+        "row": 536,
+        "label": "Tata Electronics / CISO",
+        "status": "source-registered",
+        "sourceId": "employer-tata-electronics",
+        "note": "official company careers route registered; CISO role outside scope"
+      },
+      {
+        "row": 537,
+        "label": "Arcana / CISO",
+        "status": "quarantined",
+        "note": "ambiguous employer identity and no safely verified vacancy-specific route; CISO role outside scope"
+      },
+      {
+        "row": 538,
+        "label": "Emeritus / Principal Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-emeritus",
+        "note": "existing official source retained; principal role outside scope"
+      },
+      {
+        "row": 539,
+        "label": "Confidential / CISO",
+        "status": "quarantined",
+        "note": "confidential employer cannot be tied to an official vacancy-specific application route; CISO role outside scope"
+      },
+      {
+        "row": 540,
+        "label": "Neysa / Cybersecurity - GRC Specialist",
+        "status": "stale",
+        "sourceId": "employer-neysa",
+        "note": "existing official vacancy route retained; specialist title provides no explicit fresher or <=2-year evidence"
       }
     ]
   },

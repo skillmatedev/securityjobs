@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T14:38:13.000Z",
+  "lastUpdated": "2026-09-20T15:41:16.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 31,
-    "totalQuarantined": 31,
-    "quarantined": 31,
-    "lastUpdated": "2026-09-20T14:38:13.000Z"
+    "total": 35,
+    "totalQuarantined": 35,
+    "quarantined": 35,
+    "lastUpdated": "2026-09-20T15:41:16.000Z"
   },
   "jobs": [
     {
@@ -467,6 +467,66 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous recruiter identity and no verified official vacancy-specific route; the head-level role is outside fresher scope."
+    },
+    {
+      "id": "workbook-row-532-orbitronai-lead-security-engineer",
+      "company": "OrbitronAI.com (identity unresolved)",
+      "title": "Lead Security Engineer",
+      "location": "Not verified",
+      "experienceEvidence": "Lead/CISO historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T15:31:16.000Z",
+      "lastCheckedAt": "2026-09-20T15:41:16.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://docs.google.com/spreadsheets/d/1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE/edit",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity or official vacancy-specific application route could not be safely verified; the senior title is outside fresher scope."
+    },
+    {
+      "id": "workbook-row-534-searchworks-lead-security-engineer",
+      "company": "SearchWorks (identity unresolved)",
+      "title": "Lead Security Engineer",
+      "location": "Not verified",
+      "experienceEvidence": "Lead/CISO historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T15:31:16.000Z",
+      "lastCheckedAt": "2026-09-20T15:41:16.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://docs.google.com/spreadsheets/d/1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE/edit",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity or official vacancy-specific application route could not be safely verified; the senior title is outside fresher scope."
+    },
+    {
+      "id": "workbook-row-537-arcana-ciso",
+      "company": "Arcana (identity unresolved)",
+      "title": "Chief Information Security Officer",
+      "location": "Not verified",
+      "experienceEvidence": "Lead/CISO historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T15:31:16.000Z",
+      "lastCheckedAt": "2026-09-20T15:41:16.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://docs.google.com/spreadsheets/d/1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE/edit",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity or official vacancy-specific application route could not be safely verified; the senior title is outside fresher scope."
+    },
+    {
+      "id": "workbook-row-539-confidential-ciso",
+      "company": "Confidential employer",
+      "title": "Chief Information Security Officer",
+      "location": "Not verified",
+      "experienceEvidence": "Lead/CISO historical title; no explicit fresher or 0–2-year evidence.",
+      "eligibilityReason": "Outside fresher scope and current employer/apply evidence is incomplete.",
+      "discoveredAt": "2026-09-20T15:31:16.000Z",
+      "lastCheckedAt": "2026-09-20T15:41:16.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://docs.google.com/spreadsheets/d/1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE/edit",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Employer identity or official vacancy-specific application route could not be safely verified; the senior title is outside fresher scope."
     }
   ]
 }
