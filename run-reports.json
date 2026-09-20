@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T09:37:52.000Z",
+  "lastUpdated": "2026-09-20T10:41:23.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8927,6 +8927,93 @@
         "totalUniqueConfigured": 430
       },
       "deploymentResult": "processed workbook rows 457-468; registered Experian, Asana, and University of Illinois Chicago; quarantined unresolved Centrico India lead; no new eligible Gmail alert; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-104123z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T10:31:23.000Z",
+      "runCompletedAt": "2026-09-20T10:41:23.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-469-480",
+        "gmail-recent-cyber-job-alerts",
+        "employer-deutsche-bank",
+        "employer-honeywell",
+        "employer-mindsprint",
+        "employer-nopalcyber",
+        "portal-recruitment-rebellion",
+        "employer-siemens-energy",
+        "employer-flipkart",
+        "employer-hazeltree",
+        "employer-tradinghub",
+        "employer-acl-digital",
+        "employer-akamai",
+        "employer-poshmark"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-job-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 9,
+        "no-explicit-fresher-evidence": 3,
+        "gmail-non-job-notification": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 481
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 66,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 305,
+        "independentPortals": 56,
+        "totalUniqueConfigured": 437
+      },
+      "deploymentResult": "processed workbook rows 469-480; registered six employer targets and Recruitment Rebellion; Gmail contained no job alert; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",

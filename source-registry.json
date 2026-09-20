@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 299,
-    "independentPortals": 55,
-    "totalUniqueConfigured": 430
+    "employerCareerTargets": 305,
+    "independentPortals": 56,
+    "totalUniqueConfigured": 437
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T09:37:52.000Z",
-  "latestRun": "run-20260920-093752z",
+  "lastUpdated": "2026-09-20T10:41:23.000Z",
+  "latestRun": "run-20260920-104123z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -3533,9 +3533,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official Deutsche Bank careers route retained; historical AVP role outside fresher scope",
+      "accessStatus": "official Deutsche Bank careers route retained; historical specialist role lacks explicit fresher or <=2-year evidence",
       "atsProvider": "Workday",
-      "candidateYield": 1,
+      "candidateYield": 2,
       "careersUrl": "https://careers.db.com/",
       "checkIntervalHours": 24,
       "company": "Deutsche Bank",
@@ -3544,14 +3544,14 @@
       "lastLinkedInCheck": "2026-09-15T03:41:47.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/deutsche-bank/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/deutsche-bank/jobs/",
-      "nextRotationTime": "2026-09-23T09:37:52.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
       "officialWebsite": "https://www.db.com/",
       "sourceId": "employer-deutsche-bank",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "db",
-      "lastAttempt": "2026-09-20T09:37:52.000Z",
-      "lastSuccessfulCheck": "2026-09-20T09:37:52.000Z",
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
       "consecutiveFailures": 0,
       "lastJobCount": 0,
       "status": "Official career/ATS route and public LinkedIn Jobs evidence checked; no vacancy-specific India or remote-India cybersecurity role with explicit fresher or <=2-year eligibility verified"
@@ -3718,9 +3718,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-routes-resolved-security-openings-senior-unverified-fresher-lead-rejected",
+      "accessStatus": "official Flipkart careers route retained; historical senior-manager role outside fresher scope",
       "atsProvider": "Flipkart Careers",
-      "candidateYield": 4,
+      "candidateYield": 5,
       "careersUrl": "https://www.flipkartcareers.com/",
       "checkIntervalHours": 168,
       "company": "Flipkart",
@@ -3729,14 +3729,14 @@
       "lastLinkedInCheck": "2026-09-12T17:01:45.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/flipkart",
       "linkedinJobsUrl": "https://www.linkedin.com/company/flipkart/jobs/",
-      "nextRotationTime": "2026-09-19T17:01:45.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
       "officialWebsite": "https://www.flipkart.com/",
       "sourceId": "employer-flipkart",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "flipkartcareers",
-      "lastAttempt": "2026-09-12T17:01:45.000Z",
-      "lastSuccessfulCheck": "2026-09-12T17:01:45.000Z"
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z"
     },
     {
       "acceptedYield": 0,
@@ -3982,9 +3982,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-routes-resolved-india-openings-present-no-qualifying-cybersecurity-vacancy",
+      "accessStatus": "official Poshmark Workday route retained; historical senior-engineer role outside fresher scope",
       "atsProvider": "Ashby",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://poshmark.com/careers",
       "checkIntervalHours": 168,
       "company": "Poshmark",
@@ -3993,14 +3993,14 @@
       "lastLinkedInCheck": "2026-09-12T22:31:14.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/poshmark",
       "linkedinJobsUrl": "https://www.linkedin.com/company/poshmark/jobs/",
-      "nextRotationTime": "2026-09-19T22:31:14.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
       "officialWebsite": "https://poshmark.com/",
       "sourceId": "employer-poshmark",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
       "tenant": "poshmark",
-      "lastAttempt": "2026-09-12T22:31:14.000Z",
-      "lastSuccessfulCheck": "2026-09-12T22:31:14.000Z"
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4440,9 +4440,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "accessible-no-qualifying-india-opening",
+      "accessStatus": "official Oracle Recruiting vacancy route retained; Architect II title lacks explicit <=2-year evidence",
       "atsProvider": "Oracle Recruiting Cloud",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://jobs.akamai.com/en/sites/CX_1",
       "checkIntervalHours": 168,
       "company": "Akamai",
@@ -4451,12 +4451,14 @@
       "lastLinkedInCheck": "2026-09-13T09:57:25.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/akamai-technologies",
       "linkedinJobsUrl": "https://www.linkedin.com/company/akamai-technologies/jobs",
-      "nextRotationTime": "2026-09-20T09:57:25.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
       "officialWebsite": "https://www.akamai.com/",
       "sourceId": "employer-akamai",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": "CX_1"
+      "tenant": "CX_1",
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4813,11 +4815,11 @@
       ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 30; official careers and student/graduate routes verified",
       "checkIntervalHours": 24,
-      "lastAttempt": "2026-09-15T12:27:08.000Z",
-      "lastSuccessfulCheck": "2026-09-15T12:27:08.000Z",
-      "nextRotationTime": "2026-09-16T12:27:08.000Z",
-      "accessStatus": "official-careers-route-public; no vacancy-specific India fresher cybersecurity role verified in this batch",
-      "candidateYield": 0,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "accessStatus": "official Honeywell careers route retained; historical senior supervisor role outside fresher scope",
+      "candidateYield": 1,
       "acceptedYield": 0
     },
     {
@@ -9831,16 +9833,171 @@
       "sourceOrigin": "Ethical Hacking workbook Interview row 466; historical Cornerstone vacancy normalized to official university jobs route",
       "accessStatus": "official university jobs route resolved; historical director US role outside India fresher scope",
       "atsProvider": "Cornerstone OnDemand"
+    },
+    {
+      "sourceId": "employer-mindsprint",
+      "name": "Mindsprint Careers",
+      "aliases": [
+        "Mindsprint"
+      ],
+      "canonicalUrl": "https://www.mindsprint.com/careers",
+      "officialWebsite": "https://www.mindsprint.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 471; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route resolved; historical director/head role outside fresher scope"
+    },
+    {
+      "sourceId": "employer-nopalcyber",
+      "name": "NopalCyber Careers",
+      "aliases": [
+        "NopalCyber",
+        "Nopal Cyber"
+      ],
+      "canonicalUrl": "https://www.nopalcyber.com/careers",
+      "officialWebsite": "https://www.nopalcyber.com/",
+      "geography": [
+        "India",
+        "United States"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 472; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company route resolved; AVP role outside fresher scope"
+    },
+    {
+      "sourceId": "portal-recruitment-rebellion",
+      "name": "Recruitment Rebellion",
+      "aliases": [
+        "Recruitment Rebellion"
+      ],
+      "canonicalUrl": "https://www.recruitmentrebellion.com/jobs",
+      "officialWebsite": "https://www.recruitmentrebellion.com/",
+      "geography": [
+        "United Kingdom",
+        "Remote"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-21T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 473; recruitment portal",
+      "accessStatus": "official recruitment route resolved; historical head-level compliance role outside India fresher scope"
+    },
+    {
+      "sourceId": "employer-siemens-energy",
+      "name": "Siemens Energy Careers",
+      "aliases": [
+        "Siemens Energy"
+      ],
+      "canonicalUrl": "https://jobs.siemens-energy.com/",
+      "officialWebsite": "https://www.siemens-energy.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 474; official Siemens Energy vacancy normalized to careers index",
+      "accessStatus": "official careers route resolved; historical expert role lacks explicit fresher evidence"
+    },
+    {
+      "sourceId": "employer-hazeltree",
+      "name": "Hazeltree Careers",
+      "aliases": [
+        "Hazeltree",
+        "Hazeltree Treasury Solutions"
+      ],
+      "canonicalUrl": "https://hazeltree.com/careers/",
+      "officialWebsite": "https://hazeltree.com/",
+      "geography": [
+        "United States",
+        "United Kingdom"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 476; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route resolved; historical director/head role outside India fresher scope"
+    },
+    {
+      "sourceId": "employer-tradinghub",
+      "name": "TradingHub Careers",
+      "aliases": [
+        "TradingHub"
+      ],
+      "canonicalUrl": "https://tradinghub.com/careers/",
+      "officialWebsite": "https://tradinghub.com/",
+      "geography": [
+        "United Kingdom"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 477; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route resolved; historical head-level role outside India fresher scope"
+    },
+    {
+      "sourceId": "employer-acl-digital",
+      "name": "ACL Digital Careers",
+      "aliases": [
+        "ACL Digital"
+      ],
+      "canonicalUrl": "https://www.acldigital.com/careers",
+      "officialWebsite": "https://www.acldigital.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T10:41:23.000Z",
+      "lastSuccessfulCheck": "2026-09-20T10:41:23.000Z",
+      "nextRotationTime": "2026-09-23T10:41:23.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 478; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official careers route resolved; historical senior specialist role outside fresher scope"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 469,
-    "processedRows": 468,
-    "remainingRows": 78,
-    "lastProcessedAt": "2026-09-20T09:37:52.000Z",
+    "nextRow": 481,
+    "processedRows": 480,
+    "remainingRows": 66,
+    "lastProcessedAt": "2026-09-20T10:41:23.000Z",
     "records": [
       {
         "row": 1,
@@ -13074,6 +13231,90 @@
         "status": "senior/out-of-scope",
         "note": "existing official source retained; AVP role outside scope",
         "sourceId": "employer-deutsche-bank"
+      },
+      {
+        "row": 469,
+        "label": "Deutsche Bank / InfoSec Specialist - AS",
+        "status": "stale",
+        "sourceId": "employer-deutsche-bank",
+        "note": "existing official source retained; specialist title lacks explicit <=2-year evidence"
+      },
+      {
+        "row": 470,
+        "label": "Honeywell / Sr Cyber Sec Supervisor",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-honeywell",
+        "note": "existing official source retained; senior supervisor role outside scope"
+      },
+      {
+        "row": 471,
+        "label": "Mindsprint / Director – Head of Security Operations Center",
+        "status": "source-registered",
+        "sourceId": "employer-mindsprint",
+        "note": "official company careers route registered; director/head role outside scope"
+      },
+      {
+        "row": 472,
+        "label": "NopalCyber / VAPT-AVP",
+        "status": "source-registered",
+        "sourceId": "employer-nopalcyber",
+        "note": "official company route registered; AVP role outside scope"
+      },
+      {
+        "row": 473,
+        "label": "Recruitment Rebellion / Head of Compliance",
+        "status": "source-registered",
+        "sourceId": "portal-recruitment-rebellion",
+        "note": "official recruitment portal registered; head-level role outside India scope"
+      },
+      {
+        "row": 474,
+        "label": "Siemens Energy / Industrial Cybersecurity Expert",
+        "status": "source-registered",
+        "sourceId": "employer-siemens-energy",
+        "note": "official careers route registered; expert role lacks explicit fresher evidence"
+      },
+      {
+        "row": 475,
+        "label": "Flipkart / Senior Manager - Governance Risk & Compliance",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-flipkart",
+        "note": "existing official source retained; senior-manager role outside scope"
+      },
+      {
+        "row": 476,
+        "label": "Hazeltree / Director or Head of Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-hazeltree",
+        "note": "official careers route registered; director/head role outside India scope"
+      },
+      {
+        "row": 477,
+        "label": "TradingHub / Head of Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-tradinghub",
+        "note": "official careers route registered; head-level UK role outside India scope"
+      },
+      {
+        "row": 478,
+        "label": "ACL Digital / Senior Information Security Specialist",
+        "status": "source-registered",
+        "sourceId": "employer-acl-digital",
+        "note": "official India careers route registered; senior role outside fresher scope"
+      },
+      {
+        "row": 479,
+        "label": "Akamai / Security Architect II",
+        "status": "stale",
+        "sourceId": "employer-akamai",
+        "note": "existing official vacancy route retained; Architect II title has no explicit <=2-year evidence"
+      },
+      {
+        "row": 480,
+        "label": "Poshmark / Senior Infrastructure Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-poshmark",
+        "note": "existing official Workday source retained; senior role outside scope"
       }
     ]
   },
