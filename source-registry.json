@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 309,
-    "independentPortals": 60,
-    "totalUniqueConfigured": 445
+    "employerCareerTargets": 312,
+    "independentPortals": 62,
+    "totalUniqueConfigured": 450
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T11:39:30.000Z",
-  "latestRun": "run-20260920-113930z",
+  "lastUpdated": "2026-09-20T12:37:07.000Z",
+  "latestRun": "run-20260920-123707z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -2822,17 +2822,17 @@
       "acceptedYield": 0,
       "accessStatus": "public-no-qualifying-vacancy",
       "atsProvider": "First-party",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://www.backbase.com/careers",
       "checkIntervalHours": 24,
       "company": "Backbase",
       "feedUrl": null,
-      "lastCareerCheck": "2026-09-14T22:42:53.000Z",
+      "lastCareerCheck": "2026-09-20T12:37:07.000Z",
       "lastLinkedInCheck": "2026-09-14T22:42:53.000Z",
-      "lastSuccessfulCheck": "2026-09-14T22:42:53.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/backbase/",
       "linkedinJobsUrl": "https://www.linkedin.com/company/backbase/jobs/",
-      "nextRotationTime": "2026-09-17T22:42:53.000Z",
+      "nextRotationTime": "2026-09-21T12:37:07.000Z",
       "officialWebsite": "https://www.backbase.com/",
       "sourceId": "employer-backbase",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
@@ -2840,7 +2840,8 @@
       "status": "Official careers route and public LinkedIn/search evidence checked; no vacancy-specific India or remote-India cybersecurity role meeting the explicit fresher/0–2-year threshold was verified.",
       "tenant": null,
       "lastJobCount": 0,
-      "consecutiveFailures": 0
+      "consecutiveFailures": 0,
+      "lastAttempt": "2026-09-20T12:37:07.000Z"
     },
     {
       "acceptedYield": 0,
@@ -4367,16 +4368,18 @@
       "checkIntervalHours": 168,
       "company": "Radial",
       "feedUrl": "https://radial.my.salesforce-sites.com/careers",
-      "lastCareerCheck": "2026-09-13T07:59:08.000Z",
+      "lastCareerCheck": "2026-09-20T12:37:07.000Z",
       "lastLinkedInCheck": "2026-09-13T07:59:08.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/radial-inc",
       "linkedinJobsUrl": "https://www.linkedin.com/company/radial-inc/jobs",
-      "nextRotationTime": "2026-09-20T07:59:08.000Z",
+      "nextRotationTime": "2026-09-27T12:37:07.000Z",
       "officialWebsite": "https://www.radial.com/",
       "sourceId": "employer-radial",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": "radial"
+      "tenant": "radial",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z"
     },
     {
       "acceptedYield": 0,
@@ -10169,16 +10172,129 @@
       "acceptedYield": 0,
       "sourceOrigin": "Ethical Hacking workbook Interview row 492; technology recruitment portal",
       "accessStatus": "official recruitment route resolved; historical head-level role outside India fresher scope"
+    },
+    {
+      "sourceId": "portal-investigo",
+      "name": "Investigo",
+      "aliases": [
+        "The Investigo Group",
+        "Investigo"
+      ],
+      "canonicalUrl": "https://www.weareinvestigo.com/us/jobs/",
+      "officialWebsite": "https://www.weareinvestigo.com/",
+      "geography": [
+        "United Kingdom",
+        "United States",
+        "Europe"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 493; official recruitment jobs portal",
+      "accessStatus": "official recruitment route resolved; historical head-of-security role outside India fresher scope",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
+      "nextRotationTime": "2026-09-21T12:37:07.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-infobeans",
+      "name": "InfoBeans Careers",
+      "aliases": [
+        "InfoBeans"
+      ],
+      "canonicalUrl": "https://www.infobeans.com/careers/",
+      "officialWebsite": "https://www.infobeans.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 495; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official careers route resolved; senior-consultant role outside fresher scope",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
+      "nextRotationTime": "2026-09-23T12:37:07.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-ntech-workforce",
+      "name": "nTech Workforce",
+      "aliases": [
+        "nTech Workforce"
+      ],
+      "canonicalUrl": "https://www.ntechworkforce.com/jobs/",
+      "officialWebsite": "https://www.ntechworkforce.com/",
+      "geography": [
+        "United States"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 496; staffing and recruitment portal",
+      "accessStatus": "official staffing jobs route resolved; historical manager role outside India fresher scope",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
+      "nextRotationTime": "2026-09-21T12:37:07.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-pay10",
+      "name": "Pay10 Careers",
+      "aliases": [
+        "Pay10 India",
+        "Pay10 Global",
+        "Pay10"
+      ],
+      "canonicalUrl": "https://www.pay10.com/careers",
+      "officialWebsite": "https://www.pay10.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 501; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official company careers route resolved; technical-security-manager role outside fresher scope",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
+      "nextRotationTime": "2026-09-23T12:37:07.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-palo-alto-networks",
+      "name": "Palo Alto Networks Careers",
+      "aliases": [
+        "Palo Alto Networks"
+      ],
+      "canonicalUrl": "https://jobs.paloaltonetworks.com/",
+      "officialWebsite": "https://www.paloaltonetworks.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 503; historical LinkedIn lead normalized to official careers portal",
+      "accessStatus": "official careers route resolved; senior-consultant role outside fresher scope",
+      "lastAttempt": "2026-09-20T12:37:07.000Z",
+      "lastSuccessfulCheck": "2026-09-20T12:37:07.000Z",
+      "nextRotationTime": "2026-09-23T12:37:07.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 493,
-    "processedRows": 492,
-    "remainingRows": 54,
-    "lastProcessedAt": "2026-09-20T11:39:30.000Z",
+    "nextRow": 505,
+    "processedRows": 504,
+    "remainingRows": 42,
+    "lastProcessedAt": "2026-09-20T12:37:07.000Z",
     "records": [
       {
         "row": 1,
@@ -13580,6 +13696,89 @@
         "status": "source-registered",
         "sourceId": "portal-stanford-black",
         "note": "official recruitment portal registered; head-level role outside India scope"
+      },
+      {
+        "row": 493,
+        "label": "The Investigo Group / Head of Security",
+        "status": "source-registered",
+        "sourceId": "portal-investigo",
+        "note": "official recruitment portal registered; head-level role outside India fresher scope"
+      },
+      {
+        "row": 494,
+        "label": "Backbase / Security Director",
+        "status": "source-registered",
+        "sourceId": "employer-backbase",
+        "note": "official careers route registered; director role outside fresher scope"
+      },
+      {
+        "row": 495,
+        "label": "InfoBeans / Senior Information Technology Security Consultant",
+        "status": "source-registered",
+        "sourceId": "employer-infobeans",
+        "note": "official careers route registered; senior consultant role outside fresher scope"
+      },
+      {
+        "row": 496,
+        "label": "nTech Workforce / Cyber Security Manager",
+        "status": "source-registered",
+        "sourceId": "portal-ntech-workforce",
+        "note": "official staffing portal registered; manager role outside India fresher scope"
+      },
+      {
+        "row": 497,
+        "label": "PineQ Lab Technology / Cybersecurity Engineer, Security Analyst, GRC Engineer",
+        "status": "quarantined",
+        "note": "employer identity and official career route could not be safely resolved; combined title lacks explicit fresher evidence"
+      },
+      {
+        "row": 498,
+        "label": "Radial / Information Security Engineer, Chennai",
+        "status": "source-registered",
+        "sourceId": "employer-radial",
+        "note": "official careers route registered; engineer title alone does not prove <=2-year eligibility"
+      },
+      {
+        "row": 499,
+        "label": "Radial / Information Security Engineer, US",
+        "status": "duplicate",
+        "sourceId": "employer-radial",
+        "note": "same employer source as row 498; US role outside India scope"
+      },
+      {
+        "row": 500,
+        "label": "Bloomreach / Senior Security & Compliance Analyst",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-bloomreach",
+        "note": "existing official source retained; senior role outside scope"
+      },
+      {
+        "row": 501,
+        "label": "Pay10 India / Technical Security Manager",
+        "status": "source-registered",
+        "sourceId": "employer-pay10",
+        "note": "official careers route registered; manager role outside fresher scope"
+      },
+      {
+        "row": 502,
+        "label": "NielsenIQ / Senior Engineer, Product Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-nielseniq",
+        "note": "existing official source retained; senior role outside scope"
+      },
+      {
+        "row": 503,
+        "label": "Palo Alto Networks / Senior Consultant, Offensive Security",
+        "status": "source-registered",
+        "sourceId": "employer-palo-alto-networks",
+        "note": "official careers route registered; senior consultant role outside fresher scope"
+      },
+      {
+        "row": 504,
+        "label": "CloudSEK / Director - Customer Success - Cybersecurity",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-cloudsek",
+        "note": "existing official source retained; director role outside scope"
       }
     ]
   },

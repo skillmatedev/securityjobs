@@ -1,11 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T11:39:30.000Z",
+  "lastUpdated": "2026-09-20T12:37:07.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 27,
-    "totalQuarantined": 27,
-    "quarantined": 27
+    "total": 28,
+    "totalQuarantined": 28,
+    "quarantined": 28,
+    "lastUpdated": "2026-09-20T12:37:07.000Z"
   },
   "jobs": [
     {
@@ -406,6 +407,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Search evidence did not establish a reliable official employer careers route for Centrico India / ex-Sella India, and the historical vacancy lacks explicit fresher eligibility and a vacancy-specific employer apply path."
+    },
+    {
+      "id": "workbook-row-497-pineq-lab-technology-cybersecurity-roles",
+      "company": "PineQ Lab Technology (identity unresolved)",
+      "title": "Cybersecurity Engineer / Security Analyst / GRC Engineer",
+      "location": "Not verified",
+      "experienceEvidence": "Combined historical title; no explicit fresher or 0–2-year requirement.",
+      "eligibilityReason": "A junior/associate inference is not sufficient and no current official application route was resolved.",
+      "discoveredAt": "2026-09-20T12:27:07.000Z",
+      "lastCheckedAt": "2026-09-20T12:37:07.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4324599684",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Public evidence did not establish a reliable official employer identity, live vacancy status, requisition details, or safe vacancy-specific application route."
     }
   ]
 }
