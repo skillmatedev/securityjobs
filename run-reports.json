@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:41:42.000Z",
+  "lastUpdated": "2026-09-20T18:41:18.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9618,8 +9618,90 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked seven due career sources and recent Gmail alerts; six sources succeeded and one timed out; no qualifying vacancy added; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-184118z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T18:31:18.000Z",
+      "runCompletedAt": "2026-09-20T18:41:18.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-001-rootnik-labs",
+        "certin-002-cybernx-technologies",
+        "certin-003-cyberq-consulting",
+        "certin-004-peneto-labs",
+        "certin-005-kratikal-tech-ltd",
+        "certin-006-sisa-information-security-pvt-ltd",
+        "certin-007-wesecureapp",
+        "certin-008-esec-forte-technologies",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-due-batch-001-008",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 6,
+          "blocked": 2,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 6,
+        "official-career-route-unresolved": 2,
+        "gmail-tutoring-not-employment": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked CERT-In sources 001-008 and recent Gmail alerts; six sources succeeded and two lacked resolved official career routes; no qualifying vacancy added; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-174142z"
+  "latestRunId": "run-20260920-184118z"
 }
