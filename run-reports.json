@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T10:41:23.000Z",
+  "lastUpdated": "2026-09-20T11:39:30.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9014,6 +9014,93 @@
         "totalUniqueConfigured": 437
       },
       "deploymentResult": "processed workbook rows 469-480; registered six employer targets and Recruitment Rebellion; Gmail contained no job alert; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-113930z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T11:29:30.000Z",
+      "runCompletedAt": "2026-09-20T11:39:30.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-481-492",
+        "gmail-recent-cyber-job-alerts",
+        "employer-mcdonald-s",
+        "portal-mcg-talent",
+        "employer-hm-group",
+        "portal-sadler-recruitment",
+        "portal-glocomms",
+        "employer-mashreq",
+        "employer-tcs",
+        "employer-stellantis",
+        "portal-uplers",
+        "employer-zenoti",
+        "employer-tattarang",
+        "portal-stanford-black"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-job-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 8,
+        "no-explicit-fresher-evidence": 4,
+        "gmail-non-job-notification": 2
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 493
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 54,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 309,
+        "independentPortals": 60,
+        "totalUniqueConfigured": 445
+      },
+      "deploymentResult": "processed workbook rows 481-492; registered four employer targets and four recruitment portals; Gmail contained no job alert; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",

@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 305,
-    "independentPortals": 56,
-    "totalUniqueConfigured": 437
+    "employerCareerTargets": 309,
+    "independentPortals": 60,
+    "totalUniqueConfigured": 445
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T10:41:23.000Z",
-  "latestRun": "run-20260920-104123z",
+  "lastUpdated": "2026-09-20T11:39:30.000Z",
+  "latestRun": "run-20260920-113930z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -1674,19 +1674,19 @@
     },
     {
       "acceptedYield": 2,
-      "accessStatus": "accessible-qualified-vacancies",
+      "accessStatus": "official Uplers platform retained; historical Forbes Advisor cloud-security lead lacks explicit fresher evidence and employer-specific route",
       "aliases": [],
-      "candidateYield": 3,
+      "candidateYield": 4,
       "canonicalUrl": "https://www.uplers.com/",
       "checkIntervalHours": 1,
       "geography": [
         "India",
         "Remote India"
       ],
-      "lastAttempt": "2026-09-13T17:44:43.000Z",
-      "lastSuccessfulCheck": "2026-09-15T07:05:10.000Z",
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
       "name": "Uplers",
-      "nextRotationTime": "2026-09-15T08:05:10.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
       "sourceId": "portal-uplers",
       "sourceOrigin": "Consolidated supplied portal lists",
       "sourceType": "independent-job-portal",
@@ -4256,9 +4256,9 @@
     },
     {
       "acceptedYield": 0,
-      "accessStatus": "official-corporate-careers-and-linkedin-routes-resolved-india-security-results-not-within-fresher-criteria",
+      "accessStatus": "official McDonald’s careers route retained; historical senior-director role outside fresher scope",
       "atsProvider": "McDonald's Careers",
-      "candidateYield": 0,
+      "candidateYield": 1,
       "careersUrl": "https://careers.mcdonalds.com/jobs",
       "checkIntervalHours": 168,
       "company": "McDonald's",
@@ -4267,12 +4267,14 @@
       "lastLinkedInCheck": "2026-09-13T06:00:23.000Z",
       "linkedinCompanyUrl": "https://www.linkedin.com/company/mcdonald%27s-corporation",
       "linkedinJobsUrl": "https://www.linkedin.com/company/mcdonald%27s-corporation/jobs",
-      "nextRotationTime": "2026-09-20T06:00:23.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
       "officialWebsite": "https://www.mcdonalds.com/",
       "sourceId": "employer-mcdonald-s",
       "sourceOrigin": "Ethical Hacking Knowledge Matrix 2022",
       "sourceType": "employer-career-target",
-      "tenant": null
+      "tenant": null,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z"
     },
     {
       "acceptedYield": 0,
@@ -6360,11 +6362,11 @@
       ],
       "sourceOrigin": "Ethical Hacking workbook Interview row 183; historical LinkedIn vacancy replaced by the official TCS careers page",
       "checkIntervalHours": 24,
-      "lastAttempt": "2026-09-19T09:35:17.000Z",
-      "lastSuccessfulCheck": "2026-09-19T09:35:17.000Z",
-      "nextRotationTime": "2026-09-20T09:35:17.000Z",
-      "accessStatus": "official global careers route public; historical Lead Application Security role is outside fresher scope",
-      "candidateYield": 1,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "accessStatus": "official TCS careers route retained; historical architect title lacks explicit <=2-year evidence",
+      "candidateYield": 2,
       "acceptedYield": 0
     },
     {
@@ -9669,13 +9671,13 @@
       ],
       "sourceType": "employer-career-target",
       "checkIntervalHours": 72,
-      "lastAttempt": "2026-09-20T08:40:41.000Z",
-      "lastSuccessfulCheck": "2026-09-20T08:40:41.000Z",
-      "nextRotationTime": "2026-09-23T08:40:41.000Z",
-      "candidateYield": 1,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "candidateYield": 2,
       "acceptedYield": 0,
       "sourceOrigin": "Ethical Hacking workbook Interview row 451; historical LinkedIn lead normalized to official careers route",
-      "accessStatus": "official global careers route resolved; historical head-level role outside fresher scope"
+      "accessStatus": "official H&M careers route retained; historical head-level role outside fresher scope"
     },
     {
       "sourceId": "employer-two-circles",
@@ -9988,16 +9990,195 @@
       "acceptedYield": 0,
       "sourceOrigin": "Ethical Hacking workbook Interview row 478; historical LinkedIn lead normalized to official company route",
       "accessStatus": "official careers route resolved; historical senior specialist role outside fresher scope"
+    },
+    {
+      "sourceId": "portal-mcg-talent",
+      "name": "MCG Talent",
+      "aliases": [
+        "MCG Talent"
+      ],
+      "canonicalUrl": "https://www.mcgtalent.io/jobs",
+      "officialWebsite": "https://www.mcgtalent.io/",
+      "geography": [
+        "United Arab Emirates",
+        "United Kingdom",
+        "Global"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-21T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 482; recruitment portal",
+      "accessStatus": "official recruitment jobs route resolved; historical head-level role outside India fresher scope"
+    },
+    {
+      "sourceId": "portal-sadler-recruitment",
+      "name": "Sadler Recruitment",
+      "aliases": [
+        "Sadler Recruitment"
+      ],
+      "canonicalUrl": "https://www.sadlerrecruitment.com/jobs",
+      "officialWebsite": "https://www.sadlerrecruitment.com/",
+      "geography": [
+        "United Kingdom"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-21T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 484; recruitment portal",
+      "accessStatus": "official recruitment route resolved; historical head-level UK role outside India fresher scope"
+    },
+    {
+      "sourceId": "portal-glocomms",
+      "name": "Glocomms",
+      "aliases": [
+        "Glocomms"
+      ],
+      "canonicalUrl": "https://www.glocomms.com/jobs",
+      "officialWebsite": "https://www.glocomms.com/",
+      "geography": [
+        "Global"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-21T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 485; specialist technology recruitment portal",
+      "accessStatus": "official recruitment jobs route resolved; historical security-lead role lacks explicit fresher evidence"
+    },
+    {
+      "sourceId": "employer-mashreq",
+      "name": "Mashreq Careers",
+      "aliases": [
+        "Mashreq",
+        "Mashreq Bank"
+      ],
+      "canonicalUrl": "https://careers.mashreq.com/",
+      "officialWebsite": "https://www.mashreq.com/",
+      "geography": [
+        "United Arab Emirates",
+        "India"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 486; historical LinkedIn lead normalized to official bank careers route",
+      "accessStatus": "official careers route resolved; historical senior-manager role outside fresher scope"
+    },
+    {
+      "sourceId": "employer-stellantis",
+      "name": "Stellantis Careers",
+      "aliases": [
+        "Stellantis"
+      ],
+      "canonicalUrl": "https://careers.stellantis.com/",
+      "officialWebsite": "https://www.stellantis.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 488; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official global careers route resolved; historical security-officer role lacks explicit fresher evidence"
+    },
+    {
+      "sourceId": "employer-zenoti",
+      "name": "Zenoti Careers",
+      "aliases": [
+        "Zenoti"
+      ],
+      "canonicalUrl": "https://www.zenoti.com/company/careers",
+      "officialWebsite": "https://www.zenoti.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 490; official Greenhouse route normalized to company careers page",
+      "accessStatus": "official careers and Greenhouse routes resolved; historical lead role explicitly requires 8–12 years",
+      "atsProvider": "Greenhouse",
+      "tenant": "zenoti",
+      "feedUrl": "https://boards-api.greenhouse.io/v1/boards/zenoti/jobs"
+    },
+    {
+      "sourceId": "employer-tattarang",
+      "name": "Tattarang Careers",
+      "aliases": [
+        "Tattarang"
+      ],
+      "canonicalUrl": "https://www.tattarang.com/careers/",
+      "officialWebsite": "https://www.tattarang.com/",
+      "geography": [
+        "Australia"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-23T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 491; historical LinkedIn lead normalized to official company careers route",
+      "accessStatus": "official careers route resolved; historical head-level role outside India fresher scope"
+    },
+    {
+      "sourceId": "portal-stanford-black",
+      "name": "Stanford Black",
+      "aliases": [
+        "Stanford Black Limited",
+        "Stanford Black"
+      ],
+      "canonicalUrl": "https://www.stanfordblack.com/jobs",
+      "officialWebsite": "https://www.stanfordblack.com/",
+      "geography": [
+        "United Kingdom",
+        "United States"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T11:39:30.000Z",
+      "lastSuccessfulCheck": "2026-09-20T11:39:30.000Z",
+      "nextRotationTime": "2026-09-21T11:39:30.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 492; technology recruitment portal",
+      "accessStatus": "official recruitment route resolved; historical head-level role outside India fresher scope"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 481,
-    "processedRows": 480,
-    "remainingRows": 66,
-    "lastProcessedAt": "2026-09-20T10:41:23.000Z",
+    "nextRow": 493,
+    "processedRows": 492,
+    "remainingRows": 54,
+    "lastProcessedAt": "2026-09-20T11:39:30.000Z",
     "records": [
       {
         "row": 1,
@@ -13315,6 +13496,90 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-poshmark",
         "note": "existing official Workday source retained; senior role outside scope"
+      },
+      {
+        "row": 481,
+        "label": "McDonald's / Sr Director, Solutions Architecture",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-mcdonald-s",
+        "note": "existing official careers source retained; senior-director US role outside scope"
+      },
+      {
+        "row": 482,
+        "label": "MCG Talent / Head of Information Security",
+        "status": "source-registered",
+        "sourceId": "portal-mcg-talent",
+        "note": "official recruitment portal registered; head-level role outside India scope"
+      },
+      {
+        "row": 483,
+        "label": "H&M / Head of Cyber Defence",
+        "status": "duplicate",
+        "sourceId": "employer-hm-group",
+        "note": "existing official source retained; duplicate head-level historical lead"
+      },
+      {
+        "row": 484,
+        "label": "Sadler Recruitment / Head of Information and Cyber Security",
+        "status": "source-registered",
+        "sourceId": "portal-sadler-recruitment",
+        "note": "official recruitment portal registered; head-level UK role outside India scope"
+      },
+      {
+        "row": 485,
+        "label": "Glocomms / Security Lead, Application & Cloud",
+        "status": "source-registered",
+        "sourceId": "portal-glocomms",
+        "note": "official specialist recruitment portal registered; lead title lacks explicit fresher evidence"
+      },
+      {
+        "row": 486,
+        "label": "Mashreq / Senior Manager IS Cyber Culture & Awareness",
+        "status": "source-registered",
+        "sourceId": "employer-mashreq",
+        "note": "official bank careers route registered; senior-manager role outside scope"
+      },
+      {
+        "row": 487,
+        "label": "TCS / Cyber Security Architect",
+        "status": "stale",
+        "sourceId": "employer-tcs",
+        "note": "existing official source retained; architect title has no explicit <=2-year evidence"
+      },
+      {
+        "row": 488,
+        "label": "Stellantis / Regional Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-stellantis",
+        "note": "official careers route registered; officer title lacks explicit fresher evidence"
+      },
+      {
+        "row": 489,
+        "label": "Forbes Advisor / Cloud Security via Uplers",
+        "status": "stale",
+        "sourceId": "portal-uplers",
+        "note": "existing Uplers portal retained; vague title and platform route lack explicit fresher and employer-specific vacancy evidence"
+      },
+      {
+        "row": 490,
+        "label": "Zenoti / Lead - Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-zenoti",
+        "note": "official careers route registered; role explicitly requires 8–12 years"
+      },
+      {
+        "row": 491,
+        "label": "Tattarang / Head of Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-tattarang",
+        "note": "official company careers route registered; head-level Australia role outside India scope"
+      },
+      {
+        "row": 492,
+        "label": "Stanford Black / Head of Security Engineering",
+        "status": "source-registered",
+        "sourceId": "portal-stanford-black",
+        "note": "official recruitment portal registered; head-level role outside India scope"
       }
     ]
   },
