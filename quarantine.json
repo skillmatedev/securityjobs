@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-19T23:37:21.000Z",
+  "lastUpdated": "2026-09-20T06:41:13.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 22,
+    "total": 26,
     "totalQuarantined": 22,
     "quarantined": 22
   },
@@ -331,6 +331,66 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Ambiguous employer identity plus missing official career route, requisition ID, posting date, location, live status, experience ceiling, and final apply route."
+    },
+    {
+      "id": "workbook-row-423-interface-agency-australia-cyber-security-team-lead",
+      "company": "Interface Agency Australia (identity unresolved)",
+      "title": "Cyber Security Team Lead",
+      "location": "Australia (historical; not independently verified)",
+      "experienceEvidence": "Team Lead title is outside fresher scope.",
+      "eligibilityReason": "Historical LinkedIn record does not establish a safe official recruitment route.",
+      "discoveredAt": "2026-09-20T06:41:13.000Z",
+      "lastCheckedAt": "2026-09-20T06:41:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3877435898/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Official organisation identity and career route could not be safely resolved; vacancy status and requisition details are unverified."
+    },
+    {
+      "id": "workbook-row-424-aep-hawaii-senior-information-security-analyst",
+      "company": "AEP Hawaii (identity unresolved)",
+      "title": "Senior Information Security Analyst",
+      "location": "Hawaii (historical; not independently verified)",
+      "experienceEvidence": "Senior title; no fresher evidence.",
+      "eligibilityReason": "Employer identity is ambiguous and the historical LinkedIn lead is outside India scope.",
+      "discoveredAt": "2026-09-20T06:41:13.000Z",
+      "lastCheckedAt": "2026-09-20T06:41:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3879260710/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Could not safely resolve the employer, official careers route, requisition ID, or current vacancy status."
+    },
+    {
+      "id": "workbook-row-425-redcat-digital-principal-security-engineer",
+      "company": "RedCat Digital (route unresolved)",
+      "title": "Principal Security Engineer",
+      "location": "Not verified",
+      "experienceEvidence": "Principal title is outside fresher scope.",
+      "eligibilityReason": "Historical LinkedIn lead lacks a currently valid official job route.",
+      "discoveredAt": "2026-09-20T06:41:13.000Z",
+      "lastCheckedAt": "2026-09-20T06:41:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/3882912076/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Candidate identity appears to be a recruiter, but its expected jobs route returned 404 and the vacancy could not be independently verified."
+    },
+    {
+      "id": "workbook-row-432-the-talent-magnet-ciso",
+      "company": "The Talent Magnet (identity unresolved)",
+      "title": "Chief Information Security Officer (University Setting)",
+      "location": "Not verified",
+      "experienceEvidence": "CISO role is outside fresher scope.",
+      "eligibilityReason": "Historical LinkedIn-only recruiter record lacks a safely resolved official route.",
+      "discoveredAt": "2026-09-20T06:41:13.000Z",
+      "lastCheckedAt": "2026-09-20T06:41:13.000Z",
+      "sourceId": "workbook-ethical-hacking-interview",
+      "discoveryUrl": "https://www.linkedin.com/jobs/view/4287918753/",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Ambiguous recruiter identity, missing official career route, requisition ID, posting date, and current vacancy status."
     }
   ]
 }

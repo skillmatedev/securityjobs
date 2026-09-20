@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 280,
-    "independentPortals": 50,
-    "totalUniqueConfigured": 406
+    "employerCareerTargets": 284,
+    "independentPortals": 51,
+    "totalUniqueConfigured": 411
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T05:41:54.000Z",
-  "latestRun": "run-20260920-054154z",
+  "lastUpdated": "2026-09-20T06:41:13.000Z",
+  "latestRun": "run-20260920-064113z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -9282,16 +9282,127 @@
       "atsProvider": "Workday",
       "feedUrl": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
       "tenant": "nasdaq"
+    },
+    {
+      "sourceId": "employer-the-gym-group",
+      "name": "The Gym Group Careers",
+      "aliases": [
+        "The Gym Group"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.thegymgroup.com/",
+      "officialWebsite": "https://www.thegymgroup.com/",
+      "geography": [
+        "United Kingdom"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T06:41:13.000Z",
+      "nextRotationTime": "2026-09-23T06:41:13.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 426; historical LinkedIn lead normalized to official careers route",
+      "accessStatus": "official careers route was inaccessible during this check; manager/lead UK role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "employer-fuse-energy",
+      "name": "Fuse Energy Careers",
+      "aliases": [
+        "Fuse Energy"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://apply.workable.com/fuseenergy/",
+      "officialWebsite": "https://www.fuseenergy.com/",
+      "geography": [
+        "United Kingdom"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T06:41:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T06:41:13.000Z",
+      "nextRotationTime": "2026-09-23T06:41:13.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 429; official Workable route",
+      "accessStatus": "official Workable route accessible; CISO role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workable",
+      "tenant": "fuseenergy",
+      "feedUrl": "https://apply.workable.com/fuseenergy/"
+    },
+    {
+      "sourceId": "employer-wakefern-food-corp",
+      "name": "Wakefern Food Corp. Careers",
+      "aliases": [
+        "Wakefern Food Corp.",
+        "Wakefern"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.wakefern.com/careers/",
+      "officialWebsite": "https://www.wakefern.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T06:41:13.000Z",
+      "nextRotationTime": "2026-09-23T06:41:13.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 430; historical LinkedIn lead normalized to official company route",
+      "accessStatus": "official careers route was inaccessible during this check; director US role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "consecutiveFailures": 1
+    },
+    {
+      "sourceId": "portal-jobgether",
+      "name": "Jobgether",
+      "aliases": [
+        "Jobgether"
+      ],
+      "sourceType": "independent-portal",
+      "canonicalUrl": "https://jobgether.com/",
+      "officialWebsite": "https://jobgether.com/",
+      "geography": [
+        "Remote",
+        "Global"
+      ],
+      "checkIntervalHours": 24,
+      "lastAttempt": "2026-09-20T06:41:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T06:41:13.000Z",
+      "nextRotationTime": "2026-09-21T06:41:13.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 431; remote-job discovery portal",
+      "accessStatus": "public portal accessible; historical UK head role outside India fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-gainsight",
+      "name": "Gainsight Careers",
+      "aliases": [
+        "Gainsight"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.gainsight.com/company/careers/",
+      "officialWebsite": "https://www.gainsight.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T06:41:13.000Z",
+      "lastSuccessfulCheck": "2026-09-20T06:41:13.000Z",
+      "nextRotationTime": "2026-09-23T06:41:13.000Z",
+      "sourceOrigin": "Gmail LinkedIn job alert received 2026-09-20; normalized to official careers route",
+      "accessStatus": "official careers route accessible; alerted Product Security role is lead-level and outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 421,
-    "processedRows": 420,
-    "remainingRows": 126,
-    "lastProcessedAt": "2026-09-20T05:41:54.000Z",
+    "nextRow": 433,
+    "processedRows": 432,
+    "remainingRows": 114,
+    "lastProcessedAt": "2026-09-20T06:41:13.000Z",
     "records": [
       {
         "row": 1,
@@ -12194,6 +12305,86 @@
         "status": "senior/out-of-scope",
         "sourceId": "employer-emirates-group",
         "note": "existing Emirates Group careers source retained; manager UAE role outside India fresher scope"
+      },
+      {
+        "row": 421,
+        "label": "Disney+ Hotstar / Senior Security Engineer",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-disney",
+        "note": "existing official Disney source retained; senior role outside fresher scope"
+      },
+      {
+        "row": 422,
+        "label": "Tech Mahindra / Principal Security Architect",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-tech-mahindra",
+        "note": "existing official source retained; principal architect role outside scope"
+      },
+      {
+        "row": 423,
+        "label": "Interface Agency Australia / Cyber Security Team Lead",
+        "status": "quarantined",
+        "note": "employer identity and official route unresolved; lead role outside scope"
+      },
+      {
+        "row": 424,
+        "label": "AEP Hawaii / Senior Information Security Analyst",
+        "status": "quarantined",
+        "note": "ambiguous employer identity and senior non-India role"
+      },
+      {
+        "row": 425,
+        "label": "RedCat Digital / Principal Security Engineer",
+        "status": "quarantined",
+        "note": "expected recruiter jobs route returned 404; principal role outside scope"
+      },
+      {
+        "row": 426,
+        "label": "The Gym Group / Information Security Manager / Lead Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-the-gym-group",
+        "note": "official careers route registered; manager/lead UK role outside scope"
+      },
+      {
+        "row": 427,
+        "label": "Claranet / Senior Security Consultant",
+        "status": "duplicate",
+        "sourceId": "employer-claranet",
+        "note": "existing official source retained; senior role and application-complete URL outside verified fresher criteria"
+      },
+      {
+        "row": 428,
+        "label": "Airbnb / Staff Security Engineer, Data Security",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-airbnb",
+        "note": "existing official Airbnb source retained; staff role outside scope"
+      },
+      {
+        "row": 429,
+        "label": "Fuse Energy / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-fuse-energy",
+        "note": "official Workable route registered; executive UK role outside scope"
+      },
+      {
+        "row": 430,
+        "label": "Wakefern Food Corp. / Director of Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-wakefern-food-corp",
+        "note": "official company careers route registered; director US role outside scope"
+      },
+      {
+        "row": 431,
+        "label": "Jobgether / Head of Security (Remote UK)",
+        "status": "source-registered",
+        "sourceId": "portal-jobgether",
+        "note": "public remote-job portal registered; UK head role outside India fresher scope"
+      },
+      {
+        "row": 432,
+        "label": "The Talent Magnet / Chief Information Security Officer",
+        "status": "quarantined",
+        "note": "ambiguous recruiter identity and no safely verified official route"
       }
     ]
   },
