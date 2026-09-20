@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T00:37:08.000Z",
+  "lastUpdated": "2026-09-20T01:42:39.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8154,8 +8154,95 @@
         "totalUniqueConfigured": 369
       },
       "deploymentResult": "processed workbook rows 349-360; registered eleven employer targets and Cititec Talent portal; every historical role was senior, lead, principal, outside India, non-cybersecurity, or lacked explicit 0-2-year evidence; Gmail alert contained six Germany-only roles; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-014239z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T01:32:39.000Z",
+      "runCompletedAt": "2026-09-20T01:42:39.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-361-372",
+        "gmail-recent-cyber-job-alerts",
+        "portal-tekniforce",
+        "employer-made-tech",
+        "portal-bcs-prostaff",
+        "portal-mopid",
+        "employer-renault-nissan-technology-business-centre-india",
+        "employer-carlyle",
+        "employer-crico",
+        "employer-headspace",
+        "employer-astrana-health",
+        "employer-opendoor",
+        "employer-freshworks",
+        "employer-hinduja-housing-finance"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-partial",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "partial-access-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 7,
+          "blocked": 5,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 6,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 8,
+        "historical-or-stale": 4,
+        "gmail-non-india": 6
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 373
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 174,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 39
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 256,
+        "independentPortals": 46,
+        "totalUniqueConfigured": 378
+      },
+      "deploymentResult": "processed workbook rows 361-372; registered six employer targets and three recruitment portals; no India or remote-India vacancy with explicit fresher or <=2-year evidence; Gmail alert contained six Germany-only roles; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-003708z"
+  "latestRunId": "run-20260920-014239z"
 }
