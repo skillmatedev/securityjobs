@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:41:16.000Z",
+  "lastUpdated": "2026-09-20T16:41:49.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9454,8 +9454,89 @@
         "totalUniqueConfigured": 463
       },
       "deploymentResult": "processed workbook rows 529-540; registered three employer targets and two recruitment portals; quarantined four ambiguous leads; Gmail alerts were senior or outside India; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-164149z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T16:31:49.000Z",
+      "runCompletedAt": "2026-09-20T16:41:49.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-541-546",
+        "gmail-recent-cyber-job-alerts",
+        "employer-mashreq",
+        "employer-majid-al-futtaim",
+        "portal-tenth-revolution-group",
+        "employer-tata-electronics",
+        "employer-paynearme",
+        "employer-idfc-first-bank"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success-complete",
+          "scheduled": 6,
+          "attempted": 6,
+          "succeeded": 6,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 6,
+          "acceptedYield": 6
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 6,
+          "attempted": 6,
+          "succeeded": 6,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 6,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 4,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 5,
+        "not-a-verified-cybersecurity-fresher-role": 1,
+        "gmail-senior-alert-or-non-job-correspondence": 4
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "completed workbook rows 541-546; registered two employer targets and one recruitment portal; Gmail results were a senior alert or non-job correspondence; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-154116z"
+  "latestRunId": "run-20260920-164149z"
 }

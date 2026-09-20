@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 321,
-    "independentPortals": 66,
-    "totalUniqueConfigured": 463
+    "employerCareerTargets": 323,
+    "independentPortals": 67,
+    "totalUniqueConfigured": 466
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T15:41:16.000Z",
-  "latestRun": "run-20260920-154116z",
+  "lastUpdated": "2026-09-20T16:41:49.000Z",
+  "latestRun": "run-20260920-164149z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -10570,16 +10570,58 @@
       "nextRotationTime": "2026-09-23T15:41:16.000Z",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "portal-tenth-revolution-group",
+      "name": "Tenth Revolution Group Jobs",
+      "aliases": [
+        "Tenth Revolution Group"
+      ],
+      "canonicalUrl": "https://www.tenthrevolution.com/jobs/",
+      "officialWebsite": "https://www.tenthrevolution.com/",
+      "geography": [
+        "Global"
+      ],
+      "sourceType": "independent-portal",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 543; historical LinkedIn lead normalized to official recruitment portal",
+      "accessStatus": "official recruitment route recorded; VP/lead role outside India fresher scope",
+      "lastAttempt": "2026-09-20T16:41:49.000Z",
+      "lastSuccessfulCheck": "2026-09-20T16:41:49.000Z",
+      "nextRotationTime": "2026-09-23T16:41:49.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-paynearme",
+      "name": "PayNearMe Careers",
+      "aliases": [
+        "PayNearMe"
+      ],
+      "canonicalUrl": "https://home.paynearme.com/careers/",
+      "officialWebsite": "https://home.paynearme.com/",
+      "geography": [
+        "United States"
+      ],
+      "sourceType": "employer-career-target",
+      "checkIntervalHours": 72,
+      "sourceOrigin": "Ethical Hacking workbook Interview row 545; historical LinkedIn vacancy normalized to official careers route",
+      "accessStatus": "official company careers route recorded; senior-manager role outside India fresher scope",
+      "lastAttempt": "2026-09-20T16:41:49.000Z",
+      "lastSuccessfulCheck": "2026-09-20T16:41:49.000Z",
+      "nextRotationTime": "2026-09-23T16:41:49.000Z",
+      "candidateYield": 1,
+      "acceptedYield": 0
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 541,
-    "processedRows": 540,
-    "remainingRows": 6,
-    "lastProcessedAt": "2026-09-20T15:41:16.000Z",
+    "nextRow": 547,
+    "processedRows": 546,
+    "remainingRows": 0,
+    "lastProcessedAt": "2026-09-20T16:41:49.000Z",
     "records": [
       {
         "row": 1,
@@ -14309,6 +14351,48 @@
         "status": "stale",
         "sourceId": "employer-neysa",
         "note": "existing official vacancy route retained; specialist title provides no explicit fresher or <=2-year evidence"
+      },
+      {
+        "row": 541,
+        "label": "Mashreq / AVP - Security Architecture, Information Security Group",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-mashreq",
+        "note": "existing official Mashreq careers source retained; AVP role outside fresher scope"
+      },
+      {
+        "row": 542,
+        "label": "Majid Al Futtaim / Senior Manager, Security Architecture",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-majid-al-futtaim",
+        "note": "existing official source retained; senior-manager role outside fresher scope"
+      },
+      {
+        "row": 543,
+        "label": "Tenth Revolution Group / VP Application Security Engineer Lead",
+        "status": "source-registered",
+        "sourceId": "portal-tenth-revolution-group",
+        "note": "official recruitment portal registered; VP/lead role outside scope"
+      },
+      {
+        "row": 544,
+        "label": "Tata Electronics / Information Security Lead",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-tata-electronics",
+        "note": "existing official source retained; lead title outside fresher scope"
+      },
+      {
+        "row": 545,
+        "label": "PayNearMe / Senior Manager, Application Security",
+        "status": "source-registered",
+        "sourceId": "employer-paynearme",
+        "note": "official company careers route registered; senior-manager US role outside scope"
+      },
+      {
+        "row": 546,
+        "label": "IDFC FIRST Bank / Technology Program Manager",
+        "status": "source-registered",
+        "sourceId": "employer-idfc-first-bank",
+        "note": "official vacancy and employer careers route recorded; role is not a verified fresher cybersecurity opening"
       }
     ]
   },
