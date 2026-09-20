@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T07:42:53.000Z",
+  "lastUpdated": "2026-09-20T08:40:41.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -8750,6 +8750,94 @@
         "totalUniqueConfigured": 418
       },
       "deploymentResult": "processed workbook rows 433-444; registered six employer targets and AMS International UAE; Gmail alert was lead-level and ineligible; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-084041z",
+      "type": "workbook-ingestion-and-incremental-monitoring",
+      "runStartedAt": "2026-09-20T08:30:41.000Z",
+      "runCompletedAt": "2026-09-20T08:40:41.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "workbook-interview-rows-445-456",
+        "gmail-recent-cyber-job-alerts",
+        "portal-madison-davis",
+        "portal-pri-technology",
+        "employer-linkedin",
+        "employer-freshworks",
+        "employer-kenvue",
+        "employer-zand-bank",
+        "employer-hm-group",
+        "employer-two-circles",
+        "portal-yolk-recruitment",
+        "employer-sophos",
+        "employer-pepperstone",
+        "employer-underdog-fantasy",
+        "employer-lseg"
+      ],
+      "sourceHealth": [
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "success",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 12
+        },
+        {
+          "source": "official-career-routes-batch",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 12,
+          "attempted": 12,
+          "succeeded": 12,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 12,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-eligible-alert",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "senior-or-outside-fresher-scope": 11,
+        "no-explicit-fresher-evidence": 1,
+        "gmail-senior-level": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 457
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 90,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 296,
+        "independentPortals": 55,
+        "totalUniqueConfigured": 427
+      },
+      "deploymentResult": "processed workbook rows 445-456; registered six employer targets and three recruitment portals; Gmail LSEG alert was senior-level and ineligible; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
