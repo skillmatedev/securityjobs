@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T22:40:00.000Z",
+  "lastUpdated": "2026-09-20T23:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10035,8 +10035,86 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked CERT-In sources 033-040 and recent Gmail alerts; five sources succeeded and three were blocked; added Bug Hunters Security Engineer I (VAPT), retained Securium in quarantine due to its broken apply route, and preserved all prior records"
+    },
+    {
+      "runId": "run-20260920-234000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T23:30:00.000Z",
+      "runCompletedAt": "2026-09-20T23:40:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-041-xiarch-solutions",
+        "certin-042-panacea-infosec",
+        "certin-043-varutra-consulting",
+        "certin-044-sequretek",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-due-batch-041-044",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 4,
+          "attempted": 4,
+          "succeeded": 4,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-new-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 3,
+        "confirmed-closed-vacancy": 1,
+        "gmail-unrelated-lead-level": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked registered CERT-In sources 041-044 and recent Gmail alerts; all four official sources were accessible but yielded no current qualifying vacancy; Sequretek SOC Fresher was confirmed closed; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-224000z"
+  "latestRunId": "run-20260920-234000z"
 }
