@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T16:41:49.000Z",
+  "lastUpdated": "2026-09-20T17:41:42.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -9535,8 +9535,91 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "completed workbook rows 541-546; registered two employer targets and one recruitment portal; Gmail results were a senior alert or non-job correspondence; all 27 jobs retained"
+    },
+    {
+      "runId": "run-20260920-174142z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-20T17:31:42.000Z",
+      "runCompletedAt": "2026-09-20T17:41:42.000Z",
+      "beforeCount": 27,
+      "afterCount": 27,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "employer-johnson-controls",
+        "certin-039-securium-solutions",
+        "certin-040-securelayer7",
+        "certin-041-xiarch-solutions",
+        "certin-042-panacea-infosec",
+        "certin-043-varutra-consulting",
+        "certin-044-sequretek",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "due-official-career-routes",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 7,
+          "attempted": 7,
+          "succeeded": 6,
+          "blocked": 1,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "broken-vacancy-specific-apply-route": 1,
+        "closed-or-unresolved-vacancy-record": 1,
+        "no-current-qualifying-vacancy": 4,
+        "temporary-source-timeout": 1,
+        "gmail-senior-or-unrelated-alert": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 45,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 192,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 44,
+        "employerCareerTargets": 323,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 466
+      },
+      "deploymentResult": "checked seven due career sources and recent Gmail alerts; six sources succeeded and one timed out; no qualifying vacancy added; all 27 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-164149z"
+  "latestRunId": "run-20260920-174142z"
 }
