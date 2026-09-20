@@ -16,9 +16,9 @@
   "coverageActual": {
     "atsSystems": 33,
     "certInCompanies": 44,
-    "employerCareerTargets": 256,
+    "employerCareerTargets": 266,
     "independentPortals": 46,
-    "totalUniqueConfigured": 378
+    "totalUniqueConfigured": 388
   },
   "coverageTargets": {
     "atsSystems": 33,
@@ -27,8 +27,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-20T01:42:39.000Z",
-  "latestRun": "run-20260920-014239z",
+  "lastUpdated": "2026-09-20T02:42:36.000Z",
+  "latestRun": "run-20260920-024236z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [
@@ -8636,16 +8636,245 @@
       "accessStatus": "official careers route registered but automated verification blocked; historical CISO role outside fresher scope",
       "candidateYield": 1,
       "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-flextrade",
+      "name": "FlexTrade Careers",
+      "aliases": [
+        "FlexTrade",
+        "FlexTrade Systems"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://flextrade.com/careers/",
+      "officialWebsite": "https://flextrade.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 373; historical lead normalized to official career route",
+      "accessStatus": "official careers page accessible; historical senior security role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-moffitt-cancer-center",
+      "name": "Moffitt Cancer Center Careers",
+      "aliases": [
+        "Moffitt Business Center at Intellicenter (MBC)",
+        "Moffitt Cancer Center"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://moffitt.org/careers/",
+      "officialWebsite": "https://moffitt.org/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 374; historical lead normalized to official career route",
+      "accessStatus": "official career route registered but automated verification blocked; CISO role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-360-soc",
+      "name": "360 SOC Careers",
+      "aliases": [
+        "360 SOC, Inc",
+        "360 SOC"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://360soc.com/careers/",
+      "officialWebsite": "https://360soc.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 375; historical lead normalized to official career route",
+      "accessStatus": "official cybersecurity-company careers route accessible; CISO role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-insight-global",
+      "name": "Insight Global Careers",
+      "aliases": [
+        "Insight Global"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://insightglobal.com/careers/",
+      "officialWebsite": "https://insightglobal.com/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 376; historical lead normalized to official career route",
+      "accessStatus": "official career route registered but automated verification blocked; director role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-endeavor",
+      "name": "Endeavor Careers",
+      "aliases": [
+        "Endeavor"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.endeavorco.com/careers/",
+      "officialWebsite": "https://www.endeavorco.com/",
+      "geography": [
+        "United States",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 377; historical lead normalized to official career route",
+      "accessStatus": "official career route registered but automated verification blocked; director role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-beyondtrust",
+      "name": "BeyondTrust Careers",
+      "aliases": [
+        "BeyondTrust"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.beyondtrust.com/company/overview/careers",
+      "officialWebsite": "https://www.beyondtrust.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 378; historical lead normalized to official career route",
+      "accessStatus": "official careers page accessible; historical remote CISO role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "feedUrl": "https://boards.greenhouse.io/beyondtrust",
+      "tenant": "beyondtrust"
+    },
+    {
+      "sourceId": "employer-propelus",
+      "name": "Propelus Careers",
+      "aliases": [
+        "Propelus"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://propelus.com/careers",
+      "officialWebsite": "https://propelus.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 379; historical lead normalized to official career route",
+      "accessStatus": "official careers and Ashby routes accessible; director role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Ashby",
+      "feedUrl": "https://jobs.ashbyhq.com/propelus",
+      "tenant": "propelus"
+    },
+    {
+      "sourceId": "employer-wellsaid",
+      "name": "WellSaid Careers",
+      "aliases": [
+        "WellSaid Labs",
+        "WellSaid"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.wellsaid.io/about",
+      "officialWebsite": "https://www.wellsaid.io/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 380; historical lead normalized to official career route",
+      "accessStatus": "official careers and Greenhouse routes accessible; director role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Greenhouse",
+      "feedUrl": "https://job-boards.greenhouse.io/wellsaid",
+      "tenant": "wellsaid"
+    },
+    {
+      "sourceId": "employer-legal-general-america",
+      "name": "Legal & General America Careers",
+      "aliases": [
+        "Legal & General America",
+        "Banner Life"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://www.bannerlife.com/about-us/careers",
+      "officialWebsite": "https://www.bannerlife.com/",
+      "geography": [
+        "United States"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 381; historical lead normalized to official career route",
+      "accessStatus": "official careers route accessible; CISO role outside India and fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0
+    },
+    {
+      "sourceId": "employer-snap",
+      "name": "Snap Inc. Careers",
+      "aliases": [
+        "Snap Inc",
+        "Snapchat"
+      ],
+      "sourceType": "employer-career-target",
+      "canonicalUrl": "https://careers.snap.com/",
+      "officialWebsite": "https://www.snap.com/",
+      "geography": [
+        "India",
+        "Global"
+      ],
+      "checkIntervalHours": 72,
+      "lastAttempt": "2026-09-20T02:42:36.000Z",
+      "lastSuccessfulCheck": "2026-09-20T02:42:36.000Z",
+      "nextRotationTime": "2026-09-23T02:42:36.000Z",
+      "sourceOrigin": "Ethical Hacking workbook Interview row 384; historical lead normalized to official career route",
+      "accessStatus": "official careers route accessible; historical staff security role outside fresher scope",
+      "candidateYield": 1,
+      "acceptedYield": 0,
+      "atsProvider": "Workday",
+      "feedUrl": "https://wd1.myworkdaysite.com/recruiting/snapchat/snap"
     }
   ],
   "workbookIngestion": {
     "workbookId": "1XVLfcA4Aet45bHyn554Iq0CYSEzZ5YWosB_QIWnNiqE",
     "sheet": "6. Interview[546]",
     "totalRows": 546,
-    "nextRow": 373,
-    "processedRows": 372,
-    "remainingRows": 174,
-    "lastProcessedAt": "2026-09-20T01:42:39.000Z",
+    "nextRow": 385,
+    "processedRows": 384,
+    "remainingRows": 162,
+    "lastProcessedAt": "2026-09-20T02:42:36.000Z",
     "records": [
       {
         "row": 1,
@@ -11212,6 +11441,90 @@
         "status": "source-registered",
         "sourceId": "employer-hinduja-housing-finance",
         "note": "official careers route registered; executive role outside fresher scope"
+      },
+      {
+        "row": 373,
+        "label": "FlexTrade / Senior Security Engineer",
+        "status": "source-registered",
+        "sourceId": "employer-flextrade",
+        "note": "official careers verified; senior historical role outside fresher scope"
+      },
+      {
+        "row": 374,
+        "label": "Moffitt Cancer Center / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-moffitt-cancer-center",
+        "note": "official careers registered; US executive role outside scope"
+      },
+      {
+        "row": 375,
+        "label": "360 SOC / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-360-soc",
+        "note": "official careers verified; executive role outside fresher scope"
+      },
+      {
+        "row": 376,
+        "label": "Insight Global / Director of Cybersecurity (GRC)",
+        "status": "source-registered",
+        "sourceId": "employer-insight-global",
+        "note": "official careers registered; director role outside scope"
+      },
+      {
+        "row": 377,
+        "label": "Endeavor / Director of Cyber Security",
+        "status": "source-registered",
+        "sourceId": "employer-endeavor",
+        "note": "official careers registered; director role outside scope"
+      },
+      {
+        "row": 378,
+        "label": "BeyondTrust / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-beyondtrust",
+        "note": "official careers verified; CISO role outside fresher scope"
+      },
+      {
+        "row": 379,
+        "label": "Propelus / Director of Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-propelus",
+        "note": "official Ashby route verified; director role outside scope"
+      },
+      {
+        "row": 380,
+        "label": "WellSaid Labs / Director of Information Security",
+        "status": "source-registered",
+        "sourceId": "employer-wellsaid",
+        "note": "official Greenhouse route verified; director role outside scope"
+      },
+      {
+        "row": 381,
+        "label": "Legal & General America / Chief Information Security Officer",
+        "status": "source-registered",
+        "sourceId": "employer-legal-general-america",
+        "note": "official Banner Life careers verified; US executive role outside scope"
+      },
+      {
+        "row": 382,
+        "label": "Valeo / Senior Engineer - Cyber Security",
+        "status": "duplicate",
+        "sourceId": "employer-valeo",
+        "note": "existing official Valeo source retained; senior Chennai role outside fresher scope"
+      },
+      {
+        "row": 383,
+        "label": "Camelot / Senior IT Security Specialist",
+        "status": "senior/out-of-scope",
+        "sourceId": "employer-camelot",
+        "note": "existing Camelot source retained; senior Germany role outside India fresher scope"
+      },
+      {
+        "row": 384,
+        "label": "Snap Inc / Staff Security Engineer, Corporate Security",
+        "status": "source-registered",
+        "sourceId": "employer-snap",
+        "note": "official Snap careers registered; staff US role outside fresher scope"
       }
     ]
   },
