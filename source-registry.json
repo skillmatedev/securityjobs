@@ -10,7 +10,7 @@
     "configuredCount": 90,
     "cycleComplete": false,
     "nextRosterNumber": 101,
-    "rosterRetrievedAt": "2026-09-21T06:30:00.000Z",
+    "rosterRetrievedAt": "2026-09-21T07:40:00.000Z",
     "targetCount": 236,
     "registeredCompanies": 90,
     "remainingToRegister": 136
@@ -29,8 +29,8 @@
     "independentPortals": 37,
     "note": "Targets overlap; report unique configured records separately."
   },
-  "lastUpdated": "2026-09-21T06:40:00.000Z",
-  "latestRun": "run-20260921-064000z",
+  "lastUpdated": "2026-09-21T07:40:00.000Z",
+  "latestRun": "run-20260921-074000z",
   "preservationPolicy": "Append or merge only. Never delete source records.",
   "schemaVersion": "2.0",
   "sources": [

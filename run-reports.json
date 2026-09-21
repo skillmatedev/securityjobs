@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T06:40:00.000Z",
+  "lastUpdated": "2026-09-21T07:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10683,8 +10683,97 @@
         "totalUniqueConfigured": 512
       },
       "deploymentResult": "processed official CERT-In roster entries 093-100; merged Honeywell and registered seven unique employer sources; no qualifying fresher vacancy found; all 28 jobs retained"
+    },
+    {
+      "runId": "run-20260921-074000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-21T07:30:00.000Z",
+      "runCompletedAt": "2026-09-21T07:40:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "cert-in-authoritative-roster-pdf",
+        "gmail-recent-cyber-job-alerts",
+        "workbook-ethical-hacking-interview",
+        "public-web-fresher-discovery"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-roster-registration-101-108",
+          "status": "blocked-no-cursor-advance",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 0,
+          "blocked": 8,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 3,
+          "acceptedYield": 0
+        },
+        {
+          "source": "public-web-fresher-discovery",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 3,
+          "attempted": 3,
+          "succeeded": 3,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "cert-in-pdf-specific-entry-extraction-blocked-cursor-preserved": 8,
+        "gmail-consultant-specialist-manager-lacks-explicit-fresher-evidence": 3,
+        "gmail-candidate-correspondence-or-tutoring-not-vacancy": 3,
+        "public-search-no-vacancy-specific-india-eligible-opening": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 101,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 136,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 74
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 90,
+        "employerCareerTargets": 369,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 512
+      },
+      "deploymentResult": "CERT-In entries 101-108 could not be safely extracted from the interleaved official PDF during this cycle, so the roster cursor was preserved; Gmail, Drive workbook, and public discovery checks found no qualifying fresher vacancy; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260921-064000z"
+  "latestRunId": "run-20260921-074000z"
 }
