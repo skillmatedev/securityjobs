@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T08:42:00.000Z",
+  "lastUpdated": "2026-09-21T09:29:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10863,8 +10863,97 @@
         "totalUniqueConfigured": 520
       },
       "deploymentResult": "CERT-In entries 101-108 registered; one ISECURION internship lead quarantined because no vacancy-specific public application route was verified; Gmail and Drive workbook checks found no publishable vacancy; all 28 jobs retained"
+    },
+    {
+      "runId": "run-20260921-092900z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-21T09:20:00.000Z",
+      "runCompletedAt": "2026-09-21T09:29:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "cert-in-authoritative-roster-pdf",
+        "gmail-recent-cyber-job-alerts",
+        "workbook-ethical-hacking-interview",
+        "public-web-fresher-discovery"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-roster-registration-109-116",
+          "status": "completed",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 3,
+          "blocked": 5,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 5,
+          "acceptedYield": 0
+        },
+        {
+          "source": "public-web-fresher-discovery",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 4,
+          "attempted": 4,
+          "succeeded": 4,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "gmail-lead-manager-consultant-specialist-out-of-scope": 5,
+        "gmail-candidate-correspondence-or-tutoring-not-vacancy": 6,
+        "official-careers-no-vacancy-specific-fresher-cyber-opening": 3,
+        "career-or-linkedin-route-unresolved": 5
+      },
+      "cursors": {
+        "nextRosterNumber": 117,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 120,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 74
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 106,
+        "employerCareerTargets": 384,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 527
+      },
+      "deploymentResult": "CERT-In entries 109-116 processed; IBM India merged with its existing source and seven unique employers registered; Gmail, Drive workbook, and public discovery checks found no qualifying fresher vacancy; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260921-084200z"
+  "latestRunId": "run-20260921-092900z"
 }
