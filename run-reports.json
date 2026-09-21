@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T07:40:00.000Z",
+  "lastUpdated": "2026-09-21T08:42:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10772,8 +10772,99 @@
         "totalUniqueConfigured": 512
       },
       "deploymentResult": "CERT-In entries 101-108 could not be safely extracted from the interleaved official PDF during this cycle, so the roster cursor was preserved; Gmail, Drive workbook, and public discovery checks found no qualifying fresher vacancy; all 28 jobs retained"
+    },
+    {
+      "runId": "run-20260921-084200z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-21T08:30:00.000Z",
+      "runCompletedAt": "2026-09-21T08:42:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "isecurion-security-analyst-intern-2026"
+      ],
+      "sourcesChecked": [
+        "cert-in-authoritative-roster-pdf",
+        "gmail-recent-cyber-job-alerts",
+        "workbook-ethical-hacking-interview",
+        "public-web-fresher-discovery"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-roster-registration-101-108",
+          "status": "completed",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 5,
+          "blocked": 3,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 4,
+          "acceptedYield": 0
+        },
+        {
+          "source": "public-web-fresher-discovery",
+          "status": "success-one-candidate-quarantined",
+          "scheduled": 4,
+          "attempted": 4,
+          "succeeded": 4,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "candidate-missing-vacancy-specific-public-apply-route": 1,
+        "gmail-lead-manager-consultant-specialist-out-of-scope": 4,
+        "gmail-candidate-correspondence-or-tutoring-not-vacancy": 4,
+        "public-search-no-other-vacancy-specific-india-eligible-opening": 3
+      },
+      "cursors": {
+        "nextRosterNumber": 109,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 128,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 74
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 98,
+        "employerCareerTargets": 377,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 520
+      },
+      "deploymentResult": "CERT-In entries 101-108 registered; one ISECURION internship lead quarantined because no vacancy-specific public application route was verified; Gmail and Drive workbook checks found no publishable vacancy; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260921-074000z"
+  "latestRunId": "run-20260921-084200z"
 }

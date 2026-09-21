@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-21T00:40:00.000Z",
+  "lastUpdated": "2026-09-21T08:42:00.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 36,
-    "totalQuarantined": 36,
-    "quarantined": 36,
-    "lastUpdated": "2026-09-21T00:40:00.000Z"
+    "total": 37,
+    "totalQuarantined": 37,
+    "quarantined": 37,
+    "lastUpdated": "2026-09-21T08:42:00.000Z"
   },
   "jobs": [
     {
@@ -542,6 +542,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Current employer evidence is visible through the public LinkedIn company page, but the vacancy-specific post URL and final application route were not resolved; not safe to publish as a verified active job."
+    },
+    {
+      "id": "isecurion-security-analyst-intern-2026",
+      "company": "ISECURION Technology & Consulting PVT LTD",
+      "title": "Security Analyst Intern",
+      "location": "Bengaluru, Karnataka, India",
+      "experienceEvidence": "A current public LinkedIn company listing identifies an internship, but detailed experience requirements were not independently accessible.",
+      "eligibilityReason": "Internship title is potentially fresher-eligible, but the vacancy-specific posting and final public application route could not be independently resolved.",
+      "discoveredAt": "2026-09-21T08:42:00.000Z",
+      "lastCheckedAt": "2026-09-21T08:42:00.000Z",
+      "sourceId": "certin-101-isecurion-technology-and-consulting-pvt-ltd",
+      "discoveryUrl": "https://in.linkedin.com/company/isecurion",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "The official company site provides only a generic careers email/contact route; no vacancy-specific public application page was verified."
     }
   ]
 }
