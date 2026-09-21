@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T00:40:00.000Z",
+  "lastUpdated": "2026-09-21T01:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10198,8 +10198,92 @@
         "totalUniqueConfigured": 473
       },
       "deploymentResult": "processed CERT-In roster entries 045-052; registered seven new unique employer sources and deduplicated Kratikal; quarantined one Kochar DFIR internship lead pending an exact vacancy-specific public route; Gmail alert was lead-level; all 28 jobs retained"
+    },
+    {
+      "runId": "run-20260921-014000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-21T01:30:00.000Z",
+      "runCompletedAt": "2026-09-21T01:40:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [],
+      "sourcesChecked": [
+        "certin-roster-053-net-square",
+        "certin-roster-054-network-intelligence",
+        "certin-roster-055-nangia",
+        "certin-roster-056-netmagic-ntt-data",
+        "certin-roster-057-netrika",
+        "certin-roster-058-netsentries",
+        "certin-roster-059-ng-techassurance",
+        "certin-roster-060-lucideus-safe-security",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-roster-registration-053-060",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 7,
+          "blocked": 1,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 2,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "role-lacks-explicit-fresher-or-under-2-years-evidence": 1,
+        "no-current-qualifying-vacancy": 6,
+        "official-career-route-blocked-or-unresolved": 1,
+        "gmail-senior-level-out-of-scope": 1,
+        "gmail-non-job-correspondence": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 61,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 176,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 58,
+        "employerCareerTargets": 337,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 480
+      },
+      "deploymentResult": "processed CERT-In roster entries 053-060; registered seven new unique employer sources and merged Netsentries into its existing source; no qualifying fresher vacancy found; Gmail matches were ineligible; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260921-004000z"
+  "latestRunId": "run-20260921-014000z"
 }
