@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2026-09-20T23:40:00.000Z",
+  "lastUpdated": "2026-09-21T00:40:00.000Z",
   "preservationPolicy": "Retain unresolved candidates until verified, rejected with evidence, or archived.",
   "summary": {
-    "total": 35,
-    "totalQuarantined": 35,
-    "quarantined": 35,
-    "lastUpdated": "2026-09-20T22:40:00.000Z"
+    "total": 36,
+    "totalQuarantined": 36,
+    "quarantined": 36,
+    "lastUpdated": "2026-09-21T00:40:00.000Z"
   },
   "jobs": [
     {
@@ -527,6 +527,21 @@
       "applyUrl": null,
       "verificationStatus": "quarantined",
       "quarantineReason": "Employer identity or official vacancy-specific application route could not be safely verified; the senior title is outside fresher scope."
+    },
+    {
+      "id": "kochar-consultants-dfir-internship-2026",
+      "company": "Kochar Consultants Private Limited",
+      "title": "Six-Month Internship Programme — DFIR",
+      "location": "Mumbai / client locations, India",
+      "experienceEvidence": "Official company LinkedIn evidence invites students and recent graduates to a six-month internship with hands-on DFIR exposure",
+      "eligibilityReason": "Students and recent graduates are explicitly invited, but the exact vacancy-specific public post URL and final application route could not be independently resolved",
+      "discoveredAt": "2026-09-21T00:40:00.000Z",
+      "lastCheckedAt": "2026-09-21T00:40:00.000Z",
+      "sourceId": "certin-045-kochar-consultants-private-limited",
+      "discoveryUrl": "https://www.linkedin.com/company/kocharconsultant",
+      "applyUrl": null,
+      "verificationStatus": "quarantined",
+      "quarantineReason": "Current employer evidence is visible through the public LinkedIn company page, but the vacancy-specific post URL and final application route were not resolved; not safe to publish as a verified active job."
     }
   ]
 }

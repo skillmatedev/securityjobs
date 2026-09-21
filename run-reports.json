@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T23:40:00.000Z",
+  "lastUpdated": "2026-09-21T00:40:00.000Z",
   "preservationPolicy": "Append one run summary per completed automation run.",
   "runs": [
     {
@@ -10113,8 +10113,93 @@
         "totalUniqueConfigured": 466
       },
       "deploymentResult": "checked registered CERT-In sources 041-044 and recent Gmail alerts; all four official sources were accessible but yielded no current qualifying vacancy; Sequretek SOC Fresher was confirmed closed; all 28 jobs retained"
+    },
+    {
+      "runId": "run-20260921-004000z",
+      "type": "incremental-monitoring",
+      "runStartedAt": "2026-09-21T00:30:00.000Z",
+      "runCompletedAt": "2026-09-21T00:40:00.000Z",
+      "beforeCount": 28,
+      "afterCount": 28,
+      "idsAdded": [],
+      "idsUpdated": [],
+      "idsArchived": [],
+      "quarantinedIds": [
+        "kochar-consultants-dfir-internship-2026"
+      ],
+      "sourcesChecked": [
+        "certin-roster-045-kochar",
+        "certin-roster-046-kratikal",
+        "certin-roster-047-maplecloud",
+        "certin-roster-048-mobitrail",
+        "certin-roster-049-mahindra-special-services-group",
+        "certin-roster-050-maverick-quality-advisory-services",
+        "certin-roster-051-mpsedc",
+        "certin-roster-052-mirox",
+        "gmail-recent-cyber-job-alerts"
+      ],
+      "sourceHealth": [
+        {
+          "source": "cert-in-roster-registration-045-052",
+          "status": "partial-success-no-qualified-vacancy",
+          "scheduled": 8,
+          "attempted": 8,
+          "succeeded": 5,
+          "blocked": 3,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "gmail-recent-cyber-job-alerts",
+          "status": "success-no-qualified-vacancy",
+          "scheduled": 1,
+          "attempted": 1,
+          "succeeded": 1,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 1,
+          "acceptedYield": 0
+        },
+        {
+          "source": "workbook-ethical-hacking-interview",
+          "status": "complete-no-pending-rows",
+          "scheduled": 0,
+          "attempted": 0,
+          "succeeded": 0,
+          "blocked": 0,
+          "failed": 0,
+          "candidateYield": 0,
+          "acceptedYield": 0
+        }
+      ],
+      "rejectedByReason": {
+        "no-current-qualifying-vacancy": 4,
+        "official-career-route-blocked-or-unresolved": 3,
+        "candidate-missing-vacancy-specific-route": 1,
+        "gmail-lead-level-out-of-scope": 1
+      },
+      "cursors": {
+        "nextRosterNumber": 53,
+        "workbookNextRow": 547
+      },
+      "remainingBacklog": {
+        "pendingRegisteredSources": 0,
+        "workbookRowsToProcess": 0,
+        "certInCompaniesToRegister": 184,
+        "employerCareerTargetsToRegister": 0,
+        "linkedinBrandsNeedingOfficialCareerResolution": 65
+      },
+      "sourceRegistryCounts": {
+        "atsSystems": 33,
+        "certInCompanies": 51,
+        "employerCareerTargets": 330,
+        "independentPortals": 67,
+        "totalUniqueConfigured": 473
+      },
+      "deploymentResult": "processed CERT-In roster entries 045-052; registered seven new unique employer sources and deduplicated Kratikal; quarantined one Kochar DFIR internship lead pending an exact vacancy-specific public route; Gmail alert was lead-level; all 28 jobs retained"
     }
   ],
   "schemaVersion": "1.0",
-  "latestRunId": "run-20260920-234000z"
+  "latestRunId": "run-20260921-004000z"
 }
